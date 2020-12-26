@@ -22,7 +22,7 @@ New submissions are of course always welcome! :)
 
 ## More information
 
-* More instructions are at [Instructions](https://github.com/mjhorvath/Datsville/wiki/Instructions).
+* More instructions are at [Basic Instructions](https://github.com/mjhorvath/Datsville/wiki/Basic-Instructions).
 * The current "to do" list is at [To Do List](https://github.com/mjhorvath/Datsville/wiki/To-Do-List).
 * Some useful links are at [Links](https://github.com/mjhorvath/Datsville/wiki/Links).
 * For a list of releases see [Old Releases](https://github.com/mjhorvath/Datsville/wiki/Old-Releases).
