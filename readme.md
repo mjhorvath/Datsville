@@ -25,7 +25,7 @@ New submissions are of course always welcome! :)
 * More instructions are at [Basic Instructions](https://github.com/mjhorvath/Datsville/wiki/Basic-Instructions).
 * The current "to do" list is at [To Do List](https://github.com/mjhorvath/Datsville/wiki/To-Do-List).
 * Some useful links are at [Links](https://github.com/mjhorvath/Datsville/wiki/Links).
-* For a list of releases see [Old Releases](https://github.com/mjhorvath/Datsville/wiki/Old-Releases).
+* For a list of releases past and present see [Old Releases](https://github.com/mjhorvath/Datsville/wiki/Old-Releases).
 * Detailed maps of Datsville can be found at [Model Maps](https://github.com/mjhorvath/Datsville/wiki/Model-Maps) and [Street Maps](https://github.com/mjhorvath/Datsville/wiki/Street-Maps).
 * A table of models and contributors can be found at [Model Table](https://mjhorvath.github.io/Datsville/docs/model-table/model-table.html).
 * A high resolution isometric render of Datsville can be found at [Interactive Town Map](https://mjhorvath.github.io/Datsville/docs/interactive-town-map/interactive-town-map.html).
