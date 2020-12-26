@@ -1,0 +1,8 @@
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -320 240 320 1 0 0 0 -1 0 0 0 -1 grid_32s.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -640 -64 0 0 0 1 0 1 0 -1 0 0 snotroad_doubledash.ldr
+1 16 640 64 0 0 0 1 0 1 0 -1 0 0 snotroad_doubledash.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 create_road_spline_output.ldr
+0

@@ -1,0 +1,15 @@
+0 Windsock
+0 Name: infrastructure_windsock.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 -24 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 4 0 -48 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 15 0 -72 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 4 0 -96 0 1 0 0 0 1 0 0 0 1 4589.dat
+1 15 0 -136 -2 1 0 0 0 0 -1 0 1 0 3900.dat
+1 4 0 -136 -58 1 0 0 0 0 -1 0 1 0 3942c.dat
+1 15 0 -136 -10 1 0 0 0 0 -1 0 1 0 4073.dat
+0

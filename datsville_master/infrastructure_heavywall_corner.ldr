@@ -1,0 +1,32 @@
+0 Heavy Wall Corner
+0 Name: infrastructure_heavywall_corner.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 0 -32 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -8 0 1 0 0 0 1 0 0 0 1 2639.dat
+1 7 -60 -8 10 1 0 0 0 1 0 0 0 1 3710.dat
+1 7 10 -8 -60 0 0 -1 0 1 0 1 0 0 3710.dat
+1 7 0 -56 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -80 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -104 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -128 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -152 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -176 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -200 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -224 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 -30 -224 10 0 0 1 0 1 0 -1 0 0 4460a.dat
+1 7 -50 -152 10 0 0 1 0 1 0 -1 0 0 4460a.dat
+1 7 -70 -80 10 0 0 1 0 1 0 -1 0 0 4460a.dat
+1 7 -30 -152 10 0 0 1 0 1 0 -1 0 0 14716.dat
+1 7 -40 -80 10 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 7 -40 -56 10 -1 0 0 0 1 0 0 0 -1 3245a.dat
+1 7 10 -224 -30 1 0 0 0 1 0 0 0 1 4460a.dat
+1 7 10 -152 -50 1 0 0 0 1 0 0 0 1 4460a.dat
+1 7 10 -80 -70 1 0 0 0 1 0 0 0 1 4460a.dat
+1 7 10 -152 -30 1 0 0 0 1 0 0 0 1 14716.dat
+1 7 10 -80 -40 0 0 1 0 1 0 -1 0 0 3004.dat
+1 7 10 -56 -40 0 0 1 0 1 0 -1 0 0 3245a.dat
+0

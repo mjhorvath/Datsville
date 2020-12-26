@@ -1,0 +1,13 @@
+0 Eriksson Pkwy & 1st St A
+0 Name: infrastructure_streetsign_erikssonpkwy_1stst_a.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 288 -10 -198 0 0 1 0 0 0 1 1 0 0 6541.dat
+1 2 -18 -198 0 0 1 0 0 0 -1 -1 0 0 sign_010_1stst.ldr
+1 288 0 -178 -10 -1 0 0 0 0 1 0 1 0 6541.dat
+1 2 0 -178 -18 1 0 0 0 0 -1 0 1 0 sign_005_erikssonpkwy.ldr
+1 288 0 -168 0 1 0 0 0 1 0 0 0 1 2039.dat
+0

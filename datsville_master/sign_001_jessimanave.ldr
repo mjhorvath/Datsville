@@ -1,0 +1,9 @@
+0 Sign Jessiman Ave
+0 Name: sign_001_jessimanave.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\2431s01.dat
+1 16 0 0 -6 0.5 0 0 0 0.5 0 0 0 0.5 sticker_001_jessimanave.ldr

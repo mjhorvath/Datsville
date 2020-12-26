@@ -1,0 +1,63 @@
+L3P v1.4 BETA 20080930 (Win32)  (C) 1998-2008 Lars C. Hassing SP.lars@AM.hassings.dk
+Usage: l3p [options] modelpath [povpath] [options]
+  -b[<color>] background color, -b gives 0.3,0.8,1
+  -cg<la>,<lo>[,<r>] camera globe position, default is 30,45,0
+  -cc<x>,<y>,<z> camera coordinates (location)
+  -cla<x>,<y>,<z> camera look_at coordinates
+  -ca<a> camera angle, default is 67.38 degrees
+  -cra<a> camera roll angle, default is 0 degrees
+  -co[<s>] orthographic camera, optional scalefactor
+  -csl left stereo camera
+  -csr right stereo camera
+  -csa<a> stereo camera angle, default is 5 degrees (~1/12)
+  -f[<type>][<y>] floor at <y>, default y is just below model
+  -lg<la>,<lo>,<r>[,<color>] lightsource globe position, default color is 15
+  -lc<x>,<y>,<z>[,<color>] lightsource coordinates, default color is 15
+  -l use positions and colors of light.dat files as lightsources
+  -ld default lightsources too (use with -l)
+  -lsl shadowless lights
+  -lgeo use LGEO parts and colors
+  -ar use Anton Raves parts and LGEO colors
+  -nolgc[f] don't use LGEO colors [nor finishes]
+  -q<n> quality level 0..4, default is 2
+  -bu bumps
+  -cpct<p> percentage to move camera further back, default is 0
+  -csky<x>,<y>,<z> camera sky vector, default is 0,-1,0
+  -car<ar> camera aspect ratio, default is 1.33 (4/3)
+  -p don't substitute any primitives in the P directory with POV equivalents
+  -sw<w> seam width, default is 0.5
+  -c<color> default part color, default color is 7
+  -w<n> set warning level 0..3, default is 0
+  -sc StepClock, add "#if (clock > n)" at steps
+  -scm StepClock only at steps in Model (not in submodels)
+  -enp exclude non-POV code generation (L3P IFNOTPOV)
+  -studs0 no studs
+  -ib<file> include file at beginning of POV file
+  -ic[<file>] no camera, optional include file
+  -il[<file>] no lights, optional include file
+  -ie<file> include file at end of POV file
+  -mp<v> add MegaPOV version statement
+  -pov Launch POV-Ray upon successful writing of POV file
+  -o overwrite POV file if it already exists
+  -check check modelpath for errors, Warning level is default 1.
+         modelpath may be a directory, which is checked recursively.
+         If no modelpath given all files in P and PARTS are checked.
+  -cpa<a> co-planar-angle, default is 3 degrees (1 if -check)
+  -stdout redirect stderr to stdout, must be first argument
+  -pp print primitives, prints a list of the primitives having POV equivalents
+  -pp -check check all primitives in P if they have a POV equivalent
+  -pc print known color names
+  -upd Check L3P's homepage for newer version
+  -ldd<dir> set LDRAWDIR, <dir> must have the P, PARTS and MODELS directories
+  -lgd<dir> set LGEODIR, <dir> must be the lgeo directory
+  -ldc[<path>] alternative ldconfig.ldr or none
+<la> latitude, 90=N=-y, -90=S=+y. <lo> longitude in xz, 0=-z, 90=E=+x, -90=W=-x
+<r> is radius. If not specified for camera it will be as close to model as
+possible, if negative then camera will be -<r>% further away. If zero for
+lightsource, the camera distance is used. You can specify many -lc/lg options.
+<color> is an LDraw color name or number, extended/direct color (0x0tRRGGBB),
+ #RRGGBB or <r>,<g>,<b> in the range 0..1 like POV-Ray.
+If povpath is not specified or is a directory, it will be modelfilename + .pov
+See also l3p.txt and http://www.hassings.dk/l3/l3p.html
+(or http://www.ldraw.org)
+L3P v1.4 BETA 20080930 (Win32)  (C) 1998-2008 Lars C. Hassing SP.lars@AM.hassings.dk

@@ -1,0 +1,26 @@
+0 Driver in Red Shirt
+0 Name: pedestrian_044_redshirtdriving.ldr
+0 Author: Leonardo Zide
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 // legs & hip
+1 1 0 -9 -2 1 0 0 0 0 1 0 -1 0 3817.dat
+1 1 0 -9 -2 1 0 0 0 0 1 0 -1 0 3816.dat
+1 1 0 -21 -2 1 0 0 0 1 0 0 0 1 3815.dat
+0 // torso
+1 4 0 -53 -2 1 0 0 0 1 0 0 0 1 973.dat
+0 // head
+1 14 0 -77 -2 1 0 0 0 1 0 0 0 1 3626bp01.dat
+0 // hat
+1 0 0 -77 -2 1 0 0 0 1 0 0 0 1 3624.dat
+0 // airtank
+0 // arms
+1 4 -15.552 -44 -2 0.985461 -0.1699 0 0.1699 0.985461 0 0 0 1 3818.dat
+1 4 15.552 -44 -2 0.985461 0.1699 0 -0.1699 0.985461 0 0 0 1 3819.dat
+0 // Right Hand
+1 14 -23.552 -27 -12 0.972 0.1449 0.1696 -0.0116 0.7538 -0.6607 -0.2336 0.6409 0.7312 3820.dat
+0 // Left Hand
+1 14 23.552 -27 -12 0.972 -0.1449 -0.1696 -0.0116 0.7538 -0.6607 0.2336 0.6409 0.7312 3820.dat
+0

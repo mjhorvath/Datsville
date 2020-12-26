@@ -1,0 +1,10 @@
+0 Utility Pole
+0 Name: infrastructure_powerline_quad_a.ldr
+0 Author: Michael Horvath
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 320 -504 324 0 1 0 -1 0 0 0 0 1 infrastructure_powerline_single_a.ldr
+1 16 320 -504 196 0 1 0 -1 0 0 0 0 1 infrastructure_powerline_single_a.ldr
+1 16 320 -432 196 0 1 0 -1 0 0 0 0 1 infrastructure_powerline_single_a.ldr
+1 16 320 -432 324 0 1 0 -1 0 0 0 0 1 infrastructure_powerline_single_a.ldr
+0

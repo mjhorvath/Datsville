@@ -1,0 +1,14 @@
+0 SNOT road element
+0 Name: snotroad_walkway_section.ldr
+0 Author: Mike Gallagher, Michael Horvath
+0 Unofficial Datsville Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 -192 18 300 0 -1 0 0 0 -1 1 0 0 3023.dat
+1 14 -192 18 260 0 -1 0 0 0 -1 1 0 0 3023.dat
+1 15 -230 8 280 0 0 1 0 1 0 -1 0 0 3010.dat
+1 15 -210 8 280 0 0 -1 0 1 0 1 0 0 30414.dat
+1 15 -300 8 280 0 0 1 0 1 0 -1 0 0 3001.dat
+1 15 -260 0 280 1 0 0 0 1 0 0 0 1 3032.dat
+1 15 -260 8 280 0 0 1 0 1 0 -1 0 0 3001.dat
+0

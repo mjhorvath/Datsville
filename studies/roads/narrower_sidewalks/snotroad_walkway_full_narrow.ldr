@@ -1,0 +1,16 @@
+0 SNOT road element
+0 Name: snotroad_walkway_full.ldr
+0 Author: Mike Gallagher, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Datsville Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 snotroad_walkway_section_narrow.ldr
+1 16 0 0 -80 1 0 0 0 1 0 0 0 1 snotroad_walkway_section_narrow.ldr
+1 16 0 0 -160 1 0 0 0 1 0 0 0 1 snotroad_walkway_section_narrow.ldr
+1 16 0 0 -240 1 0 0 0 1 0 0 0 1 snotroad_walkway_section_narrow.ldr
+1 16 0 0 -320 1 0 0 0 1 0 0 0 1 snotroad_walkway_section_narrow.ldr
+1 16 0 0 -400 1 0 0 0 1 0 0 0 1 snotroad_walkway_section_narrow.ldr
+1 16 0 0 -480 1 0 0 0 1 0 0 0 1 snotroad_walkway_section_narrow.ldr
+1 16 0 0 -560 1 0 0 0 1 0 0 0 1 snotroad_walkway_section_narrow.ldr
+0

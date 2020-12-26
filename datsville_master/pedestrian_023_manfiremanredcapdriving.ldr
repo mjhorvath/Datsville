@@ -1,0 +1,24 @@
+0 Minifig Fireman 1
+0 Name: pedestrian_023_manfiremanredcapdriving.ldr
+0 Author: Ryan Dennett
+0 Was: Fireman1.dat
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -9 -2 1 0 0 0 0 1 0 -1 0 3817.dat
+1 0 0 -9 -2 1 0 0 0 0 1 0 -1 0 3816.dat
+1 0 0 -21 -2 1 0 0 0 1 0 0 0 1 3815.dat
+0 1 0 0 -53 0 1 0 0 0 1 0 0 0 1 x973p21.ldr
+1 0 0 -53 -2 1 0 0 0 1 0 0 0 1 973p21.dat
+1 14 0 -77 -2 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 4 0 -74 -2 1 0 0 0 1 0 0 0 1 3624.dat
+0 
+0 
+0 Arms and Hands
+1 0 15.552 -44 -2 0.9855 0.1308 0.1087 -0.1699 0.7588 0.6307 0 -0.64 0.77 3819.dat
+1 14 21.8754 -36.752 -21.719 0.9855 0.1694 -0.0156 -0.1699 0.9825 -0.0906 0 0.0919 0.997 3820.dat
+1 0 -15.552 -44 -2 0.9855 -0.1308 -0.1087 0.1699 0.7588 0.6307 0 -0.64 0.77 3818.dat
+1 14 -21.8754 -36.752 -21.719 0.9855 -0.1694 0.0156 0.1699 0.9825 -0.0906 0 0.0919 0.997 3820.dat
+
+0

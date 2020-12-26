@@ -1,0 +1,29 @@
+0 Minifig Belvedere
+0 Name: pedestrian_012_manexplorerbinoculars.ldr
+0 Author: Tore Eriksson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 // Hips
+1 258 0 -40 1 1 0 0 0 1 0 0 0 1 3815.dat
+0 // Torso
+1 258 0 -72 1 1 0 0 0 1 0 0 0 1 973.dat
+0 // Backpack
+1 6 0 -72 1 1 0 0 0 1 0 0 0 1 2524.dat
+0 // Head
+1 14 0 -98 1 0.866 0 0.5 0 1 0 -0.5 0 0.866 3626bp03.dat
+0 // Hair
+1 19 0 -98 1 0.866 0 0.5 0 1 0 -0.5 0 0.866 3901.dat
+0 // Left Leg
+1 258 0 -28 1 1 0 0 0 1 0 0 0 1 3817.dat
+0 // Right Leg
+1 258 0 -28 1 1 0 0 0 1 0 0 0 1 3816.dat
+0 // Arms and Hands
+1 258 15.55 -64 1 0.986 0.17 0 -0.147 0.854 0.5 0.085 -0.493 0.866 3819.dat
+1 14 23.694 -53.549 -16.466 0.986 0.12 -0.12 -0.147 0.957 -0.25 0.085 0.264 0.961 3820.dat
+1 258 -15.55 -64 1 0.986 0.05 -0.153 0.17 -0.296 0.887 0 -0.9 -0.3 3818.dat
+1 14 -17.782 -79.918 -13.4 -0.866 0.361 -0.144 -0.278 -0.325 0.836 0.254 0.764 0.424 3820.dat
+0 // Binoculars
+1 0 -10.966 -88.038 -19.446 -0.896 -0.002 0.311 -0.041 0.932 -0.1 0.301 0.142 0.846 30162.dat
+0

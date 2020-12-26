@@ -1,0 +1,21 @@
+﻿Datsville Relicense Project
+
+
+Hi!
+
+Recently a project has been started to license the models created for Datsville under a new, open license. I was wondering if you would be willing to re-release your Datsville models under this new license?
+
+For information on this new project, see:
+
+The Google Code page:
+http://code.google.com/p/datsville/
+LDraw.org thread:
+http://forums.ldraw.org/read.php?16,503
+The LUGNET thread:
+http://news.lugnet.com/cad/?n=15924
+
+Thank you!
+
+Michael Horvath
+mikh2161@gmail.com
+http://isometricland.net

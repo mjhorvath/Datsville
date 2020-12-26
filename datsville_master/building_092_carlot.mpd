@@ -1,0 +1,47 @@
+0 FILE building_092_carlot.ldr
+0 Car Dealership
+0 Name: building_092_carlot.ldr
+0 Author: Thomas Burger
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 180 2 220 1 0 0 0 1 0 0 0 1 building_092_office.ldr
+1 9 -140 10 -200 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 vehicle_098_countachblack.ldr
+1 4 0 10 -200 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 vehicle_096_countachred.ldr
+1 0 140 10 -200 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 vehicle_097_countachyellow.ldr
+0
+0 FILE building_092_office.ldr
+0 New Model
+0 Name: building_092_office.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -100 -144 -30 1 0 0 0 1 0 0 0 1 3298p18.dat
+1 0 -60 -144 -30 1 0 0 0 1 0 0 0 1 3298p18.dat
+1 0 -20 -144 -30 1 0 0 0 1 0 0 0 1 3298p18.dat
+1 4 0 -152 20 1 0 0 0 1 0 0 0 1 3028.dat
+1 7 0 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+1 4 -110 -120 -30 1 0 0 0 1 0 0 0 1 2453.dat
+1 4 0 -120 -30 1 0 0 0 1 0 0 0 1 2454.dat
+1 4 10 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+1 4 -110 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+1 4 110 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+1 4 110 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+1 14 60 -144 -30 1 0 0 0 1 0 0 0 1 6160.dat
+1 14 -110 -144 20 0 0 1 0 1 0 -1 0 0 6160.dat
+1 14 110 -144 20 0 0 -1 0 1 0 1 0 0 6160.dat
+1 4 110 -120 -30 1 0 0 0 1 0 0 0 1 2453.dat
+1 4 110 -120 70 1 0 0 0 1 0 0 0 1 2453.dat
+1 4 -110 -120 70 1 0 0 0 1 0 0 0 1 2453.dat
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+0

@@ -1,0 +1,16 @@
+0 Sofa
+0 Name: building_065_sofa.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -20 -48 10 1 0 0 0 1 0 0 0 1 30165.dat
+1 16 20 -48 10 1 0 0 0 1 0 0 0 1 30165.dat
+1 16 -40 -24 0 0 0 -1 0 1 0 1 0 0 3002.dat
+1 16 0 -24 0 0 0 -1 0 1 0 1 0 0 3002.dat
+1 16 40 -24 0 0 0 -1 0 1 0 1 0 0 3002.dat
+1 16 -50 -32 0 0 0 -1 0 1 0 1 0 0 63864.dat
+1 16 50 -32 0 0 0 -1 0 1 0 1 0 0 63864.dat
+
+0

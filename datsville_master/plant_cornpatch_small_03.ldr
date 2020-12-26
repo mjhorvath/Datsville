@@ -1,0 +1,20 @@
+0 Corn Patch Small #3
+0 Name: plant_cornpatch_small_03.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -30 0 70 0 0 1 0 1 0 -1 0 0 plant_cornplant_03.ldr
+1 16 -30 0 30 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 plant_cornplant_04.ldr
+1 16 -30 0 -10.001 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 plant_cornplant_05.ldr
+1 16 -30 0 -50 -0.707107 0 -0.707107 0 1 0 0.707107 0 -0.707107 plant_cornplant_02.ldr
+0 
+1 16 50.001 0 70 0 0 1 0 1 0 -1 0 0 plant_cornplant_01.ldr
+1 16 50 0 30 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 plant_cornplant_04.ldr
+1 16 50 0 -10 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 plant_cornplant_01.ldr
+1 16 50 0 -50 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 plant_cornplant_03.ldr
+0 
+0 
+0

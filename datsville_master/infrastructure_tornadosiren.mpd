@@ -1,0 +1,53 @@
+0 FILE infrastructure_tornadosiren.ldr
+0 Tornado Siren
+0 Name: infrastructure_tornadosiren.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 288 0 -144 0 1 0 0 0 1 0 0 0 1 48310.dat
+1 288 0 -144 0 -1 0 0 0 1 0 0 0 -1 48310.dat
+1 288 0 -192 0 -1 0 0 0 1 0 0 0 -1 3943a.dat
+1 288 0 -456 0 -1 0 0 0 1 0 0 0 -1 6168a.dat
+1 288 0 -720 0 -1 0 0 0 1 0 0 0 -1 6168a.dat
+1 288 0 -984 0 -1 0 0 0 1 0 0 0 -1 6168a.dat
+1 288 0 -1248 0 -1 0 0 0 1 0 0 0 -1 6168a.dat
+1 288 0 -1248 0 -1 0 0 0 1 0 0 0 -1 infrastructure_tornadosiren_top.ldr
+
+0
+0 FILE infrastructure_tornadosiren_dish.ldr
+0 New Model
+0 Name: infrastructure_tornadosiren_dish.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 12 0 1 0 0 0 1 0 0 0 1 44809.dat
+1 16 0 0 0 0 1 0 -1 0 0 0 0 1 43093.dat
+1 16 -18 72 -20 0 -1 0 -1 0 0 0 0 -1 4740.dat
+1 16 -10 42 -20 0 -1 0 -1 0 0 0 0 -1 92593.dat
+0 
+0 
+1 16 -24 10 -20 0 1 0 -1 0 0 0 0 1 6942.dat
+
+0
+0 FILE infrastructure_tornadosiren_top.ldr
+0 New Model
+0 Name: infrastructure_tornadosiren_top.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 -56 0 1 0 0 0 1 0 0 0 1 44374.dat
+1 16 0 -66 0 1 0 0 0 1 0 0 0 1 44374.dat
+1 16 -35 -51 -20 0.866025 0 -0.5 0 1 0 0.5 0 0.866025 infrastructure_tornadosiren_dish.ldr
+1 16 34.622 -51 -19.177 -0.866025 0 -0.5 0 1 0 0.5 0 -0.866025 infrastructure_tornadosiren_dish.ldr
+1 16 -0.421 -51 39.782 0 0 1 0 1 0 -1 0 0 infrastructure_tornadosiren_dish.ldr
+1 16 0 -30 0 0 1 0 -1 0 0 0 0 1 75535.dat
+1 16 0 -8 0 1 0 0 0 1 0 0 0 1 2460.dat
+1 16 0 28 0 0 1 0 -1 0 0 0 0 1 43093.dat
+
+0 
+0
+0

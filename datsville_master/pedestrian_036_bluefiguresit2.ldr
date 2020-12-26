@@ -1,0 +1,19 @@
+0 Mining Facility Technician 2
+0 Name: pedestrian_036_bluefiguresit2.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 0 -9 2 -1 0 0 0 0 1 0 1 0 3816.dat
+1 7 0 -9 2 -1 0 0 0 0 1 0 1 0 3817.dat
+1 7 0 -21 2 1 0 0 0 1 0 0 0 1 3815.dat
+1 1 0 -53 2 -1 0 0 0 1 0 0 0 -1 973p18.dat
+1 14 0 -77 2 -1 0 0 0 1 0 0 0 -1 3626bp01.dat
+1 1 0 -44 2 -1 0 0 0 0.71 0.71 0 0.71 -0.71 975.dat
+1 1 0 -44 2 -1 0 0 0 0.71 0.71 0 0.71 -0.71 976.dat
+1 15 0 -76 2 -1 0 0 0 1 0 0 0 -1 3624.dat
+1 14 22 -40 30 0 0 1 0 1 0 -1 0 0 977.dat
+1 14 -22 -40 30 0 0 1 0 1 0 -1 0 0 977.dat
+0 
+0

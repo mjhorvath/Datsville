@@ -1,0 +1,24 @@
+0 Datsville City Block #6
+0 Name: block_006_overlay.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 440 8 2740 -1 0 0 0 1 0 0 0 -1 building_021_houseporchyard.mpd
+1 2 180 0 2080 0 0 1 0 1 0 -1 0 0 building_025_greenroofhouse.ldr
+1 16 1660 0 2380 0 0 -1 0 1 0 1 0 0 building_013_safehouse.ldr
+1 16 1640 0 3040 -1 0 0 0 1 0 0 0 -1 building_004_bramlcottage.ldr
+1 16 850 0 2130 1 0 0 0 1 0 0 0 1 building_014_watertower.mpd
+1 0 1190 0 2470 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 0 1190 0 2790 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
+1 0 1110 0 3110 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
+1 0 820 0 1780 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
+1 0 480 0 1800 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
+1 16 280 0 1450 1 0 0 0 1 0 0 0 1 building_042_glassstore.ldr
+1 16 1560 0 1620 1 0 0 0 1 0 0 0 1 building_012_triplex.mpd
+1 16 750 0 1390 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 1190 0 2150 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 490 0 2150 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
+1 16 1690 0 2010 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+0

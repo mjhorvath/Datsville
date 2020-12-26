@@ -1,0 +1,40 @@
+0 FILE pedestrian_059_thaisoldier.ldr
+0 Thai Temple Guard
+0 Name: pedestrian_059_thaisoldier.ldr
+0 Author: Tim Gould
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 -103 1 1 0 0 0 1 0 0 0 1 3626bp3n.dat
+1 4 0 -111 1 1 0 0 0 1 0 0 0 1 4073.dat
+1 4 0 -119 1 1 0 0 0 1 0 0 0 1 4073.dat
+1 4 0 -76 1 1 0 0 0 -1 0 0 0 -1 2526.dat
+1 4 0 -75 1 1 0 0 0 1 0 0 0 1 973pn6.dat
+1 4 0 -40 1 1 0 0 0 1 0 0 0 1 3815.dat
+1 4 -10 -40 1 1 0 0 0 1 0 0 0 1 42446.dat
+1 4 10 -40 1 1 0 0 0 1 0 0 0 1 42446.dat
+1 4 -15.552 -66 1 0.985 -0.17 0 0.17 0.985 0 0 0 1 3818.dat
+1 14 -23.8634 -45.4044 -9.321 0.985 -0.12019 0.12019 0.17 0.696395 -0.696395 0 0.707 0.707 3820.dat
+1 14 0 -28 1 1 0 0 0 1 0 0 0 1 3816.dat
+1 14 0 -28 1 1 0 0 0 1 0 0 0 1 3817.dat
+1 4 15.552 -66 1 0.985 0.106984 0.132115 -0.17 0.619881 0.765489 0 -0.777146 0.62932 3819.dat
+1 14 21.3176 -63.155 -20.0753 0.999317 0.012874 0.0177672 -0.0146863 0.993991 0.102945 -0.0163494 -0.103226 0.994372 3820.dat
+1 14 19.789 -175.205 -41.288 0.999317 0.012874 0.0177672 -0.0109662 0.993732 -0.106046 -0.0190456 0.105692 0.994046 pedestrian_059_polearm.ldr
+0
+0 FILE pedestrian_059_polearm.ldr
+0 New Model
+0 Name: pedestrian_059_polearm.ldr
+0 Author: Tim Gould
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -4 0 1 0 0 0 1 0 0 0 1 4497.dat
+1 1 0 96 0 0 -1 0 1 0 0 0 0 1 4274.dat
+1 1 0 16 0 0 -1 0 1 0 0 0 0 1 4274.dat
+1 0 0 96 0 1 0 0 0 1 0 0 0 1 30374.dat
+0 
+0 
+0 
+0
+0

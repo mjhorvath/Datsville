@@ -1,0 +1,20 @@
+0 Radio Tower
+0 Name: building_073_radiotower.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 0 -24 0 1 0 0 0 1 0 0 0 1 733.dat
+1 15 0 -504 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 4 0 -264 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 4 0 -744 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 15 0 -984 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 4 0 -1224 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 15 0 -1464 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 4 0 -1704 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 15 0 -1944 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 4 0 -2184 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 15 0 -2424 0 1 0 0 0 1 0 0 0 1 30517.dat
+1 4 0 -2664 0 1 0 0 0 1 0 0 0 1 30517.dat
+0

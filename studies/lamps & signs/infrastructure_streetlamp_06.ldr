@@ -1,0 +1,17 @@
+0 Untitled
+0 Name: lamp4.ldr
+0 Author: Michael Heidemann
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 2039.dat
+1 15 0 -24 0 1 0 0 0 1 0 0 0 1 4733.dat
+1 15 -18 -14 0 0 1 0 -1 0 0 0 0 1 6141.dat
+1 15 18 -14 0 0 -1 0 -1 0 0 0 0 -1 6141.dat
+1 15 0 -18 30 -1 0 0 0 1 0 0 0 -1 4599a.dat
+1 15 0 -18 -30 1 0 0 0 1 0 0 0 1 4599a.dat
+1 47 0 -42 -30 1 0 0 0 1 0 0 0 1 3626c.dat
+1 15 0 -50 -30 1 0 0 0 1 0 0 0 1 4740.dat
+1 47 0 -42 30 1 0 0 0 1 0 0 0 1 3626c.dat
+1 15 0 -50 30 1 0 0 0 1 0 0 0 1 4740.dat
+0

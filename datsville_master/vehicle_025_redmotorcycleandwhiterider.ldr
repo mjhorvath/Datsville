@@ -1,0 +1,25 @@
+0 Red Motorcycle with White Rider
+0 Name: vehicle_025_redmotorcycleandwhiterider.ldr
+0 Author: Tore Eriksson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 pedestrian_050_whitegraymotorider.ldr
+0 // Front wheel (y=0, z=-90)
+1 15 0 0 -90 1 0 0 0 1 0 0 0 1 3464.dat
+1 256 0 0 -90 0 0 1 0 1 0 -1 0 0 3641.dat
+
+0 // Back Wheel (0,0,0)
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 3464.dat
+1 256 0 0 0 0 0 1 0 1 0 -1 0 0 3641.dat
+
+1 4 0 -30 0 1 0 0 0 1 0 0 0 1 4480c01.dat
+
+1 15 0 -38 0 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 4 18 -20 0 0 -1 0 0 0 -1 1 0 0 3069bp05.dat
+1 4 -18 -20 0 0 1 0 0 0 -1 -1 0 0 3069bp05.dat
+1 47 0 -44 -93 1 0 0 0 0 -1 0 1 0 6141.dat
+1 36 0 -20 28 1 0 0 0 0 1 0 -1 0 6141.dat
+0 
+0

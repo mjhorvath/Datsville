@@ -1,0 +1,11 @@
+0 Street Lamp Mk2
+0 Name: infrastructure_streetlamp_02.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Datsville Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 288 0 -168 0 1 0 0 0 1 0 0 0 1 2039.dat
+1 47 0 -192 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 288 0 -200 0 1 0 0 0 1 0 0 0 1 4740.dat
+0

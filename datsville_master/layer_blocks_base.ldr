@@ -1,0 +1,41 @@
+0 Datsville City Blocks Layer
+0 Name: layer_blocks_base.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_001_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_002_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_003_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_004_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_005_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_006_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_007_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_008_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_009_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_010_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_011_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_012_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_013_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_014_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_015_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_016_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_017_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_018_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_019_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_020_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_021_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_022_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_023_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_024_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_025_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_026_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_027_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_028_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_029_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_030_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_031_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_032_base.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_033_base.ldr
+0

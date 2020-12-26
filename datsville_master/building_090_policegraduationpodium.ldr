@@ -1,0 +1,20 @@
+0 Datsville PD Graduation Commencement Podium
+0 Name: building_090_policegraduationpodium.ldr
+0 Author: Jonathan Wilson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -24 -50 1 0 0 0 1 0 0 0 1 6112.dat
+1 0 0 -32 0 1 0 0 0 1 0 0 0 1 3456.dat
+1 0 130 -24 0 0 0 1 0 1 0 -1 0 0 3009.dat
+1 0 -130 -24 0 0 0 1 0 1 0 -1 0 0 3009.dat
+1 0 0 -56 -40 1 0 0 0 1 0 0 0 1 3001.dat
+1 0 0 -64 -40 1 0 0 0 1 0 0 0 1 3020.dat
+1 0 0 -72 -40 1 0 0 0 1 0 0 0 1 3020.dat
+1 0 20 -96 -50 -1 0 0 0 1 0 0 0 -1 3937.dat
+1 0 -20 -96 -50 -1 0 0 0 1 0 0 0 -1 3937.dat
+1 0 -20 -96 -47 -1 0 0 0 0.94 -0.34 0 -0.34 -0.94 3938.dat
+1 0 20 -96 -47 1 0 0 0 0.94 0.34 0 -0.34 0.94 3938.dat
+1 0 0 -104 -42 1 0 0 0 0.94 0.34 0 -0.34 0.94 3031.dat
+0

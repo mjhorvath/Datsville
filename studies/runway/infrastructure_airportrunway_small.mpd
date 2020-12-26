@@ -1,0 +1,180 @@
+0 FILE infrastructure_airportrunway_small.ldr
+0 Airport Runway (small)
+0 Author: Jacob Sparre Andersen, Michael Horvath
+0 TITLE Runway
+0 DESCRIPTION Runway for the airport at Pier 17.
+0 DESIGN  Jacob Sparre Andersen <sparre@nbi.dk>, August 2001.
+0 DRAWING Jacob Sparre Andersen <sparre@nbi.dk>, August 2001.
+0 KEYWORDS moc, town, transportation
+0 LICENSE The Beer-Ware License (Revision 42)
+0 WEB-PAGE     http://lego.sparre-andersen.dk/Pier_17/Airport/
+0 ILLUSTRATION http://lego.sparre-andersen.dk/Pier_17/Airport/illustration
+
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 -1860 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -2000 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_bane-bag.ldr
+1 0 0 0 -2160 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_bane-bag.ldr
+1 15 0 0 -1740 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -1620 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 -1500 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -1380 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 -1260 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -1140 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 -1020 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -900 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 15 0 0 -780 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 -660 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 15 0 0 -540 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 -420 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 15 0 0 -300 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 -180 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 15 0 0 -60 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 60 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 180 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 300 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 420 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 540 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 660 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 780 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 900 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 1020 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 1140 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 1260 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 1380 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 1500 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 1620 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 1740 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 1860 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 2000 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_bane-bag.ldr
+1 15 0 0 2160 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_bane-bag.ldr
+0
+0 FILE infrastructure_airportrunway_banesektion.ldr
+0 TITLE Runway section
+
+0 Design: Jacob Sparre Andersen, August 2001.
+
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 310 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 0 270 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 0 -310 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 0 -270 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 15 290 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 15 -290 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 0 230 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 -230 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 170 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 -170 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 110 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 -110 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 50 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 -50 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 16 -10 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 16 10 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+0
+0 FILE infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+0 TITLE Runway section - left taxiway
+
+0 Design: Jacob Sparre Andersen, August 2001.
+
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+
+0 0    280   -48     0  0 0 1   0 1 0   -1 0 0      6636.dat
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -310 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 0 -270 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+0 15    260   -48     0  0 0 1   0 1 0   -1 0 0      6636.dat
+1 15 -290 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 0 230 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 15 290 -8 -30 0 0 1 0 1 0 -1 0 0 63864.dat
+1 0 290 -8 30 0 0 1 0 1 0 -1 0 0 63864.dat
+1 0 310 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 0 270 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 0 -230 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 170 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 -170 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 110 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 -110 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 50 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 0 -50 -8 0 0 0 1 0 1 0 -1 0 0 6934.dat
+1 16 -10 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+1 16 10 -8 0 0 0 1 0 1 0 -1 0 0 6636.dat
+0
+0 FILE infrastructure_airportrunway_bane-bag.ldr
+0 TITLE Runway section (far end)
+
+0 Design: Jacob Sparre Andersen, August 2001.
+
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 290 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 310 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -290 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -310 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 270 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 250 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 230 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 210 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 190 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 170 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 150 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 130 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 110 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 90 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 70 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 50 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 30 -8 0 0 0 -1 0 1 0 1 0 0 4162.dat
+1 15 -270 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -250 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -230 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -210 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -190 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -170 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -150 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -130 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -110 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -90 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -70 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -50 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -30 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -10 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 10 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+0 NOFILE
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+0

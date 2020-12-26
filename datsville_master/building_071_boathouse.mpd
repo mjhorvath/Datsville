@@ -1,0 +1,246 @@
+0 FILE building_071_boathouse.ldr
+0 Boathouse
+0 Name: building_071_boathouse.ldr
+0 Author: Jacob Sparre Andersen
+0 Was: neyst.mpd
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 TITLE        Boat house
+0 DESCRIPTION  A traditional Faroese boat house.
+0 DESIGN       Jacob Sparre Andersen
+0 DRAWING      Jacob Sparre Andersen
+0 KEYWORDS      moc, town, transportation, boats, buildings
+0 LICENSE      The Beer-Ware License (Revision 42)
+0 WEB-PAGE     http://lego.sparre-andersen.dk/Transport/Skibe/Neyst/
+0 ILLUSTRATION http://lego.sparre-andersen.dk/Transport/Skibe/Neyst/illustration
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 90 0 0 1 0 0 0 1 0 0 0 1 building_071_samlet-v.ldr
+1 4 -90 0 0 -1 0 0 0 1 0 0 0 -1 building_071_samlet-v.ldr
+0 STEP
+1 14 0 -136 0 1 0 0 0 1 0 0 0 1 building_071_loft.ldr
+0 STEP
+1 14 0 -158 144 -1 0 0 0 0 -1 0 -1 0 building_071_facade.ldr
+1 14 0 -158 -144 1 0 0 0 0 -1 0 1 0 building_071_facade.ldr
+0 STEP
+1 4 -42 -68 164 -1 0 0 0 0 -1 0 -1 0 building_071_doer.ldr
+1 4 42 -68 -164 1 0 0 0 0 -1 0 1 0 building_071_doer.ldr
+1 4 42 -68 164 1 0 0 0 0 1 0 -1 0 building_071_doer.ldr
+1 4 -42 -68 -164 -1 0 0 0 0 1 0 1 0 building_071_doer.ldr
+0 STEP
+1 4 66 -216 0 0 -0.71 0.71 0 0.71 0.71 -1 0 0 building_071_tag.ldr
+1 4 -66 -216 0 0 0.71 -0.71 0 0.71 0.71 1 0 0 building_071_tag.ldr
+0 STEP
+
+0
+0 FILE building_071_samlet-v.ldr
+0 Samlet vaeg til baadeskuret
+0 Name: building_071_samlet-v.ldr
+0 Author: Jacob Sparre Andersen <sparre@nbi.dk>
+0 Unofficial Model
+0 TITLE Samlet vaeg til baadeskuret
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 building_071_skelet.ldr
+1 4 6 -88 0 0 -1 0 0 0 1 -1 0 0 building_071_vaeg.ldr
+0
+0 FILE building_071_loft.ldr
+0 Loft i baadeskur
+0 Name: building_071_loft.ldr
+0 Author: Jacob Sparre Andersen <sparre@nbi.dk>
+0 Unofficial Model
+0 TITLE Loft i baadeskur
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 90 1 0 0 0 1 0 0 0 1 4477.dat
+1 15 0 0 0 0 0 1 0 1 0 -1 0 0 3034.dat
+1 15 0 0 -90 1 0 0 0 1 0 0 0 1 4477.dat
+0 STEP
+
+1 4 -40 -8 -80 0 0 1 0 1 0 -1 0 0 3032.dat
+1 4 -40 -8 60 0 0 1 0 1 0 -1 0 0 3035.dat
+1 4 40 -8 -100 0 0 1 0 1 0 -1 0 0 3031.dat
+1 4 40 -8 80 0 0 1 0 1 0 -1 0 0 3032.dat
+1 4 10 -8 -20 0 0 1 0 1 0 -1 0 0 3710.dat
+0 STEP
+
+1 14 50 -32 -130 1 0 0 0 1 0 0 0 1 4070.dat
+1 14 -50 -32 -130 1 0 0 0 1 0 0 0 1 4070.dat
+1 14 50 -32 130 -1 0 0 0 1 0 0 0 -1 4070.dat
+1 14 -50 -32 130 -1 0 0 0 1 0 0 0 -1 4070.dat
+0 STEP
+
+0
+0 FILE building_071_facade.ldr
+0 Baadeskurets gavl (overetagen)
+0 Name: building_071_facade.ldr
+0 Author: Jacob Sparre Andersen <sparre@nbi.dk>
+0 Unofficial Model
+0 TITLE Baadeskurets gavl (overetagen)
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 3666.dat
+0 STEP
+
+1 14 -20 -8 10 1 0 0 0 1 0 0 0 1 3020.dat
+1 14 60 -8 30 0 0 -1 0 1 0 1 0 0 3936.dat
+1 14 -20 -8 70 0 0 1 0 1 0 -1 0 0 3935.dat
+1 14 0 -8 -20 1 0 0 0 1 0 0 0 1 4477.dat
+0 STEP
+
+1 14 20 -16 70 0 0 -1 0 1 0 1 0 0 3936.dat
+1 14 -10 -16 0 0 0 1 0 1 0 -1 0 0 3623.dat
+1 14 20 -16 0 0 0 1 0 1 0 -1 0 0 3021.dat
+1 14 50 -16 0 0 0 1 0 1 0 -1 0 0 3623.dat
+1 14 -60 -16 30 0 0 1 0 1 0 -1 0 0 3935.dat
+1 14 -60 -16 -20 1 0 0 0 1 0 0 0 1 3710.dat
+0 STEP
+
+0
+0 FILE building_071_doer.ldr
+0 Door for the boat nest
+0 Name: building_071_doer.ldr
+0 Author: Jacob Sparre Andersen <sparre@nbi.dk>
+0 Unofficial Model
+0 TITLE Door for the boat nest
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 0 0 0 0 0 1 0 1 0 -1 0 0 3032.dat
+1 0 -30 -32 0 0 0 1 0 1 0 -1 0 0 2432.dat
+1 0 20 -8 30 1 0 0 0 1 0 0 0 1 4276b.dat
+1 0 20 -8 -30 1 0 0 0 1 0 0 0 1 4276b.dat
+
+0
+0 FILE building_071_tag.ldr
+0 B�deskurets tag
+0 Name: building_071_tag.ldr
+0 Author: Jacob Sparre Andersen <sparre@nbi.dk>
+0 Unofficial Model
+0 TITLE B�deskurets tag
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 80 -8 40 1 0 0 0 1 0 0 0 1 3035.dat
+1 4 80 -8 -40 1 0 0 0 1 0 0 0 1 3035.dat
+1 4 -80 -8 40 1 0 0 0 1 0 0 0 1 3035.dat
+1 4 -80 -8 -40 1 0 0 0 1 0 0 0 1 3035.dat
+0 STEP
+
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3795.dat
+1 4 70 0 20 0 0 -1 0 1 0 1 0 0 4276b.dat
+1 4 -70 0 20 0 0 -1 0 1 0 1 0 0 4276b.dat
+1 0 110 0 0 0 0 1 0 1 0 -1 0 0 3666.dat
+1 0 -110 0 0 0 0 1 0 1 0 -1 0 0 3666.dat
+0 STEP
+
+1 0 -150 -16 -40 0 0 1 0 1 0 -1 0 0 3666.dat
+1 0 -110 -16 -40 0 0 1 0 1 0 -1 0 0 3666.dat
+1 0 -70 -16 -40 0 0 1 0 1 0 -1 0 0 3666.dat
+1 0 -30 -16 -40 0 0 1 0 1 0 -1 0 0 3666.dat
+1 0 10 -16 -40 0 0 1 0 1 0 -1 0 0 3666.dat
+1 0 50 -16 -40 0 0 1 0 1 0 -1 0 0 3666.dat
+1 0 90 -16 -40 0 0 1 0 1 0 -1 0 0 3666.dat
+1 0 130 -16 -40 0 0 1 0 1 0 -1 0 0 3666.dat
+0 STEP
+
+1 0 -150 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -110 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -70 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -30 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 10 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 50 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 90 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 130 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
+
+0
+0 FILE building_071_skelet.ldr
+0 Skelet til baadeskurets vaegge
+0 Name: building_071_skelet.ldr
+0 Author: Jacob Sparre Andersen <sparre@nbi.dk>
+0 Unofficial Model
+0 TITLE Skelet til baadeskurets vaegge
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 -24 90 0 0 -1 0 1 0 1 0 0 3005.dat
+1 15 0 -24 -90 0 0 -1 0 1 0 1 0 0 3005.dat
+1 15 0 -48 90 0 0 -1 0 1 0 1 0 0 4070.dat
+1 15 0 -48 -90 0 0 -1 0 1 0 1 0 0 4070.dat
+1 15 0 -72 90 0 0 -1 0 1 0 1 0 0 3005.dat
+1 15 0 -72 -90 0 0 -1 0 1 0 1 0 0 3005.dat
+0 STEP
+
+1 15 0 -80 0 0 0 -1 0 1 0 1 0 0 4477.dat
+1 15 0 -104 90 0 0 -1 0 1 0 1 0 0 3005.dat
+1 15 0 -104 -90 0 0 -1 0 1 0 1 0 0 3005.dat
+1 15 0 -128 90 0 0 -1 0 1 0 1 0 0 4070.dat
+1 15 0 -128 -90 0 0 -1 0 1 0 1 0 0 4070.dat
+0 STEP
+
+0
+0 FILE building_071_vaeg.ldr
+0 B�deskurets v�g
+0 Name: building_071_vaeg.ldr
+0 Author: Jacob Sparre Andersen <sparre@nbi.dk>
+0 Unofficial Model
+0 TITLE B�deskurets v�g
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 120 -16 0 0 0 1 0 1 0 -1 0 0 3035.dat
+1 4 40 -16 0 0 0 1 0 1 0 -1 0 0 3035.dat
+1 4 -40 -16 0 0 0 1 0 1 0 -1 0 0 3035.dat
+1 4 -120 -16 0 0 0 1 0 1 0 -1 0 0 3035.dat
+0 STEP
+
+1 0 80 -8 50 1 0 0 0 1 0 0 0 1 3460.dat
+1 0 -80 -8 50 1 0 0 0 1 0 0 0 1 3460.dat
+1 0 80 -8 -30 1 0 0 0 1 0 0 0 1 3460.dat
+1 0 -80 -8 -30 1 0 0 0 1 0 0 0 1 3460.dat
+1 4 70 -8 -60 0 0 1 0 1 0 -1 0 0 4275b.dat
+1 4 -70 -8 -60 0 0 1 0 1 0 -1 0 0 4275b.dat
+1 4 140 -8 -10 1 0 0 0 1 0 0 0 1 3023.dat
+1 4 -140 -8 -10 1 0 0 0 1 0 0 0 1 3023.dat
+0 STEP
+
+1 0 0 0 50 1 0 0 0 1 0 0 0 1 3460.dat
+1 0 0 0 -30 1 0 0 0 1 0 0 0 1 3460.dat
+1 0 140 0 50 1 0 0 0 1 0 0 0 1 4275b.dat
+1 0 140 0 -10 1 0 0 0 1 0 0 0 1 4275b.dat
+1 0 -140 0 50 -1 0 0 0 1 0 0 0 -1 4275b.dat
+1 0 -140 0 -10 -1 0 0 0 1 0 0 0 -1 4275b.dat
+0 STEP
+
+0 
+0
+0

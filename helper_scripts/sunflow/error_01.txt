@@ -1,0 +1,29 @@
+
+D:\Datsville\helper_scripts\sunflow>"C:\Program Files\Java\jre1.8.0_161\bin\java.exe" -jar "E:\Programs Windows\LDraw\LDraw2Sunflow_f\ldraw2sunflow.jar"
+Jan 31, 2018 6:43:57 PM org.ldraw2sunflow.ui.Ldraw2Sunflow <init>
+INFO: en_US
+Exception in thread "AWT-EventQueue-0" java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+        at java.lang.String.substring(Unknown Source)
+        at org.ldraw2sunflow.util.PartFinder.loadColor(PartFinder.java:274)
+        at org.ldraw2sunflow.util.PartFinder.setLDRAWDIR(PartFinder.java:172)
+        at org.ldraw2sunflow.ui.impl.LDrawPanel.initPreferences(LDrawPanel.java:122)
+        at org.ldraw2sunflow.ui.impl.LDrawPanel.<init>(LDrawPanel.java:47)
+        at org.ldraw2sunflow.ui.Ldraw2Sunflow.<init>(Ldraw2Sunflow.java:80)
+        at org.ldraw2sunflow.ui.Ldraw2Sunflow.lambda$main$10(Ldraw2Sunflow.java:114)
+        at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+        at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+        at java.awt.EventQueue.access$500(Unknown Source)
+        at java.awt.EventQueue$3.run(Unknown Source)
+        at java.awt.EventQueue$3.run(Unknown Source)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+        at java.awt.EventQueue.dispatchEvent(Unknown Source)
+        at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+        at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+        at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+        at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+        at java.awt.EventDispatchThread.run(Unknown Source)
+
+D:\Datsville\helper_scripts\sunflow>pause
+Press any key to continue . . .

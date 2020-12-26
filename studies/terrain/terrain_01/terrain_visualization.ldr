@@ -1,0 +1,11 @@
+0 Untitled
+0 Name: terrain_visualization.ldr
+0 Unofficial Model
+0 Author: MLCad
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 axis20x.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 gridb32x.dat
+1 2 0 0 0 1 0 0 0 1 0 0 0 1 terrain.ldr
+1 1 0 -2096 0 1 0 0 0 1 0 0 0 1 water.ldr
+0

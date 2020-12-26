@@ -1,0 +1,18 @@
+0 Heavy Wall Corner
+0 Name: infrastructure_heavywall_cornernostrut.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 0 -32 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -8 0 1 0 0 0 1 0 0 0 1 2639.dat
+1 7 0 -56 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -80 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -104 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -128 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -152 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -176 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -200 0 1 0 0 0 1 0 0 0 1 702.dat
+1 7 0 -224 0 1 0 0 0 1 0 0 0 1 702.dat
+0

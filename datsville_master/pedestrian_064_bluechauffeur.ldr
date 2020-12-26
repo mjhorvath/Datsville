@@ -1,0 +1,27 @@
+0 Chauffeur in Gray
+0 Name: pedestrian_064_bluechauffeur.ldr
+0 Author: Jacob Sparre Andersen
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 legs & hip
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 -9 -2 1 0 0 0 0 1 0 -1 0 3817.dat
+1 1 0 -9 -2 1 0 0 0 0 1 0 -1 0 3816.dat
+1 1 0 -21 -2 1 0 0 0 1 0 0 0 1 3815.dat
+0 torso
+1 9 0 -53 -2 1 0 0 0 1 0 0 0 1 973.dat
+0 head
+0 1 16 0 -79 0 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 14 0 -77 -2 1 0 0 0 1 0 0 0 1 3626bp01.dat
+0 hat
+0 1 0 0 -79 0 1 0 0 0 1 0 0 0 1 19.dat
+0 airtank
+0 1 2 0 -55 0 1 0 0 0 1 0 0 0 1 3949.dat
+0 arms
+1 9 0 -45 -2 1 0 0 0 1 0 0 0 1 975.dat
+1 9 0 -45 -2 1 0 0 0 1 0 0 0 1 976.dat
+0 hands
+1 14 -23 -25 -17.5 0 0 1 -0.707 0.707 0 0.707 0.707 0 977.dat
+1 14 23 -25 -17.5 0 0 1 -0.707 0.707 0 0.707 0.707 0 977.dat
+0

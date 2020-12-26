@@ -1,0 +1,750 @@
+layer_blocks_base.ldr
+layer_streets_base.ldr
+layer_river.ldr
+layer_blocks_overlay.ldr
+layer_streets_overlay.ldr
+layer_traffic.ldr
+block_001_base.ldr
+block_002_base.ldr
+block_003_base.ldr
+block_004_base.ldr
+block_005_base.ldr
+block_006_base.ldr
+block_007_base.ldr
+block_008_base.ldr
+block_009_base.ldr
+block_010_base.ldr
+block_011_base.ldr
+block_012_base.ldr
+block_013_base.ldr
+block_014_base.ldr
+block_015_base.ldr
+block_016_base.ldr
+block_017_base.ldr
+block_018_base.ldr
+block_019_base.ldr
+block_020_base.ldr
+block_021_base.ldr
+block_022_base.ldr
+block_023_base.ldr
+block_024_base.ldr
+block_025_base.ldr
+block_026_base.ldr
+block_027_base.ldr
+block_028_base.ldr
+block_029_base.ldr
+block_030_base.ldr
+block_031_base.ldr
+block_032_base.ldr
+block_033_base.ldr
+streets_-1_+2_base.ldr
+streets_+1_+2_base.ldr
+streets_-2_+1_base.ldr
+streets_-1_+1_base.ldr
+streets_+1_+1_base.ldr
+streets_+2_+1_base.ldr
+streets_-2_-1_base.ldr
+streets_-1_-1_base.ldr
+streets_+1_-1_base.ldr
+streets_+2_-1_base.ldr
+streets_-2_-2_base.ldr
+streets_-1_-2_base.ldr
+streets_+1_-2_base.ldr
+streets_+2_-2_base.ldr
+block_001_overlay.ldr
+block_002_overlay.ldr
+block_003_overlay.ldr
+block_004_overlay.ldr
+block_005_overlay.ldr
+block_006_overlay.ldr
+block_007_overlay.ldr
+block_008_overlay.ldr
+block_009_overlay.ldr
+block_010_overlay.ldr
+block_011_overlay.ldr
+block_012_overlay.ldr
+block_013_overlay.ldr
+block_014_overlay.ldr
+block_015_overlay.ldr
+block_016_overlay.ldr
+block_017_overlay.ldr
+block_018_overlay.ldr
+block_019_overlay.ldr
+block_020_overlay.ldr
+block_021_overlay.ldr
+block_022_overlay.ldr
+block_023_overlay.ldr
+block_024_overlay.ldr
+block_025_overlay.ldr
+block_026_overlay.ldr
+block_027_overlay.ldr
+block_028_overlay.ldr
+block_029_overlay.ldr
+block_030_overlay.ldr
+block_031_overlay.ldr
+block_032_overlay.ldr
+block_033_overlay.ldr
+streets_-1_+2_overlay.ldr
+streets_+1_+2_overlay.ldr
+streets_-2_+1_overlay.ldr
+streets_-1_+1_overlay.ldr
+streets_+1_+1_overlay.ldr
+streets_+2_+1_overlay.ldr
+streets_-2_-1_overlay.ldr
+streets_-1_-1_overlay.ldr
+streets_+1_-1_overlay.ldr
+streets_+2_-1_overlay.ldr
+streets_-2_-2_overlay.ldr
+streets_-1_-2_overlay.ldr
+streets_+1_-2_overlay.ldr
+streets_+2_-2_overlay.ldr
+traffic_-2_-2.ldr
+traffic_-2_-1.ldr
+traffic_-2_+1.ldr
+traffic_-2_+2.ldr
+traffic_-1_-2.ldr
+traffic_-1_-1.ldr
+traffic_-1_+1.ldr
+traffic_-1_+2.ldr
+traffic_+1_-2.ldr
+traffic_+1_-1.ldr
+traffic_+1_+1.ldr
+traffic_+1_+2.ldr
+traffic_+2_-2.ldr
+traffic_+2_-1.ldr
+traffic_+2_+1.ldr
+traffic_+2_+2.ldr
+infrastructure_bikepath_straight_long.ldr
+infrastructure_bikepath_straight_short.ldr
+infrastructure_runwaylamp_green.ldr
+infrastructure_runwaylamp_white.ldr
+infrastructure_runwaylamp_red.ldr
+infrastructure_runwaylamp_blue.ldr
+infrastructure_airporthelipad.ldr
+infrastructure_airportrunway.mpd
+infrastructure_roadbridge_d.mpd
+snotroad_doublestripenocross.ldr
+snotroad_walkway_straight_full.ldr
+infrastructure_roadbridge_a.mpd
+snotroad_tripledotsnocross.ldr
+snotroad_quaddotsnocross.ldr
+snotroad_doublestripecross.ldr
+snotroad_triplestripenocross.ldr
+snotroad_doublestripedoublecross.ldr
+snotroad_triplestripecross_1.ldr
+snotroad_doubleblankcross.ldr
+snotroad_curveblanknocross.ldr
+snotroad_doublestriperightonly.ldr
+snotroad_tripleonewaynocross.ldr
+snotroad_doubleonewaydoublecross.ldr
+snotroad_walkway_straight_section_male.ldr
+snotroad_walkway_straight_section_blank.ldr
+snotroad_driveway_section.ldr
+snotroad_walkway_straight_section_female.ldr
+snotroad_triplestripecross_2.ldr
+snotroad_parkinglotonemiddle.ldr
+snotroad_triplestripecross_1_rightonly.ldr
+snotroad_tripleonewaycross_1.ldr
+snotroad_doubleonewaynocross.ldr
+snotroad_curveonewaynocross.ldr
+snotroad_tripleonewaycross_2.ldr
+snotroad_doubleonewaycross.ldr
+snotroad_doublestripeleftaheadonlydouble.ldr
+snotroad_doublestriperightaheadonly.ldr
+snotroad_parkinglotbothmiddle.ldr
+snotroad_parkinglotbothleft.ldr
+snotroad_quadstripenocross.ldr
+snotroad_doublestriperailxing.ldr
+snotroad_parkinglotflipmiddle_c.ldr
+snotroad_parkinglotflipmiddle_a.ldr
+snotroad_parkinglotflipmiddle_e.ldr
+rail_straight_single.ldr
+rail_crossing_single_base.ldr
+snotroad_parkinglotoneright_bump.ldr
+snotroad_blank.ldr
+snotroad_parkinglotflipmiddle_d.ldr
+snotroad_parkinglotflipmiddle_b.ldr
+snotroad_parkinglotflipmiddle_f.ldr
+snotroad_parkinglotoneleft.ldr
+snotroad_parkinglotlongright.ldr
+rail_switch_right.ldr
+snotroad_parkinglotlongleft.ldr
+rail_crossing_double_base.ldr
+rail_straight_double.ldr
+snotroad_parkinglotpizzaplace.ldr
+snotroad_parkinglotoneright.ldr
+snotroad_halfstripecross.ldr
+snotroad_doublestriperailxing_offset.ldr
+snotroad_45degree_curve_right.ldr
+snotroad_45degree_straight.ldr
+snotroad_45degree_connecter.ldr
+building_001_jessimanmemorial.mpd
+infrastructure_streetlamp_06.ldr
+building_002_townhall.mpd
+building_043_datsvillememorial.ldr
+plant_bigtree_01.ldr
+building_007_firecompany.mpd
+building_023_missionstylehouse.mpd
+building_011_bramshome.ldr
+building_010_johnshouse.ldr
+building_021_houseporchyard.mpd
+building_025_greenroofhouse.ldr
+building_013_safehouse.ldr
+building_004_bramlcottage.ldr
+building_014_watertower.mpd
+plant_bigtree_03.ldr
+building_042_glassstore.ldr
+building_012_triplex.mpd
+building_078_redwhitehouse2.ldr
+plant_bigtree_04.ldr
+building_006_casaverde.ldr
+building_050_smallpark02.mpd
+building_066_tripeakwhitehouse.mpd
+building_016_postoffice.ldr
+building_017_nationalbank.ldr
+building_053_animalexhibit.mpd
+building_019_cricketground.mpd
+building_090_policegraduationpodium.ldr
+building_073_radiotower.ldr
+building_033_telephoneexchange.mpd
+plant_bigtree_02.ldr
+building_081_marketstall.ldr
+building_075_buddhisttemple.mpd
+plant_bigtree_06.mpd
+building_051_highschool.mpd
+building_022_houseonahill.mpd
+infrastructure_ljphill1.ldr
+infrastructure_ljphill2.ldr
+plant_bigtree_05.ldr
+building_031_carriagehouse.mpd
+building_020_baitshop.mpd
+building_009_miningfacility.mpd
+building_008_roundpolicebuilding.ldr
+building_044_amateurradioclubbuilding.ldr
+building_069_amateurradioclubantenna.mpd
+building_024_andershouse.ldr
+building_077_browntanhouse.ldr
+building_054_blueranchstyle.ldr
+building_061_salmonhouse.mpd
+building_049_smallpark01.mpd
+building_065_skybluehouse.mpd
+building_072_yelhouse.ldr
+building_028_sidewalkwithgarage.ldr
+building_026_toresparentshouse.ldr
+building_027_thomashouse.ldr
+building_032_grocerystore.mpd
+infrastructure_phonebooth.ldr
+building_059_restaraunt.mpd
+building_052_newspaperoffice.mpd
+building_060_icecreamparlor.mpd
+building_015_parisianshop.mpd
+building_058_bundenogkanden.mpd
+building_055_traveloffice.mpd
+building_079_clothingstore.ldr
+building_029_movietheater.ldr
+building_091_clothingstore2.ldr
+infrastructure_tornadosiren.mpd
+building_035_petrolstation.mpd
+building_034_blueapartments.mpd
+infrastructure_dumpster_small.ldr
+building_076_gradeschool.mpd
+building_030_policehq.mpd
+building_038_hospital.ldr
+building_039_tanmosque.mpd
+building_045_yellowcastle.mpd
+building_040_belvedere.ldr
+building_057_castletavern.ldr
+building_071_boathouse.mpd
+building_070_bikerack.mpd
+building_064_baseballpark.mpd
+building_062_officebuildinglarge.mpd
+building_068_warehousesmall.mpd
+building_036_shoppingcenter.mpd
+building_074_mediumfactory.mpd
+building_086_redfactory.mpd
+building_080_garagexsmall.mpd
+building_037_trainstation.ldr
+building_087_citydepot.mpd
+infrastructure_soccergoal.ldr
+building_048_pizzatakeout.mpd
+building_092_carlot.mpd
+building_084_printshop.ldr
+building_067_habidomesmall.mpd
+plant_cornpatch_medium_03.ldr
+plant_cornpatch_medium_04.ldr
+plant_cornpatch_small_03.ldr
+building_085_airportsculpture.mpd
+infrastructure_heavywall_corner.ldr
+building_088_fighterjethangar.mpd
+building_082_airportcontroltower.ldr
+infrastructure_windsock.ldr
+building_083_airportlounge.mpd
+building_089_controltower2.mpd
+infrastructure_heavywall_straight.ldr
+infrastructure_heavywall_cornerlarge.ldr
+infrastructure_heavywall_straightsmall.ldr
+infrastructure_streetsign_erikssonpkwy_1stst_a.ldr
+infrastructure_streetsign_erikssonpkwy_wilsoncirc_a.ldr
+infrastructure_streetsign_wilsoncirc_1stst_a.ldr
+infrastructure_streetsign_andersenst_1stst_a.ldr
+infrastructure_interstoptriple.ldr
+infrastructure_interstopsingle.ldr
+infrastructure_interstopquad.ldr
+infrastructure_streetlamp_single.ldr
+infrastructure_firehydrant_single.ldr
+infrastructure_streetlamp_pair.ldr
+infrastructure_trashcan_single.ldr
+infrastructure_signdetourright.mpd
+infrastructure_busstop.ldr
+infrastructure_internoleftturnsingle.ldr
+infrastructure_trafficlight_002_vanzwietenblv_a.ldr
+infrastructure_trafficlight_013_4thst.ldr
+infrastructure_streetsign_vanzwietenblvd_burgerst_b.ldr
+infrastructure_streetsign_vanzwietenblvd_3rdst_a.ldr
+infrastructure_streetsign_andersenst_2ndst_a.ldr
+infrastructure_streetsign_vanzwietenblvd_saulsst_b.ldr
+infrastructure_mailbox_single.ldr
+infrastructure_trafficlight_003_wilsonave.ldr
+infrastructure_signstopnoleftturn.ldr
+infrastructure_internoentryboth.ldr
+infrastructure_trafficlight_018_andersenst.ldr
+infrastructure_trafficlight_017_saulsst.ldr
+infrastructure_streetsign_erikssonpkwy_3rdst_a.ldr
+infrastructure_witcheshat.ldr
+infrastructure_streetsign_erikssonpkwy_6thst_a.ldr
+infrastructure_streetsign_vanzwietenblvd_gouldst_b.ldr
+infrastructure_streetsign_erikssonpkwy_5thst_a.ldr
+infrastructure_signdetourleft.mpd
+infrastructure_signstopnorightturnnoentry.ldr
+infrastructure_internoturndouble.ldr
+infrastructure_trafficlight_002_vanzwietenblv_b.ldr
+infrastructure_trafficlight_014_5thst.ldr
+infrastructure_trafficlight_015_6thst.ldr
+infrastructure_interstopdouble.ldr
+infrastructure_interstopsingleboth.ldr
+infrastructure_streetsign_erikssonpkwy_7thst_a.ldr
+infrastructure_streetsign_vanzwietenblvd_7thst_a.ldr
+infrastructure_interstopnoturndouble.ldr
+infrastructure_streetsign_dennettave_1stst_a.ldr
+infrastructure_dumpster_large.ldr
+rail_crossing_single_overlay.ldr
+infrastructure_streetsign_jessimanave_burgerst_b.ldr
+infrastructure_streetsign_jessimanave_saulsst_a.ldr
+infrastructure_streetsign_jessimanave_3rdst_a.ldr
+infrastructure_trafficlight_001_jessimanave_b.ldr
+infrastructure_trafficlight_006_dennettave.ldr
+infrastructure_trafficlight_011_2ndst.ldr
+infrastructure_streetsign_dennettave_3rdst_a.ldr
+infrastructure_interstopnoleftturnsingle.ldr
+infrastructure_interstopnorightturnnoentryboth.ldr
+infrastructure_streetsign_jessimanave_gouldst_b.ldr
+infrastructure_trafficlight_001_jessimanave_a.ldr
+infrastructure_streetsign_jessimanave_7thst_a.ldr
+infrastructure_streetsign_dennettave_7thst_a.ldr
+infrastructure_interstopnoentryboth.ldr
+rail_crossing_double_overlay.ldr
+infrastructure_streetsign_wilsonave_1stst_a.ldr
+infrastructure_streetsign_wilsonave_2ndst_a.ldr
+infrastructure_streetsign_wilsonave_3rdst_a.ldr
+infrastructure_streetsign_wilsonave_5thst_a.ldr
+infrastructure_streetsign_wilsonave_6thst_a.ldr
+infrastructure_streetsign_wilsonave_7thst_a.ldr
+character_005_femaletechnomancer.mpd
+vehicle_093_pinkconvertible.ldr
+character_006_safaridude.mpd
+vehicle_064_blacklimousine_2.ldr
+pedestrian_114_policewhiteshirtandtiestanding7.ldr
+pedestrian_109_policewhiteshirtandtiestanding2.ldr
+pedestrian_105_policewhiteshirtandtiestandingradio6.ldr
+pedestrian_102_policewhiteshirtandtiestandingradio3.ldr
+pedestrian_098_policeblackjacketwhitehelmetstanding3.ldr
+pedestrian_097_policeblackjacketwhitehelmetstanding2.ldr
+pedestrian_101_policewhiteshirtandtiestandingradio2.ldr
+pedestrian_106_policewhiteshirtandtiestandingradio7.ldr
+pedestrian_110_policewhiteshirtandtiestanding3.ldr
+pedestrian_113_policewhiteshirtandtiestanding6.ldr
+pedestrian_112_policewhiteshirtandtiestanding5.ldr
+pedestrian_111_policewhiteshirtandtiestanding4.ldr
+pedestrian_107_policewhiteshirtandtiestandingradio8.ldr
+pedestrian_100_policewhiteshirtandtiestandingradio1.ldr
+pedestrian_096_policeblackjacketwhitehelmetstanding1.ldr
+pedestrian_099_policeblackjacketwhitehelmetstanding4.ldr
+pedestrian_103_policewhiteshirtandtiestandingradio4.ldr
+pedestrian_104_policewhiteshirtandtiestandingradio5.ldr
+pedestrian_108_policewhiteshirtandtiestanding1.ldr
+pedestrian_115_policewhiteshirtandtiestanding8.ldr
+pedestrian_116_policewhiteshirtandtiestandingnohat1.ldr
+pedestrian_117_policewhiteshirtandtiestandingnohat2.ldr
+pedestrian_118_policewhiteshirtandtiestandingnohat3.ldr
+pedestrian_119_policewhiteshirtandtiestandingnohat4.ldr
+pedestrian_120_policewhiteshirtandtiestandingnohat5.ldr
+vehicle_047_pizzadelivery.ldr
+vehicle_067_policeunmarkedcar_1.ldr
+vehicle_084_yellowfighterjet.mpd
+pedestrian_072_manwithwhitehat.ldr
+pedestrian_071_manwithblackhat.ldr
+vehicle_020_redferrari.ldr
+pedestrian_005_womanredhairwalking.ldr
+vehicle_021_blueandwhitedeliverytruck.ldr
+vehicle_022_whiteconvertiblecar.ldr
+vehicle_023_bluemotorcycleandrider.ldr
+vehicle_024_blackmotorcycleandredrider.ldr
+vehicle_025_redmotorcycleandwhiterider.ldr
+vehicle_029_blacklimousine.ldr
+pedestrian_026_castleguard.ldr
+vehicle_045_redpassengertrain.mpd
+vehicle_061_garbagetruck.ldr
+vehicle_086_yellowhummer.mpd
+vehicle_099_kassevogn.ldr
+vehicle_068_blueandwhitewagontruck.ldr
+vehicle_069_policeunmarkedcar_2.ldr
+vehicle_038_redpickuptruck02.ldr
+pedestrian_020_manbluestripeswhitecapsunglasses.ldr
+vehicle_039_octantankertruck.mpd
+pedestrian_021_manblueoverallscap.ldr
+character_002_brownjacketandredbowler.ldr
+character_003_bluejogger.ldr
+character_004_greenjogger.ldr
+character_007_rockroller.ldr
+character_008_blondninja.ldr
+vehicle_054_monaro.mpd
+vehicle_005_yellowasphaltspreader.ldr
+vehicle_085_dumptruck2.ldr
+vehicle_013_yellowroundmailvan_parked.mpd
+pedestrian_001_mustachewalking.ldr
+pedestrian_002_suitblackhat.ldr
+pedestrian_003_mailman.ldr
+pedestrian_004_sleevelesswaving.ldr
+vehicle_065_orangewhitevan.ldr
+pedestrian_011_manmayortophat.ldr
+pedestrian_059_thaisoldier.mpd
+pedestrian_060_thaimonk.ldr
+vehicle_009_redcoupe.ldr
+vehicle_053_citycat.mpd
+vehicle_001_yellowbulldozer.mpd
+vehicle_002_yellowheavyequipmentcarrier.ldr
+vehicle_003_redfireboat.ldr
+pedestrian_076_bullpoop.ldr
+vehicle_043_towercrane.mpd
+pedestrian_010_manblueoverallssunglasses.ldr
+pedestrian_009_manblueoverallsmustache.ldr
+vehicle_072_steamroller.ldr
+vehicle_073_bulldozer.ldr
+vehicle_074_dumptruck.ldr
+vehicle_075_flatbedtruck.ldr
+vehicle_076_flatbedtrucklong.ldr
+vehicle_077_forklift.ldr
+vehicle_078_wreckingball.ldr
+vehicle_079_mobilecrane.ldr
+vehicle_080_cherrypicker.ldr
+vehicle_081_asphalttruck.ldr
+vehicle_082_wideloadwarningcar.ldr
+vehicle_083_traytruck.ldr
+vehicle_070_traffichelicopter.ldr
+vehicle_066_policewhitehelicopter.ldr
+vehicle_004_smallshuttle.mpd
+vehicle_042_mannedmech.mpd
+pedestrian_069_darkjacketbluepants.ldr
+vehicle_026_bluecoupe.ldr
+vehicle_007_whitepolicecar.ldr
+vehicle_036_whitepolicevan01.ldr
+vehicle_037_whitepolicevan02.ldr
+vehicle_092_blackpolicemotorcycle.ldr
+vehicle_015_whitesportscar.ldr
+vehicle_058_greenbicyclewithrider.ldr
+vehicle_016_redpickuptruck.ldr
+vehicle_056_rollsroyce.mpd
+vehicle_094_darkgraymotorcyclewithbluerider.ldr
+vehicle_027_greenconvertible.ldr
+pedestrian_006_womanbrownhairminiskirt.ldr
+pedestrian_008_manpoliceleatherjacket.ldr
+vehicle_060_ferraripolice.ldr
+pedestrian_035_preppiesitting.ldr
+pedestrian_034_blondefemalesitting.ldr
+pedestrian_031_blueteambatter1.ldr
+pedestrian_027_baseballumpire1.ldr
+pedestrian_087_blueteamsitting2.ldr
+pedestrian_086_blueteamsitting1.ldr
+pedestrian_088_blueteamsitting3.ldr
+pedestrian_089_blueteamsitting4.ldr
+pedestrian_082_redteamstanding6.ldr
+pedestrian_083_redteamstanding7.ldr
+pedestrian_084_redteamstanding8.ldr
+pedestrian_085_redteamstanding9.ldr
+pedestrian_090_blueteamsitting5.ldr
+pedestrian_091_blueteamsitting6.ldr
+pedestrian_092_blueteamsitting7.ldr
+vehicle_018_blackpolicemotorcycle.ldr
+vehicle_055_mgb.mpd
+vehicle_050_bluecargo.ldr
+vehicle_012_blueandwhitebus.ldr
+vehicle_014_blacksemitruck.mpd
+vehicle_057_yellowroundmailvan_withdriver.ldr
+vehicle_017_blacksemitruck.mpd
+vehicle_063_redbubbletruck.ldr
+vehicle_033_redfiretruck04suv.ldr
+vehicle_008_redfirecar.ldr
+vehicle_035_redfiretruck06.ldr
+vehicle_031_redfiretruck02ladder.mpd
+vehicle_030_redfiretruck01.mpd
+vehicle_032_redfiretruck03.ldr
+vehicle_034_redfiretruck05.mpd
+pedestrian_012_manexplorerbinoculars.ldr
+vehicle_087_greencoupe.ldr
+vehicle_088_tanstationwagon.ldr
+vehicle_089_blackbmwsedan.ldr
+vehicle_071_cranerailcar.mpd
+pedestrian_033_pinkfemalesitting.ldr
+pedestrian_032_pinkpunksitting.ldr
+pedestrian_029_blueteamstanding1.ldr
+pedestrian_081_redteamstanding5.ldr
+pedestrian_080_redteamstanding4.ldr
+pedestrian_070_baseballumpire2.ldr
+pedestrian_079_redteamstanding3.ldr
+pedestrian_077_redteamstanding1.ldr
+pedestrian_078_redteamstanding2.ldr
+vehicle_048_bluedigger.mpd
+pedestrian_038_blueworker.ldr
+vehicle_049_blueloader.mpd
+vehicle_052_bluedozer.ldr
+vehicle_006_yellowrockbreaker.ldr
+vehicle_041_spaceportalwithoutwheels.ldr
+vehicle_019_spaceportalonwheels.mpd
+pedestrian_007_manprofessortophat.ldr
+snotroad_connector_male.ldr
+snotroad_connector_female.ldr
+snotroad_walkway_curve_inner.ldr
+snotroad_walkway_curve_outer.ldr
+2859c03.dat
+snotroad_45degree_straight_insystem.ldr
+snotroad_45degree_connecter_insystem.ldr
+pedestrian_013_manblacksuitdriving.ldr
+pedestrian_014_mandarkskingraysuitdriving.ldr
+pedestrian_015_mangreengraysuitmustache.mpd
+plant_flowers_01.ldr
+vehicle_040_whiteambulance.ldr
+furniture_003_copier.ldr
+plant_cornplant_01.ldr
+plant_cornplant_03.ldr
+plant_cornplant_02.ldr
+plant_cornplant_05.ldr
+plant_cornplant_04.ldr
+sign_010_1stst.ldr
+sign_005_erikssonpkwy.ldr
+sign_004_wilsoncirc.ldr
+sign_018_andersenst.ldr
+infrastructure_signstop.ldr
+infrastructure_streetlamp_02.ldr
+infrastructure_firehydrant.ldr
+infrastructure_trashcan.ldr
+infrastructure_signnoleftturn.ldr
+infrastructure_trafficsignal_02.mpd
+sign_002_vanzwietenblv.ldr
+sign_013_4thst.ldr
+sign_007_burgerst.ldr
+sign_012_3rdst.ldr
+sign_011_2ndst.ldr
+sign_017_saulsst.ldr
+infrastructure_mailbox.ldr
+sign_003_wilsonave.ldr
+sign_020_unofficialnoleftturnroad.ldr
+infrastructure_signnoentry.ldr
+sign_015_6thst.ldr
+sign_008_gouldst.ldr
+sign_014_5thst.ldr
+sign_021_unofficialnorightturnroad.ldr
+infrastructure_signnorightturn.ldr
+infrastructure_trafficsignal_03.mpd
+sign_016_7thst.ldr
+infrastructure_signstopnorightturn.ldr
+sign_006_dennettave.ldr
+infrastructure_railgate.mpd
+sign_001_jessimanave.ldr
+infrastructure_signstopnoentry.ldr
+pedestrian_067_policedetectiveblacksuitredshirt.ldr
+pedestrian_047_brownjacketdriver.ldr
+pedestrian_048_bluemotorider.mpd
+4480c01_complete.dat
+pedestrian_049_redblackmotorider.ldr
+pedestrian_050_whitegraymotorider.ldr
+pedestrian_051_limousinedriver.ldr
+pedestrian_068_policedetectiveblacksuitwhiteshirt.ldr
+pedestrian_066_policemotorcyclesuitreclining.ldr
+pedestrian_046_sportscardriver.ldr
+pedestrian_062_bicyclistredshirt.ldr
+pedestrian_063_bluemotorcyclerider.ldr
+pedestrian_074_policemotorcyclesuitreclining.ldr
+pedestrian_055_blackcapworkersitting.ldr
+pedestrian_061_mailmansitting.ldr
+pedestrian_064_bluechauffeur.ldr
+pedestrian_023_manfiremanredcapdriving.ldr
+pedestrian_044_redshirtdriving.ldr
+pedestrian_045_redjacketdriving.ldr
+pedestrian_093_redcapworkersitting1.ldr
+snotroad_concreteslabhalf_smooth.ldr
+snotroad_concreteslabhalf.ldr
+infrastructure_streetlamp_02.ldr
+snotroad_concreteslabfull.ldr
+infrastructure_streetlamp_02.ldr
+plant_bigtree_02.ldr
+plant_flowers_01.ldr
+pedestrian_042_medic_1.ldr
+pedestrian_041_fman_stand.ldr
+pedestrian_040_fman_sit_2.ldr
+pedestrian_039_fman_sit_1.ldr
+pedestrian_043_medic_2.ldr
+pedestrian_036_bluefiguresit2.ldr
+pedestrian_037_bluefiguresit1.ldr
+pedestrian_025_womanblondehairredsleeves.ldr
+pedestrian_019_manblondehairwhiteshirt.ldr
+pedestrian_022_manoctanredcapstanding.ldr
+pedestrian_054_policewhiteshirtandtiestanding9.ldr
+pedestrian_018_policewhiteshirtandtiestanding10.ldr
+pedestrian_065_policewhiteshirtandtiesitting.ldr
+pedestrian_028_policewhiteshirtandtiestanding11.ldr
+pedestrian_030_policewhiteshirtandtiestanding12.ldr
+pedestrian_073_policewhiteshirtandtiestanding13.ldr
+infrastructure_streetlamp_01.ldr
+vehicle_098_countachblack.ldr
+vehicle_096_countachred.ldr
+vehicle_097_countachyellow.ldr
+pedestrian_065_policewhiteshirtandtiesitting.ldr
+pedestrian_024_manoctanredcapsitting.ldr
+pedestrian_056_bogan.ldr
+pedestrian_058_citycattourist.ldr
+pedestrian_057_citycatbusinessman.ldr
+pedestrian_052_craneoperator.ldr
+pedestrian_016_manblueoverallsblackhatsitting.ldr
+pedestrian_017_manredspacelogosunglassessitting.ldr
+pedestrian_023_manfiremanredcapdriving.ldr
+pedestrian_053_blueworkersitting.ldr
+pedestrian_094_redcapworkersitting2.ldr
+sticker_010_1stst.ldr
+sticker_005_erikssonpkwy.ldr
+sticker_004_wilsoncirc.ldr
+sticker_018_andersenst.ldr
+sticker_002_vanzwietenblv.ldr
+sticker_013_4thst.ldr
+sticker_007_burgerst.ldr
+sticker_012_3rdst.ldr
+sticker_011_2ndst.ldr
+sticker_017_saulsst.ldr
+sticker_003_wilsonave.ldr
+sticker_015_6thst.ldr
+sticker_008_gouldst.ldr
+sticker_014_5thst.ldr
+sticker_016_7thst.ldr
+sticker_006_dennettave.ldr
+sticker_001_jessimanave.ldr
+snotroad_connector_male.ldr
+snotroad_connector_female.ldr
+snotroad_connector_male.ldr
+snotroad_connector_female.ldr
+
+Files not imported from path D:\GitHub\Datsville\datsville_master.
+2861c03.dat - this file is not imported.
+axis_08b.dat - this file is not imported.
+axis_32b.dat - this file is not imported.
+axis_32s.dat - this file is not imported.
+camera.dat - this file is not imported.
+character_001_kidwithbaseballcap.ldr - this file is not imported.
+datsville_master.ldr - this file is not imported.
+dir_allmodels.cmd - this file is not imported.
+dir_allmodels.txt - this file is not imported.
+dir_buildings.cmd - this file is not imported.
+dir_buildings.txt - this file is not imported.
+furniture_001_watercooler.ldr - this file is not imported.
+furniture_002_coffeemaker.ldr - this file is not imported.
+furniture_004_bed.ldr - this file is not imported.
+furniture_005_cabinet.ldr - this file is not imported.
+furniture_006_sofa.ldr - this file is not imported.
+furniture_006_sofachair.ldr - this file is not imported.
+furniture_007_stove.ldr - this file is not imported.
+furniture_008_tableandchairs.ldr - this file is not imported.
+furniture_009_toilet.ldr - this file is not imported.
+furniture_010_smallcornertable.ldr - this file is not imported.
+furniture_011_sink2x2.ldr - this file is not imported.
+furniture_012_cabinet2x2.ldr - this file is not imported.
+grid_04b.dat - this file is not imported.
+grid_04s.dat - this file is not imported.
+grid_08b.dat - this file is not imported.
+grid_32b.dat - this file is not imported.
+grid_32s.dat - this file is not imported.
+grid_64s.dat - this file is not imported.
+infrastructure_interlightdouble.ldr - this file is not imported.
+infrastructure_interlightquad.ldr - this file is not imported.
+infrastructure_interlighttriple.ldr - this file is not imported.
+infrastructure_ltehill3.ldr - this file is not imported.
+infrastructure_roadbridge_b.mpd - this file is not imported.
+infrastructure_roadbridge_c.mpd - this file is not imported.
+infrastructure_rubblepile.ldr - this file is not imported.
+infrastructure_signarrow.ldr - this file is not imported.
+infrastructure_signcrossing.ldr - this file is not imported.
+infrastructure_signstopnoleftturnnoentry.ldr - this file is not imported.
+infrastructure_signwarning.ldr - this file is not imported.
+infrastructure_streetlamp_03.ldr - this file is not imported.
+infrastructure_streetsign_andersenst_saulsst_a.ldr - this file is not imported.
+infrastructure_streetsign_andersenst_saulsst_b.ldr - this file is not imported.
+infrastructure_streetsign_dennettave_2ndst_a.ldr - this file is not imported.
+infrastructure_streetsign_dennettave_4thst_a.ldr - this file is not imported.
+infrastructure_streetsign_dennettave_5thst_a.ldr - this file is not imported.
+infrastructure_streetsign_dennettave_6thst_a.ldr - this file is not imported.
+infrastructure_streetsign_erikssonpkwy_2ndst_a.ldr - this file is not imported.
+infrastructure_streetsign_erikssonpkwy_4thst_a.ldr - this file is not imported.
+infrastructure_streetsign_jessimanave_4thst_a.ldr - this file is not imported.
+infrastructure_streetsign_jessimanave_5thst_a.ldr - this file is not imported.
+infrastructure_streetsign_jessimanave_6thst_a.ldr - this file is not imported.
+infrastructure_streetsign_jessimanave_burgerst_a.ldr - this file is not imported.
+infrastructure_streetsign_jessimanave_gouldst_a.ldr - this file is not imported.
+infrastructure_streetsign_jessimanave_horvathln_a.ldr - this file is not imported.
+infrastructure_streetsign_vanzwietenblvd_4thst_a.ldr - this file is not imported.
+infrastructure_streetsign_vanzwietenblvd_5thst_a.ldr - this file is not imported.
+infrastructure_streetsign_vanzwietenblvd_6thst_a.ldr - this file is not imported.
+infrastructure_streetsign_vanzwietenblvd_burgerst_a.ldr - this file is not imported.
+infrastructure_streetsign_vanzwietenblvd_gouldst_a.ldr - this file is not imported.
+infrastructure_streetsign_vanzwietenblvd_saulsst_a.ldr - this file is not imported.
+infrastructure_streetsign_wilsonave_4thst_a.ldr - this file is not imported.
+infrastructure_streetsign_wilsonave_wilsoncirc_a.ldr - this file is not imported.
+infrastructure_trafficlight_004_wilsoncirc.ldr - this file is not imported.
+infrastructure_trafficlight_005_erikssonpkwy.ldr - this file is not imported.
+infrastructure_trafficlight_007_burgerst.ldr - this file is not imported.
+infrastructure_trafficlight_008_gouldst.ldr - this file is not imported.
+infrastructure_trafficlight_009_horvathln.ldr - this file is not imported.
+infrastructure_trafficlight_010_1stst.ldr - this file is not imported.
+infrastructure_trafficlight_012_3rdst.ldr - this file is not imported.
+infrastructure_trafficlight_016_7thst.ldr - this file is not imported.
+infrastructure_trafficsignal_01.ldr - this file is not imported.
+layer_terrain.ldr - this file is not imported.
+look_at.dat - this file is not imported.
+pedestrian_095_redcapworkersitting3.ldr - this file is not imported.
+plant_cornpatch_large_01.ldr - this file is not imported.
+plant_cornpatch_medium_01.ldr - this file is not imported.
+plant_cornpatch_medium_02.ldr - this file is not imported.
+plant_cornpatch_small_04.ldr - this file is not imported.
+plant_flowers_02.ldr - this file is not imported.
+plant_flowers_03.ldr - this file is not imported.
+plant_treecoolabah.ldr - this file is not imported.
+plant_treegum.ldr - this file is not imported.
+sign_009_horvathln.ldr - this file is not imported.
+sign_019_unofficialcrossing.ldr - this file is not imported.
+snotroad_45degree_curve_left.ldr - this file is not imported.
+snotroad_90degree_curve_2x2.ldr - this file is not imported.
+snotroad_bridgeramp_a.ldr - this file is not imported.
+snotroad_bridgeramp_c.ldr - this file is not imported.
+snotroad_bridgeramp_d.ldr - this file is not imported.
+snotroad_curvestripenocross.ldr - this file is not imported.
+snotroad_doubleblanknocross.ldr - this file is not imported.
+snotroad_doubledash.ldr - this file is not imported.
+snotroad_doublestripeleftonly.ldr - this file is not imported.
+snotroad_doublestripeleftonlydouble.ldr - this file is not imported.
+snotroad_halfstripenocross.ldr - this file is not imported.
+snotroad_parkinglotbothright.ldr - this file is not imported.
+snotroad_quadblanknocross.ldr - this file is not imported.
+snotroad_tripleblankcross_1.ldr - this file is not imported.
+snotroad_tripleblankcross_2.ldr - this file is not imported.
+snotroad_tripleblanknocross.ldr - this file is not imported.
+sticker_009_horvathln.ldr - this file is not imported.
+terrain_hills_edges.ldr - this file is not imported.
+terrain_hills_noedges.ldr - this file is not imported.
+terrain_water.ldr - this file is not imported.
+vehicle_028_yellowtraincarwithblacktrailer.mpd - this file is not imported.

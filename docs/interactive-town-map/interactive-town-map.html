@@ -1,0 +1,352 @@
+<!--
+Datsville High Resolution Render (c) by Michael Horvath
+This work is licensed under a
+Creative Commons Attribution-ShareAlike 4.0 Unported License.
+
+You should have received a copy of the license along with this
+work.  If not, see <http://creativecommons.org/licenses/by-sa/3.0/>.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Datsville Interactive Town Map (revGH498)</title>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Titillium+Web&display=swap" rel="stylesheet">
+		<style>
+*				{font-family:'Open Sans',sans-serif;font-size:10pt;line-height:133%;}
+body			{padding:0;margin:0;color:#ffffff;background-color:#404040;}
+h3				{margin:0.25em;font-family:'Titillium Web',sans-serif;font-size:20pt;line-height:150%;}
+.over p,ul,ol	{margin:0.5em;}
+.over li		{line-height:150%;}
+button			{border-radius:4px;margin:4px;padding:4px;background-color:rgba(0,0,0,1.0);color:#ffffff;font-size:10pt;border:solid 1px #000000;}
+button:hover	{background-color:rgba(64,64,64,1.0);border:solid 1px #000000;}
+button:active	{background-color:rgba(64,64,64,1.0);border:solid 1px #a0a0a0;}
+button:focus	{outline:solid 1px #a0a0a0;}
+::-webkit-scrollbar
+				{background:#c0c0c0;width:20px;height:20px;}
+::-webkit-scrollbar-thumb
+				{background:#404040;}
+::-webkit-scrollbar-corner
+				{background:#ffffff;}
+::-webkit-scrollbar-button
+				{background:#808080;width:20px;height:20px;display:none;}
+.zoom			{border-radius:4px;margin:4px;width:48px;height:48px;}
+.zoom:hover		{background-color:rgba(128,128,128,0.5);}
+.zoom:active	{background-color:rgba(192,192,192,0.5);}
+.mark			{z-index:2;position:absolute;display:none;}
+#float1			{position:fixed;left:0;		top:0;		border-radius:0px 0px 8px 0px;}
+#float2			{position:fixed;left:0;		bottom:0;	border-radius:0px 8px 0px 0px;font-size:smaller;}
+#float3			{position:fixed;right:0;	bottom:0;	border-radius:8px 0px 0px 0px;text-align:center;}
+#cross			{z-index:3;position:fixed;left:50%;top:50%;width:16px;height:16px;visibility:hidden;margin-left:-8px;margin-top:-8px;}
+#crose			{width:128px;height:64px;margin:4px;}
+#embed			{visibility:hidden;}
+#load			{z-index:-1;position:fixed;display:inline-block;left:50%;top:50%;width:10em;margin-left:-5em;text-align:center;overflow:hidden;}
+.over			{z-index:5;padding:4px;box-shadow:0px 0px 2px #000000;background-color:rgba(0,0,0,0.5);}
+.mask			{stroke:yellow;stroke-width:8px;stroke-linejoin:miter;fill:transparent;}		/* vector-effect:non-scaling-stroke; */
+.mask:hover		{stroke-width:16px;}
+.face			{float:right;width:64px;height:64px;}
+a:link,a:visited
+				{color:#ffff00;text-decoration:none;}
+a:hover,a:active
+				{color:#ffff00;text-decoration:underline;}
+
+/* https://leaverou.github.io/bubbly/ */
+/* presumably public domain code */
+.popup {
+	width:192px;
+	padding:8px;
+	z-index:4;
+	color:#000000;
+	position: absolute;
+	background-color: #ffffa0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	display: none;
+	line-height:100%;
+}
+.popup:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 64px;
+	width: 0;
+	height: 0;
+	border: 32px solid transparent;
+	border-left-color: #ffffa0;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -16px;
+	margin-right: -32px;
+}
+.popup h4	{margin:4px;padding:0;}
+.popup p	{margin:4px;padding:0;}
+		</style>
+		<script>
+var zoomLevel = 0.5;
+const baseWidth = 16384;
+const baseHeight = 8192;
+const lastMod = document.lastModified;
+// object coordinates are in LDU
+const objects =
+{
+	b001:[ -320, 0, 320],
+	b002:[-2240, 0, 320]
+}
+
+function Convert_LDR2IMG(inLDR) {
+	const ratioLDR2IMG = 256/640;
+	const tempX1 = ratioLDR2IMG   * -inLDR[0];
+	const tempY1 = ratioLDR2IMG/2 *  inLDR[0];
+	const tempX2 = 0;
+	const tempY2 = ratioLDR2IMG/Math.cos(Math.PI/4) * Math.cos(Math.PI/6) * inLDR[1];
+	const tempX3 = ratioLDR2IMG   *  inLDR[2];
+	const tempY3 = ratioLDR2IMG/2 *  inLDR[2];
+	const outIMG = [tempX1 + tempX2 + tempX3 + baseWidth/2, tempY1 + tempY2 + tempY3 + baseHeight/2];
+	return outIMG;
+}
+function Convert_IMG2WIN(inIMG) {
+	const winWidth = document.documentElement.clientWidth || document.body.clientWidth;
+	const winHeight = document.documentElement.clientHeight || document.body.clientHeight;
+	const outWIN = [inIMG[0]*zoomLevel-winWidth/2, inIMG[1]*zoomLevel-winHeight/2];
+	return outWIN;
+}
+function Convert_WIN2IMG(inWIN) {
+	const winWidth = document.documentElement.clientWidth || document.body.clientWidth;
+	const winHeight = document.documentElement.clientHeight || document.body.clientHeight;
+	const outIMG = [(inWIN[0]+winWidth/2)/zoomLevel, (inWIN[1]+winHeight/2)/zoomLevel];
+	return outIMG;
+}
+function Place_Popups() {
+	const outIMG = Convert_LDR2IMG(objects.b002);
+	document.querySelector('#b002p').style.left = outIMG[0]*zoomLevel-224-256*zoomLevel + 'px';
+	document.querySelector('#b002p').style.top  = outIMG[1]*zoomLevel- 48 + 'px';
+	document.querySelector('#b002m').style.left = outIMG[0]*zoomLevel + 'px';
+	document.querySelector('#b002m').style.top  = outIMG[1]*zoomLevel + 'px';
+}
+function Toggle_Popup(inID) {
+	const thisPostit = document.querySelector(inID);
+	if (thisPostit.style.display == 'block')
+		thisPostit.style.display = 'none';
+	else
+		thisPostit.style.display = 'block';
+}
+function Scroll_To_Middle() {
+	const imgCooOut = Convert_LDR2IMG(objects.b001);
+	Scroll_To_Target(imgCooOut);
+}
+function Scroll_To_Target(imgCooIn) {
+	const winCooOut = Convert_IMG2WIN(imgCooIn);
+	window.scroll(winCooOut[0], winCooOut[1]);
+}
+function Get_Current_Scroll() {
+	const winCooIn = [window.pageXOffset, window.pageYOffset];
+	const imgCooOut = Convert_WIN2IMG(winCooIn);
+	return imgCooOut;
+}
+function Zoom_In() {
+	const imgCoo = Get_Current_Scroll();
+	zoomLevel *= 2;
+	Zoom_Update();
+	Scroll_To_Target(imgCoo);
+}
+function Zoom_Out() {
+	const imgCoo = Get_Current_Scroll();
+	zoomLevel /= 2;
+	Zoom_Update();
+	Scroll_To_Target(imgCoo);
+}
+function Zoom_Update() {
+	document.querySelector('#embed').setAttribute('width', baseWidth * zoomLevel);
+	document.querySelector('#embed').setAttribute('height', baseHeight * zoomLevel);
+	if (zoomLevel >= 1)
+		document.querySelector('#level').innerHTML = 'Zoom Level: ' + zoomLevel;
+	else
+		document.querySelector('#level').innerHTML = 'Zoom Level: 1/' + (1/zoomLevel);
+	Place_Popups();
+}
+function init() {
+	Zoom_Update();
+	// doesn't fire in Chrome 80 unless there is a timeout before executing init()
+	Scroll_To_Middle();
+	// in firefox 72 the embedded PNG images are loaded noticeably after the SVG image is made visible instead of before
+	document.querySelector('#embed').style.visibility = 'visible';
+	document.querySelector('#cross').style.visibility = 'visible';
+	document.querySelector('#load').style.visibility = 'hidden';
+	document.querySelector('#lastmod').innerHTML = lastMod;
+}
+/*
+document.onreadystatechange = function () {
+	if (document.readyState == "complete") {
+		setTimeout(init, 10);
+	}
+}
+*/
+window.onload = function () {
+	setTimeout(init, 10);
+}
+		</script>
+	</head>
+	<body>
+		<header id="float1" class="over">
+			<h3 id="head">Datsville Interactive Town Map (revGH498)</h3>
+			<ol>
+				<li>The graphics on this page total to about 40MiB and may take several seconds to fully load. Please be patient.</li>
+				<li>To zoom in/out press the magnifying glass icons at the bottom right of the screen.</li>
+				<li>To pan the scene, press and hold down the mouse wheel while moving the mouse from side to side. Or use the scrollbars.</li>
+				<li>To view the page in fullscreen, press the F11 key.</li>
+				<li>Mouse over and click on the building with the yellow border around it to see a message from Datsville's mayor!</li>
+				<li>At this time this webpage has only been tested in Chrome 80, Firefox 72 and Edge 41. My apologies if it doesn't work in your browser yet.</li>
+			</ol>
+		</header>
+		<div id="b002p" class="popup right">
+			<img class="face" src="face_p011.png" />
+			<h4>Town Hall</h4>
+			<p>You clicked on the Town Hall!!</p>
+			<p>My name is John VanZwieten. I am the mayor of the Datsville. I always wear a suit and top hat.</p>
+		</div>
+		<img id="b002m" class="mark" src="icon_mark.png" width="4" height="4" />
+		<div id="load">Loading...</div>
+<svg id="embed" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16384" height="8192" viewBox="0 0 16384 8192">
+<image width="1024" height="1024" xlink:href="datsville-a01.png" x="0" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a02.png" x="1024" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a03.png" x="2048" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a04.png" x="3072" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a05.png" x="4096" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a06.png" x="5120" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a07.png" x="6144" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a08.png" x="7168" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a09.png" x="8192" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a10.png" x="9216" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a11.png" x="10240" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a12.png" x="11264" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a13.png" x="12288" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a14.png" x="13312" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a15.png" x="14336" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-a16.png" x="15360" y="0" />
+<image width="1024" height="1024" xlink:href="datsville-b01.png" x="0" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b02.png" x="1024" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b03.png" x="2048" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b04.png" x="3072" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b05.png" x="4096" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b06.png" x="5120" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b07.png" x="6144" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b08.png" x="7168" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b09.png" x="8192" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b10.png" x="9216" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b11.png" x="10240" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b12.png" x="11264" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b13.png" x="12288" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b14.png" x="13312" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b15.png" x="14336" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-b16.png" x="15360" y="1024" />
+<image width="1024" height="1024" xlink:href="datsville-c01.png" x="0" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c02.png" x="1024" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c03.png" x="2048" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c04.png" x="3072" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c05.png" x="4096" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c06.png" x="5120" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c07.png" x="6144" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c08.png" x="7168" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c09.png" x="8192" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c10.png" x="9216" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c11.png" x="10240" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c12.png" x="11264" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c13.png" x="12288" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c14.png" x="13312" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c15.png" x="14336" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-c16.png" x="15360" y="2048" />
+<image width="1024" height="1024" xlink:href="datsville-d01.png" x="0" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d02.png" x="1024" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d03.png" x="2048" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d04.png" x="3072" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d05.png" x="4096" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d06.png" x="5120" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d07.png" x="6144" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d08.png" x="7168" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d09.png" x="8192" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d10.png" x="9216" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d11.png" x="10240" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d12.png" x="11264" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d13.png" x="12288" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d14.png" x="13312" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d15.png" x="14336" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-d16.png" x="15360" y="3072" />
+<image width="1024" height="1024" xlink:href="datsville-e01.png" x="0" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e02.png" x="1024" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e03.png" x="2048" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e04.png" x="3072" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e05.png" x="4096" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e06.png" x="5120" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e07.png" x="6144" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e08.png" x="7168" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e09.png" x="8192" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e10.png" x="9216" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e11.png" x="10240" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e12.png" x="11264" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e13.png" x="12288" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e14.png" x="13312" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e15.png" x="14336" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-e16.png" x="15360" y="4096" />
+<image width="1024" height="1024" xlink:href="datsville-f01.png" x="0" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f02.png" x="1024" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f03.png" x="2048" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f04.png" x="3072" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f05.png" x="4096" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f06.png" x="5120" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f07.png" x="6144" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f08.png" x="7168" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f09.png" x="8192" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f10.png" x="9216" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f11.png" x="10240" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f12.png" x="11264" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f13.png" x="12288" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f14.png" x="13312" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f15.png" x="14336" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-f16.png" x="15360" y="5120" />
+<image width="1024" height="1024" xlink:href="datsville-g01.png" x="0" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g02.png" x="1024" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g03.png" x="2048" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g04.png" x="3072" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g05.png" x="4096" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g06.png" x="5120" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g07.png" x="6144" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g08.png" x="7168" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g09.png" x="8192" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g10.png" x="9216" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g11.png" x="10240" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g12.png" x="11264" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g13.png" x="12288" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g14.png" x="13312" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g15.png" x="14336" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-g16.png" x="15360" y="6144" />
+<image width="1024" height="1024" xlink:href="datsville-h01.png" x="0" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h02.png" x="1024" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h03.png" x="2048" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h04.png" x="3072" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h05.png" x="4096" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h06.png" x="5120" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h07.png" x="6144" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h08.png" x="7168" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h09.png" x="8192" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h10.png" x="9216" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h11.png" x="10240" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h12.png" x="11264" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h13.png" x="12288" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h14.png" x="13312" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h15.png" x="14336" y="7168" />
+<image width="1024" height="1024" xlink:href="datsville-h16.png" x="15360" y="7168" />
+<path id="b002m" class="mask" onclick="Toggle_Popup('#b002p');" d="m 9023.7494,3950.9439 -1.2494,-0.056 -55.1512,-27.6403 -55.1513,-27.6403 -4.0987,1.8483 -4.0988,1.8482 v 4.148 4.1479 l -8,3.9004 -8,3.9004 -7.9485,-3.8753 -7.9485,-3.8753 -4.1373,1.8657 -4.1373,1.8656 -23.9396,-11.9365 -23.9396,-11.9366 0.3836,-3.8359 0.3836,-3.8359 -4.3428,-2.1099 -4.3428,-2.1098 0.092,-13.3327 0.092,-13.3327 2.611,-1.368 2.6109,-1.368 -38.6815,-19.333 -38.6816,-19.333 -0.023,-141.5246 -0.023,-141.5245 -0.014,-5.2297 -0.014,-5.2297 -4.0547,-2.0685 -4.0547,-2.0685 0.1699,-1.7018 0.1698,-1.7018 -0.1151,-2.2423 -0.1152,-2.2423 -12.0567,-6.0438 -12.0568,-6.0439 0.1719,-1.7138 0.1719,-1.7139 -0.1151,-2.25 -0.1152,-2.25 h -3.893 -3.893 l -0.6642,-1.7309 -0.6643,-1.7309 0.9697,-0.3233 0.9696,-0.3232 2.6391,-2.4458 2.6391,-2.4459 h 1.9485 1.9485 l 2,-2 2,-2 h 2 2 l 2,-2 2,-2 h 2.393 2.393 l 0.5545,-1.4448 0.5544,-1.4449 3.4833,-0.6534 3.4833,-0.6535 0.5167,-1.3465 0.5167,-1.3466 3.4833,-0.6534 3.4833,-0.6535 0.5167,-1.3465 0.5167,-1.3466 3.4833,-0.6534 3.4833,-0.6535 0.5167,-1.3465 0.5167,-1.3466 3.4833,-0.6534 3.4833,-0.6535 0.5167,-1.3465 0.5167,-1.3466 3.4833,-0.6534 3.4833,-0.6535 0.5017,-1.3074 0.5017,-1.3074 2.9984,-0.6586 2.9985,-0.6586 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1696,-1.4092 1.1696,-1.4093 3.3302,-0.6247 3.3303,-0.6248 0.5167,-1.3465 0.5167,-1.3466 3.4833,-0.6534 3.4833,-0.6535 0.5017,-1.3074 0.5017,-1.3074 2.9984,-0.6586 2.9985,-0.6586 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 2.8618,-0.6286 2.8618,-0.6286 1.1382,-1.3714 1.1382,-1.3714 3.0327,-0.6661 3.0327,-0.6661 1.8982,-1.8982 L 8958,3345 h 2 2 l 2,-2 2,-2 h 2 2 l 2,-2 2,-2 h 2.393 2.393 l 0.5545,-1.4448 0.5544,-1.4449 3.4833,-0.6534 3.4833,-0.6535 0.5167,-1.3465 0.5167,-1.3466 3.4833,-0.6534 3.4833,-0.6535 0.5167,-1.3465 0.5167,-1.3466 3.4833,-0.6534 3.4833,-0.6535 0.5167,-1.3465 0.5167,-1.3466 3.4833,-0.6534 3.4833,-0.6535 0.5167,-1.3465 0.5167,-1.3466 3.4833,-0.6534 3.4833,-0.6535 0.4885,-1.273 0.4885,-1.273 2.8307,-0.7066 2.8308,-0.7066 1.5,-1.3038 1.5,-1.3038 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2634 1.5,-1.2634 2.5,-0.7366 2.5,-0.7366 1.5,-1.2297 1.5,-1.2297 1.6522,-0.5831 1.6523,-0.5831 0.5757,0.5757 0.5757,0.5757 18.272,0.2736 18.2721,0.2735 v 0.1797 0.1796 l 18.5,0.1801 18.5,0.18 1.1661,0.7293 1.1661,0.7293 2.5485,-0.9689 2.5485,-0.969 0.6306,1.0204 0.6306,1.0203 3.1548,-0.6863 3.1548,-0.6863 17.7768,-8.8909 17.7768,-8.8909 2.5186,2.5186 2.5187,2.5187 h 1.1041 1.1042 l 34.6004,17.3285 34.6004,17.3285 2,1.1111 2,1.1111 2.7163,0.571 2.7163,0.571 0.2837,10.2394 0.2837,10.2394 60.5,58.8972 60.5,58.8971 2.2903,2.1659 2.2904,2.1659 -0.5659,1.4746 -0.5658,1.4746 -15.9745,7.9374 -15.9745,7.9374 v 1.7546 1.7547 l -4,2.0406 -4,2.0406 -0.014,5.2297 -0.014,5.2297 -0.023,141.5196 -0.023,141.5196 -207.4636,103.7304 -207.4637,103.7304 -1.2493,-0.056 z M 8975.25,3852.936 8976,3853 v -2.9743 -2.9743 l -2.9503,-1.5257 -2.9504,-1.5257 H 8969.0497 8968 v 2.8186 2.8185 l 3.25,1.6175 3.25,1.6175 0.75,0.064 z m 97.2161,0.064 h 0.466 l 3.534,-1.6852 3.5339,-1.6852 V 3846.8148 3844 h -1.0497 -1.0496 l -2.9504,1.5257 -2.9503,1.5257 v 2.9743 V 3853 Z M 8964,3847 h 1.3333 l -0.6666,-0.6667 -0.6667,-0.6666 -0.6667,0.6666 -0.6666,0.6667 z m 120,0 h 1.3333 l -0.6666,-0.6667 -0.6667,-0.6666 -0.6667,0.6666 -0.6666,0.6667 z m -109.25,-4.04 1.25,0.04 v -3.4743 -3.4743 l -2.9503,-1.5257 -2.9504,-1.5257 H 8969.0497 8968 v 3.4681 3.468 l 2.75,1.4919 2.75,1.4919 1.25,0.04 z m 98.2997,0.04 h 1.0496 l 2.9504,-1.5257 2.9503,-1.5257 V 3836.4743 3833 h -1.0497 -1.0496 l -2.9504,1.5257 -2.9503,1.5257 v 3.4743 3.4743 z m -169.873,-18.04 0.6767,0.04 0.3233,-1.6657 0.3233,-1.6657 -0.3522,-4.3538 -0.3523,-4.3539 -1.9759,-1.0574 -1.9759,-1.0575 -1.4218,0.5456 -1.4219,0.5456 v 4.9995 4.9994 l 2.75,1.4919 2.75,1.4919 0.6767,0.04 z m 64.5104,-3.1983 0.4551,-1.7384 -0.4349,-2.2616 -0.4349,-2.2617 -0.02,4 -0.02,4 0.4551,-1.7383 z m 113,0 0.4551,-1.7384 -0.4349,-2.2616 -0.4349,-2.2617 -0.02,4 -0.02,4 0.4551,-1.7383 z m -199.4371,-7.8059 0.75,0.044 v -5.4064 -5.4064 l -1.9243,0.5032 -1.9242,0.5032 -1.6014,-3.0968 -1.6015,-3.0968 H 8873.9743 8873 v 5.9761 5.9761 l 3.75,1.9797 3.75,1.9797 0.75,0.044 z m 22.6353,-3.5077 0.4779,-0.4779 -0.2655,-5.7351 -0.2654,-5.7351 -0.3232,-0.3237 -0.3232,-0.3238 -3.093,1.5994 -3.0929,1.5995 v 2.989 2.989 l 3.2037,1.9483 3.2037,1.9483 z M 9168.4661,3805 h 0.466 l 3.534,-1.6852 3.5339,-1.6852 V 3798.8148 3796 h -1.0497 -1.0496 l -2.9504,1.5257 -2.9503,1.5257 v 2.9743 2.9743 z m -286.7161,-6.0439 0.25,0.044 v -6.4797 -6.4797 l -3.9602,-2.0203 -3.9601,-2.0203 H 8873.5398 8873 v 7 7 l 0.25,0.015 0.25,0.015 4,1.4411 4,1.441 0.25,0.044 z M 9180,3799 h 1.3333 l -0.6666,-0.6667 -0.6667,-0.6666 -0.6667,0.6666 -0.6666,0.6667 z m -10.9503,-4 h 1.0496 l 2.9504,-1.5257 2.9503,-1.5257 V 3788.4743 3785 h -1.0497 -1.0496 l -2.9504,1.5257 -2.9503,1.5257 v 3.4743 3.4743 z m 7.6374,-21.2383 0.4551,-1.7384 -0.4349,-2.2616 -0.4349,-2.2617 -0.02,4 -0.02,4 0.4551,-1.7383 z M 9264.4661,3757 h 0.466 l 3.534,-1.6852 3.5339,-1.6852 V 3750.8148 3748 h -1.0497 -1.0496 l -2.9504,1.5257 -2.9503,1.5257 v 2.9743 V 3757 Z M 9276,3751 h 1.3333 l -0.6666,-0.6667 -0.6667,-0.6666 -0.6667,0.6666 -0.6666,0.6667 z m -10.9503,-4 h 1.0496 l 2.9504,-1.5257 2.9503,-1.5257 V 3740.4743 3737 h -1.0497 -1.0496 l -2.9504,1.5257 -2.9503,1.5257 v 3.4743 V 3747 Z M 8974.25,3734.936 8975,3735 v -2.9743 -2.9743 l -2.9503,-1.5257 -2.9504,-1.5257 H 8968.0497 8967 v 2.8186 2.8185 l 3.25,1.6175 3.25,1.6175 0.75,0.064 z m 99.2161,0.064 h 0.466 l 3.534,-1.6852 3.5339,-1.6852 V 3728.8148 3726 h -1.0497 -1.0496 l -2.9504,1.5257 -2.9503,1.5257 v 2.9743 2.9743 z m -110.7161,-6.0153 1.25,0.015 v -2 -2 l -1.25,0.015 -1.25,0.015 -1.5,0.9847 -1.5,0.9847 1.5,0.9847 1.5,0.9847 1.25,0.015 z m 122.5,0 1.25,-0.015 1.5,-0.9847 1.5,-0.9847 -1.5,-0.9847 -1.5,-0.9847 -1.25,-0.015 -1.25,-0.015 v 2 2 l 1.25,-0.015 z m 187.4371,-3.223 0.4551,-1.7384 -0.4349,-2.2616 -0.4349,-2.2617 -0.02,4 -0.02,4 0.4551,-1.7383 z M 8973.75,3724.96 8975,3725 v -3.5147 -3.5147 l -3.1793,-1.9335 -3.1794,-1.9334 -0.8206,0.5071 -0.8207,0.5072 v 3.4091 3.409 l 2.75,1.4919 2.75,1.4919 1.25,0.04 z m 100.2997,0.04 h 1.0496 l 2.9504,-1.5257 2.9503,-1.5257 v -3.4153 -3.4153 l -0.8207,-0.5072 -0.8206,-0.5071 -3.1794,1.9334 -3.1793,1.9335 v 3.5147 3.5147 z m -99.2997,-15.0304 1.25,0.03 v -3 -3 h -0.4529 -0.453 l -2.547,1.1605 -2.5471,1.1605 v 0.7898 0.7898 l 1.75,1.0193 1.75,1.0193 1.25,0.03 z m 98.2997,0.03 h 1.0496 l 2.9504,-1.5257 2.9503,-1.5257 v -3.9743 -3.9743 h -0.4661 -0.466 l -3.534,1.6852 -3.5339,1.6852 v 3.8148 3.8148 z m -0.5836,-11 h 0.466 l 3.534,-1.6852 3.5339,-1.6852 v -3.8148 -3.8148 h -0.632 -0.6319 l -3.3681,2.0816 -3.368,2.0815 v 3.4185 3.4184 z m 97,-12 h 0.466 l 3.534,-1.6852 3.5339,-1.6852 v -2.8148 -2.8148 h -1.0497 -1.0496 l -2.9504,1.5257 -2.9503,1.5257 v 2.9743 2.9743 z m 11.7839,-6.0153 1.25,-0.015 1.5,-0.9847 1.5,-0.9847 -1.5,-0.9847 -1.5,-0.9847 -1.25,-0.015 -1.25,-0.015 v 2 2 l 1.25,-0.015 z m -100.5607,-3.2347 0.4573,-1.75 -0.4573,-1.75 -0.4573,-1.75 v 3.5 3.5 z m 89.3604,-0.75 h 1.0496 l 2.9504,-1.5257 2.9503,-1.5257 v -3.4153 -3.4153 l -0.8207,-0.5072 -0.8206,-0.5071 -3.1794,1.9334 -3.1793,1.9335 v 3.5147 3.5147 z m -1,-15 h 1.0496 l 2.9504,-1.5257 2.9503,-1.5257 v -3.9743 -3.9743 h -0.4661 -0.466 l -3.534,1.6852 -3.5339,1.6852 v 3.8148 3.8148 z m -0.5836,-11 h 0.466 l 3.534,-1.6852 3.5339,-1.6852 v -3.8148 -3.8148 h -0.632 -0.6319 l -3.3681,2.0816 -3.368,2.0815 v 3.4185 3.4184 z m 8.1381,-20.2708 0.6041,-0.6042 -0.5252,-1.3125 -0.5252,-1.3125 -0.079,1.9167 -0.079,1.9166 0.6042,-0.6041 z" />
+</svg>
+		<div id="float3" class="over">
+			<button onclick="Scroll_To_Middle();">Focus on town square</button>
+			<p id="level">Zoom Level: 1</p>
+			<div><img class="zoom" src="icon_zoom_out.svg" onclick="Zoom_Out();"/><img class="zoom" src="icon_zoom_in.svg" onclick="Zoom_In();"/></div>
+			<div><img id="crose" src="icon_compass.svg"/></div>
+		</div>
+		<img id="cross" src="icon_crosshairs.png"/>
+		<footer id="float2" class="over">
+			<p>Datsville content is licensed under CC BY-SA 4.0 or later. Datsville software is licensed under GNU LGPL 3.0 or later. Return to <a href="https://github.com/mjhorvath/Datsville/wiki/Home">Datsville wiki</a>. This document was last modifed on <span id="lastmod"></span>.</p>
+		</footer>
+	</body>
+</html>

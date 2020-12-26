@@ -1,0 +1,93 @@
+0 FILE building_033_telephoneexchange.ldr
+0 Datsville Phone Company Exchange
+0 Name: building_033_telephoneexchange.ldr
+0 Author: Jonathan Wilson
+0 Was: tphoneco.dat
+0 Source: http://news.lugnet.com/cad/dat/models/?n=680
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 10 -120 -90 0 0 1 0 1 0 -1 0 0 73436.dat
+1 15 90 -120 -40 0 0 1 0 1 0 -1 0 0 3754.dat
+1 15 90 -120 50 0 0 1 0 1 0 -1 0 0 3755.dat
+1 15 40 -120 90 1 0 0 0 1 0 0 0 1 3754.dat
+1 15 -50 -120 90 1 0 0 0 1 0 0 0 1 3755.dat
+1 15 -90 -120 40 0 0 1 0 1 0 -1 0 0 3754.dat
+1 15 -90 -120 -50 0 0 1 0 1 0 -1 0 0 3755.dat
+1 15 -30 -120 -90 1 0 0 0 1 0 0 0 1 3755.dat
+1 15 -80 -120 -90 1 0 0 0 1 0 0 0 1 2454.dat
+1 15 -40 -24 60 1 0 0 0 1 0 0 0 1 3001.dat
+1 15 -40 -48 60 1 0 0 0 1 0 0 0 1 3001.dat
+1 15 -40 -72 60 1 0 0 0 1 0 0 0 1 3001.dat
+1 15 40 -72 60 1 0 0 0 1 0 0 0 1 3001.dat
+1 15 40 -48 60 1 0 0 0 1 0 0 0 1 3001.dat
+1 15 40 -24 60 1 0 0 0 1 0 0 0 1 3001.dat
+1 15 0 -96 60 1 0 0 0 1 0 0 0 1 3001.dat
+1 15 -60 -24 0 0 0 1 0 1 0 -1 0 0 3001.dat
+1 15 -60 -48 0 0 0 1 0 1 0 -1 0 0 3001.dat
+1 15 0 -128 -40 1 0 0 0 1 0 0 0 1 3033.dat
+1 15 0 -128 60 1 0 0 0 1 0 0 0 1 3030.dat
+1 15 40 -248 90 1 0 0 0 1 0 0 0 1 3754.dat
+1 15 90 -248 -40 0 0 1 0 1 0 -1 0 0 3754.dat
+1 15 -40 -248 -90 -1 0 0 0 1 0 0 0 -1 3754.dat
+1 15 -90 -248 40 0 0 1 0 1 0 -1 0 0 3754.dat
+1 15 -50 -248 90 1 0 0 0 1 0 0 0 1 3755.dat
+1 15 -90 -248 -50 0 0 1 0 1 0 -1 0 0 3755.dat
+1 15 50 -248 -90 1 0 0 0 1 0 0 0 1 3755.dat
+1 15 90 -248 50 0 0 1 0 1 0 -1 0 0 3755.dat
+0 
+1 15 0 -128 10 1 0 0 0 1 0 0 0 1 building_033_desk.ldr
+0 
+1 15 0 -256 -40 1 0 0 0 1 0 0 0 1 3033.dat
+1 15 0 -256 60 1 0 0 0 1 0 0 0 1 3030.dat
+1 15 -10 -280 10 1 0 0 0 1 0 0 0 1 3144.dat
+0 
+1 15 60 -256 0 1 0 0 0 1 0 0 0 1 building_033_dishb.ldr
+0 
+1 15 60 -286 -10 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 building_033_dish.ldr
+1 25 0 -280 -90 1 0 0 0 1 0 0 0 1 3009.dat
+1 25 0 -304 -90 1 0 0 0 1 0 0 0 1 3009.dat
+1 25 0 -328 -90 1 0 0 0 1 0 0 0 1 3009.dat
+0
+0 FILE building_033_desk.ldr
+0 Minifig Desk
+0 Name: building_033_desk.ldr
+0 Author: Jonathan Wilson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 50 -24 0 0 0 1 0 1 0 -1 0 0 3622.dat
+1 15 50 -48 10 0 0 1 0 1 0 -1 0 0 3004.dat
+1 15 -40 -48 10 0 0 1 0 1 0 -1 0 0 3003.dat
+1 15 -40 -24 0 0 0 1 0 1 0 -1 0 0 3002.dat
+1 15 0 -48 -20 1 0 0 0 1 0 0 0 1 3009.dat
+1 15 0 -56 -10 1 0 0 0 1 0 0 0 1 3795.dat
+1 15 0 -56 20 1 0 0 0 1 0 0 0 1 3666.dat
+0 
+0
+0 FILE building_033_dish.ldr
+0 Sattelite Dish
+0 Name: building_033_dish.ldr
+0 Author: Jonathan Wilson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -10 0 1 0 0 0 1 0 0 0 1 6134.dat
+1 0 0 10 30 -1 0 0 0 0 1 0 1 0 3956.dat
+1 15 0 10 38 1 0 0 0 0 -1 0 1 0 4285b.dat
+1 15 0 10 45 -1 0 0 0 0 1 0 1 0 4740.dat
+1 15 0 10 53 1 0 0 0 0 1 0 -1 0 4095.dat
+0 
+0
+0 FILE building_033_dishb.ldr
+0 Sattelite Dish Base
+0 Name: building_033_dishb.ldr
+0 Author: Jonathan Wilson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -8 0 0 0 -1 0 1 0 1 0 0 3680.dat
+1 7 0 -8 0 0 0 -1 0 1 0 1 0 0 3679.dat
+1 0 0 -16 0 0 0 -1 0 1 0 1 0 0 3022.dat
+1 15 0 -40 -10 1 0 0 0 1 0 0 0 1 3937.dat

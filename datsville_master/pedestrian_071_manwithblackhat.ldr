@@ -1,0 +1,33 @@
+0 Staaendende tilskuer til arenaen
+0 Name: pedestrian_071_manwithblackhat.ldr
+0 Author: Jacob Sparre Andersen
+0 Date: July 2005
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 legs & hip
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 0 -28 1 1 0 0 0 1 0 0 0 1 3817.dat
+1 4 0 -28 1 1 0 0 0 1 0 0 0 1 3816.dat
+1 4 0 -40 1 1 0 0 0 1 0 0 0 1 3815.dat
+0 torso
+1 4 0 -72 1 1 0 0 0 1 0 0 0 1 973.dat
+0 head
+0 1 14 0 -98 0 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 14 0 -96 1 1 0 0 0 1 0 0 0 1 3626bp01.dat
+0 hat
+0 1 4 0 -98 0 1 0 0 0 1 0 0 0 1 19.dat
+1 0 0 -98 1 1 0 0 0 1 0 0 0 1 3629.dat
+0 airtank
+0 1 2 0 -74 0 1 0 0 0 1 0 0 0 1 3838.dat
+0 arms
+1 4 0 -64 1 1 0 0 0 1 0 0 0 1 975.dat
+1 4 0 -64 1 1 0 0 0 1 0 0 0 1 976.dat
+0 hands
+1 14 -23 -44 -14.5 0 0 1 -0.707 0.707 0 0.707 0.707 0 977.dat
+1 14 23 -44 -14.5 0 0 1 -0.707 0.707 0 0.707 0.707 0 977.dat
+0

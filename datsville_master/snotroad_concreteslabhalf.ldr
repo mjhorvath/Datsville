@@ -1,0 +1,41 @@
+0 SNOT road element
+0 Name: snotroad_concreteslabhalf.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 6 0 48 160 1 0 0 0 1 0 0 0 1 3857.dat
+1 72 -160 0 160 0 0 -1 0 1 0 1 0 0 44041.dat
+1 72 160 0 160 0 0 -1 0 1 0 1 0 0 44041.dat
+1 72 260 0 240 0 0 -1 0 1 0 1 0 0 3007.dat
+1 72 260 0 80 0 0 -1 0 1 0 1 0 0 3007.dat
+1 72 -260 0 240 0 0 -1 0 1 0 1 0 0 3007.dat
+1 72 -260 0 80 0 0 -1 0 1 0 1 0 0 3007.dat
+1 72 0 0 160 0 0 -1 0 1 0 1 0 0 44041.dat
+0 SNOT road element
+0 Name: snotroad_concreteslab.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+1 72 -80 24 160 0 0 -1 0 1 0 1 0 0 44041.dat
+1 72 80 24 160 0 0 -1 0 1 0 1 0 0 44041.dat
+1 72 220 24 80 -1 0 0 0 1 0 0 0 -1 44042.dat
+1 72 240 24 10 1 0 0 0 1 0 0 0 1 snotroad_connectormale.ldr
+1 72 240 24 310 -1 0 0 0 1 0 0 0 -1 snotroad_connectorfemale.ldr
+1 72 240 24 30 1 0 0 0 1 0 0 0 1 3010.dat
+1 72 240 24 290 1 0 0 0 1 0 0 0 1 3010.dat
+1 72 180 24 20 1 0 0 0 1 0 0 0 1 3003.dat
+1 72 180 24 300 1 0 0 0 1 0 0 0 1 3003.dat
+1 72 -240 24 10 1 0 0 0 1 0 0 0 1 snotroad_connectorfemale.ldr
+1 72 -240 24 30 -1 0 0 0 1 0 0 0 -1 3010.dat
+1 72 -180 24 20 -1 0 0 0 1 0 0 0 -1 3003.dat
+1 72 -240 24 310 -1 0 0 0 1 0 0 0 -1 snotroad_connectormale.ldr
+1 72 -240 24 290 -1 0 0 0 1 0 0 0 -1 3010.dat
+1 72 -180 24 300 -1 0 0 0 1 0 0 0 -1 3003.dat
+1 72 220 24 160 -1 0 0 0 1 0 0 0 -1 44042.dat
+1 72 220 24 240 -1 0 0 0 1 0 0 0 -1 44042.dat
+1 72 -220 24 80 -1 0 0 0 1 0 0 0 -1 44042.dat
+1 72 -220 24 160 -1 0 0 0 1 0 0 0 -1 44042.dat
+1 72 -220 24 240 -1 0 0 0 1 0 0 0 -1 44042.dat
+0

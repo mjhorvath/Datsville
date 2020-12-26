@@ -1,0 +1,23 @@
+0 Minifig Waving
+0 Name: pedestrian_004_sleevelesswaving.ldr
+0 Author: John VanZwieten
+0 Was: tmmwave.dat
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 legs & hip
+1 6 0 -28 1 1 0 0 0 1 0 0 0 1 3817.dat
+1 6 0 -28 1 1 0 0 0 1 0 0 0 1 3816.dat
+1 6 0 -40 1 1 0 0 0 1 0 0 0 1 3815.dat
+0 torso
+1 15 0 -72 1 1 0 0 0 1 0 0 0 1 973.dat
+0 head
+1 14 0 -96 1 1 0 0 0 1 0 0 0 1 3626bp01.dat
+0 // Arms & Hands
+1 14 -15.552 -64 1 0.9859 -0.17 0 0.17 0.9859 0 0 0 1 3818.dat
+1 14 -23.6943 -46.2157 -8.9 0.9859 -0.1202 0.1202 0.17 0.6972 -0.6972 0 0.7071 0.7071 3820.dat
+1 14 15.552 -64 1 0.9859 0.17 0 0.0581 -0.3372 0.94 0.1598 -0.9267 -0.342 3819.dat
+1 14 23.6943 -79.3882 -12.3314 0.9859 0.1202 -0.1202 0.0581 0.4262 0.9031 0.1598 -0.8972 0.4135 3820.dat
+
+0

@@ -1,0 +1,177 @@
+0 FILE building_070_bikerack.ldr
+0 Bicycle Rack
+0 Name: building_070_bikerack.ldr
+0 Author: Jacob Sparre Andersen
+0 Was: vej_med_træ.mpd
+0 Date: December 2008
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 TITLE        Cykelsti
+0 DESCRIPTION  Cykelsti med cykelstativ, et tr� og en busk.  En del af min julekalender til Jasmin i 2008.
+0 DESIGN       Jacob Sparre Andersen, december 2008
+0 DRAWING      Jacob Sparre Andersen, december 2008
+0 KEYWORDS     cykelsti, cykelstativ, cykelskur
+0 LICENSE      The Beer-Ware License (Revision 42)
+0 WEB-PAGE     http://lego.sparre-andersen.dk/Julekalender/2008/04/
+0 ILLUSTRATION http://lego.sparre-andersen.dk/Julekalender/2008/04/illustration
+0 TITLE       Micro-scale tree
+0 DESCRIPTION Micro-scale tree from page 15 in the instructions for set 4886.  This model was a part of my advent calendar for Jasmin in 2005.
+0 DESIGN      The LEGO Group
+0 DRAWING     Jacob Sparre Andersen <sparre@nbi.dk>, December 2005
+0 
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 STEP
+
+0 STEP
+
+0 STEP
+
+0 STEP
+
+0 STEP
+
+0 STEP
+
+0 STEP
+
+1 70 -130 -120 220 1 0 0 0 1 0 0 0 1 2453.dat
+0 STEP
+
+1 2 -130 -128 220 1 0 0 0 1 0 0 0 1 building_070_tri.ldr
+0 STEP
+
+1 2 320 0 70 0 0 1 0 1 0 -1 0 0 building_070_busk.ldr
+0 STEP
+
+1 4 50 -120 -260 1 0 0 0 1 0 0 0 1 2453.dat
+1 4 150 -120 -260 1 0 0 0 1 0 0 0 1 2453.dat
+1 4 50 -120 -120 1 0 0 0 1 0 0 0 1 2453.dat
+1 4 150 -120 -120 1 0 0 0 1 0 0 0 1 2453.dat
+0 STEP
+
+1 4 136 -20 -160 0 1 0 -1 0 0 0 0 1 2412b.dat
+1 4 136 -20 -180 0 1 0 -1 0 0 0 0 1 2412b.dat
+1 4 136 -20 -200 0 1 0 -1 0 0 0 0 1 2412b.dat
+1 4 136 -20 -220 0 1 0 -1 0 0 0 0 1 2412b.dat
+0 STEP
+
+1 4 100 -128 -190 0 0 1 0 1 0 -1 0 0 3036.dat
+0 STEP
+
+0
+0 FILE building_070_tri.ldr
+0 Tree from page 15 in the instructions for set 4886.
+0 Name: building_070_tri.ldr
+0 Author: Jacob Sparre Andersen <sparre@nbi.dk>, December 2005
+0 Unofficial Model
+0 TITLE       Tree from page 15 in the instructions for set 4886.
+0 DESIGN      The LEGO Group
+0 DRAWING     Jacob Sparre Andersen <sparre@nbi.dk>, December 2005
+0 
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+
+
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 2 0 0 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+
+1 2 -10 -24 -10 1 0 0 0 1 0 0 0 1 3665.dat
+1 2 10 -24 -10 0 0 -1 0 1 0 1 0 0 3665.dat
+1 2 -10 -24 10 0 0 1 0 1 0 -1 0 0 3665.dat
+1 2 10 -24 10 -1 0 0 0 1 0 0 0 -1 3665.dat
+0 STEP
+
+1 2 0 -32 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 STEP
+
+1 2 0 -32 30 1 0 0 0 1 0 0 0 1 3023.dat
+1 2 0 -32 -30 1 0 0 0 1 0 0 0 1 3023.dat
+0 STEP
+
+1 2 0 -56 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 STEP
+
+1 2 -30 -56 -10 1 0 0 0 1 0 0 0 1 3040b.dat
+1 2 10 -56 -30 0 0 -1 0 1 0 1 0 0 3040b.dat
+1 2 30 -56 10 -1 0 0 0 1 0 0 0 -1 3040b.dat
+1 2 -10 -56 30 0 0 1 0 1 0 -1 0 0 3040b.dat
+0 STEP
+
+1 2 -10 -80 -10 1 0 0 0 1 0 0 0 1 3040b.dat
+1 2 10 -80 -10 0 0 -1 0 1 0 1 0 0 3040b.dat
+1 2 10 -80 10 -1 0 0 0 1 0 0 0 -1 3040b.dat
+1 2 -10 -80 10 0 0 1 0 1 0 -1 0 0 3040b.dat
+0 STEP
+
+1 2 0 -88 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+
+0 front-right-below
+1 2 -30 -24 -10 1 0 0 0 1 0 0 0 1 3665.dat
+1 2 10 -24 -30 0 0 -1 0 1 0 1 0 0 3665.dat
+1 2 -10 -24 30 0 0 1 0 1 0 -1 0 0 3665.dat
+1 2 30 -24 10 -1 0 0 0 1 0 0 0 -1 3665.dat
+0 STEP
+
+0
+0 FILE building_070_busk.ldr
+0 Bush
+0 Name: building_070_busk.ldr
+0 Author: Jacob Sparre Andersen <sparre@nbi.dk>, December 2005
+0 Unofficial Model
+0 TITLE       Bush
+0 DESCRIPTION Minifig scale bush from set 4886.  This model was a part of my advent calendar for Jasmin in 2005.
+0 DESIGN      The LEGO Group
+0 DRAWING     Jacob Sparre Andersen <sparre@nbi.dk>, December 2005
+0 
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 6 -120 -8 -250 0 0 1 0 1 0 -1 0 0 3021.dat
+1 6 -80 -8 -240 0 0 1 0 1 0 -1 0 0 3020.dat
+0 STEP
+
+1 6 -20 -8 -260 1 0 0 0 1 0 0 0 1 3020.dat
+1 6 -30 -8 -220 1 0 0 0 1 0 0 0 1 3021.dat
+0 STEP
+
+1 2 -60 -16 -240 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+
+1 2 -50 -40 -250 1 0 0 0 1 0 0 0 1 3665.dat
+1 2 -70 -40 -250 1 0 0 0 1 0 0 0 1 3665.dat
+1 2 -50 -40 -230 -1 0 0 0 1 0 0 0 -1 3665.dat
+1 2 -70 -40 -230 -1 0 0 0 1 0 0 0 -1 3665.dat
+0 STEP
+
+1 2 -60 -64 -240 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 STEP
+
+1 27 -60 -64 -270 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 27 -60 -64 -210 -1 0 0 0 1 0 0 0 -1 3004.dat
+0 STEP
+
+1 2 -50 -88 -250 0 0 -1 0 1 0 1 0 0 3040b.dat
+1 2 -50 -88 -230 -1 0 0 0 1 0 0 0 -1 3040b.dat
+1 2 -70 -88 -250 1 0 0 0 1 0 0 0 1 3040b.dat
+1 2 -70 -88 -230 0 0 1 0 1 0 -1 0 0 3040b.dat
+0 STEP
+
+0 
+0 
+0
+0

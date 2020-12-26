@@ -1,0 +1,324 @@
+0 FILE building_088_fighterjethangar.ldr
+0 Hangar with Colibri
+0 Name: building_088_fighterjethangar.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 DESCRIPTION Airport scene with Colibri parked in a hangar. This model was put together to demonstrate some concepts in testing of 3D displays.
+0 KEYWORDS moc, town, transportation, aircraft, comics, scenes, buildings
+0 LICENSE The Beer-Ware License (Revision 42)
+0 WEB-PAGE     http://lego.sparre-andersen.dk/Transport/Fly/Hangar_med_Colibri/
+0 ILLUSTRATION http://lego.sparre-andersen.dk/Transport/Fly/Hangar_med_Colibri/illustration.jpeg
+0 
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 STEP
+0 
+1 7 0 -8 10 -1 0 0 0 1 0 0 0 -1 building_088_lagerhal.ldr
+0 STEP
+0
+0 FILE building_088_lagerhal.ldr
+0 Warehouse
+0 Name: building_088_lagerhal.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 building_088_baerende.ldr
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 building_088_vaegge.ldr
+
+1 4 0 -312 300 1 0 0 0 1 0 0 0 1 building_088_portopha.ldr
+1 4 0 -312 -280 -1 0 0 0 1 0 0 0 -1 building_088_portopha.ldr
+
+1 4 -240 -312 300 1 0 0 0 1 0 0 0 1 building_088_h-doer.ldr
+1 4 240 -312 300 1 0 0 0 1 0 0 0 1 building_088_v-doer.ldr
+
+1 4 0 -312 -280 -1 0 0 0 1 0 0 0 -1 building_088_h-doer.ldr
+1 4 0 -312 -280 -1 0 0 0 1 0 0 0 -1 building_088_v-doer.ldr
+0
+0 FILE building_088_baerende.ldr
+0 Structure
+0 Name: building_088_baerende.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -300 0 300 1 0 0 0 1 0 0 0 1 building_088_h-soejle.ldr
+1 16 -300 0 0 1 0 0 0 1 0 0 0 1 building_088_v-soejle.ldr
+1 16 -300 0 -300 1 0 0 0 1 0 0 0 1 building_088_v-soejle.ldr
+
+1 16 300 0 320 -1 0 0 0 1 0 0 0 -1 building_088_v-soejle.ldr
+1 16 300 0 20 -1 0 0 0 1 0 0 0 -1 building_088_h-soejle.ldr
+1 16 300 0 -280 -1 0 0 0 1 0 0 0 -1 building_088_h-soejle.ldr
+
+1 16 0 -312 300 1 0 0 0 1 0 0 0 1 building_088_overligg.ldr
+1 16 0 -312 20 -1 0 0 0 1 0 0 0 -1 building_088_overligg.ldr
+1 16 0 -312 -280 -1 0 0 0 1 0 0 0 -1 building_088_overligg.ldr
+0
+0 FILE building_088_vaegge.ldr
+0 Walls
+0 Name: building_088_vaegge.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -318 -22 320 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -22 320 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -318 -122 320 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -122 320 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -318 -242 320 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -242 320 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -318 -302 320 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -302 320 0 1 0 -1 0 0 0 0 1 3023.dat
+
+1 0 -318 -22 0 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -22 0 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -318 -122 0 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -122 10 0 1 0 -1 0 0 0 0 1 3022.dat
+1 0 -318 -242 0 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -242 10 0 1 0 -1 0 0 0 0 1 3022.dat
+1 0 -318 -302 0 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -302 0 0 1 0 -1 0 0 0 0 1 3023.dat
+
+1 0 -318 -22 -300 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -22 -300 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -318 -122 -300 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -122 -300 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -318 -242 -300 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -242 -300 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -318 -302 -300 0 1 0 -1 0 0 0 0 1 3023.dat
+1 0 -326 -302 -300 0 1 0 -1 0 0 0 0 1 3023.dat
+
+1 0 -334 -62 170 0 1 0 0 0 -1 1 0 0 3027.dat
+1 0 -334 -62 -150 0 1 0 0 0 -1 1 0 0 3027.dat
+
+1 0 -334 -182 170 0 1 0 0 0 -1 1 0 0 3027.dat
+1 0 -334 -182 -150 0 1 0 0 0 -1 1 0 0 3027.dat
+
+1 4 -334 -282 230 0 1 0 0 0 -1 1 0 0 3030.dat
+1 4 -326 -282 130 0 1 0 0 0 -1 1 0 0 3022.dat
+1 4 -334 -282 10 0 1 0 0 0 -1 1 0 0 3029.dat
+1 4 -326 -282 -110 0 1 0 0 0 -1 1 0 0 3022.dat
+1 4 -334 -282 -210 0 1 0 0 0 -1 1 0 0 3030.dat
+
+1 0 318 -22 320 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -22 320 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 318 -122 320 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -122 320 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 318 -242 320 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -242 320 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 318 -302 320 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -302 320 0 -1 0 -1 0 0 0 0 -1 3023.dat
+
+1 0 318 -22 0 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -22 0 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 318 -122 0 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -122 10 0 -1 0 -1 0 0 0 0 -1 3022.dat
+1 0 318 -242 0 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -242 10 0 -1 0 -1 0 0 0 0 -1 3022.dat
+1 0 318 -302 0 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -302 0 0 -1 0 -1 0 0 0 0 -1 3023.dat
+
+1 0 318 -22 -300 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -22 -300 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 318 -122 -300 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -122 -300 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 318 -242 -300 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -242 -300 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 318 -302 -300 0 -1 0 -1 0 0 0 0 -1 3023.dat
+1 0 326 -302 -300 0 -1 0 -1 0 0 0 0 -1 3023.dat
+
+1 0 334 -62 170 0 -1 0 0 0 1 1 0 0 3027.dat
+1 0 334 -62 -150 0 -1 0 0 0 1 1 0 0 3027.dat
+
+1 0 334 -182 170 0 -1 0 0 0 1 1 0 0 3027.dat
+1 0 334 -182 -150 0 -1 0 0 0 1 1 0 0 3027.dat
+
+1 4 334 -282 230 0 -1 0 0 0 1 1 0 0 3030.dat
+1 4 326 -282 130 0 -1 0 0 0 1 1 0 0 3022.dat
+1 4 334 -282 10 0 -1 0 0 0 1 1 0 0 3029.dat
+1 4 326 -282 -110 0 -1 0 0 0 1 1 0 0 3022.dat
+1 4 334 -282 -210 0 -1 0 0 0 1 1 0 0 3030.dat
+0
+0 FILE building_088_portopha.ldr
+0 Door beam
+0 Name: building_088_portopha.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 220 24 10 1 0 0 0 1 0 0 0 1 3022.dat
+1 16 90 24 10 1 0 0 0 1 0 0 0 1 3021.dat
+1 16 0 24 10 1 0 0 0 1 0 0 0 1 3022.dat
+1 16 -90 24 10 1 0 0 0 1 0 0 0 1 3021.dat
+1 16 -220 24 10 1 0 0 0 1 0 0 0 1 3022.dat
+
+1 16 220 0 20 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 16 100 0 20 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 16 -100 0 20 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 16 -220 0 20 -1 0 0 0 1 0 0 0 -1 3660.dat
+
+1 16 220 -8 20 0 0 1 0 1 0 -1 0 0 3021.dat
+1 16 100 -8 20 0 0 1 0 1 0 -1 0 0 3021.dat
+1 16 0 -8 20 0 0 1 0 1 0 -1 0 0 3021.dat
+1 16 -100 -8 20 0 0 1 0 1 0 -1 0 0 3021.dat
+1 16 -220 -8 20 0 0 1 0 1 0 -1 0 0 3021.dat
+
+1 16 -160 -32 40 1 0 0 0 1 0 0 0 1 2465.dat
+1 16 160 -32 40 1 0 0 0 1 0 0 0 1 2465.dat
+
+1 16 -320 -40 40 1 0 0 0 1 0 0 0 1 4162.dat
+1 16 -160 -40 40 1 0 0 0 1 0 0 0 1 4162.dat
+1 16 0 -40 40 1 0 0 0 1 0 0 0 1 4162.dat
+1 16 160 -40 40 1 0 0 0 1 0 0 0 1 4162.dat
+1 16 320 -40 40 1 0 0 0 1 0 0 0 1 4162.dat
+
+1 16 -330 -32 40 0 0 1 0 1 0 -1 0 0 3665.dat
+1 16 330 -32 40 0 0 -1 0 1 0 1 0 0 3665.dat
+0
+0 FILE building_088_h-doer.ldr
+0 Right door
+0 Name: building_088_h-doer.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -60 -50 58 1 0 0 0 0 1 0 -1 0 3009.dat
+1 16 -200 -50 58 1 0 0 0 0 1 0 -1 0 3008.dat
+
+1 16 -20 -50 34 1 0 0 0 0 1 0 -1 0 3023.dat
+1 16 -120 -50 34 1 0 0 0 0 1 0 -1 0 3023.dat
+1 16 -220 -50 34 1 0 0 0 0 1 0 -1 0 3023.dat
+
+1 16 -20 -40 26 1 0 0 0 0 1 0 -1 0 3022.dat
+1 16 -120 -40 26 1 0 0 0 0 1 0 -1 0 3022.dat
+1 16 -220 -40 26 1 0 0 0 0 1 0 -1 0 3022.dat
+
+1 16 -10 -20 66 0 0 1 -1 0 0 0 -1 0 3710.dat
+1 16 -120 -20 66 0 0 1 -1 0 0 0 -1 0 3020.dat
+1 16 -240 -20 66 0 0 1 -1 0 0 0 -1 0 3020.dat
+
+1 0 -60 100 58 0 0 1 -1 0 0 0 -1 0 3028.dat
+1 0 -180 140 58 0 0 1 -1 0 0 0 -1 0 3027.dat
+1 0 -300 100 58 0 0 1 -1 0 0 0 -1 0 3028.dat
+
+1 0 -180 220 50 -1 0 0 0 0 -1 0 -1 0 3030.dat
+
+1 0 -60 260 58 -1 0 0 0 0 -1 0 -1 0 3032.dat
+1 0 -300 260 58 -1 0 0 0 0 -1 0 -1 0 3032.dat
+0
+0 FILE building_088_v-doer.ldr
+0 Left door
+0 Name: building_088_v-doer.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 60 -50 58 1 0 0 0 0 1 0 -1 0 3009.dat
+1 16 200 -50 58 1 0 0 0 0 1 0 -1 0 3008.dat
+
+1 16 20 -50 34 1 0 0 0 0 1 0 -1 0 3023.dat
+1 16 120 -50 34 1 0 0 0 0 1 0 -1 0 3023.dat
+1 16 220 -50 34 1 0 0 0 0 1 0 -1 0 3023.dat
+
+1 16 20 -40 26 1 0 0 0 0 1 0 -1 0 3022.dat
+1 16 120 -40 26 1 0 0 0 0 1 0 -1 0 3022.dat
+1 16 220 -40 26 1 0 0 0 0 1 0 -1 0 3022.dat
+
+1 16 10 -20 66 0 0 1 -1 0 0 0 -1 0 3710.dat
+1 16 120 -20 66 0 0 1 -1 0 0 0 -1 0 3020.dat
+1 16 240 -20 66 0 0 1 -1 0 0 0 -1 0 3020.dat
+
+1 0 60 60 58 0 0 1 -1 0 0 0 -1 0 3036.dat
+1 0 180 60 58 0 0 1 -1 0 0 0 -1 0 3036.dat
+1 0 300 60 58 0 0 1 -1 0 0 0 -1 0 3036.dat
+
+1 0 180 140 50 -1 0 0 0 0 -1 0 -1 0 3030.dat
+
+1 0 60 220 58 0 0 1 -1 0 0 0 -1 0 3036.dat
+1 0 180 220 58 0 0 1 -1 0 0 0 -1 0 3036.dat
+1 0 300 220 58 0 0 1 -1 0 0 0 -1 0 3036.dat
+0
+0 FILE building_088_h-soejle.ldr
+0 Column (right)
+0 Name: building_088_h-soejle.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -32 0 1 0 0 0 1 0 0 0 1 3700.dat
+1 16 0 -40 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -48 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -72 0 1 0 0 0 1 0 0 0 1 3700.dat
+
+1 0 0 -22 10 0 0 1 0 1 0 -1 0 0 4459.dat
+1 0 0 -62 10 0 0 1 0 1 0 -1 0 0 4459.dat
+
+1 16 -10 -162 20 0 1 0 -1 0 0 0 0 1 building_088_l-bjaelk.ldr
+0
+0 FILE building_088_v-soejle.ldr
+0 Column (left)
+0 Name: building_088_v-soejle.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 20 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -8 20 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -32 20 1 0 0 0 1 0 0 0 1 3700.dat
+1 16 0 -40 20 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -48 20 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -72 20 1 0 0 0 1 0 0 0 1 3700.dat
+
+1 0 0 -22 10 0 0 1 0 1 0 -1 0 0 4459.dat
+1 0 0 -62 10 0 0 1 0 1 0 -1 0 0 4459.dat
+
+1 16 -10 -162 0 0 1 0 -1 0 0 0 0 1 building_088_l-bjaelk.ldr
+0
+0 FILE building_088_overligg.ldr
+0 roof beam
+0 Name: building_088_overligg.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 20 1 0 0 0 1 0 0 0 1 3702.dat
+
+1 0 -60 10 10 0 0 1 0 1 0 -1 0 0 4459.dat
+1 0 -20 10 10 0 0 1 0 1 0 -1 0 0 4459.dat
+1 0 20 10 10 0 0 1 0 1 0 -1 0 0 4459.dat
+1 0 60 10 10 0 0 1 0 1 0 -1 0 0 4459.dat
+
+1 16 -160 0 0 1 0 0 0 1 0 0 0 1 3703.dat
+1 16 160 0 0 1 0 0 0 1 0 0 0 1 3703.dat
+
+1 0 -260 10 10 0 0 1 0 1 0 -1 0 0 4459.dat
+1 0 -300 10 10 0 0 1 0 1 0 -1 0 0 4459.dat
+1 0 260 10 10 0 0 1 0 1 0 -1 0 0 4459.dat
+1 0 300 10 10 0 0 1 0 1 0 -1 0 0 4459.dat
+0
+0 FILE building_088_l-bjaelk.ldr
+0 L-beam
+0 Name: building_088_l-bjaelk.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 3703.dat
+1 16 140 24 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 140 32 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 140 40 0 1 0 0 0 1 0 0 0 1 3700.dat
+0 NOFILE
+0 
+0 
+0 
+0 
+0 
+0
+0

@@ -1,0 +1,25 @@
+0 Man in Leather Jacket and Blue Jeans
+0 Name: pedestrian_069_darkjacketbluepants.ldr
+0 Author: Tim Gould
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 6 0 -97 1 1 0 0 0 1 0 0 0 1 3901.dat
+1 14 0 -96 1 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 0 0 -72 1 1 0 0 0 1 0 0 0 1 973p28.dat
+1 1 0 -40 1 1 0 0 0 1 0 0 0 1 3815.dat
+1 0 -15.552 -63 1 0.985 -0.17 0 0.17 0.985 0 0 0 1 3818.dat
+1 0 15.552 -63 1 0.985 0.17 0 -0.17 0.985 0 0 0 1 3819.dat
+1 14 -23.8634 -45.4044 -9.321 0.985 -0.12019 0.12019 0.17 0.696395 -0.696395 0 0.707 0.707 3820.dat
+1 14 23.8634 -45.4044 -9.321 0.985 0.12019 -0.12019 -0.17 0.696395 -0.696395 0 0.707 0.707 3820.dat
+1 1 0 -28 1 1 0 0 0 1 0 0 0 1 3816.dat
+1 1 0 -28 1 1 0 0 0 1 0 0 0 1 3817.dat
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0

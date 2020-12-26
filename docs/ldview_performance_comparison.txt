@@ -1,0 +1,83 @@
+System #1
+
+	Operating System
+		Windows XP Home Edition 32-bit SP3
+	CPU
+		AMD Sempron 3000+
+		Barton 0.13um Technology
+	RAM
+		2.00GB DDR @ 166MHz (2.5-5-3-7)
+	Motherboard
+		ASUSTek Computer INC. Kelut (Socket A)	60 °C
+	Graphics
+		E182H (1366x768@60Hz)
+		128MB NVIDIA GeForce4 Ti 4600 (Undefined)
+	Hard Drives
+		18.6GB Western Digital WDC WD200BB-75CAA0 (ATA)
+		75GB Western Digital WDC WD800JB-00JJC0 (ATA)	44 °C
+	Optical Drives
+		TSSTcorp CDDVDW SH-S202N
+	Audio
+		Realtek AC'97 Audio for VIA Audio Controller
+	LDView 4.1 - LDView Preset - Quality
+		building_007_firecompany.mpd		8-10 FPS
+		building_031_carriagehouse.mpd		12-15 FPS
+		building_009_miningfacility.mpd		20 FPS
+		building_052_newspaperoffice.mpd	20 FPS
+
+
+System #2
+
+	Operating System
+		Microsoft Windows 7 Home Premium 64-bit SP1
+	CPU
+		Intel Core 2 Duo E6600 @ 2.40GHz	36 °C
+		Conroe 65nm Technology
+	RAM
+		3.00GB Single-Channel DDR2 @ 333MHz (5-4-4-14)
+	Motherboard
+		eMachines EMCP73VT-PM (CPU 1)	26 °C
+	Graphics
+		ASUS VS247 (1920x1080@60Hz)
+		767MB GeForce GTX 460 (nVidia)	43 °C
+	Hard Drives
+		466GB Seagate ST350041 8AS SCSI Disk Device (SATA)	35 °C
+	Optical Drives
+		HL-DT-ST DVDRAM GH41N SCSI CdRom Device
+	Audio
+		High Definition Audio Device
+	LDView 4.1 - LDView Preset - Quality
+		building_007_firecompany.mpd		49-52 FPS
+		building_031_carriagehouse.mpd		60-67 FPS
+		building_009_miningfacility.mpd		150-175 FPS
+		building_052_newspaperoffice.mpd	100-120 FPS
+
+System #3
+
+	Operating System
+		Windows 7 Professional 64-bit SP1
+	CPU
+		AMD A8-5600K	80 °C
+		Trinity 32nm Technology
+	RAM
+		8.00GB Dual-Channel DDR3 @ 803MHz (11-11-12-28)
+	Motherboard
+		ASUSTeK COMPUTER INC. A78M-E (FM2+ )	44 °C
+	Graphics
+		ASUS VS247 (1920x1080@60Hz)
+		2047MB NVIDIA GeForce GTX 750 Ti (EVGA)	27 °C
+	Storage
+		931GB Western Digital WDC WD10 EZEX-08M2NA0 SATA Disk Device (SATA)	24 °C
+		111GB Patriot Blaze SATA Disk Device (SSD)	30 °C
+	Optical Drives
+		ASUS DRW-24B1ST i SATA CdRom Device
+	Audio
+		High Definition Audio Device
+	LDView 4.2 beta 1 - LDView Preset - Quality
+		building_007_firecompany.mpd		55-60 FPS
+		building_031_carriagehouse.mpd		45-55 FPS
+		building_009_miningfacility.mpd		60 FPS
+		building_052_newspaperoffice.mpd	60 FPS
+	LDView 4.2 - LDView Preset - Quality
+		building_007_firecompany.mpd		60 FPS
+		building_031_carriagehouse.mpd		45-55 FPS

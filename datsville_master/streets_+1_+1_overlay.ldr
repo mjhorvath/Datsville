@@ -1,0 +1,62 @@
+0 Datsville street sector
+0 Name: streets_+1_+1_overlay.ldr
+0 Author: Michael Horvath, John VanZwieten, Tore Eriksson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 4420 0 3260 1 0 0 0 1 0 0 0 1 infrastructure_streetsign_erikssonpkwy_6thst_a.ldr
+1 16 580 0 700 -1 0 0 0 1 0 0 0 -1 infrastructure_streetsign_vanzwietenblvd_gouldst_b.ldr
+1 16 2500 0 3260 1 0 0 0 1 0 0 0 1 infrastructure_streetsign_erikssonpkwy_5thst_a.ldr
+1 7 3520 0 960 0 0 1 0 1 0 -1 0 0 infrastructure_firehydrant_single.ldr
+1 7 2240 0 2240 -1 0 0 0 1 0 0 0 -1 infrastructure_firehydrant_single.ldr
+1 7 4160 0 2160 1 0 0 0 1 0 0 0 1 infrastructure_firehydrant_single.ldr
+1 7 1860 -14 3520 0 0 -1 0 1 0 1 0 0 infrastructure_signdetourleft.mpd
+1 7 480 0 3740 -1 0 0 0 1 0 0 0 -1 infrastructure_busstop.ldr
+1 7 320 0 320 -1 0 0 0 1 0 0 0 -1 infrastructure_trashcan_single.ldr
+1 7 320 0 320 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_pair.ldr
+1 7 320 0 320 1 0 0 0 1 0 0 0 1 infrastructure_trashcan_single.ldr
+1 7 60 0 640 1 0 0 0 1 0 0 0 1 infrastructure_signstopnorightturnnoentry.ldr
+1 7 580 0 640 1 0 0 0 1 0 0 0 1 infrastructure_signstopnorightturnnoentry.ldr
+1 7 960 0 960 0 0 -1 0 1 0 1 0 0 infrastructure_trashcan_single.ldr
+1 7 960 0 960 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 320 0 960 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_single.ldr
+1 7 1600 0 960 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 1600 0 960 0 0 1 0 1 0 -1 0 0 infrastructure_firehydrant_single.ldr
+1 7 2240 0 960 1 0 0 0 1 0 0 0 1 infrastructure_internoturndouble.ldr
+1 7 2500 0 1220 1 0 0 0 1 0 0 0 1 infrastructure_trafficlight_002_vanzwietenblv_a11.ldr
+1 7 1980 0 700 -1 0 0 0 1 0 0 0 -1 infrastructure_trafficlight_002_vanzwietenblv_b11.ldr
+1 7 4420 0 1220 1 0 0 0 1 0 0 0 1 infrastructure_trafficlight_002_vanzwietenblv_a11.ldr
+1 7 3900 0 700 -1 0 0 0 1 0 0 0 -1 infrastructure_trafficlight_002_vanzwietenblv_b11.ldr
+1 7 1980 0 1220 0 0 -1 0 1 0 1 0 0 infrastructure_trafficlight_014_5thst_a11.ldr
+1 7 3900 0 1220 0 0 -1 0 1 0 1 0 0 infrastructure_trafficlight_015_6thst_a11.ldr
+1 7 2240 0 320 1 0 0 0 1 0 0 0 1 infrastructure_trashcan_single.ldr
+1 7 2240 0 320 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 4160 0 960 1 0 0 0 1 0 0 0 1 infrastructure_internoturndouble.ldr
+1 7 4160 0 320 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 4800 0 960 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 3520 0 960 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 2880 0 960 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 2880 0 960 0 0 -1 0 1 0 1 0 0 infrastructure_mailbox_single.ldr
+1 7 4160 0 1600 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 1600 0 3520 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 960 0 3520 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_single.ldr
+1 7 960 0 3520 0 0 -1 0 1 0 1 0 0 infrastructure_firehydrant_single.ldr
+1 7 320 0 3520 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 4160 0 2240 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 4160 0 2880 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 4160 0 4160 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 4160 0 4160 -1 0 0 0 1 0 0 0 -1 infrastructure_mailbox_single.ldr
+1 7 2240 0 1600 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 2240 0 2240 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 2240 0 2880 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 2240 0 3520 0 0 1 0 1 0 -1 0 0 infrastructure_interstopdouble.ldr
+1 7 2240 0 3520 -1 0 0 0 1 0 0 0 -1 infrastructure_interstopsingleboth.ldr
+1 7 2240 0 3520 1 0 0 0 1 0 0 0 1 infrastructure_interstopsingle.ldr
+1 7 4160 0 3520 0 0 1 0 1 0 -1 0 0 infrastructure_interstopquad.ldr
+1 7 2880 0 3520 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 3520 0 3520 0 0 1 0 1 0 -1 0 0 infrastructure_firehydrant_single.ldr
+1 7 2900 0 3740 -1 0 0 0 1 0 0 0 -1 infrastructure_busstop.ldr
+1 7 3520 0 3520 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 4800 0 3520 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_pair.ldr
+0

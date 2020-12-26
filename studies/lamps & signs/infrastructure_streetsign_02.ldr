@@ -1,0 +1,12 @@
+0 Untitled
+0 Name: Untitled 2.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 2 50 -132 10 -1 0 0 0 0 -1 0 -1 0 2431.dat
+1 7 20 -132 2 0 0 1 -1 0 0 0 -1 0 61252.dat
+1 21 0 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 7 0 -8 0 1 0 0 0 1 0 0 0 1 87580.dat
+1 7 0 -128 0 1 0 0 0 -1 0 0 0 -1 4095.dat
+0

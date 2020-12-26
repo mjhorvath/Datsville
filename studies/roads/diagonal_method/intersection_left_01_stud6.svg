@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1 0 3 4" width="1920" height="2560" shape-rendering="crispEdges">
+	<title>intersection_left_01_stud6</title>
+	<desc>intersection_left_01_stud6</desc>
+	<g transform="scale(1,-1)">
+		<!--
+		<g>
+			<rect x="-1" y="-4" width="4" height="4" style="fill:#fff0f0;stroke:none;" />
+			<circle cx="0" cy="0" r="0.01" />
+			<rect x="0" y="0" width="0.01" height="40" style="fill:#00ff00;stroke:none;" />
+			<rect x="0" y="0" width="40" height="0.01" style="fill:#ff0000;stroke:none;" />
+		</g>
+		-->
+		<path d="
+			M 0.0000000000, 0.0000000000
+			A 0.7071067812 0.7071067812 0 0,1 0.2071067812, -0.5000000000
+			L 2.0000000000, -2.2928932188
+			L 2.0000000000, -2.5580582618
+			L 0.0745242597, -0.6325825215
+			A 0.89460678119 0.89460678119 0 0,0 -0.18750000000 0.0000000000
+			Z
+		" style="fill:#000000;stroke:none;stroke-width:0.01;" />
+		<path d="
+			M -0.812500000000002, 0.00000000000000
+			L -0.812500000000002, -4.00000000000000
+			L -1.000000000000000, -4.00000000000000
+			L -1.000000000000000, 0.00000000000000
+			Z
+		" style="fill:#000000;stroke:none;stroke-width:0.01;" />
+		<path d="
+			M 0.0000000000, -4.0000000000
+			A 0.9497474683 0.9497474683 0 0,0 1.6213203436, -3.3284271247
+			L 2.0000000000, -3.7071067812
+			L 2.0000000000, -3.4419417382
+			L 1.753902865, -3.1958446033
+			A 1.137247468 1.137247468 0 0,1 -0.1875000000, -4.000000000
+			Z
+		" style="fill:#000000;stroke:none;stroke-width:0.01;" />
+		<path d="
+			M -0.1875000000, -1.2544417382
+			L 0.802014128, -2.2439558662
+			A 1.7622474683 1.7622474683 0 0,1 -0.1875, -2.6538260382
+			L -0.1875000000, -1.2544417382
+			M 0.0000000000, -1.7071067812
+			L 0.4172657483, -2.1243725295
+			A 1.9497474683 1.9497474683 0 0,1 0.0000000000, -2.2972096616
+			Z
+		" style="fill:#000000;stroke:none;stroke-width:0.01;" fill-rule="evenodd" />
+	</g>
+</svg>

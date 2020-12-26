@@ -1,0 +1,17 @@
+0 Dective 2 sitting
+0 Name: pedestrian_068_policedetectiveblacksuitwhiteshirt.ldr
+0 Author: Jonathan Wilson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -9 -2 1 0 0 0 0 1 0 -1 0 3817.dat
+1 0 0 -9 -2 1 0 0 0 0 1 0 -1 0 3816.dat
+1 0 0 -21 -2 1 0 0 0 1 0 0 0 1 3815.dat
+1 0 0 -53 -2 1 0 0 0 1 0 0 0 1 973p18.dat
+1 14 0 -77 -2 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 0 0 -45 -2 1 0 0 0 1 0 0 0 1 975.dat
+1 0 0 -45 -2 1 0 0 0 1 0 0 0 1 976.dat
+1 14 -23 -25 -17.5 0 0 1 -0.71 0.71 0 0.71 0.71 0 977.dat
+1 14 23 -25 -17.5 0 0 1 -0.71 0.71 0 0.71 0.71 0 977.dat
+0

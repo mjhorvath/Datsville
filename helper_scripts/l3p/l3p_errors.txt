@@ -1,0 +1,101 @@
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 357: Color code out of range [0..511]: 0 !COLOUR Rubber_Bright_Green                                   CODE 10002 VALUE #58AB41   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 358: Color code out of range [0..511]: 0 !COLOUR Rubber_Magenta                                        CODE 10026 VALUE #901F76   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 359: Color code out of range [0..511]: 0 !COLOUR Rubber_Medium_Lavender                                CODE 10030 VALUE #A06EB9   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 360: Color code out of range [0..511]: 0 !COLOUR Rubber_Lavender                                       CODE 10031 VALUE #CDA4DE   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 361: Color code out of range [0..511]: 0 !COLOUR Rubber_Reddish_Brown                                  CODE 10070 VALUE #5F3109   EDGE #808080                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 362: Color code out of range [0..511]: 0 !COLOUR Rubber_Bright_Light_Yellow                            CODE 10226 VALUE #FFEC6C   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 363: Color code out of range [0..511]: 0 !COLOUR Rubber_Dark_Brown                                     CODE 10308 VALUE #352100   EDGE #808080                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 364: Color code out of range [0..511]: 0 !COLOUR Rubber_Dark_Red                                       CODE 10320 VALUE #720012   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 365: Color code out of range [0..511]: 0 !COLOUR Rubber_Dark_Azure                                     CODE 10321 VALUE #469BC3   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 366: Color code out of range [0..511]: 0 !COLOUR Rubber_Medium_Azure                                   CODE 10322 VALUE #68C3E2   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 367: Color code out of range [0..511]: 0 !COLOUR Rubber_Light_Aqua                                     CODE 10323 VALUE #D3F2EA   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 368: Color code out of range [0..511]: 0 !COLOUR Rubber_Dark_Orange                                    CODE 10484 VALUE #91501C   EDGE #333333                               RUBBER
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 372: Illegal color code: 0 !COLOUR Main_Colour                                           CODE  16   VALUE #FFFF80   EDGE #333333
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 373: Illegal color code: 0 !COLOUR Edge_Colour                                           CODE  24   VALUE #7F7F7F   EDGE #333333
+SKIPPING "C:\Users\Public\Documents\LDraw\ldconfig.ldr" Line 379: Color code out of range [0..511]: 0 !COLOUR Trans_Sticker                                         CODE 10047 VALUE #FFFFFF   EDGE #FFFFFF   ALPHA 16
+NOTABENE "stug8.dat" referenced by "3811.dat": Moved to stug-8x8
+NOTABENE "stug3.dat" referenced by "s\6024s3.dat": Moved to stug-3x3
+NOTABENE "stug2.dat" referenced by "s\6024s3.dat": Moved to stug-2x2
+NOTABENE "stug5.dat" referenced by "s\6024s3.dat": Moved to stug-5x5
+NOTABENE "stug4.dat" referenced by "s\6024s3.dat": Moved to stug-4x4
+NOTABENE "stug7.dat" referenced by "30473.dat": Moved to stug-7x7
+NOTABENE "4073.dat" referenced by "infrastructure_runwaylamp_green.ldr": Moved to 6141
+WARNING "2859c03.dat" Line 18: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 34: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 330: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 346: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 381: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 433: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 494: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 537: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 2162: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 2654: BFC CERTIFY already met: 0 BFC CERTIFY CW
+WARNING "2859c03.dat" Line 3715: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 3731: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 3766: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 3818: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 3879: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 3922: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 4253: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 4269: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 4304: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 4356: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 4417: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 4460: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 4958: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 4984: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 5217: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 5368: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 5601: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 5742: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 5764: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 5997: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 6137: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 6370: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+SKIPPING "2859c03.dat" Line 7167: BFC CERTIFY already met: 0 BFC NOCERTIFY
+SKIPPING "2859c03.dat" Line 7189: BFC CERTIFY already met: 0 BFC NOCERTIFY
+SKIPPING "2859c03.dat" Line 7982: BFC CERTIFY already met: 0 BFC NOCERTIFY
+SKIPPING "2859c03.dat" Line 8135: BFC CERTIFY already met: 0 BFC NOCERTIFY
+SKIPPING "2859c03.dat" Line 10576: BFC CERTIFY already met: 0 BFC NOCERTIFY
+SKIPPING "2859c03.dat" Line 10663: BFC CERTIFY already met: 0 BFC NOCERTIFY
+WARNING "2859c03.dat" Line 10843: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 10854: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 11082: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 11108: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 11363: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 11408: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 11424: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 11666: BFC CERTIFY already met: 0 BFC CERTIFY CCW
+WARNING "2859c03.dat" Line 11888: BFC CERTIFY already met: 0 BFC CERTIFY CW
+NOTABENE "48\11-24cyl.dat" referenced by "2859c03.dat": Moved to 48\11-24cyli
+NOTABENE "48\11-24edg.dat" referenced by "2859c03.dat": Moved to 48\11-24edge
+NOTABENE "3684.dat" referenced by "layer_river.ldr": Moved to 3684a
+NOTABENE "3040.dat" referenced by "building_043_datsvillememorial.ldr": Moved to 3040b
+NOTABENE "3048.dat" referenced by "building_043_datsvillememorial.ldr": Moved to 3048b
+NOTABENE "3855.dat" referenced by "building_023_missionstylehouse.mpd": Moved to 3855b
+NOTABENE "3665.dat" referenced by "building_011_bramshome.ldr": Moved to 3665a
+NOTABENE "236a.dat" referenced by "building_011_bramshome.ldr": Moved to 4486
+NOTABENE "236b.dat" referenced by "building_011_bramshome.ldr": Moved to 4344
+NOTABENE "2453.dat" referenced by "building_012_triplexb.ldr": Moved to 2453a
+NOTABENE "4287.dat" referenced by "plant_bigtree_04.ldr": Moved to 4287a
+NOTABENE "32.dat" referenced by "building_016_postoffice.ldr": Moved to 32c
+NOTABENE "axleho11.dat" referenced by "30517.dat": Moved to axl2hole
+NOTABENE "6160.dat" referenced by "building_051_floor_2.ldr": Moved to 6160c01
+NOTABENE "6159.dat" referenced by "building_051_roof.ldr": Moved to 6159c01
+NOTABENE "69c01.dat" referenced by "building_059_sink.ldr": Moved to 3496c01
+NOTABENE "s\3044s01.dat" referenced by "3044p37.dat": Moved to s\3044bs01
+NOTABENE "48\1-12ri38.dat" referenced by "s\86500s01.dat": Moved to 48\1-12ring38
+NOTABENE "48\1-12ri78.dat" referenced by "s\86500s01.dat": Moved to 48\1-12ring78
+NOTABENE "2349.dat" referenced by "vehicle_064_blacklimousine_2.ldr": Moved to 2349a
+NOTABENE "314e.dat" referenced by "3149ec01.dat": Moved to 3148
+NOTABENE "4460.dat" referenced by "vehicle_061_garbagetruck.ldr": Moved to 4460a
+NOTABENE "3829.dat" referenced by "vehicle_099_kassevogn.ldr": Moved to 3829c01
+NOTABENE "4865.dat" referenced by "vehicle_099_kassevogn.ldr": Moved to 4865a
+NOTABENE "298.dat" referenced by "vehicle_099_kassevogn.ldr": Moved to 4592
+NOTABENE "7.dat" referenced by "vehicle_099_kassevogn.ldr": Moved to 3139
+NOTABENE "3067.dat" referenced by "vehicle_053_leftside.ldr": Moved to 3067a
+NOTABENE "44302.dat" referenced by "pedestrian_076_bullpoop.ldr": Moved to 44302a
+NOTABENE "2350.dat" referenced by "vehicle_078_wreckingball.ldr": Moved to 2350a
+NOTABENE "6153.dat" referenced by "vehicle_070_traffichelicopter.ldr": Moved to 6153a
+NOTABENE "5-16ri12.dat" referenced by "59895.dat": Moved to 5-16ring12
+NOTABENE "stug6.dat" referenced by "6584.dat": Moved to stug-6x6

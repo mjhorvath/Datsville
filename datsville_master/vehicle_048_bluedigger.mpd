@@ -1,0 +1,89 @@
+0 FILE vehicle_048_bluedigger.ldr
+0 Digger Buggy
+0 Name: vehicle_048_bluedigger.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -32 0 1 0 0 0 1 0 0 0 1 30062.dat
+1 1 0 -24 -50 1 0 0 0 1 0 0 0 1 3039.dat
+1 1 -50 -24 0 0 0 1 0 1 0 -1 0 0 3039.dat
+1 1 0 -24 50 -1 0 0 0 1 0 0 0 -1 3039.dat
+1 1 50 -24 0 0 0 -1 0 1 0 1 0 0 3039.dat
+1 1 30 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 1 0 -24 -30 1 0 0 0 1 0 0 0 1 3004.dat
+1 1 -30 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 1 0 -24 30 1 0 0 0 1 0 0 0 1 3004.dat
+1 0 0 -32 0 1 0 0 0 1 0 0 0 1 3020.dat
+1 0 0 -32 -30 1 0 0 0 1 0 0 0 1 3023.dat
+1 0 0 -32 30 1 0 0 0 1 0 0 0 1 3023.dat
+1 1 0 -40 0 1 0 0 0 1 0 0 0 1 3462.dat
+1 1 0 -64 0 1 0 0 0 1 0 0 0 1 2479.dat
+1 0 -30 -72 -20 0 0 1 0 1 0 -1 0 0 3021.dat
+1 0 -20 -72 30 1 0 0 0 1 0 0 0 1 3021.dat
+1 0 30 -72 30 1 0 0 0 1 0 0 0 1 3022.dat
+1 0 0 -72 -30 0 0 1 0 1 0 -1 0 0 4275b.dat
+1 0 30 -72 -20 0 0 1 0 1 0 -1 0 0 3021.dat
+1 0 0 -80 0 0 0 1 0 1 0 -1 0 0 3623.dat
+1 0 0 -88 0 0 0 1 0 1 0 -1 0 0 3020.dat
+1 1 0 -112 -30 1 0 0 0 1 0 0 0 1 3048b.dat
+1 14 0 -96 -10 1 0 0 0 1 0 0 0 1 3829c01.dat
+1 14 0 -96 20 1 0 0 0 1 0 0 0 1 4079.dat
+1 14 0 -96 30 1 0 0 0 1 0 0 0 1 pedestrian_053_blueworkersitting.ldr
+0 MLCAD HIDE 1 1 40 -96 0 1 0 0 0 1 0 0 0 1 4286.dat
+1 1 -40 -96 0 1 0 0 0 1 0 0 0 1 4286.dat
+1 1 -40 -96 40 0 0 1 0 1 0 -1 0 0 3622.dat
+1 14 -40 -104 30 0 0 1 0 1 0 -1 0 0 3710.dat
+0 MLCAD HIDE 1 14 40 -104 30 0 0 1 0 1 0 -1 0 0 3710.dat
+0 MLCAD HIDE 1 1 40 -96 40 0 0 1 0 1 0 -1 0 0 3622.dat
+1 0 40 -112 10 0 0 -1 0 1 0 1 0 0 2452.dat
+1 0 60 -108 6 0 0.71 0.71 0 0.71 -0.71 -1 0 0 4593.dat
+1 0 60 -108 14 0 0.71 0.71 0 0.71 -0.71 -1 0 0 4593.dat
+1 0 0 -137.51 -49.48 0 0 -1 1 -0.09 0 -0.09 -1 0 vehicle_048_arm.ldr
+1 0 0 -187.45 -115.13 0 0 -1 -0.34 0.94 0 0.94 0.34 0 vehicle_048_arm.ldr
+1 0 0 -129.87 -191.45 0 0 1 1 0 0 0 1 0 vehicle_048_claw.ldr
+
+0
+0 FILE vehicle_048_claw.ldr
+0 Untitled
+0 Name: vehicle_048_claw.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 4275b.dat
+1 0 0 16 0 1 0 0 0 1 0 0 0 1 4275b.dat
+1 0 0 8 0 -1 0 0 0 1 0 0 0 -1 4276b.dat
+1 0 65.11 19.6 0 0.97 0.26 0 -0.26 0.97 0 0 0 1 vehicle_048_nail.ldr
+1 0 65.36 4.87 0 0.97 0.26 0 0.26 -0.97 0 0 0 -1 vehicle_048_nail.ldr
+
+0
+0 FILE vehicle_048_arm.ldr
+0 Untitled
+0 Name: vehicle_048_arm.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 4504.dat
+1 14 0 -8 0 1 0 0 0 1 0 0 0 1 3666.dat
+
+0
+0 FILE vehicle_048_nail.ldr
+0 Untitled
+0 Name: vehicle_048_nail.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 4626.dat
+1 0 -38 14 0 0 1 0 0 0 -1 -1 0 0 3023.dat
+
+0 
+0 
+0 
+0 
+0 
+0
+0

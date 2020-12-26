@@ -1,0 +1,12 @@
+0 Datsville Traffic and People Layer
+0 Name: layer_traffic.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 1440 0 7240 0 0 -1 0 1 0 1 0 0 pedestrian_026_castleguard.ldr
+1 15 1260 0 7680 0 0 -1 0 1 0 1 0 0 pedestrian_026_castleguard.ldr
+1 15 1830 0 8030 1 0 0 0 1 0 0 0 1 pedestrian_026_castleguard.ldr
+1 15 2240 0 7320 0 0 1 0 1 0 -1 0 0 pedestrian_026_castleguard.ldr
+0

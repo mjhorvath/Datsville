@@ -1,0 +1,23 @@
+0 FILE infrastructure_streetlamp.ldr
+0 Streetlamp #1
+0 Name: infrastructure_streetlamp.ldr
+0 Was: Tstlamp1.dat
+0 Author:
+0 Unofficial Datsville Other Model
+0 Parent: Town0-1
+
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 -24 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 16 0 -48 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 16 0 -72 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 16 0 -96 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 16 0 -120 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 16 0 -144 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 16 0 -168 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 16 0 -192 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 16 -40 -240 0 0 0 -1 0 1 0 1 0 0 6005.dat
+1 16 -70 -240 0 1 0 0 0 1 0 0 0 1 2431.dat
+1 16 -100 -232 0 1 0 0 0 1 0 0 0 1 4740.dat
+1 47 -100 -224 0 1 0 0 0 1 0 0 0 1 4032a.dat
+0

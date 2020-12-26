@@ -1,0 +1,42 @@
+0 FILE character_005_natalya.ldr
+0 Natalya
+0 Name: character_005_natalya.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 6 0 -99 1 1 0 0 0 1 0 0 0 1 character_005_hatcomplete.ldr
+1 14 0 -99 1 1 0 0 0 1 0 0 0 1 3626bpa6.dat
+1 0 0 -72 1 1 0 0 0 1 0 0 0 1 character_005_torsocomplete.ldr
+1 0 0 -40 1 1 0 0 0 1 0 0 0 1 3815.dat
+1 0 -15.552 -63 1 0.985 -0.17 0 0.17 0.985 0 0 0 1 3818.dat
+1 0 15.552 -63 1 0.985 0.17 0 -0.17 0.985 0 0 0 1 3819.dat
+1 14 -23.8634 -45.4044 -9.321 0.985 -0.12019 0.12019 0.17 0.696395 -0.696395 0 0.707 0.707 3820.dat
+1 14 23.8634 -45.4044 -9.321 0.985 0.12019 -0.12019 -0.17 0.696395 -0.696395 0 0.707 0.707 3820.dat
+1 0 0 -28 1 1 0 0 0 1 0 0 0 1 3816pbe.dat
+1 0 0 -28 1 1 0 0 0 1 0 0 0 1 3817pbe.dat
+0
+0 FILE character_005_hatcomplete.ldr
+0 New Model
+0 Name: character_005_hatcomplete.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 6 0 0 0 1 0 0 0 1 0 0 0 1 6025.dat
+1 0 0 -14 0 1 0 0 0 1 0 0 0 1 55707c.dat
+0
+0 FILE character_005_torsocomplete.ldr
+0 New Model
+0 Name: character_005_torsocomplete.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 30121.dat
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 973pbe.dat
+0
+0

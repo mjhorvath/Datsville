@@ -1,0 +1,42 @@
+0 FILE Untitled.ldr
+0 Untitled
+0 Name: Untitled.ldr
+0 Author: Michael Heidemann
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 6233.dat
+1 0 0 -24 0 1 0 0 0 1 0 0 0 1 6143.dat
+1 0 0 -48 0 1 0 0 0 1 0 0 0 1 6143.dat
+1 0 0 -72 0 1 0 0 0 1 0 0 0 1 6143.dat
+1 0 0 -96 0 1 0 0 0 1 0 0 0 1 6143.dat
+1 0 0 -120 0 1 0 0 0 1 0 0 0 1 6143.dat
+1 0 0 -144 0 1 0 0 0 1 0 0 0 1 6143.dat
+1 0 0 -168 0 1 0 0 0 1 0 0 0 1 6143.dat
+1 0 0 -192 0 1 0 0 0 1 0 0 0 1 6143.dat
+1 0 10 -272 100 1 0 0 0 1 0 0 0 1 6060.dat
+1 0 -100 -272 -10 0 0 -1 0 1 0 1 0 0 6060.dat
+1 0 10 -264 200 0 0 -1 0 1 0 1 0 0 3460.dat
+1 0 10 -256 270 0 0 1 0 1 0 -1 0 0 87087.dat
+1 0 10 -272 160 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 10 -272 300 0 0 -1 0 1 0 1 0 0 6636.dat
+1 0 10 -264 320 0 0 -1 0 1 0 1 0 0 3710.dat
+1 0 10 -256 320 0 0 1 0 1 0 -1 0 0 44728.dat
+1 0 10 -256 180 0 0 1 0 1 0 -1 0 0 44728.dat
+1 15 -10 -244 330 0 1 0 1 0 0 0 0 -1 63864.dat
+1 15 -10 -244 310 0 1 0 1 0 0 0 0 -1 63864.dat
+1 15 -10 -230 270 0 1 0 -1 0 0 0 0 1 trafficlight.ldr
+0
+0 FILE trafficlight.ldr
+0 trafficlight
+0 Name: trafficlight.ldr
+0 Author: Michael Heidemann
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 3623.dat
+1 34 -20 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
+1 46 0 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
+1 36 20 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
+0
+0

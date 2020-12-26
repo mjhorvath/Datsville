@@ -1,0 +1,35 @@
+0 FILE lamp3.ldr
+0 lamp3
+0 Name: lamp3.ldr
+0 Author: Michael Heidemann
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 8 0 0 0 1 0 0 0 1 0 0 0 1 30383.dat
+1 8 10 -8 0 0 -1 0 1 0 0 0 0 1 stand.ldr
+0
+0 FILE stand.ldr
+0 stand
+0 Name: stand.ldr
+0 Author: Michael Heidemann
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 1
+1 7 -30 -2 0 1 0 0 0 1 0 0 0 1 44302.dat
+1 8 -30 -10 0 1 0 0 0 1 0 0 0 1 3069b.dat
+1 7 -130 6 0 0 0 -1 0 1 0 1 0 0 99784.dat
+1 7 -253 10 0 0 0 1 0 1 0 -1 0 0 30552.dat
+1 7 -263 10 0 0.19509 0.980785 0 0.980785 -0.19509 0 0 0 -1 spot.ldr
+0
+0 FILE spot.ldr
+0 spot
+0 Name: spot.ldr
+0 Author: Michael Heidemann
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 -30 -2 0 1 0 0 0 1 0 0 0 1 44302.dat
+1 7 -50 -10 0 1 0 0 0 1 0 0 0 1 2431.dat
+1 46 -70 -2 0 1 0 0 0 1 0 0 0 1 3023.dat
+0
+0

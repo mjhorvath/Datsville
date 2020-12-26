@@ -1,0 +1,75 @@
+0 FILE vehicle_013_yellowroundmailvan_parked.ldr
+0 City Xers Mail Van
+0 Name: vehicle_013_yellowroundmailvan_parked.ldr
+0 Author: Jacob Sparre Andersen
+0 Was: tcmail.dat
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 Postbil
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 30 -23 -70 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -30 -23 -70 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 0 -23 -70 1 0 0 0 1 0 0 0 1 3023.dat
+1 0 0 -23 -40 1 0 0 0 1 0 0 0 1 4600.dat
+1 0 0 -23 0 1 0 0 0 1 0 0 0 1 3020.dat
+1 0 0 -23 40 1 0 0 0 1 0 0 0 1 4600.dat
+1 0 0 -23 70 1 0 0 0 1 0 0 0 1 3710.dat
+0 NOSTEP
+1 14 0 -31 -20 0 0 1 0 1 0 -1 0 0 3795.dat
+1 14 30 -31 0 0 0 1 0 1 0 -1 0 0 3023.dat
+1 14 -30 -31 0 0 0 1 0 1 0 -1 0 0 3023.dat
+1 14 0 -31 50 1 0 0 0 1 0 0 0 1 3023.dat
+1 14 0 -31 70 1 0 0 0 1 0 0 0 1 2412a.dat
+0 NOSTEP
+1 14 0 -39 -70 1 0 0 0 1 0 0 0 1 3829c01.dat
+1 14 0 -39 0 1 0 0 0 1 0 0 0 1 3020.dat
+1 14 0 -47 40 1 0 0 0 1 0 0 0 1 3788.dat
+0 NOSTEP
+1 14 0 -47 0 1 0 0 0 1 0 0 0 1 3020.dat
+1 14 10 -47 40 0 0 -1 0 1 0 1 0 0 4275b.dat
+1 14 -10 -47 40 0 0 -1 0 1 0 1 0 0 4275b.dat
+0 NOSTEP
+1 0 10 -73 68 0 0 1 1 0 0 0 1 0 4531.dat
+1 0 -10 -73 68 0 0 1 1 0 0 0 1 0 4531.dat
+1 14 0 -55 50 1 0 0 0 1 0 0 0 1 3069b.dat
+1 14 30 -71 40 0 0 1 0 1 0 -1 0 0 4865a.dat
+1 14 -30 -71 40 0 0 -1 0 1 0 1 0 0 4865a.dat
+1 14 0 -55 20 1 0 0 0 1 0 0 0 1 3068b.dat
+1 14 0 -71 -10 -1 0 0 0 1 0 0 0 -1 4865a.dat
+0 NOSTEP
+1 14 30 -119 0 0 0 1 0 1 0 -1 0 0 2362b.dat
+1 14 -30 -119 0 0 0 -1 0 1 0 1 0 0 2362b.dat
+0 NOSTEP
+1 14 0 -127 -10 1 0 0 0 1 0 0 0 1 4315.dat
+1 14 0 -127 10 -1 0 0 0 1 0 0 0 -1 4315.dat
+1 41 0 -123 -24 1 0 0 0 1 0 0 0 1 2483.dat
+1 41 0 -123 24 -1 0 0 0 1 0 0 0 -1 2483.dat
+0 NOSTEP
+1 0 30 -135 -10 1 0 0 0 1 0 0 0 1 4593.dat
+1 7 30 -135 -10 1 0 0 0 1 0 0 0 1 4592.dat
+1 14 -30 -18 40 0 0 1 0 1 0 -1 0 0 4624.dat
+1 14 30 -18 40 0 0 -1 0 1 0 1 0 0 4624.dat
+1 14 -30 -18 -40 0 0 1 0 1 0 -1 0 0 4624.dat
+1 14 30 -18 -40 0 0 -1 0 1 0 1 0 0 4624.dat
+1 0 -30 -18 40 0 0 1 0 1 0 -1 0 0 3641.dat
+1 0 30 -18 40 0 0 -1 0 1 0 1 0 0 3641.dat
+1 0 -30 -18 -40 0 0 1 0 1 0 -1 0 0 3641.dat
+1 0 30 -18 -40 0 0 -1 0 1 0 1 0 0 3641.dat
+0 NOSTEP
+1 14 0 -55 30 0 1 0 -1 0 0 0 0 1 vehicle_013_pakke.ldr
+0 NOSTEP
+0
+0 FILE vehicle_013_pakke.ldr
+0 Name: pakke.dat
+0 Author: Jacob Sparre Andersen
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 8 0 0 0 -1 0 1 0 0 0 0 1 3022.dat
+1 14 32 0 0 0 -1 0 1 0 0 0 0 1 3003.dat
+1 15 40 0 -10 0 -1 0 1 0 0 0 0 1 3069b.dat
+1 15 40 0 10 0 -1 0 1 0 0 0 0 1 3069b.dat
+0 
+0
+0

@@ -1,0 +1,11 @@
+0 Datsville City Block #13
+0 Name: block_013_overlay.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 4800 -8 320 0 0 1 0 1 0 -1 0 0 building_008_roundpolicebuilding.ldr
+1 7 6100 -8 360 0 0 -1 0 1 0 1 0 0 building_044_amateurradioclubbuilding.ldr
+1 7 5560 0 320 0 0 -1 0 1 0 1 0 0 building_069_amateurradioclubantenna.mpd
+0

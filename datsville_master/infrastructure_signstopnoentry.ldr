@@ -1,0 +1,11 @@
+0 Stop Sign, No Entry Sign
+0 Name: infrastructure_signstopnoentry.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 -116 0 1 0 0 0 1 0 0 0 1 30260p01.dat
+1 15 0 -108 0 -1 0 0 0 1 0 0 0 -1 30261p04.dat
+1 7 0 -8 0 1 0 0 0 1 0 0 0 1 30256.dat
+0

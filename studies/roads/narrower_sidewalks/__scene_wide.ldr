@@ -1,0 +1,39 @@
+0 Untitled
+0 Name: __sidewalk_scene_wide.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 2 960 0 -320 1 0 0 0 1 0 0 0 1 3811.dat
+1 2 -480 0 -160 1 0 0 0 1 0 0 0 1 91405.dat
+1 2 -160 0 -160 1 0 0 0 1 0 0 0 1 91405.dat
+1 2 -160 0 -480 1 0 0 0 1 0 0 0 1 91405.dat
+1 2 -480 0 -480 1 0 0 0 1 0 0 0 1 91405.dat
+1 2 960 0 -960 1 0 0 0 1 0 0 0 1 3811.dat
+1 2 960 0 -1600 1 0 0 0 1 0 0 0 1 3811.dat
+1 2 320 0 -1600 1 0 0 0 1 0 0 0 1 3811.dat
+1 2 -960 0 -1600 1 0 0 0 1 0 0 0 1 3811.dat
+1 2 -1600 0 -1600 1 0 0 0 1 0 0 0 1 3811.dat
+1 2 960 0 320 1 0 0 0 1 0 0 0 1 3811.dat
+1 2 -1600 0 -320 1 0 0 0 1 0 0 0 1 3811.dat
+1 2 -1600 0 -960 1 0 0 0 1 0 0 0 1 3811.dat
+1 2 -1600 0 320 1 0 0 0 1 0 0 0 1 3811.dat
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 grid_8b.dat
+1 16 320 0 -320 1 0 0 0 1 0 0 0 1 snotroad_doublestripecross_wide.ldr
+1 16 320 0 320 1 0 0 0 1 0 0 0 1 snotroad_curvestripenocross_wide.ldr
+1 16 -960 0 320 0 0 -1 0 1 0 1 0 0 snotroad_curvestripenocross_wide.ldr
+1 16 -320 0 320 0 0 -1 0 1 0 1 0 0 snotroad_tripleblanknocross_wide.ldr
+1 16 -960 0 -960 -1 0 0 0 1 0 0 0 -1 snotroad_curvestripenocross_wide.ldr
+1 16 320 0 -960 0 0 1 0 1 0 -1 0 0 snotroad_curvestripenocross_wide.ldr
+1 16 -320 0 -960 0 0 1 0 1 0 -1 0 0 snotroad_tripleblanknocross_wide.ldr
+1 16 320 0 -320 1 0 0 0 1 0 0 0 1 snotroad_walkway_full_wide.ldr
+1 16 -320 0 320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_full_wide.ldr
+1 16 -320 0 -960 0 0 1 0 1 0 -1 0 0 snotroad_walkway_full_wide.ldr
+1 16 320 0 -320 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_full_wide.ldr
+1 16 -320 0 -1600 1 0 0 0 1 0 0 0 1 snotroad_doublestripecross_wide.ldr
+1 16 -320 0 -1600 1 0 0 0 1 0 0 0 1 snotroad_walkway_full_wide.ldr
+1 16 -320 0 -1600 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_full_wide.ldr
+1 16 -960 0 -320 1 0 0 0 1 0 0 0 1 snotroad_doublestripecross_wide.ldr
+1 16 -960 0 -320 1 0 0 0 1 0 0 0 1 snotroad_walkway_full_wide.ldr
+1 16 -960 0 -320 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_full_wide.ldr
+0

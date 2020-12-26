@@ -1,0 +1,33 @@
+0 Grid - XZ Plane 4 x 4 Baseplates
+0 Author: Marc Schickele, Michael Horvath
+0 Name: grid_04b.dat
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -640 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -1280 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 640 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 1280 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 0 0 640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -640 0 640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -1280 0 640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 640 0 640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 1280 0 640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 0 0 1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -640 0 1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -1280 0 1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 640 0 1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 1280 0 1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+
+1 16 0 0 -640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -640 0 -640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -1280 0 -640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 640 0 -640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 1280 0 -640 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 0 0 -1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -640 0 -1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 -1280 0 -1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 640 0 -1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 1280 0 -1280 1 0 0 0 1 0 0 0 1 axis_32s.dat
+0

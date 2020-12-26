@@ -1,0 +1,384 @@
+0 FILE vehicle_042_mannedmech.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 -316 -8 1 0 0 0 0.81 -0.59 0 0.59 0.81 vehicle_042_top.ldr
+1 15 -80 -355.96 -5.05 -1 0 0 0 -1 -0.09 0 -0.09 1 vehicle_042_armr.ldr
+1 15 -10 -306.98 -51.06 1 0 0 0 0.71 0.71 0 -0.71 0.71 vehicle_042_spot.ldr
+1 15 20 -47 0 1 0 0 0 1 0 0 0 1 vehicle_042_bot.ldr
+1 15 90 -196.51 9.35 -1 0 0 0 -1 -0.09 0 -0.09 1 vehicle_042_arml.ldr
+0
+0 FILE vehicle_042_top.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 10 22.33 47.88 -1 0 0 0 -0.57 -0.82 0 -0.82 0.57 vehicle_042_waist.ldr
+1 15 -20 -15.07 10.32 1 0 0 0 0.94 0.34 0 -0.34 0.94 vehicle_042_bodyup.ldr
+0
+0 FILE vehicle_042_armr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_042_socketr.ldr
+1 0 4 -17 0 0.84 -0.26 0.48 0.22 0.97 0.13 -0.5 0 0.87 vehicle_042_appendr.ldr
+0
+0 FILE vehicle_042_spot.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 10 0 0 1 0 0 0 1 0 0 0 1 3937.dat
+1 47 0 24 0 1 0 0 0 1 0 0 0 1 6141.dat
+1 47 20 24 0 1 0 0 0 1 0 0 0 1 6141.dat
+0
+0 FILE vehicle_042_bot.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 20 -138.37 -5.8 -1 0 0 0 -0.97 0.26 0 0.26 0.97 vehicle_042_thighl.ldr
+1 15 10 8 -2 1 0 0 0 1 0 0 0 1 vehicle_042_leg.ldr
+1 15 -70 8 -2 1 0 0 0 1 0 0 0 1 vehicle_042_leg.ldr
+1 15 -60 -137.94 -6.39 1 0 0 0 -0.97 -0.26 0 0.26 -0.97 vehicle_042_thighr.ldr
+0
+0 FILE vehicle_042_arml.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 160 0 1 0 0 0 1 0 0 0 1 vehicle_042_socketl.ldr
+1 0 35 25 -61 -0.26 -0.48 -0.84 -0.97 0.13 0.22 0 0.87 -0.5 vehicle_042_appendl.ldr
+0
+0 FILE vehicle_042_waist.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 10 0 0 1 0 0 0 1 0 0 0 1 3149e.dat
+1 0 10 -34 -20 -1 0 0 0 1 0 0 0 -1 2432.dat
+1 0 10 -10 -60 -1 0 0 0 1 0 0 0 -1 30350ap01.dat
+1 1 10 34 -50 1 0 0 0 0 1 0 -1 0 3956.dat
+1 1 10 14 -40 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 4 10 0 0 1 0 0 0 1 0 0 0 1 313.dat
+1 7 10 34 -58 -1 0 0 0 0 -1 0 -1 0 3679.dat
+1 7 10 34 -58 0 0 -1 1 0 0 0 -1 0 vehicle_042_pelvis.ldr
+0
+0 FILE vehicle_042_bodyup.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 10 0 0 1 0 0 0 1 0 0 0 1 vehicle_042_seat.ldr
+1 15 10 -107 69 1 0 0 0 0.71 0.71 0 -0.71 0.71 vehicle_042_visor.ldr
+1 15 20 -69.89 76.19 0 0 -1 0.92 -0.39 0 -0.39 -0.92 0 vehicle_042_shldup.ldr
+0
+0 FILE vehicle_042_socketr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 0 0 1 0 0 0 1 0 0 0 1 vehicle_042_shouldr.ldr
+1 0 -10 -12 10 0 0 1 0 1 0 -1 0 0 vehicle_042_armpit.ldr
+1 15 -10 8 0 0 0 -1 0 1 0 1 0 0 3023.dat
+0
+0 FILE vehicle_042_appendr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_042_uparmr.ldr
+1 0 0 -128 -38 1 0 0 0 0.71 -0.71 0 0.71 0.71 vehicle_042_4armr.ldr
+0
+0 FILE vehicle_042_thighl.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3680.dat
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3940.dat
+1 0 0 56 0 1 0 0 0 1 0 0 0 1 2444.dat
+1 0 -10 64 0 0 0 -1 0 1 0 1 0 0 3023.dat
+1 0 10 48 0 0 0 -1 0 1 0 1 0 0 3023.dat
+1 0 -10 72 10 -1 0 0 0 1 0 0 0 -1 3665a.dat
+1 0 -10 72 -10 1 0 0 0 1 0 0 0 1 3665a.dat
+1 0 -10 40 -10 1 0 0 0 1 0 0 0 1 6091.dat
+1 0 -10 40 10 -1 0 0 0 1 0 0 0 -1 6091.dat
+1 0 20 66 0 1 0 0 0 1 0 0 0 1 4459.dat
+1 0 0 -32 10 -1 0 0 0 1 0 0 0 -1 vehicle_042_knee.ldr
+0
+0 FILE vehicle_042_leg.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 10 0 0 1 0 0 0 1 0 0 0 1 vehicle_042_foot.ldr
+1 15 20 40 50 -1 0 0 0 -1 0 0 0 1 vehicle_042_shin.ldr
+0
+0 FILE vehicle_042_thighr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3680.dat
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3940.dat
+1 0 0 56 0 1 0 0 0 1 0 0 0 1 2444.dat
+1 0 -10 64 0 0 0 1 0 1 0 -1 0 0 3023.dat
+1 0 10 48 0 0 0 1 0 1 0 -1 0 0 3023.dat
+1 0 -10 40 -10 1 0 0 0 1 0 0 0 1 6091.dat
+1 0 -10 40 10 -1 0 0 0 1 0 0 0 -1 6091.dat
+1 0 -10 72 10 -1 0 0 0 1 0 0 0 -1 3665a.dat
+1 0 -10 72 -10 1 0 0 0 1 0 0 0 1 3665a.dat
+1 0 20 66 0 1 0 0 0 1 0 0 0 1 4459.dat
+1 0 0 -32 -10 1 0 0 0 1 0 0 0 1 vehicle_042_knee.ldr
+0
+0 FILE vehicle_042_socketl.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_042_shouldl.ldr
+1 0 20 -16 -10 0 0 -1 0 1 0 1 0 0 vehicle_042_armpit.ldr
+0
+0 FILE vehicle_042_appendl.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 44 26 20 0 -0.71 0.71 0 0.71 0.71 -1 0 0 vehicle_042_4arml.ldr
+1 0 -102 81 20 0 -1 0 0 0 -1 1 0 0 vehicle_042_uparml.ldr
+1 0 -7.32 111 44 -1 0 0 0 0 -1 0 -1 0 vehicle_042_gun.ldr
+1 0 32.68 81 -10 0 1 0 1 0 0 0 0 -1 vehicle_042_illum.ldr
+0
+0 FILE vehicle_042_pelvis.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 8 -10 1 0 0 0 1 0 0 0 1 3700.dat
+1 1 0 8 10 1 0 0 0 1 0 0 0 1 3700.dat
+1 1 0 0 0 1 0 0 0 1 0 0 0 1 3680.dat
+1 0 10 32 0 0 0 1 0 1 0 -1 0 0 3023.dat
+0
+0 FILE vehicle_042_seat.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 -16 4 1 0 0 0 0 1 0 -1 0 3816.dat
+1 0 10 -16 4 1 0 0 0 0 1 0 -1 0 3817.dat
+1 0 0 -59.45 11.66 1 0 0 0 0.98 0.17 0 -0.17 0.98 vehicle_042_pilot.ldr
+1 4 10 0 0 1 0 0 0 1 0 0 0 1 2717.dat
+1 1 10 0 -20 1 0 0 0 1 0 0 0 1 3938.dat
+1 1 10 -28 30 1 0 0 0 0 -1 0 1 0 3022.dat
+1 4 10 0 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 1 10 22 48 -1 0 0 0 0 1 0 1 0 3148.dat
+1 0 10 -8 46 -1 0 0 0 0 1 0 1 0 4508.dat
+1 0 10 -8 54 -1 0 0 0 0 1 0 1 0 2654.dat
+1 7 10 -8 46 1 0 0 0 0 -1 0 1 0 3679.dat
+1 7 -10 -22 10 1 0 0 0 1 0 0 0 1 4274.dat
+0
+0 FILE vehicle_042_visor.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 0 0 -1 0 0 0 1 0 0 0 -1 2452.dat
+1 0 10 8 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 0 10 16 0 1 0 0 0 1 0 0 0 1 3023.dat
+1 47 10 24 0 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 10 160 10 1 0 0 0 1 0 0 0 1 3022.dat
+1 15 10 168 0 1 0 0 0 1 0 0 0 1 3938.dat
+1 1 10 136 20 1 0 0 0 1 0 0 0 1 3937.dat
+0
+0 FILE vehicle_042_shldup.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 8 0 1 0 0 0 1 0 0 0 1 4276b.dat
+1 0 10 0 0 -1 0 0 0 1 0 0 0 -1 4276b.dat
+0
+0 FILE vehicle_042_shouldr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -10 0 0 1 0 0 0 1 0 0 0 1 4854.dat
+1 0 -40 -8 0 0 0 1 0 1 0 -1 0 0 2458.dat
+1 15 20 -8 0 0 0 1 0 1 0 -1 0 0 4865a.dat
+1 15 -10 -8 30 1 0 0 0 1 0 0 0 1 3710.dat
+1 15 -10 -8 -30 1 0 0 0 1 0 0 0 1 3710.dat
+1 15 -40 -16 0 0 0 1 0 1 0 -1 0 0 3710.dat
+1 0 -10 -40 -30 1 0 0 0 1 0 0 0 1 2432.dat
+1 0 -10 -40 30 -1 0 0 0 1 0 0 0 -1 2432.dat
+0
+0 FILE vehicle_042_armpit.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 0 2 1 0 0 0 0.97 0.26 0 -0.26 0.97 6134.dat
+1 0 10 -5 14 1 0 0 0 0.97 0.26 0 -0.26 0.97 3680.dat
+1 0 10 0 0 -1 0 0 0 1 0 0 0 -1 3937.dat
+0
+0 FILE vehicle_042_uparmr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3679.dat
+1 0 0 -24 0 1 0 0 0 1 0 0 0 1 3941.dat
+1 0 0 -72 0 1 0 0 0 1 0 0 0 1 3940.dat
+1 0 0 -96 -10 1 0 0 0 1 0 0 0 1 3937.dat
+1 7 0 -80 10 1 0 0 0 1 0 0 0 1 4590.dat
+1 0 0 -88 10 1 0 0 0 1 0 0 0 1 3069b.dat
+1 7 30 -64 20 1 0 0 0 1 0 0 0 1 3062b.dat
+1 7 -30 -64 20 1 0 0 0 1 0 0 0 1 3062b.dat
+1 7 -30 -104 20 -0.382683 0 -0.92388 0 1 0 0.92388 0 -0.382683 4588.dat
+1 7 30 -104 20 -0.92388 0 -0.382683 0 1 0 0.382683 0 -0.92388 4588.dat
+1 7 30 -128 20 1 0 0 0 1 0 0 0 1 4589.dat
+1 7 -30 -128 20 1 0 0 0 1 0 0 0 1 4589.dat
+0
+0 FILE vehicle_042_4armr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 3680.dat
+1 0 0 0 0 0 0 1 0 1 0 -1 0 0 vehicle_042_handl.ldr
+1 0 0 8 0 1 0 0 0 1 0 0 0 1 3941.dat
+1 0 0 32 0 1 0 0 0 1 0 0 0 1 3022.dat
+1 7 0 40 -10 1 0 0 0 1 0 0 0 1 6134.dat
+0
+0 FILE vehicle_042_handr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_042_wristr.ldr
+1 0 0 -29 -25 0 0 1 -0.87 -0.5 0 0.5 -0.87 0 vehicle_042_fingerr2.ldr
+1 0 0 -29 25 0 0 -1 -0.87 -0.5 0 -0.5 0.87 0 vehicle_042_fingerr1.ldr
+0
+0 FILE vehicle_042_knee.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3937.dat
+1 0 -10 0 20 1 0 0 0 1 0 0 0 1 6231.dat
+1 0 10 0 20 0 0 1 0 1 0 -1 0 0 6231.dat
+1 0 0 24 10 1 0 0 0 1 0 0 0 1 3679.dat
+0
+0 FILE vehicle_042_foot.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 4858.dat
+1 15 30 0 20 -1 0 0 0 1 0 0 0 -1 4286.dat
+1 15 -30 0 20 -1 0 0 0 1 0 0 0 -1 4286.dat
+1 15 0 24 -50 1 0 0 0 1 0 0 0 1 4859.dat
+1 0 30 24 30 0 0 1 0 1 0 -1 0 0 3710.dat
+1 0 -30 24 30 0 0 1 0 1 0 -1 0 0 3710.dat
+1 15 -30 32 40 1 0 0 0 1 0 0 0 1 6141.dat
+1 15 -30 32 20 1 0 0 0 1 0 0 0 1 6141.dat
+1 15 -30 32 0 1 0 0 0 1 0 0 0 1 6141.dat
+1 15 30 32 0 1 0 0 0 1 0 0 0 1 6141.dat
+1 15 30 32 20 1 0 0 0 1 0 0 0 1 6141.dat
+1 15 30 32 40 1 0 0 0 1 0 0 0 1 6141.dat
+1 15 30 32 60 1 0 0 0 1 0 0 0 1 6141.dat
+1 15 10 16 -10 0 0 -1 0 1 0 1 0 0 4276b.dat
+1 15 -10 16 -10 0 0 -1 0 1 0 1 0 0 4276b.dat
+1 15 0 24 -20 1 0 0 0 1 0 0 0 1 3023.dat
+1 15 0 24 10 1 0 0 0 1 0 0 0 1 3068b.dat
+1 15 -30 32 60 1 0 0 0 1 0 0 0 1 6141.dat
+1 15 0 32 -10 0 0 1 0 1 0 -1 0 0 3020.dat
+1 0 0 32 -60 -1 0 0 0 1 0 0 0 -1 3839b.dat
+0
+0 FILE vehicle_042_shin.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 0 0 1 0 0 0 1 0 0 0 1 4150.dat
+1 0 10 24 -20 1 0 0 0 1 0 0 0 1 4476.dat
+1 0 10 8 -10 0 0 1 0 1 0 -1 0 0 3021.dat
+1 0 0 16 -20 0 0 1 0 1 0 -1 0 0 4275b.dat
+1 0 20 16 -20 0 0 1 0 1 0 -1 0 0 4275b.dat
+1 0 10 16 10 1 0 0 0 1 0 0 0 1 3023.dat
+1 0 10 144 -60 0 0 1 0 1 0 -1 0 0 3020.dat
+1 0 20 16 -20 0 0 1 0 1 0 -1 0 0 4275b.dat
+1 0 10 152 -50 1 0 0 0 1 0 0 0 1 3938.dat
+0
+0 FILE vehicle_042_shouldl.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 10 0 0 1 0 0 0 1 0 0 0 1 4854.dat
+1 0 40 -8 0 0 0 -1 0 1 0 1 0 0 2458.dat
+1 15 10 -8 30 1 0 0 0 1 0 0 0 1 3710.dat
+1 15 10 -8 -30 1 0 0 0 1 0 0 0 1 3710.dat
+1 15 40 -16 0 0 0 1 0 1 0 -1 0 0 3710.dat
+1 15 20 8 0 0 0 1 0 1 0 -1 0 0 3023.dat
+1 0 10 -40 -30 1 0 0 0 1 0 0 0 1 2432.dat
+1 0 10 -40 30 -1 0 0 0 1 0 0 0 -1 2432.dat
+1 15 -20 -8 0 0 0 -1 0 1 0 1 0 0 4865a.dat
+0
+0 FILE vehicle_042_4arml.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 0 24 0 -1 0 0 0 1 0 0 0 -1 3680.dat
+1 7 0 24 0 0 0 1 0 1 0 -1 0 0 vehicle_042_handl.ldr
+1 0 0 32 0 1 0 0 0 1 0 0 0 1 3941.dat
+1 0 0 56 0 1 0 0 0 1 0 0 0 1 3022.dat
+1 7 0 64 -10 1 0 0 0 1 0 0 0 1 6134.dat
+0
+0 FILE vehicle_042_uparml.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -96 10 -1 0 0 0 1 0 0 0 -1 3937.dat
+1 0 -10 -80 -10 0 0 1 0 1 0 -1 0 0 4085c.dat
+1 0 10 -80 -10 1 0 0 0 1 0 0 0 1 6019.dat
+1 0 0 -88 -10 1 0 0 0 1 0 0 0 1 3069b.dat
+1 0 0 -72 0 1 0 0 0 1 0 0 0 1 3940.dat
+1 0 0 -24 0 1 0 0 0 1 0 0 0 1 3941.dat
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 3679.dat
+0
+0 FILE vehicle_042_gun.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 10 0 0 1 0 0 0 1 0 0 0 1 4360.dat
+1 7 -38 8 0 0 1 0 1 0 0 0 0 -1 3957a.dat
+1 7 -111 8 0 1 0 0 0 -1 0 0 0 -1 75535.dat
+1 7 42 8 0 0 1 0 0 0 -1 -1 0 0 3062b.dat
+0
+0 FILE vehicle_042_illum.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 0 0 1 0 0 0 1 0 0 0 1 3957a.dat
+1 15 10 -24 0 1 0 0 0 1 0 0 0 1 4589.dat
+1 15 10 8 0 1 0 0 0 1 0 0 0 1 4740.dat
+1 47 10 16 0 1 0 0 0 1 0 0 0 1 6141.dat
+0
+0 FILE vehicle_042_handl.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_042_wristl.ldr
+1 0 0 -41.59 14.87 0 0 1 0.97 -0.28 0 0.28 0.97 0 vehicle_042_fingerl1.ldr
+1 0 0 -42.04 -15.59 0 0 -1 0.97 -0.26 0 -0.26 -0.97 0 vehicle_042_fingerl2.ldr
+0
+0 FILE vehicle_042_pilot.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 0 0 1 0 0 0 1 0 0 0 1 973p68.dat
+1 14 10 -24 0 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 0 10 -24 0 1 0 0 0 1 0 0 0 1 2446.dat
+1 47 10 -24 0 1 0 0 0 1 0 0 0 1 2447.dat
+1 0 10 32 0 1 0 0 0 1 0 0 0 1 3815.dat
+1 0 40 12.78 1.49 1 0 0 0 0.91 -0.42 0 0.42 0.91 vehicle_042_limbl.ldr
+1 0 -10 12.78 1.49 1 0 0 0 0.91 -0.42 0 0.42 0.91 vehicle_042_limbr.ldr
+0
+0 FILE vehicle_042_wristr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -8 -10 1 0 0 0 1 0 0 0 1 2452.dat
+1 0 0 -8 10 -1 0 0 0 1 0 0 0 -1 2452.dat
+1 0 0 -16 0 1 0 0 0 1 0 0 0 1 3068b.dat
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 3679.dat
+0
+0 FILE vehicle_042_fingerr2.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 10 0 0 1 0 0 0 1 0 0 0 1 4626.dat
+1 0 -20 14 0 0 -1 0 0 0 1 -1 0 0 3069b.dat
+0
+0 FILE vehicle_042_fingerr1.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 10 0 0 1 0 0 0 1 0 0 0 1 4626.dat
+1 0 -20 14 0 0 -1 0 0 0 1 -1 0 0 3069b.dat
+0
+0 FILE vehicle_042_wristl.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -8 10 -1 0 0 0 1 0 0 0 -1 2452.dat
+1 0 0 -8 -10 1 0 0 0 1 0 0 0 1 2452.dat
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 3679.dat
+0
+0 FILE vehicle_042_fingerl1.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 0 0 1 0 0 0 1 0 0 0 1 4276b.dat
+1 7 10 -8 0 1 0 0 0 1 0 0 0 1 2412a.dat
+0
+0 FILE vehicle_042_fingerl2.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 0 0 1 0 0 0 1 0 0 0 1 4276b.dat
+1 7 10 -8 0 1 0 0 0 1 0 0 0 1 2412a.dat
+0
+0 FILE vehicle_042_limbl.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -30 -4 0 1 0 0 0 0.71 0.71 0 -0.71 0.71 976.dat
+1 0 -8 -1 -29 0 0 -1 0 1 0 1 0 0 977.dat
+0
+0 FILE vehicle_042_limbr.ldr
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 20 -4 0 1 0 0 0 0.71 0.71 0 -0.71 0.71 975.dat
+1 0 -2 -1 -29 0 0 -1 0 1 0 1 0 0 977.dat
+0 
+0
+0

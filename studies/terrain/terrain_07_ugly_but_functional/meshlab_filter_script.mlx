@@ -1,0 +1,36 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Transform: Rotate">
+  <Param enum_cardinality="4" enum_val0="X axis" enum_val1="Y axis" enum_val2="Z axis" value="0" enum_val3="custom axis" tooltip="Choose a method" type="RichEnum" description="Rotation on:" name="rotAxis"/>
+  <Param enum_cardinality="3" enum_val0="origin" enum_val1="barycenter" enum_val2="custom point" value="0" tooltip="Choose a method" type="RichEnum" description="Center of rotation:" name="rotCenter"/>
+  <Param value="90" tooltip="Angle of rotation (in &lt;b>degree&lt;/b>). If snapping is enable this vaule is rounded according to the snap value" type="RichDynamicFloat" min="-360" max="360" description="Rotation Angle" name="angle"/>
+  <Param value="false" tooltip="If selected, before starting the filter will remove anyy unreference vertex (for which curvature values are not defined)" type="RichBool" description="Snap angle" name="snapFlag"/>
+  <Param tooltip="This rotation axis is used only if the 'custom axis' option is chosen." x="0" type="RichPoint3f" y="0" z="0" description="Custom axis" name="customAxis"/>
+  <Param tooltip="This rotation center is used only if the 'custom point' option is chosen." x="0" type="RichPoint3f" y="0" z="0" description="Custom center" name="customCenter"/>
+  <Param value="30" tooltip="This value is used to snap the rotation angle." type="RichFloat" description="Snapping Value" name="snapAngle"/>
+  <Param value="true" tooltip="The transformation is explicitly applied and the vertex coords are actually changed" type="RichBool" description="Freeze Matrix" name="Freeze"/>
+  <Param value="false" tooltip="The transformation is explicitly applied to all the mesh and raster layers in the project" type="RichBool" description="Apply to all layers" name="ToAll"/>
+ </filter>
+ <filter name="Transform: Scale">
+  <Param value="256" tooltip="Scaling" type="RichFloat" description="X Axis" name="axisX"/>
+  <Param value="256" tooltip="Scaling" type="RichFloat" description="Y Axis" name="axisY"/>
+  <Param value="256" tooltip="Scaling" type="RichFloat" description="Z Axis" name="axisZ"/>
+  <Param value="true" tooltip="If selected an uniform scaling (the same for all the three axis) is applied (the X axis value is used)" type="RichBool" description="Uniform Scaling" name="uniformFlag"/>
+  <Param enum_cardinality="3" enum_val0="origin" enum_val1="barycenter" enum_val2="custom point" value="0" tooltip="Choose a method" type="RichEnum" description="Center of scaling:" name="scaleCenter"/>
+  <Param tooltip="This scaling center is used only if the 'custom point' option is chosen." x="0" type="RichPoint3f" y="0" z="0" description="Custom center" name="customCenter"/>
+  <Param value="false" tooltip="If selected, the object is scaled to a box whose sides are at most 1 unit lenght" type="RichBool" description="Scale to Unit bbox" name="unitFlag"/>
+  <Param value="true" tooltip="The transformation is explicitly applied and the vertex coords are actually changed" type="RichBool" description="Freeze Matrix" name="Freeze"/>
+  <Param value="false" tooltip="The transformation is explicitly applied to all the mesh and raster layers in the project" type="RichBool" description="Apply to all layers" name="ToAll"/>
+ </filter>
+ <filter name="Transform: Scale">
+  <Param value="640" tooltip="Scaling" type="RichFloat" description="X Axis" name="axisX"/>
+  <Param value="640" tooltip="Scaling" type="RichFloat" description="Y Axis" name="axisY"/>
+  <Param value="640" tooltip="Scaling" type="RichFloat" description="Z Axis" name="axisZ"/>
+  <Param value="true" tooltip="If selected an uniform scaling (the same for all the three axis) is applied (the X axis value is used)" type="RichBool" description="Uniform Scaling" name="uniformFlag"/>
+  <Param enum_cardinality="3" enum_val0="origin" enum_val1="barycenter" enum_val2="custom point" value="0" tooltip="Choose a method" type="RichEnum" description="Center of scaling:" name="scaleCenter"/>
+  <Param tooltip="This scaling center is used only if the 'custom point' option is chosen." x="0" type="RichPoint3f" y="0" z="0" description="Custom center" name="customCenter"/>
+  <Param value="false" tooltip="If selected, the object is scaled to a box whose sides are at most 1 unit lenght" type="RichBool" description="Scale to Unit bbox" name="unitFlag"/>
+  <Param value="true" tooltip="The transformation is explicitly applied and the vertex coords are actually changed" type="RichBool" description="Freeze Matrix" name="Freeze"/>
+  <Param value="false" tooltip="The transformation is explicitly applied to all the mesh and raster layers in the project" type="RichBool" description="Apply to all layers" name="ToAll"/>
+ </filter>
+</FilterScript>

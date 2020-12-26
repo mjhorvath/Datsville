@@ -1,0 +1,24 @@
+0 Neutral Police Motorcycle 2 Wheel (y=-18)
+0 Name: vehicle_092_blackpolicemotorcycle.ldr
+0 Author: Tore Eriksson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -48 42 1 0 0 0 1 0 0 0 1 4480c01.dat
+1 4 0 -18 -48 1 0 0 0 1 0 0 0 1 3464.dat
+1 256 0 -18 -48 0 0 1 0 1 0 -1 0 0 3641.dat
+
+0 // Back Wheel (y=-18)
+1 4 0 -18 42 1 0 0 0 1 0 0 0 1 3464.dat
+1 256 0 -18 42 0 0 1 0 1 0 -1 0 0 3641.dat
+
+1 6 0 -56 42 0 0 1 0 1 0 -1 0 0 3069a.dat
+1 15 18 -38 42 0 -1 0 0 0 -1 1 0 0 3069bp18.dat
+1 15 -18 -38 42 0 1 0 0 0 -1 -1 0 0 3069bp18.dat
+1 0 0 -62 -51 1 0 0 0 0 -1 0 1 0 3623.dat
+1 47 0 -62 -59 1 0 0 0 0 -1 0 1 0 6141.dat
+1 33 -20 -62 -59 1 0 0 0 0 -1 0 1 0 3070a.dat
+1 36 20 -62 -59 1 0 0 0 0 -1 0 1 0 3070a.dat
+1 36 0 -38 70 1 0 0 0 0 1 0 -1 0 3070a.dat
+0

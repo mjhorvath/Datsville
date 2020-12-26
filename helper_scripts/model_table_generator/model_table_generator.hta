@@ -1,0 +1,341 @@
+<HTML>
+	<HEAD>
+		<TITLE>Datsville Model Table Generator</TITLE>
+		<HTA:APPLICATION
+			ID = "oApp"
+			APPLICATIONNAME = "Model Table Generator"
+			BORDER = "thick"
+			CAPTION = "yes"
+			ICON = "hw.ico"
+			SHOWINTASKBAR = "yes"
+			SINGLEINSTANCE = "no"
+			WINDOWSTATE = "normal"
+			SCROLL = "yes"
+			SCROLLFLAT = "yes"
+			VERSION = "1.3.0"
+			INNERBORDER = "no"
+			SELECTION = "no"
+			SYSMENU = "yes"
+			MAXIMIZEBUTTON = "yes"
+			MINIMIZEBUTTON = "yes"
+			NAVIGABLE = "yes"
+			CONTEXTMENU = "no"
+			BORDERSTYLE = "thin"
+		/>
+		<SCRIPT Language="JScript">
+		<!--
+			// This program is free software; you can redistribute it and/or
+			// modify it under the terms of the GNU Lesser General Public
+			// License as published by the Free Software Foundation; either
+			// version 3 of the License, or (at your option) any later version.
+			// 
+			// This program is distributed in the hope that it will be useful,
+			// but WITHOUT ANY WARRANTY; without even the implied warranty of
+			// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+			// Lesser General Public License for more details.
+			// 
+			// You should have received a copy of the GNU Lesser General Public License
+			// along with this program; if not, write to the Free Software Foundation,
+			// Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+		
+			//------+-------+-------+-------+-------+-------+-------+-------+------- Initializing (loading) data
+
+			var fso = new ActiveXObject('Scripting.FileSystemObject');
+			var WshShell = new ActiveXObject('WScript.Shell');
+			var LocalDirPath = WshShell.CurrentDirectory;
+			var ApplicationAction = 0;
+			var InputHodPath = 'undefined';
+			var InputHodPathObj = null;
+			var InputHodListObj = null;
+			var BatchObject = null;
+			var OutputString = "";
+
+			// list of valid file extensions
+			var Test_a = /\.[mM][pP][dD]$/;
+			var Test_b = /\.[lL][dD][rR]$/;
+			var Test_c = /\.[dD][aA][tT]$/;
+			var Test_d = /\.[xX][mM][pP][dD]$/;
+
+			function init()
+			{
+				InputHodPathObj = document.getElementById('InputHodPath');
+				InputHodListObj = document.getElementById('InputHodList');
+				OutputTextAreaObj = document.getElementById('OutputTextArea');
+				loadLastSettings();
+				setAll();
+				updAll();
+			}
+
+			function loadLastSettings()
+			{
+				var TempPath = LocalDirPath + '\\settings.ini';
+				var TempObject = fso.OpenTextFile(TempPath, 1, 0);
+				var TempText = '';
+				var TempRegexp = '';
+				var TempMatch = [];
+				try
+				{
+					TempText = TempObject.ReadAll();
+				}
+				catch(e)
+				{
+					TempText = '';
+				}
+				TempObject.Close();
+				TempRegexp = /(^InputHodPath\=)(.*)(;$)/gm;
+				TempMatch = TempText.match(TempRegexp);
+				InputHodPath = TempMatch[0].replace(TempRegexp, "$2");
+			}
+
+
+			//------+-------+-------+-------+-------+-------+-------+-------+------- Setting up (outputting to the screen) loaded data
+
+			function setAll()
+			{
+				setInpHodPath();
+				setInpHodList();
+			}
+			function setInpHodList()
+			{
+				if (InputHodList.hasChildNodes())
+				{
+					var i;
+					for (i = 0; i = InputHodList.childNodes.length; i ++)
+					{
+						InputHodList.removeChild(InputHodList.childNodes[0]);
+					}
+				}
+				if (fso.FolderExists(InputHodPath) == 1)
+				{
+					var TempFolder = fso.GetFolder(InputHodPath);
+					var TempFiles = new Enumerator(TempFolder.files);
+					var TempFilesTable = [];
+					var TempBool = 0;
+					for (; !TempFiles.atEnd(); TempFiles.moveNext())
+					{
+						var TempName = fso.GetFileName(TempFiles.item());
+						if (Test_a.test(TempName) || Test_b.test(TempName) || Test_c.test(TempName) || Test_d.test(TempName))
+						{
+							TempFilesTable.push(TempName);
+						}
+					}
+					TempFilesTable.sort();
+					for (var i = 0; i < TempFilesTable.length; i ++)
+					{
+						var TempName = TempFilesTable[i];
+						var TempElement = document.createElement('option');
+						TempElement.innerText = TempName;
+//						if (InputHodFile == TempName)
+//						{
+//							TempElement.setAttribute('selected', 'selected');
+//							TempBool = 1;
+//						}
+						InputHodList.appendChild(TempElement);
+					}
+				}
+			}
+			function setInpHodPath()
+			{
+				InputHodPathObj.value = InputHodPath;
+			}
+
+
+			//------+-------+-------+-------+-------+-------+-------+-------+------- Updating (changing) data
+
+			function updAll()
+			{
+				updInpHodPath();
+			}
+			function updInpHodList()
+			{
+				if (InputHodList.hasChildNodes())
+				{
+					var TempBool = 0;
+					var i;
+					for (i = 0; i < InputHodList.childNodes.length; i ++)
+					{
+						if (InputHodList.childNodes[i].getAttribute('selected') != 0)
+						{
+							var TempText = InputHodList.childNodes[i].innerText;
+							if (TempText != '<none>')
+							{
+								InputHodFile = TempText;
+								TempBool = 1;
+								break;
+							}
+							else
+							{
+								TempBool = 0;
+								break;
+							}
+						}
+					}
+					if (TempBool == 0)
+					{
+						InputHodFile = 'undefined';
+					}
+				}
+			}
+			function updInpHodPath()
+			{
+				var TempPath = InputHodPathObj.value;
+				if (TempPath != null)
+				{
+					if (TempPath == '')
+					{
+						TempPath = 'undefined';
+					}
+					else if (TempPath.slice(TempPath.length - 1) == '\\')
+					{
+						TempPath = TempPath.slice(0, TempPath.length - 1);
+					}
+					InputHodPath = TempPath;
+				}
+				updInpHodList();
+				setInpHodList();
+			}
+
+			//------+-------+-------+-------+-------+-------+-------+-------+------- Operating on data
+
+			function performAction()
+			{
+				updAll();
+				OutputString = 'Filename (new)\tFilename (old)\tSource\tLicense\tAuthor\tTitle\tImage\n';
+				runProgram_recursive(InputHodPath);
+				OutputTextAreaObj.innerText = OutputString;
+			}
+			function runProgram(file)
+			{
+				var FileTitle = '???';
+				var FileAuthor = '???';
+				var FileLicense = '???';
+				var FileNewName = '???';
+				var FileOldName = '???';
+				var FileSource = '???';
+				var FileImage = '???';
+				var LineCount = 0;
+				var TempPath = InputHodPath + '\\' + file;
+
+				var TempFile = fso.OpenTextFile(TempPath, 1);
+				while (!TempFile.AtEndOfStream)
+				{
+					var TempLine = TempFile.ReadLine();
+					LineCount += 1;
+
+					FileNewName = file.toLowerCase();
+
+					var Test_file = /^0\sFILE\s/;
+					if (Test_file.test(TempLine))
+					{
+						continue;
+					}
+
+					var Test_title = /^0\s(.*)$/;
+					if (FileTitle == '???')
+					{
+						FileTitle = TempLine.replace(Test_title, '$1');
+					}
+
+					var Test_auth = /^0\sAuthor\:\s(.*)$/;
+					if ((FileAuthor == '???') && (Test_auth.test(TempLine)))
+					{
+						FileAuthor = TempLine.replace(Test_auth, '$1');
+					}
+
+					var Test_lcns = /^0\s\!LICENSE\s(.*)$/;
+					if ((FileLicense == '???') && (Test_lcns.test(TempLine)))
+					{
+						FileLicense = TempLine.replace(Test_lcns, '$1');
+					}
+
+					var Test_oldn = /^0\sWas\:\s(.*)$/;
+					if ((FileOldName == '???') && (Test_oldn.test(TempLine)))
+					{
+						FileOldName = TempLine.replace(Test_oldn, '$1');
+					}
+
+					var Test_srce = /^0\sSource\:\s(.*)$/;
+					if ((FileSource == '???') && (Test_srce.test(TempLine)))
+					{
+						FileSource = TempLine.replace(Test_srce, '$1');
+					}
+
+					FileImage = FileNewName.replace(/\.dat$/g, '.png').replace(/\.ldr$/g, '.png').replace(/\.mpd$/g, '.png').replace(/\.xmpd$/g, '.png');
+
+					if (LineCount > 10)
+					{
+						break;
+					}
+				}
+				OutputString += FileNewName + '\t' + FileOldName + '\t' + FileSource + '\t' + FileLicense + '\t' + FileAuthor + '\t' + FileTitle + '\t' + FileImage + '\n';
+			}
+			function runProgram_recursive(path)
+			{
+				if (fso.FolderExists(path) == 1)
+				{
+					var TempFolder = fso.GetFolder(path);
+					var TempFiles = new Enumerator(TempFolder.files);
+					var TempFilesTable = [];
+					var TempBool = 0;
+					for (; !TempFiles.atEnd(); TempFiles.moveNext())
+					{
+						var TempName = fso.GetFileName(TempFiles.item());
+						if (Test_a.test(TempName) || Test_b.test(TempName) || Test_c.test(TempName) || Test_d.test(TempName))
+						{
+							TempFilesTable.push(TempName);
+						}
+					}
+					TempFilesTable.sort();
+					for (var i = 0, n = TempFilesTable.length; i < n; i ++)
+					{
+						runProgram(TempFilesTable[i]);
+					}
+				}
+			}
+			function saveLastSettings()
+			{
+				updAll();
+				var TempPath = LocalDirPath + '\\settings.ini';
+				var TempObject = fso.OpenTextFile(TempPath, 2, 1, 0);
+				TempObject.WriteLine('[Model Table]');
+				TempObject.WriteLine('InputHodPath=' + InputHodPath + ';');
+				TempObject.Close();
+			}
+		-->
+		</SCRIPT>
+		<STYLE TYPE="text/css">
+		<!--
+			body		{background:buttonface;color:buttontext;border:none;padding:0px;margin:0px;font:10pt Arial;overflow:hidden;}
+			fieldset	{padding:4px;}
+			select		{}
+			textarea	{overflow:scroll;word-wrap:normal;}
+		-->
+		</STYLE>
+		<meta http-equiv="MSThemeCompatible" content="Yes"/>
+	</HEAD>
+	<BODY onload="init()" onunload="saveLastSettings()">
+		<div style="float:left;width:100%;">
+			<fieldset style="margin:4px;">
+				<legend>Input Folder</legend>
+				<form action="javascript:updAll()" style="display:inline;">
+					<table style="width:100%;" cellpadding="0" cellspacing="2">
+						<tr>
+							<td style="width:*;">
+								<input id="InputHodPath" type="text" style="width:100%" onfocus="this.select()" />
+							</td>
+							<td style="width:50px;">
+								<input type="submit" style="width:100%" value="Go" />
+							</td>
+						</tr>
+					</table>
+				</form>
+				<select id="InputHodList" size="10" style="width:100%;background:c0c0ff;"></select>
+			</fieldset>
+		</div>
+		<input style="width:100%;margin:4px;" type="button" value="Run" onclick="performAction()" />
+		<fieldset style="margin:4px;">
+			<legend>Output Text</legend>
+			<textarea id="OutputTextArea" style="font-family:monospace;width:100%;height:12em;" readonly="readonly" name="nowrap"></textarea>
+		</fieldset>
+	</BODY>
+</HTML>

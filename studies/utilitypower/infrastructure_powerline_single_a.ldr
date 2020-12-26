@@ -1,0 +1,47 @@
+0 Name: string piece
+0 Author: LDCad
+0 !KEYWORDS flexible, string, rope
+0 !LDCAD CONTENT [type=path] [addFallBack=default] [looped=false] [displayKind=mm] [curveStep=0] [displayLenCor=0]
+
+0 !LDCAD PATH_POINT [type=bezier] [posOri=0 0 0 1 0 0 0 1 0 0 0 1] [prevCPDist=25] [nextCPDist=25] [cirR=25] [cirDir=xyCW] [prevYRoll=0] [nextYRoll=0]
+0 !LDCAD PATH_POINT [type=bezier] [posOri=-24 -320 0 1 0 0 0 1 0 0 0 1] [prevCPDist=160] [nextCPDist=160] [cirR=20] [cirDir=xyCW] [prevYRoll=0] [nextYRoll=0]
+0 !LDCAD PATH_POINT [type=bezier] [posOri=0 -640 0 1 0 0 0 1 0 0 0 1] [prevCPDist=25] [nextCPDist=25] [cirR=25] [cirDir=xyCW] [prevYRoll=0] [nextYRoll=0]
+
+0 !LDCAD PATH_SKIN [donCol=16] [donOri=1 0 0 0 1 0 0 0 1] [donPart=ldcLQRopeSeg.dat] [donYSize=400%] [donCen=absCen] [donCenYOfs=0] [donFinScale=segMerge] [donPlace=refsDyn] [donYAlign=0] [donInline=true] [segSize=75%] [segSizeTol=5%] [segsCnt=0] [segsGrp=0] [segsMaxMerge=0] [segsMrgAng=0] [segsMrgRollAng=0] [segsEdgeDelKind=keepFirstLeft]
+
+0 !LDCAD GENERATED [generator=LDCad 1.5]
+0 //This is the fallback LDraw content for above PATH configuration.
+0 // Do not edit, any changes will be lost upon regeneration.
+0 // The path is approx 256.89 mm (642.23) and exists out of 22 segments.
+
+0 //Some general hints about the document.
+0 UNOFFICIAL PART 
+0 BFC CERTIFY CCW
+
+0 //Some of this content has been generated from other LDraw files, many thanks to all involved.
+0 // Credits for "ldcLQRopeSeg.dat":
+0 //  Author: LDCad
+
+0 //Segments
+1 0 -0.088941 -3.500315 0 1.499609 0.091395 0 -0.034264 4.000015 0 0 0 1.5 4-4cyli.dat
+1 0 -0.300523 -6.495606 0 1.497291 0.240376 0 -0.090117 3.993832 0 0 0 1.5 4-4cyli.dat
+1 0 -0.835873 -12.475571 0 1.494398 0.604585 0 -0.129515 6.975968 0 0 0 1.5 4-4cyli.dat
+1 0 -2.782161 -30.380532 0 1.491695 1.997226 0 -0.157623 18.901126 0 0 0 1.5 4-4cyli.dat
+1 0 -12.797333 -119.871451 0 1.491307 9.786419 0 -0.161258 90.504191 0 0 0 1.5 4-4cyli.dat
+1 0 -17.249566 -164.685082 0 1.493497 4.280167 0 -0.139522 45.816391 0 0 0 1.5 4-4cyli.dat
+1 0 -20.101045 -203.60923 0 1.495907 2.954117 0 -0.110741 39.904569 0 0 0 1.5 4-4cyli.dat
+1 0 -22.094281 -239.579573 0 1.497677 2.059019 0 -0.083445 36.955391 0 0 0 1.5 4-4cyli.dat
+1 0 -23.322211 -272.580169 0 1.49895 1.272111 0 -0.056103 33.98785 0 0 0 1.5 4-4cyli.dat
+1 0 -23.938292 -305.59728 0 1.499734 0.640008 0 -0.028226 34.005626 0 0 0 1.5 4-4cyli.dat
+1 0 -23.931066 -335.618568 0 1.5 0.004107 0 -0.000199 31.010589 0 0 0 1.5 4-4cyli.dat
+1 0 -23.373845 -365.634306 0 1.499754 -0.561583 0 0.027164 31.005503 0 0 0 1.5 4-4cyli.dat
+1 0 -22.174112 -398.634939 0 1.499023 -1.227317 0 0.054128 33.989497 0 0 0 1.5 4-4cyli.dat
+1 0 -20.214031 -434.606029 0 1.497793 -2.006912 0 0.081333 36.958257 0 0 0 1.5 4-4cyli.dat
+1 0 -17.377958 -473.529392 0 1.496063 -2.897243 0 0.108609 39.908739 0 0 0 1.5 4-4cyli.dat
+1 0 -13.566621 -515.384906 0 1.493851 -3.890772 0 0.135678 42.838499 0 0 0 1.5 4-4cyli.dat
+1 0 -7.762242 -569.107633 0 1.49153 -5.838616 0 0.15918 54.708386 0 0 0 1.5 4-4cyli.dat
+1 0 -1.232772 -625.771814 0 1.490973 -6.355736 0 0.164315 57.670953 0 0 0 1.5 4-4cyli.dat
+1 0 -0.444034 -631.732854 0 1.492918 -0.679613 0 0.145587 6.969059 0 0 0 1.5 4-4cyli.dat
+1 0 -0.218796 -634.727182 0 1.495306 -0.316289 0 0.118577 3.988538 0 0 0 1.5 4-4cyli.dat
+1 0 -0.05188 -637.724684 0 1.497559 -0.228173 0 0.085542 3.994547 0 0 0 1.5 4-4cyli.dat
+1 0 0.006116 -640.612898 0 1.499641 -0.087577 0 0.032833 4.0001 0 0 0 1.5 4-4cyli.dat

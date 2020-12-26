@@ -1,0 +1,270 @@
+0 Solitary tiled panel wall
+0 Name: infrastructure_heavywall_straight.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+0 Column for carrying panel structures.
+0 Name: infrastructure_heavywall_column.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 TITLE Column for carrying panel structures.
+0
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 7 -110 -8 -20 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 7 -110 -8 40 0 0 1 0 1 0 -1 0 0 3710.dat
+0 STEP
+1 7 -110 -32 10 1 0 0 0 1 0 0 0 1 4070.dat
+1 7 -110 -32 30 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 -110 -80 50 -1 0 0 0 1 0 0 0 -1 4460a.dat
+0 STEP
+1 7 -110 -56 20 0 0 1 0 1 0 -1 0 0 3004.dat
+1 7 -110 -80 20 0 0 1 0 1 0 -1 0 0 3004.dat
+0 STEP
+1 7 -110 -104 10 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 -110 -152 30 -1 0 0 0 1 0 0 0 -1 4460a.dat
+0 STEP
+1 7 -110 -128 10 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 -110 -152 10 1 0 0 0 1 0 0 0 1 4070.dat
+0 STEP
+1 7 -110 -224 10 -1 0 0 0 1 0 0 0 -1 4460a.dat
+1 7 -110 -22 -4 1 0 0 0 0 -1 0 1 0 3024.dat
+1 7 -110 -142 -4 1 0 0 0 0 -1 0 1 0 3024.dat
+0 STEP
+0
+0
+
+0 Column for carrying panel structures.
+0 Name: infrastructure_heavywall_column.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 TITLE Column for carrying panel structures.
+0
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 7 -50 -8 -20 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 7 -50 -8 40 0 0 1 0 1 0 -1 0 0 3710.dat
+0 STEP
+1 7 -50 -32 10 1 0 0 0 1 0 0 0 1 4070.dat
+1 7 -50 -32 30 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 -50 -80 50 -1 0 0 0 1 0 0 0 -1 4460a.dat
+0 STEP
+1 7 -50 -56 20 0 0 1 0 1 0 -1 0 0 3004.dat
+1 7 -50 -80 20 0 0 1 0 1 0 -1 0 0 3004.dat
+0 STEP
+1 7 -50 -104 10 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 -50 -152 30 -1 0 0 0 1 0 0 0 -1 4460a.dat
+0 STEP
+1 7 -50 -128 10 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 -50 -152 10 1 0 0 0 1 0 0 0 1 4070.dat
+0 STEP
+1 7 -50 -224 10 -1 0 0 0 1 0 0 0 -1 4460a.dat
+1 7 -50 -22 -4 1 0 0 0 0 -1 0 1 0 3024.dat
+1 7 -50 -142 -4 1 0 0 0 0 -1 0 1 0 3024.dat
+0 STEP
+0
+0
+
+0 Column for carrying panel structures.
+0 Name: infrastructure_heavywall_column.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 TITLE Column for carrying panel structures.
+0
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 7 50 -8 -20 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 7 50 -8 40 0 0 1 0 1 0 -1 0 0 3710.dat
+0 STEP
+1 7 50 -32 10 1 0 0 0 1 0 0 0 1 4070.dat
+1 7 50 -32 30 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 50 -80 50 -1 0 0 0 1 0 0 0 -1 4460a.dat
+0 STEP
+1 7 50 -56 20 0 0 1 0 1 0 -1 0 0 3004.dat
+1 7 50 -80 20 0 0 1 0 1 0 -1 0 0 3004.dat
+0 STEP
+1 7 50 -104 10 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 50 -152 30 -1 0 0 0 1 0 0 0 -1 4460a.dat
+0 STEP
+1 7 50 -128 10 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 50 -152 10 1 0 0 0 1 0 0 0 1 4070.dat
+0 STEP
+1 7 50 -224 10 -1 0 0 0 1 0 0 0 -1 4460a.dat
+1 7 50 -22 -4 1 0 0 0 0 -1 0 1 0 3024.dat
+1 7 50 -142 -4 1 0 0 0 0 -1 0 1 0 3024.dat
+0 STEP
+0
+0
+
+0 Column for carrying panel structures.
+0 Name: infrastructure_heavywall_column.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 TITLE Column for carrying panel structures.
+0
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 7 110 -8 -20 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 7 110 -8 40 0 0 1 0 1 0 -1 0 0 3710.dat
+0 STEP
+1 7 110 -32 10 1 0 0 0 1 0 0 0 1 4070.dat
+1 7 110 -32 30 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 110 -80 50 -1 0 0 0 1 0 0 0 -1 4460a.dat
+0 STEP
+1 7 110 -56 20 0 0 1 0 1 0 -1 0 0 3004.dat
+1 7 110 -80 20 0 0 1 0 1 0 -1 0 0 3004.dat
+0 STEP
+1 7 110 -104 10 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 110 -152 30 -1 0 0 0 1 0 0 0 -1 4460a.dat
+0 STEP
+1 7 110 -128 10 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 110 -152 10 1 0 0 0 1 0 0 0 1 4070.dat
+0 STEP
+1 7 110 -224 10 -1 0 0 0 1 0 0 0 -1 4460a.dat
+1 7 110 -22 -4 1 0 0 0 0 -1 0 1 0 3024.dat
+1 7 110 -142 -4 1 0 0 0 0 -1 0 1 0 3024.dat
+0 STEP
+0
+0
+
+0 STEP
+0 0  -14   -4  1 0 0   0 0 -1  0 1 0       3024.dat
+0 0 -134   -4  1 0 0   0 0 -1  0 1 0       3024.dat
+0 Tiled panel structure for plating on a house.
+0 Name: infrastructure_heavywall_tiled.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 TITLE Tiled panel structure for plating on a house.
+0
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 0 50 -112 -12 0 0 -1 -1 0 0 0 1 0 4477.dat
+1 0 110 -112 -12 0 0 -1 -1 0 0 0 1 0 4477.dat
+0 STEP
+1 0 50 -182 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -182 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 50 -142 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -142 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 50 -102 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -102 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 50 -62 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -62 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 50 -22 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -22 -20 -1 0 0 0 0 1 0 1 0 3024.dat
+0 STEP
+1 4 80 -202 -20 -1 0 0 0 0 1 0 1 0 4162.dat
+1 4 80 -162 -20 -1 0 0 0 0 1 0 1 0 4162.dat
+1 4 80 -122 -20 -1 0 0 0 0 1 0 1 0 4162.dat
+1 4 80 -82 -20 -1 0 0 0 0 1 0 1 0 4162.dat
+1 4 80 -42 -20 -1 0 0 0 0 1 0 1 0 4162.dat
+0 STEP
+1 0 50 -182 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -182 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 50 -142 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -142 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 50 -102 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -102 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 50 -62 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -62 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 50 -22 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+1 0 110 -22 -28 -1 0 0 0 0 1 0 1 0 3024.dat
+0 STEP
+1 4 80 -182 -36 -1 0 0 0 0 1 0 1 0 4162.dat
+1 4 80 -142 -36 -1 0 0 0 0 1 0 1 0 4162.dat
+1 4 80 -102 -36 -1 0 0 0 0 1 0 1 0 4162.dat
+1 4 80 -62 -36 -1 0 0 0 0 1 0 1 0 4162.dat
+1 4 80 -22 -36 -1 0 0 0 0 1 0 1 0 4162.dat
+0 STEP
+0
+0
+0
+0
+0
+0
+
+
+0 Tiled panel structure for plating on a house.
+0 Name: infrastructure_heavywall_tiled.ldr
+0 Author: Jacob Sparre Andersen, July 2005
+0 Unofficial Model
+0 TITLE Tiled panel structure for plating on a house.
+0
+0 venstre
+0 |    ned
+0 |    |    bagud
+0 |    |    |
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 0 -50 -112 -12 0 0 1 1 0 0 0 1 0 4477.dat
+1 0 -110 -112 -12 0 0 1 1 0 0 0 1 0 4477.dat
+0 STEP
+1 0 -50 -42 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -42 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -50 -82 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -82 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -50 -122 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -122 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -50 -162 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -162 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -50 -202 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -202 -20 1 0 0 0 0 -1 0 1 0 3024.dat
+0 STEP
+1 4 -80 -22 -20 1 0 0 0 0 -1 0 1 0 4162.dat
+1 4 -80 -62 -20 1 0 0 0 0 -1 0 1 0 4162.dat
+1 4 -80 -102 -20 1 0 0 0 0 -1 0 1 0 4162.dat
+1 4 -80 -142 -20 1 0 0 0 0 -1 0 1 0 4162.dat
+1 4 -80 -182 -20 1 0 0 0 0 -1 0 1 0 4162.dat
+0 STEP
+1 0 -50 -42 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -42 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -50 -82 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -82 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -50 -122 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -122 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -50 -162 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -162 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -50 -202 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+1 0 -110 -202 -28 1 0 0 0 0 -1 0 1 0 3024.dat
+0 STEP
+1 4 -80 -42 -36 1 0 0 0 0 -1 0 1 0 4162.dat
+1 4 -80 -82 -36 1 0 0 0 0 -1 0 1 0 4162.dat
+1 4 -80 -122 -36 1 0 0 0 0 -1 0 1 0 4162.dat
+1 4 -80 -162 -36 1 0 0 0 0 -1 0 1 0 4162.dat
+1 4 -80 -202 -36 1 0 0 0 0 -1 0 1 0 4162.dat
+0 STEP
+0
+0
+0
+0
+0
+0
+
+
+0 STEP

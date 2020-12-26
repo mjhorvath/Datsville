@@ -1,0 +1,18 @@
+0 Untitled
+0 Name: suggest_for_conn_04.ldr
+0 Author: Max Martin Richter [MMR1988]
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 25 0 0 0 -1 0 0 0 0 1 0 1 0 3004.dat
+1 4 40 0 16 -1 0 0 0 0 1 0 1 0 3023.dat
+1 4 40 0 8 -1 0 0 0 0 1 0 1 0 3023.dat
+1 25 0 0 -48 -1 0 0 0 0 1 0 1 0 3004.dat
+1 25 40 0 -48 -1 0 0 0 0 1 0 1 0 3004.dat
+1 25 -20 0 -24 -1 0 0 0 0 1 0 1 0 3004.dat
+1 25 60 0 -24 -1 0 0 0 0 1 0 1 0 3004.dat
+1 1 10 0 -18 0 1 0 0 0 1 1 0 0 4274.dat
+1 15 10 -26 -10 -1 0 0 0 1 0 0 0 -1 32529.dat
+1 14 50 0 0 0 0 -1 -1 0 0 0 1 0 3024.dat
+1 313 30 0 0 0 0 -1 -1 0 0 0 1 0 3070a.dat
+0

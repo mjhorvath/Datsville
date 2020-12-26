@@ -1,0 +1,9 @@
+0 Datsville City Block #12
+0 Name: block_012_overlay.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 5080 0 1900 0 0 1 0 1 0 -1 0 0 building_009_miningfacility.mpd
+0

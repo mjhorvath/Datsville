@@ -1,0 +1,36 @@
+0 FILE powerline_scene.ldr
+0 Utility Pole
+0 Name: powerline_scene.ldr
+0 Author: Michael Horvath
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 0 0 -1 0 1 0 1 0 0 snotroad_doubledash.ldr
+1 16 0 0 0 0 0 -1 0 1 0 1 0 0 snotroad_walkway_full.ldr
+1 16 0 0 0 0 0 1 0 1 0 -1 0 0 snotroad_walkway_full.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 16 320 0 260 0 0 1 0 1 0 -1 0 0 infrastructure_utilitypole_a.ldr
+1 16 -320 0 260 0 0 1 0 1 0 -1 0 0 infrastructure_utilitypole_a.ldr
+0 
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 infrastructure_powerline_quad_a.ldr
+0 WRITE 
+1 16 0 -72 220 0 0 1 0 1 0 -1 0 0 man_walking.ldr
+0
+0 FILE man_walking.ldr
+0 New Minifig Model
+0 Name: man_walking.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 -24 0 1 0 0 0 1 0 0 0 1 30171c01.dat
+1 14 0 -24 0 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 973.dat
+1 0 0 32 0 1 0 0 0 1 0 0 0 1 3815.dat
+1 0 -15.552 9 0 0.985 -0.147224 -0.085 0.17 0.853035 0.4925 0 -0.5 0.866025 3818.dat
+1 0 15.552 9 0 0.985 0.085 -0.147224 -0.17 0.4925 -0.853035 0 0.866025 0.5 3819.dat
+1 14 -22.5588 19.0367 -18.3187 0.985 -0.164183 0.0439926 0.17 0.951293 -0.254898 0 0.25878 0.96578 3820.dat
+1 14 23.7882 26.16 11.087 0.985 -0.0439926 -0.164183 -0.17 -0.254898 -0.951293 0 0.96578 -0.25878 3820.dat
+1 0 0 44 0 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 3816.dat
+1 0 0 44 0 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 3817.dat
+0
+0

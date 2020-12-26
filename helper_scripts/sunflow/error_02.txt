@@ -1,0 +1,300 @@
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part box5.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part box5.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part box5.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part box5.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part box5.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect2p.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect2p.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part stud2a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring2.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part stud2a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring2.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect2a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect2a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect2p.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect2p.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect2a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect2a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 3-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 3-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ring4.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 3040s01.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part stud3a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4cyls.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4cyls.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part stud.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-8sphe.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-8sphe.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-8sphe.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-8sphe.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-8sphe.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part stud4a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cylc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring3.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cylo.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4ring2.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2335s01.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part rect.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part box3u4a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part clip1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4cyli.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part box4o4a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part box4o4a.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part clip1.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 4-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2335ps4b.dat use unknown color code (82 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4ndis.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 1-4disc.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2335ps4b.dat use unknown color code (82 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2335p40s01.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter parseFile
+SEVERE: Part 2335p40s01.dat use unknown color code (16 force color code 0)
+Jan 31, 2018 7:05:04 PM org.ldraw2sunflow.converter.LdrawConverter generateMesh
+INFO: # Processing time : 0.788 seconds
+Exception in thread "Thread-4" java.lang.UnsatisfiedLinkError: no lwjgl in java.
+library.path
+        at java.lang.ClassLoader.loadLibrary(Unknown Source)
+        at java.lang.Runtime.loadLibrary0(Unknown Source)
+        at java.lang.System.loadLibrary(Unknown Source)
+        at org.lwjgl.LWJGLUtil.loadLibrarySystem(LWJGLUtil.java:337)
+        at org.lwjgl.Sys.<clinit>(Sys.java:29)
+        at org.ldraw2sunflow.lwjgl.PreviewOpenGL.run(PreviewOpenGL.java:160)
+        at org.ldraw2sunflow.ui.impl.RenderPanel.convertFile(RenderPanel.java:11
+7)
+        at org.ldraw2sunflow.ui.impl.RenderPanel.access$000(RenderPanel.java:61)
+
+        at org.ldraw2sunflow.ui.impl.RenderPanel$1.run(RenderPanel.java:85)
+
+D:\Datsville\helper_scripts\sunflow>pause
+Press any key to continue . . .

@@ -1,0 +1,27 @@
+0 Gray Motorcycle with Blue Rider
+0 Name: vehicle_094_darkgraymotorcyclewithbluerider.ldr
+0 Author: Tore Eriksson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 pedestrian_063_bluemotorcyclerider.ldr
+0 // Front wheel (y=0, z=-90)
+1 4 0 -18 -50 1 0 0 0 1 0 0 0 1 3464.dat
+1 256 0 -18 -50 0 0 1 0 1 0 -1 0 0 3641.dat
+
+0 // Back Wheel (0,0,0)
+1 4 0 -18 40 1 0 0 0 1 0 0 0 1 3464.dat
+1 256 0 -18 40 0 0 1 0 1 0 -1 0 0 3641.dat
+
+1 8 0 -48 40 1 0 0 0 1 0 0 0 1 4480c01.dat
+
+1 0 0 -56 40 0 0 1 0 1 0 -1 0 0 3069b.dat
+1 16 18 -38 40 0 -1 0 0 0 -1 1 0 0 3069a.dat
+1 16 -18 -38 40 0 1 0 0 0 -1 -1 0 0 3069a.dat
+1 47 0 -62 -53 1 0 0 0 0 -1 0 1 0 6141.dat
+1 36 0 -38 68 1 0 0 0 0 1 0 -1 0 3070a.dat
+
+0 2 4  -100 0 0  100 0 0
+
+0

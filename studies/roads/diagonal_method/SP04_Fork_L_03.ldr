@@ -1,0 +1,9 @@
+0 Untitled
+0 Name: SP04_Fork_L_03.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 483.063 475.349 43.3817 1 "Custom" 
+0 ROTATION CONFIG 1 1
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 SP04_Fork_L_01.ldr
+1 0 1221.57 0.349 -72.149 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 SP04_Fork_L_02b.ldr
+0

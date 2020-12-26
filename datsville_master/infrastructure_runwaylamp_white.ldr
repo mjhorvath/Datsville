@@ -1,0 +1,10 @@
+0 Airport Runway Lamp (White)
+0 Name: infrastructure_runwaylamp_01.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 -8 0 1 0 0 0 1 0 0 0 1 4073.dat
+1 47 0 -16 0 1 0 0 0 1 0 0 0 1 4073.dat
+0

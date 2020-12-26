@@ -1,0 +1,20 @@
+0 Untitled
+0 Name: demo_scene.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 6 320 48 -1600 1 0 0 0 1 0 0 0 1 3811.dat
+1 0 320 0 -2240 0 0 -1 0 1 0 1 0 0 snotroad_doublestripenocross.ldr
+1 0 320 0 -2240 0 0 -1 0 1 0 1 0 0 snotroad_walkway_full.ldr
+1 0 320 0 -2240 0 0 1 0 1 0 -1 0 0 snotroad_walkway_full.ldr
+1 0 960 0 -2240 0 0 -1 0 1 0 1 0 0 snotroad_doublestripenocross.ldr
+1 0 1600 0 -2240 -1 0 0 0 1 0 0 0 -1 snotroad_triplestripecross_1.ldr
+1 0 1600 0 -2240 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_full.ldr
+1 0 960 0 -2240 0 0 -1 0 1 0 1 0 0 snotroad_walkway_full.ldr
+1 0 960 0 -2240 0 0 1 0 1 0 -1 0 0 snotroad_walkway_full.ldr
+1 0 -640 0 -1920 0 0 1 0 1 0 -1 0 0 snotroad_90degree_curve_2x2.ldr
+1 0 1600 0 -1600 -1 0 0 0 1 0 0 0 -1 snotroad_45degree_curve_left.ldr
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 snotroad_intersection_left_01.mpd
+1 0 1280 0 -640 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightgap.ldr
+0

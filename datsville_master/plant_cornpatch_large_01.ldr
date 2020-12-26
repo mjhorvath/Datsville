@@ -1,0 +1,12 @@
+0 Corn Patch Large #1
+0 Name: plant_cornpatch_large_01.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 160 0 160 1 0 0 0 1 0 0 0 1 plant_cornpatch_medium_03.ldr
+1 16 -160 0 160 1 0 0 0 1 0 0 0 1 plant_cornpatch_medium_04.ldr
+1 16 -160 0 -160 1 0 0 0 1 0 0 0 1 plant_cornpatch_medium_03.ldr
+1 16 160 0 -160 1 0 0 0 1 0 0 0 1 plant_cornpatch_medium_04.ldr
+0

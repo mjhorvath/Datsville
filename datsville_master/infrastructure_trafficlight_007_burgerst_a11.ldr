@@ -1,0 +1,15 @@
+0 Traffic Signal Burger St
+0 Name: infrastructure_trafficlight_007_burgerst_a11.ldr
+0 Author: Michael Heidemann, Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG -3 1
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 infrastructure_trafficsignal_a11.mpd
+1 2 -72 -250 -10 1 0 0 0 0 -1 0 1 0 sign_007_burgerst.ldr
+1 288 -102 -250 -2 -1 0 0 0 0 1 0 1 0 61252.dat
+1 288 -42 -250 -2 -1 0 0 0 0 1 0 1 0 61252.dat
+0

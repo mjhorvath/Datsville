@@ -1,0 +1,13 @@
+0 Untitled
+0 Name: Untitled 3.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 288 10 -200 6 -1 0 0 0 0 1 0 1 0 11458.dat
+1 2 50 -200 -2 1 0 0 0 0 -1 0 1 0 2431.dat
+1 288 6 -180 -10 0 1 0 0 0 1 1 0 0 11458.dat
+1 2 -2 -180 -50 0 1 0 0 0 -1 -1 0 0 2431.dat
+1 288 0 -110 0 0 0 -1 -1 0 0 0 1 0 3737.dat
+1 288 0 -20 0 0 0 -1 -1 0 0 0 1 0 75535.dat
+0

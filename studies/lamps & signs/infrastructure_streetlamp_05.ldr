@@ -1,0 +1,13 @@
+0 Untitled
+0 Name: lamp1.ldr
+0 Author: Michael Heidemann
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 87580.dat
+1 0 0 -19 8 1 0 0 0 0 1 0 -1 0 30359a.dat
+1 0 0 -159 -2 1 0 0 0 -1 0 0 0 -1 30367c.dat
+1 1 0 -183 -2 0 0 1 -1 0 0 0 -1 0 32062.dat
+1 47 0 -207 -2 -1 0 0 0 1 0 0 0 -1 6143.dat
+1 0 0 -223 -2 -1 0 0 0 1 0 0 0 -1 43898.dat
+0

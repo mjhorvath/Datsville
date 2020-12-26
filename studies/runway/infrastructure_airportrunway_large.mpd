@@ -1,0 +1,430 @@
+0 FILE infrastructure_airportrunway_large.ldr
+0 Airport Runway (large)
+0 Name: infrastructure_airportrunway_large.ldr
+0 Author: Jacob Sparre Andersen, Michael Horvath
+0 Unofficial Datsville Model
+0 TITLE Runway
+0 DESCRIPTION Runway for the airport at Pier 17.
+0 DESIGN  Jacob Sparre Andersen <sparre@nbi.dk>, August 2001.
+0 DRAWING Jacob Sparre Andersen <sparre@nbi.dk>, August 2001.
+0 KEYWORDS moc, town, transportation
+0 LICENSE The Beer-Ware License (Revision 42)
+0 WEB-PAGE     http://lego.sparre-andersen.dk/Pier_17/Airport/
+0 ILLUSTRATION http://lego.sparre-andersen.dk/Pier_17/Airport/illustration
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 160 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 480 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 800 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 1120 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 15 0 0 1440 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 1760 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -6800 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_bane-bag.ldr
+1 0 0 0 -6960 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_bane-bag.ldr
+1 0 0 -8 -6560 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_numbereast.ldr
+1 15 0 0 -1760 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -1440 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 -1120 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 -800 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 15 0 0 -480 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 -160 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -3360 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 -3040 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 -2720 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 15 0 0 -2400 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 -2080 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -5280 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -5920 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 -6240 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 -4960 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 15 0 0 -5600 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 -4640 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 15 0 0 -4320 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+1 0 0 0 -4000 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 -3680 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 2080 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 2400 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 2720 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 3040 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 3360 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 0 0 0 3680 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_banesektion.ldr
+1 15 0 0 4240 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_bane-bag.ldr
+1 15 0 -8 4000 -1 0 0 0 1 0 0 0 -1 infrastructure_airportrunway_numberwest.ldr
+1 15 0 0 4400 1 0 0 0 1 0 0 0 1 infrastructure_airportrunway_bane-bag.ldr
+0
+0 FILE infrastructure_airportrunway_banesektion.ldr
+0 Runway section
+0 Name: infrastructure_airportrunway_banesektion.ldr
+0 Author: Jacob Sparre Andersen
+0 Unofficial Datsville Model
+0 TITLE Runway section
+0 Design: Jacob Sparre Andersen, August 2001.
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 630 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -630 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 610 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 630 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 110 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 110 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 90 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 90 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 70 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 70 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 50 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 50 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 30 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 30 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 610 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -610 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -630 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -110 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -110 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -90 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -90 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -70 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -70 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -50 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -50 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -30 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -30 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -610 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 200 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 360 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 520 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 -520 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 -360 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 -200 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 15 10 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 10 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -10 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -10 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+0
+0 FILE infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+0 Runway section - left taxiway
+0 Name: infrastructure_airportrunway_banesektion-venstre_taxiway.ldr
+0 Author: Jacob Sparre Andersen
+0 Unofficial Datsville Model
+0 TITLE Runway section - left taxiway
+0 Design: Jacob Sparre Andersen, August 2001.
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+0 0    280   -48     0  0 0 1   0 1 0   -1 0 0      6636.dat
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -630 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+0 15    260   -48     0  0 0 1   0 1 0   -1 0 0      6636.dat
+1 15 -610 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -630 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -110 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -110 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -90 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -90 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -70 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -70 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -50 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -50 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -30 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -30 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 30 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 30 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 50 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 50 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 70 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 70 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 90 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 90 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 110 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 110 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -610 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 610 -8 40 0 0 1 0 1 0 -1 0 0 2431.dat
+1 0 610 -8 120 0 0 1 0 1 0 -1 0 0 2431.dat
+1 15 610 -8 -120 0 0 1 0 1 0 -1 0 0 2431.dat
+1 0 610 -8 -40 0 0 1 0 1 0 -1 0 0 2431.dat
+1 0 630 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 630 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -520 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 -360 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 -200 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 200 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 360 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 0 520 -8 0 0 0 1 0 1 0 -1 0 0 48288.dat
+1 15 -10 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 10 -8 80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -10 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 10 -8 -80 0 0 1 0 1 0 -1 0 0 4162.dat
+0
+0 FILE infrastructure_airportrunway_bane-bag.ldr
+0 Runway section (far end)
+0 Name: infrastructure_airportrunway_bane-bag.ldr
+0 Author: Jacob Sparre Andersen
+0 Unofficial Datsville Model
+0 TITLE Runway section (far end)
+0 Design: Jacob Sparre Andersen, August 2001.
+0 venstre
+0 |     ned
+0 |     |     bagud
+0 |     |     |
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 290 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 630 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -290 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -630 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 270 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 250 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 230 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 370 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 350 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 330 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 310 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 450 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 430 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 410 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 390 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 530 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 510 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 490 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 470 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 610 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 590 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 570 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 550 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 210 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 190 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 170 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 150 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 130 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 110 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 90 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 70 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 50 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 30 -8 0 0 0 -1 0 1 0 1 0 0 4162.dat
+1 15 -270 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -250 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -230 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -370 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -350 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -330 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -310 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -450 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -430 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -410 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -390 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -530 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -510 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -490 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -470 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -610 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -590 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -570 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -550 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -210 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -190 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -170 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -150 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -130 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -110 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -90 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -70 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -50 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 15 -30 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 -10 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+1 0 10 -8 0 0 0 1 0 1 0 -1 0 0 4162.dat
+0 
+
+0 
+
+0 
+
+0 
+
+0 
+0 NOFILE
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+0 FILE infrastructure_airportrunway_numbereast.ldr
+0 Runway Number East
+0 Name: infrastructure_airportrunway_numbereast.ldr
+0 Author: Michael Horvath
+0 Unofficial Datsville Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 610 0 80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 630 0 80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 15 610 0 -80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 630 0 -80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 -100 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -60 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -20 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 20 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 60 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 100 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 360 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 200 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 520 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 100 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 60 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 20 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -20 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -60 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -100 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 110 0 0 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 0 0 -70 -1 0 0 0 1 0 0 0 -1 4162.dat
+1 0 0 0 70 -1 0 0 0 1 0 0 0 -1 4162.dat
+1 0 0 0 50 -1 0 0 0 1 0 0 0 -1 2431.dat
+1 0 0 0 -50 -1 0 0 0 1 0 0 0 -1 2431.dat
+1 0 -60 0 20 -1 0 0 0 1 0 0 0 -1 3068b.dat
+1 0 -60 0 -20 -1 0 0 0 1 0 0 0 -1 3068b.dat
+1 0 60 0 20 -1 0 0 0 1 0 0 0 -1 3068b.dat
+1 0 0 0 20 -1 0 0 0 1 0 0 0 -1 3068b.dat
+1 0 0 0 -20 -1 0 0 0 1 0 0 0 -1 3068b.dat
+1 0 -90 0 60 0 0 -1 0 1 0 1 0 0 3069b.dat
+1 0 -90 0 -60 0 0 -1 0 1 0 1 0 0 3069b.dat
+1 0 90 0 -60 0 0 -1 0 1 0 1 0 0 3069b.dat
+1 0 90 0 60 0 0 -1 0 1 0 1 0 0 3069b.dat
+1 0 30 0 -20 0 0 -1 0 1 0 1 0 0 3069b.dat
+1 0 60 0 -30 -1 0 0 0 1 0 0 0 -1 3069b.dat
+1 15 -50 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -70 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -90 0 30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -90 0 10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -90 0 -10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -90 0 -30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -70 0 -50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -50 0 -50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -30 0 -30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -30 0 -10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -30 0 10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -30 0 30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 30 0 30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 30 0 10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 50 0 -10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 70 0 -10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 50 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 70 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 90 0 30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 90 0 10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 90 0 -10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 90 0 -30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 70 0 -50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 50 0 -50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -610 0 80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 -630 0 80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 15 -610 0 -80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 -630 0 -80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 -520 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 -360 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 -200 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 -110 0 0 0 0 -1 0 1 0 1 0 0 4162.dat
+0
+0 FILE infrastructure_airportrunway_numberwest.ldr
+0 Runway Number West
+0 Name: infrastructure_airportrunway_numberwest.ldr
+0 Author: Michael Horvath
+0 Unofficial Datsville Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 610 0 80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 630 0 80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 200 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 360 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 520 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 15 610 0 -80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 630 0 -80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 100 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 60 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 20 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -20 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -60 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -100 0 120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -100 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -60 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 -20 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 20 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 60 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 100 0 -120 0 0 -1 0 1 0 1 0 0 87079.dat
+1 0 110 0 0 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 0 0 -70 -1 0 0 0 1 0 0 0 -1 4162.dat
+1 0 -90 0 -70 -1 0 0 0 1 0 0 0 -1 3070b.dat
+1 0 90 0 70 -1 0 0 0 1 0 0 0 -1 3070b.dat
+1 0 70 0 -10 -1 0 0 0 1 0 0 0 -1 3070b.dat
+1 0 -70 0 -10 -1 0 0 0 1 0 0 0 -1 3070b.dat
+1 0 70 0 30 -1 0 0 0 1 0 0 0 -1 3070b.dat
+1 0 -50 0 -30 -1 0 0 0 1 0 0 0 -1 3070b.dat
+1 0 90 0 -70 -1 0 0 0 1 0 0 0 -1 3070b.dat
+1 0 -60 0 20 -1 0 0 0 1 0 0 0 -1 3068a.dat
+1 0 80 0 -40 -1 0 0 0 1 0 0 0 -1 3068a.dat
+1 0 -90 0 -10 0 0 1 0 1 0 -1 0 0 63864.dat
+1 0 -10 0 50 -1 0 0 0 1 0 0 0 -1 63864.dat
+1 0 10 0 30 -1 0 0 0 1 0 0 0 -1 63864.dat
+1 0 10 0 10 -1 0 0 0 1 0 0 0 -1 63864.dat
+1 0 10 0 -10 -1 0 0 0 1 0 0 0 -1 63864.dat
+1 0 10 0 -30 -1 0 0 0 1 0 0 0 -1 63864.dat
+1 0 10 0 -50 -1 0 0 0 1 0 0 0 -1 63864.dat
+1 0 0 0 70 -1 0 0 0 1 0 0 0 -1 4162.dat
+1 0 -90 0 60 0 0 -1 0 1 0 1 0 0 3069b.dat
+1 0 90 0 0 0 0 -1 0 1 0 1 0 0 3069b.dat
+1 0 50 0 20 0 0 -1 0 1 0 1 0 0 3069b.dat
+1 0 -30 0 -20 0 0 -1 0 1 0 1 0 0 3069b.dat
+1 15 -50 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -70 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -90 0 30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -50 0 -10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -70 0 -30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -90 0 -50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -30 0 -50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -70 0 -50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -50 0 -50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -30 0 10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -30 0 30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 30 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 50 0 -10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 50 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 70 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 90 0 50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 90 0 30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 70 0 10 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 50 0 -30 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 50 0 -50 0 0 -1 0 1 0 1 0 0 3070b.dat
+1 15 -610 0 80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 -630 0 80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 -200 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 -360 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 0 -520 0 0 0 0 -1 0 1 0 1 0 0 48288.dat
+1 15 -610 0 -80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 -630 0 -80 0 0 -1 0 1 0 1 0 0 4162.dat
+1 0 -110 0 0 0 0 -1 0 1 0 1 0 0 4162.dat
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+0

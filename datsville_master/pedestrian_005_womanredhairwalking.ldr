@@ -1,0 +1,23 @@
+0 Datsville Minifig Woman 4
+0 Name: pedestrian_005_womanredhairwalking.ldr
+0 Author: John VanZwieten
+0 Was: tmwoman4.dat
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -28 1 1 0 0 0 1 0 0 0 1 3816.dat
+1 0 0 -28 1 1 0 0 0 0.94 0.342 0 -0.342 0.94 3817.dat
+1 0 0 -40 1 1 0 0 0 1 0 0 0 1 3815.dat
+0 torso
+1 0 0 -72 1 1 0 0 0 1 0 0 0 1 973p17.dat
+0 head
+1 14 0 -96 1 1 0 0 0 1 0 0 0 1 3626bp02.dat
+0 hair
+1 4 0 -96 1 1 0 0 0 1 0 0 0 1 6093a.dat
+0 Arms and Hands
+1 4 15.552 -63 1 0.9855 0.1092 -0.1301 -0.1699 0.6337 -0.7549 0 0.766 0.643 3819.dat
+1 14 23.8325 -44.4003 9.1117 0.9855 -0.0148 -0.1693 -0.1699 -0.0857 -0.9818 0 0.9963 -0.087 3820.dat
+1 4 -15.552 -63 1 0.9855 -0.1699 0 0.1699 0.9855 0 0 0 1 3818.dat
+1 14 -23.6904 -45.2243 -8.9 0.9855 -0.1201 0.1201 0.1699 0.6968 -0.6968 0 0.7071 0.7071 3820.dat
+0

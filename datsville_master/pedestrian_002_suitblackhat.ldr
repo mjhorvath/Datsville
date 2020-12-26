@@ -1,0 +1,24 @@
+0 Minifig Woman 2
+0 Name: pedestrian_002_suitblackhat.ldr
+0 Author: Leonardo Zide
+0 Was: tmwoman2.dat
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 legs & hip
+1 15 0 -28 1 1 0 0 0 0.966 0.259 0 -0.259 0.966 3817.dat
+1 15 0 -28 1 1 0 0 0 0.966 -0.259 0 0.259 0.966 3816.dat
+1 15 0 -40 1 1 0 0 0 1 0 0 0 1 3815.dat
+0 torso
+1 16 0 -72 1 1 0 0 0 1 0 0 0 1 973p18.dat
+0 head
+1 14 0 -96 1 1 0 0 0 1 0 0 0 1 3626bp05.dat
+0 hat
+1 0 0 -104 1 0.7 0 0 0 1 0 0 0 0.7 4740.dat
+0 Arms and Hands
+1 16 15.552 -63 1 0.9855 0.1699 0 -0.1699 0.9855 0 0 0 1 3819.dat
+1 14 23.6904 -45.2243 -8.9 0.9855 0.1201 -0.1201 -0.1699 0.6968 -0.6968 0 0.7071 0.7071 3820.dat
+1 16 -15.552 -63 1 0.9855 0 -0.1699 0.1699 0 0.9855 0 -1 0 3818.dat
+1 14 -18.7973 -73.6056 -17.9 0.9855 -0.1201 -0.1201 0.1699 0.6968 0.6968 0 -0.7071 0.7071 3820.dat
+0

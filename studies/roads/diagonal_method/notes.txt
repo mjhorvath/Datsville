@@ -1,0 +1,11 @@
+ 1. Carefully design the road in GeoGebra. The more detail, the better.
+ 2. Use the measurements gotten in GeoGebra to manually create the SVG file using Notepad or Inkscape. For the time being, MODEL EACH COLOR SEPARATELY and use separate SVG files for each color. You might even want to model each part type separately.
+ 3. Make sure that "shape-rendering" is set to "crispEdges" in the SVG file so that there is no (unwanted) anti-aliasing.
+ 4. Open the SVG file in GIMP and export as a PNG file.
+ 5. Open the PNG file in LDDMC.
+ 6. Turn anti-aliasing/dithering all the way off in LDDMC.
+ 7. Select "1 x 1 plates seen from the side" in LDDMC.
+ 8. Set the width to 128 plates and the height to 240 plates in LDDMC.
+ 9. Export the mosaic in LDDMC to LDraw format.
+10. Open the exported model file in MLCAD and make sure the model parts are rotated and positioned properly for use in your scene. I had to rotate all the parts 90 degrees so they laid flat, and had to also move the parts a long ways to the back and left.
+11. Do any other tweaks you think are necessary.

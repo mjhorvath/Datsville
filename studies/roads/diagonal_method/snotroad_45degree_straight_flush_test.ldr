@@ -1,0 +1,23 @@
+0 Untitled
+0 Name: snotroad_45degree_straight_flush_test.ldr
+0 Author: Michael Horvath based on designs by Mike Gallagher
+0 Unofficial Model
+
+0 ROTATION CENTER -740 0.333333 -75.6667 1 "Custom" 
+0 ROTATION CONFIG -3 0
+1 16 -320 0 320 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 snotroad_45degree_straight_flush_insystem.ldr
+1 6 -320 48 -320 1 0 0 0 1 0 0 0 1 3811.dat
+1 6 -320 48 320 1 0 0 0 1 0 0 0 1 3811.dat
+1 6 320 48 320 1 0 0 0 1 0 0 0 1 3811.dat
+1 6 320 48 -320 1 0 0 0 1 0 0 0 1 3811.dat
+0 Untitled
+0 Name: snotroad_45degree_straight_flush_test.ldr
+0 Author: Michael Horvath based on designs by Mike Gallagher
+0 Unofficial Model
+
+1 16 320 0 960 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 snotroad_45degree_straight_flush_insystem.ldr
+1 6 320 48 1600 -1 0 0 0 1 0 0 0 -1 3811.dat
+1 6 320 48 960 -1 0 0 0 1 0 0 0 -1 3811.dat
+1 6 -320 48 960 -1 0 0 0 1 0 0 0 -1 3811.dat
+1 6 -320 48 1600 -1 0 0 0 1 0 0 0 -1 3811.dat
+0

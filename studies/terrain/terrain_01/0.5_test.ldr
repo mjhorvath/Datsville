@@ -1,0 +1,18 @@
+0 Untitled
+0 Name: 0.5_test.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 gridb32x.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 axis20x.dat
+1 16 -320 0 -320 0 0 -1 0 1 0 1 0 0 infrastructure_baseplate_0.5_straight.ldr
+1 16 320 0 320 -1 0 0 0 1 0 0 0 -1 infrastructure_baseplate_0.5_straight.ldr
+1 16 -320 0 960 0 0 1 0 1 0 -1 0 0 infrastructure_baseplate_0.5_straight.ldr
+1 16 -960 0 320 1 0 0 0 1 0 0 0 1 infrastructure_baseplate_0.5_straight.ldr
+1 16 -960 0 960 -1 0 0 0 1 0 0 0 -1 infrastructure_baseplate_0.5_corner.ldr
+1 16 320 0 960 0 0 -1 0 1 0 1 0 0 infrastructure_baseplate_0.5_corner.ldr
+1 16 320 0 -320 1 0 0 0 1 0 0 0 1 infrastructure_baseplate_0.5_corner.ldr
+1 16 -960 0 -320 0 0 1 0 1 0 -1 0 0 infrastructure_baseplate_0.5_corner.ldr
+1 16 -320 -384 320 0 0 1 0 1 0 -1 0 0 infrastructure_baseplate_flat.ldr
+0

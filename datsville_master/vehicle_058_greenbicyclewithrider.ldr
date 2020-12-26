@@ -1,0 +1,22 @@
+0 Neutral Bicycle with Rider
+0 Name: vehicle_058_greenbicyclewithrider.ldr
+0 Author: Tore Eriksson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 bicycle frame
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 10 0 -51 40 1 0 0 0 1 0 0 0 1 4719.dat
+0 bicycle headlight
+1 47 0 -55 -50 1 0 0 0 0 -1 0 1 0 6141.dat
+0 REM bicycle rear tire
+1 256 0 -21 40 0 0 1 0 1 0 -1 0 0 2807.dat
+0 REM bicycle rear wheel
+1 47 0 -21 40 0 0 -1 0 1 0 1 0 0 4720.dat
+0 REM bicycle front tire
+1 256 0 -21 -46 0 0 1 0 1 0 -1 0 0 2807.dat
+0 REM bicycle front wheel
+1 47 0 -21 -46 0 0 -1 0 1 0 1 0 0 4720.dat
+0 
+1 0 0 -48 10 1 0 0 0 1 0 0 0 1 pedestrian_062_bicyclistredshirt.ldr
+0

@@ -1,0 +1,44 @@
+0 Corn Patch Medium #3
+0 Name: plant_cornpatch_medium_03.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -110 0 150 0.92388 0 0.382683 0 1 0 -0.382683 0 0.92388 plant_cornplant_01.ldr
+1 16 -110 0 110 -0.92388 0 -0.382684 0 1 0 0.382684 0 -0.92388 plant_cornplant_03.ldr
+1 16 -110 0 69.999 0.382683 0 0.92388 0 1 0 -0.92388 0 0.382683 plant_cornplant_02.ldr
+1 16 -110 0 30 -1 0 0 0 1 0 0 0 -1 plant_cornplant_01.ldr
+1 16 -110 0 -10 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 plant_cornplant_05.ldr
+1 16 -110 0 -50 -1 0 0 0 1 0 0 0 -1 plant_cornplant_04.ldr
+1 16 -110 0 -90.001 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 plant_cornplant_02.ldr
+1 16 -110 0 -130 -0.382683 0 -0.92388 0 1 0 0.92388 0 -0.382683 plant_cornplant_01.ldr
+0 
+1 16 -29.999 0 150 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 plant_cornplant_02.ldr
+1 16 -30 0 110 0.382684 0 -0.92388 0 1 0 0.92388 0 0.382684 plant_cornplant_05.ldr
+1 16 -30 0 70 0 0 1 0 1 0 -1 0 0 plant_cornplant_03.ldr
+1 16 -30 0 30 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 plant_cornplant_04.ldr
+1 16 -30 0 -10.001 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 plant_cornplant_05.ldr
+1 16 -30 0 -50 -0.707107 0 -0.707107 0 1 0 0.707107 0 -0.707107 plant_cornplant_02.ldr
+1 16 -30 0 -90 0 0 1 0 1 0 -1 0 0 plant_cornplant_01.ldr
+1 16 -30 0 -129.999 -0.382683 0 0.92388 0 1 0 -0.92388 0 -0.382683 plant_cornplant_03.ldr
+0 
+1 16 50 0 150 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 plant_cornplant_03.ldr
+1 16 50 0 110 -0.92388 0 0.382684 0 1 0 -0.382684 0 -0.92388 plant_cornplant_05.ldr
+1 16 50.001 0 70 0 0 1 0 1 0 -1 0 0 plant_cornplant_01.ldr
+1 16 50 0 30 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 plant_cornplant_04.ldr
+1 16 50 0 -10 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 plant_cornplant_01.ldr
+1 16 50 0 -50 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 plant_cornplant_03.ldr
+1 16 50 0 -90.001 0.92388 0 0.382683 0 1 0 -0.382683 0 0.92388 plant_cornplant_02.ldr
+1 16 50 0 -130 1 0 0 0 1 0 0 0 1 plant_cornplant_03.ldr
+0 
+1 16 130.001 0 150 1 0 0 0 1 0 0 0 1 plant_cornplant_03.ldr
+1 16 130 0 110 0 0 1 0 1 0 -1 0 0 plant_cornplant_04.ldr
+1 16 130 0 70 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 plant_cornplant_01.ldr
+1 16 130 0 30 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 plant_cornplant_02.ldr
+1 16 130.001 0 -10 -0.707107 0 -0.707107 0 1 0 0.707107 0 -0.707107 plant_cornplant_05.ldr
+1 16 130 0 -50 -0.707107 0 -0.707107 0 1 0 0.707107 0 -0.707107 plant_cornplant_03.ldr
+1 16 130 0 -90 0.92388 0 0.382683 0 1 0 -0.382683 0 0.92388 plant_cornplant_01.ldr
+1 16 130 0 -129.999 0 0 -1 0 1 0 1 0 0 plant_cornplant_01.ldr
+0 
+0

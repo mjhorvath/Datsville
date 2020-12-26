@@ -1,0 +1,25 @@
+0 Datsville Traffic and People Layer
+0 Name: traffic_+1_+1.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 710 -48 2850 1 0 0 0 1 0 0 0 1 vehicle_055_mgb.mpd
+1 16 4980 0 1440 0 0 1 0 1 0 -1 0 0 vehicle_050_bluecargo.ldr
+1 2 210 10 420 -1 0 0 0 1 0 0 0 -1 vehicle_012_blueandwhitebus.ldr
+1 0 940 10 1050 0 0 1 0 1 0 -1 0 0 vehicle_014_blacksemitruck.mpd
+1 0 2150 10 1450 1 0 0 0 1 0 0 0 1 vehicle_057_yellowroundmailvan_withdriver.ldr
+1 1 4700 10 870 0 0 1 0 1 0 -1 0 0 vehicle_017_blacksemitruck.mpd
+1 7 4270 10 2880 -1 0 0 0 1 0 0 0 -1 vehicle_063_redbubbletruck.ldr
+1 2 3620 0 140 1 0 0 0 1 0 0 0 1 vehicle_033_redfiretruck04suv.ldr
+1 2 3480 0 150 1 0 0 0 1 0 0 0 1 vehicle_008_redfirecar.ldr
+1 2 3090 0 240 1 0 0 0 1 0 0 0 1 vehicle_035_redfiretruck06.ldr
+1 2 2880 0 320 1 0 0 0 1 0 0 0 1 vehicle_031_redfiretruck02ladder.mpd
+1 2 2680 0 290 1 0 0 0 1 0 0 0 1 vehicle_030_redfiretruck01.mpd
+1 2 3600 0 553 0 0 -1 0 1 0 1 0 0 vehicle_032_redfiretruck03.ldr
+1 2 3680 0 434 0 0 -1 0 1 0 1 0 0 vehicle_034_redfiretruck05.mpd
+1 2 2119.9 10 4889.95 0 0 -0.999849 0 1 0 0.999849 0 0 vehicle_087_greencoupe.ldr
+1 2 2119.9 10 4729.95 0 0 0.999849 0 1 0 -0.999849 0 0 vehicle_088_tanstationwagon.ldr
+1 2 2859.78 10 3620.12 0 0 0.999849 0 1 0 -0.999849 0 0 vehicle_089_blackbmwsedan.ldr
+0

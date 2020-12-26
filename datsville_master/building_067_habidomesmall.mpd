@@ -1,0 +1,389 @@
+0 FILE building_067_habidomesmall.ldr
+0 Habidome
+0 Name: building_067_habidomesmall.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 building_067_floor_b.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 building_067_floor_c.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 building_067_floor_a.ldr
+
+0
+0 FILE building_067_floor_c.ldr
+0 New Model
+0 Name: building_067_floor_c.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 40 0 -344 0 0 0 -1 0 1 0 1 0 0 41539.dat
+1 15 160 -344 0 0 0 -1 0 1 0 1 0 0 41539.dat
+1 15 0 -344 -160 0 0 -1 0 1 0 1 0 0 41539.dat
+1 15 -160 -344 0 0 0 -1 0 1 0 1 0 0 41539.dat
+1 15 0 -344 160 0 0 -1 0 1 0 1 0 0 41539.dat
+
+0
+0 FILE building_067_floor_b.ldr
+0 New Model
+0 Name: building_067_floor_b.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -230 -336 70 -1 0 0 0 1 0 0 0 -1 2468.dat
+1 15 -70 -336 160 0 0 1 0 1 0 -1 0 0 2466.dat
+1 15 -70 -336 200 0 0 1 0 1 0 -1 0 0 2466.dat
+1 15 -70 -336 230 -1 0 0 0 1 0 0 0 -1 2468.dat
+1 15 -70 -336 -160 0 0 1 0 1 0 -1 0 0 2466.dat
+1 15 -70 -336 -200 0 0 1 0 1 0 -1 0 0 2466.dat
+1 40 -230 -336 0 0 0 1 0 1 0 -1 0 0 2466.dat
+1 40 -230 -336 40 0 0 1 0 1 0 -1 0 0 2466.dat
+1 40 -230 -336 -40 0 0 1 0 1 0 -1 0 0 2466.dat
+1 15 -70 -336 -230 0 0 1 0 1 0 -1 0 0 2468.dat
+1 15 -70 -336 70 -1 0 0 0 1 0 0 0 -1 2467.dat
+1 15 -230 -336 -70 0 0 1 0 1 0 -1 0 0 2468.dat
+1 15 -70 -336 -70 0 0 1 0 1 0 -1 0 0 2467.dat
+1 15 -200 -336 70 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 40 0 -336 230 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 40 -40 -336 230 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 15 230 -336 70 0 0 -1 0 1 0 1 0 0 2468.dat
+1 15 230 -336 -70 1 0 0 0 1 0 0 0 1 2468.dat
+1 15 230 -336 0 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 230 -336 40 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 230 -336 -40 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 70 -336 -200 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 70 -336 -160 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 70 -336 -230 1 0 0 0 1 0 0 0 1 2468.dat
+1 40 0 -336 -230 1 0 0 0 1 0 0 0 1 2466.dat
+1 40 -40 -336 -230 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 70 -336 230 0 0 -1 0 1 0 1 0 0 2468.dat
+1 15 70 -336 200 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 70 -336 160 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 70 -336 70 0 0 -1 0 1 0 1 0 0 2467.dat
+1 15 70 -336 -70 1 0 0 0 1 0 0 0 1 2467.dat
+1 15 -200 -336 -70 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 -160 -336 70 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 40 40 -336 230 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 40 40 -336 -230 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 -160 -336 -70 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 160 -336 70 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 15 160 -336 -70 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 200 -336 70 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 15 200 -336 -70 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 -160 -200 0 0 0 -1 0 1 0 1 0 0 41539.dat
+1 15 -140 -208 0 -1 0 0 0 1 0 0 0 -1 3036.dat
+1 15 0 -208 50 -1 0 0 0 1 0 0 0 -1 3666.dat
+1 15 0 -208 -50 -1 0 0 0 1 0 0 0 -1 3666.dat
+1 15 0 -208 -140 0 0 -1 0 1 0 1 0 0 3036.dat
+1 15 140 -208 0 1 0 0 0 1 0 0 0 1 3036.dat
+1 15 0 -208 140 0 0 -1 0 1 0 1 0 0 3036.dat
+1 15 -60 -200 0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 15 -50 -208 0 0 0 -1 0 1 0 1 0 0 3710.dat
+1 15 0 -200 -160 -1 0 0 0 1 0 0 0 -1 41539.dat
+1 15 160 -200 0 -1 0 0 0 1 0 0 0 -1 41539.dat
+1 15 0 -200 160 -1 0 0 0 1 0 0 0 -1 41539.dat
+1 15 -50 -208 180 0 0 -1 0 1 0 1 0 0 building_067_sofa.ldr
+1 15 50 -208 180 0 0 1 0 1 0 -1 0 0 building_067_sofa.ldr
+1 15 -140 -208 0 0 0 -1 0 1 0 1 0 0 building_067_bedlrg.ldr
+1 15 0 -208 -140 -1 0 0 0 1 0 0 0 -1 building_067_bedsml.ldr
+1 15 200 -208 50 1 0 0 0 1 0 0 0 1 building_067_toilet.ldr
+1 15 0 -200 -60 -1 0 0 0 1 0 0 0 -1 3034.dat
+1 15 0 -200 60 -1 0 0 0 1 0 0 0 -1 3034.dat
+1 15 -50 -256 0 0 0 1 0 1 0 -1 0 0 6187.dat
+1 15 0 -256 50 1 0 0 0 1 0 0 0 1 6187.dat
+1 15 0 -256 -50 1 0 0 0 1 0 0 0 1 6187.dat
+1 15 140 -208 50 1 0 0 0 1 0 0 0 1 building_067_sink.ldr
+1 15 160 -232 -40 -1 0 0 0 1 0 0 0 -1 building_067_cabinet.ldr
+
+0
+0 FILE building_067_stove.ldr
+0 New Model
+0 Name: building_067_stove.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 -40 -20 0 0 1 0 1 0 -1 0 0 3068bd01.dat
+1 15 0 -40 20 0 0 1 0 1 0 -1 0 0 3068bd01.dat
+1 15 30 -64 0 0 0 1 0 1 0 -1 0 0 3010p41.dat
+1 15 30 -40 0 0 0 1 0 1 0 -1 0 0 3710.dat
+0 
+1 15 10 -32 30 0 0 1 0 1 0 -1 0 0 2341.dat
+1 15 10 -32 10 0 0 1 0 1 0 -1 0 0 2341.dat
+1 15 10 -32 -10 0 0 1 0 1 0 -1 0 0 2341.dat
+1 15 10 -32 -30 0 0 1 0 1 0 -1 0 0 2341.dat
+
+0
+0 FILE building_067_cabinet.ldr
+0 New Model
+0 Name: building_067_cabinet.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -30 -48 10 1 0 0 0 1 0 0 0 1 3581.dat
+1 15 -30 -96 10 1 0 0 0 1 0 0 0 1 3581.dat
+1 15 30 -96 10 1 0 0 0 1 0 0 0 1 3581.dat
+1 15 30 -48 10 1 0 0 0 1 0 0 0 1 3581.dat
+1 15 -30 -48 -2 0 0 -1 0 1 0 1 0 0 3582.dat
+1 15 30 -48 -2 0 0 1 0 1 0 -1 0 0 3582.dat
+1 15 -30 -96 -2 0 0 -1 0 1 0 1 0 0 3582.dat
+1 15 30 -96 -2 0 0 1 0 1 0 -1 0 0 3582.dat
+0 
+1 15 20 0 10 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 15 -20 0 10 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 15 -20 -24 30 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 15 20 -24 30 -1 0 0 0 1 0 0 0 -1 3660.dat
+1 15 0 -48 40 -1 0 0 0 1 0 0 0 -1 3001.dat
+1 15 0 -72 40 -1 0 0 0 1 0 0 0 -1 3001.dat
+
+1 15 -20 -96 30 -1 0 0 0 1 0 0 0 -1 3039.dat
+1 15 20 -96 30 -1 0 0 0 1 0 0 0 -1 3039.dat
+0
+0 FILE building_067_table.ldr
+0 New Model
+0 Name: building_067_table.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 20 0 -32 0 1 0 0 0 1 0 0 0 1 3032.dat
+1 19 40 -16 60 1 0 0 0 1 0 0 0 1 4079.dat
+1 20 -40 -24 20 1 0 0 0 1 0 0 0 1 u9026.dat
+1 20 -40 -24 -20 1 0 0 0 1 0 0 0 1 u9026.dat
+1 20 40 -24 -20 1 0 0 0 1 0 0 0 1 u9026.dat
+1 20 40 -24 20 1 0 0 0 1 0 0 0 1 u9026.dat
+1 19 40 -8 50 1 0 0 0 1 0 0 0 1 3023.dat
+1 19 -40 -16 60 1 0 0 0 1 0 0 0 1 4079.dat
+1 19 -40 -8 50 1 0 0 0 1 0 0 0 1 3023.dat
+1 19 -40 -16 -60 -1 0 0 0 1 0 0 0 -1 4079.dat
+1 19 -40 -8 -50 -1 0 0 0 1 0 0 0 -1 3023.dat
+1 19 40 -16 -60 -1 0 0 0 1 0 0 0 -1 4079.dat
+1 19 40 -8 -50 -1 0 0 0 1 0 0 0 -1 3023.dat
+
+0
+0 FILE building_067_sofa.ldr
+0 New Model
+0 Name: building_067_sofa.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 19 0 -56 10 1 0 0 0 1 0 0 0 1 30165.dat
+1 19 -20 -32 0 0 0 -1 0 1 0 1 0 0 3002.dat
+1 19 20 -32 0 0 0 -1 0 1 0 1 0 0 3002.dat
+1 19 -30 -40 0 0 0 -1 0 1 0 1 0 0 63864.dat
+1 19 30 -40 0 0 0 -1 0 1 0 1 0 0 63864.dat
+0 
+1 19 0 -8 -10 -1 0 0 0 1 0 0 0 -1 3020.dat
+
+0
+0 FILE building_067_bedsml.ldr
+0 New Model
+0 Name: building_067_bedsml.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 20 -20 -48 60 1 0 0 0 1 0 0 0 1 30165.dat
+1 20 20 -48 60 1 0 0 0 1 0 0 0 1 30165.dat
+1 20 -20 -24 50 0 0 -1 0 1 0 1 0 0 3002.dat
+1 20 20 -24 50 0 0 -1 0 1 0 1 0 0 3002.dat
+1 20 -20 -24 0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 20 20 -24 0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 20 0 -32 30 -1 0 0 0 1 0 0 0 -1 2431.dat
+1 20 0 -32 0 -1 0 0 0 1 0 0 0 -1 87079.dat
+
+0
+0 FILE building_067_bedlrg.ldr
+0 New Model
+0 Name: building_067_bedlrg.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 20 -40 -48 60 1 0 0 0 1 0 0 0 1 30165.dat
+1 20 40 -48 60 1 0 0 0 1 0 0 0 1 30165.dat
+1 20 0 -48 60 1 0 0 0 1 0 0 0 1 30165.dat
+1 20 -40 -24 50 0 0 -1 0 1 0 1 0 0 3002.dat
+1 20 40 -24 50 0 0 -1 0 1 0 1 0 0 3002.dat
+1 20 40 -24 -10 0 0 -1 0 1 0 1 0 0 3002.dat
+1 20 0 -24 -10 0 0 -1 0 1 0 1 0 0 3002.dat
+1 20 -40 -24 -10 0 0 -1 0 1 0 1 0 0 3002.dat
+1 20 0 -24 50 0 0 -1 0 1 0 1 0 0 3002.dat
+1 20 -40 -32 0 0 0 1 0 1 0 -1 0 0 87079.dat
+1 20 0 -32 0 0 0 1 0 1 0 -1 0 0 87079.dat
+1 20 40 -32 0 0 0 1 0 1 0 -1 0 0 87079.dat
+
+0
+0 FILE building_067_toilet.ldr
+0 New Model
+0 Name: building_067_toilet.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 -32 -10 1 0 0 0 1 0 0 0 1 3068b.dat
+1 15 0 -56 20 1 0 0 0 1 0 0 0 1 3069b.dat
+1 15 0 -48 20 1 0 0 0 1 0 0 0 1 3004.dat
+
+1 15 -10 -24 0 1 0 0 0 1 0 0 0 1 2341.dat
+1 15 10 -24 0 1 0 0 0 1 0 0 0 1 2341.dat
+0
+0 FILE building_067_floor_a.ldr
+0 New Model
+0 Name: building_067_floor_a.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 -230 -192 70 -1 0 0 0 1 0 0 0 -1 2468.dat
+1 15 -70 -192 230 -1 0 0 0 1 0 0 0 -1 2468.dat
+1 15 70 -192 230 0 0 -1 0 1 0 1 0 0 2468.dat
+1 15 230 -192 70 0 0 -1 0 1 0 1 0 0 2468.dat
+1 15 230 -192 -70 1 0 0 0 1 0 0 0 1 2468.dat
+1 15 -230 -192 -70 0 0 1 0 1 0 -1 0 0 2468.dat
+1 15 -70 -192 -230 0 0 1 0 1 0 -1 0 0 2468.dat
+1 15 70 -192 -230 1 0 0 0 1 0 0 0 1 2468.dat
+1 15 -200 -192 -70 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 -200 -192 70 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 15 -160 -192 70 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 15 -70 -192 160 0 0 1 0 1 0 -1 0 0 2466.dat
+1 15 -70 -192 200 0 0 1 0 1 0 -1 0 0 2466.dat
+1 40 -40 -192 230 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 40 0 -192 230 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 40 40 -192 230 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 15 70 -192 200 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 70 -192 160 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 160 -192 70 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 15 200 -192 70 -1 0 0 0 1 0 0 0 -1 2466.dat
+1 15 230 -192 0 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 230 -192 40 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 230 -192 -40 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 200 -192 -70 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 160 -192 -70 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 -160 -192 -70 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 -70 -192 -160 0 0 1 0 1 0 -1 0 0 2466.dat
+1 15 -70 -192 -200 0 0 1 0 1 0 -1 0 0 2466.dat
+1 15 70 -192 -200 0 0 -1 0 1 0 1 0 0 2466.dat
+1 15 70 -192 -160 0 0 -1 0 1 0 1 0 0 2466.dat
+1 40 0 -192 -230 1 0 0 0 1 0 0 0 1 2466.dat
+1 40 -40 -192 -230 1 0 0 0 1 0 0 0 1 2466.dat
+1 40 40 -192 -230 1 0 0 0 1 0 0 0 1 2466.dat
+1 15 -70 -192 -70 0 0 1 0 1 0 -1 0 0 2467.dat
+1 15 -70 -192 70 -1 0 0 0 1 0 0 0 -1 2467.dat
+1 15 70 -192 70 0 0 -1 0 1 0 1 0 0 2467.dat
+1 15 70 -192 -70 1 0 0 0 1 0 0 0 1 2467.dat
+1 15 220 -48 -60 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 220 -48 60 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 -220 -48 60 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 -220 -48 -60 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 -60 -48 -60 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 -60 -48 60 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 60 -48 60 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 60 -48 220 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 -60 -48 220 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 60 -48 -60 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 60 -48 -220 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 -60 -48 -220 -1 0 0 0 1 0 0 0 -1 3940.dat
+1 15 0 -56 0 -1 0 0 0 1 0 0 0 -1 41539.dat
+1 15 0 -56 -160 -1 0 0 0 1 0 0 0 -1 41539.dat
+1 15 0 -64 -160 0 0 1 0 1 0 -1 0 0 building_067_table.ldr
+1 15 0 -56 160 -1 0 0 0 1 0 0 0 -1 41539.dat
+1 15 160 -56 0 -1 0 0 0 1 0 0 0 -1 41539.dat
+1 15 -160 -56 0 -1 0 0 0 1 0 0 0 -1 41539.dat
+1 15 -140 -64 0 -1 0 0 0 1 0 0 0 -1 3036.dat
+1 15 0 -64 0 -1 0 0 0 1 0 0 0 -1 3958.dat
+1 15 0 -64 140 0 0 -1 0 1 0 1 0 0 3036.dat
+1 15 0 -64 -140 0 0 -1 0 1 0 1 0 0 3036.dat
+1 15 140 -64 0 -1 0 0 0 1 0 0 0 -1 3036.dat
+1 15 -260 -8 0 0 0 1 0 1 0 -1 0 0 3795.dat
+1 15 -250 -32 20 0 0 -1 0 1 0 1 0 0 3660.dat
+1 15 -250 -32 -20 0 0 -1 0 1 0 1 0 0 3660.dat
+1 15 -230 -40 0 0 0 -1 0 1 0 1 0 0 3710.dat
+1 15 -230 -48 0 0 0 -1 0 1 0 1 0 0 3710.dat
+1 15 -270 -128 30 -1 0 0 0 1 0 0 0 -1 door_dark_glass.dat
+1 15 0 -208 0 0 0 1 0 1 0 -1 0 0 30134.dat
+1 15 -20 -56 200 0 0 -1 0 1 0 1 0 0 building_067_stove.ldr
+1 15 40 -88 140 0 0 1 0 1 0 -1 0 0 building_067_cabinet.ldr
+1 15 160 -88 40 1 0 0 0 1 0 0 0 1 building_067_cabinet.ldr
+1 15 160 -88 -40 -1 0 0 0 1 0 0 0 -1 building_067_cabinet.ldr
+1 15 200 -88 0 0 0 1 0 1 0 -1 0 0 building_067_cabinet.ldr
+1 15 -230 -200 50 0 0 1 0 1 0 -1 0 0 3040b.dat
+1 15 -250 -176 50 0 0 1 0 1 0 -1 0 0 3040b.dat
+1 15 -230 -200 -50 0 0 1 0 1 0 -1 0 0 3040b.dat
+1 15 -250 -176 -50 0 0 1 0 1 0 -1 0 0 3040b.dat
+1 15 -230 -192 0 0 0 1 0 1 0 -1 0 0 porthole_dark_glass.dat
+1 15 -230 -176 50 0 0 1 0 1 0 -1 0 0 3005.dat
+1 15 -250 -152 50 1 0 0 0 1 0 0 0 1 3622.dat
+1 15 -250 -128 50 1 0 0 0 1 0 0 0 1 3622.dat
+1 15 -250 -104 50 1 0 0 0 1 0 0 0 1 3622.dat
+1 15 -250 -80 50 1 0 0 0 1 0 0 0 1 3622.dat
+1 15 -260 -56 50 1 0 0 0 1 0 0 0 1 3004.dat
+1 15 -260 -32 50 1 0 0 0 1 0 0 0 1 3004.dat
+1 15 -260 -56 -50 1 0 0 0 1 0 0 0 1 3004.dat
+1 15 -260 -32 -50 1 0 0 0 1 0 0 0 1 3004.dat
+1 15 -250 -80 -50 1 0 0 0 1 0 0 0 1 3622.dat
+1 15 -250 -104 -50 1 0 0 0 1 0 0 0 1 3622.dat
+1 15 -250 -128 -50 1 0 0 0 1 0 0 0 1 3622.dat
+1 15 -250 -152 -50 1 0 0 0 1 0 0 0 1 3622.dat
+1 15 -230 -176 -50 0 0 1 0 1 0 -1 0 0 3005.dat
+
+0
+0 FILE building_067_sink.ldr
+0 New Model
+0 Name: building_067_sink.ldr
+0 Author: Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 -48 20 1 0 0 0 1 0 0 0 1 69c01.dat
+1 15 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat
+
+0 
+0 
+0 
+0 
+0 
+0 
+1 15 -10 -48 0 1 0 0 0 1 0 0 0 1 2341.dat
+1 15 10 -48 0 1 0 0 0 1 0 0 0 1 2341.dat
+0
+0 FILE door_dark_glass.dat
+0 Door  1 x  4 x  5 Left with TransClear Glass
+0 Name: door_dark_glass.dat
+0 Author: Steffen [Steffen]
+0 !LDRAW_ORG Shortcut UPDATE 2013-02
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CW
+0 !HISTORY 2013-12-23 [PTadmin] Official Update 2013-02
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 4343.dat
+1 40 0 0 0 1 0 0 0 1 0 0 0 1 4344.dat
+0
+0 FILE porthole_dark_glass.dat
+0 Panel  4 x  3 x  3 w/ TransMediumBlue Porthole Glass (Complete)
+0 Name: porthole_dark_glass.dat
+0 Author: Magnus Forsberg [MagFors]
+0 !LDRAW_ORG Shortcut UPDATE 2011-02
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 BFC CERTIFY CCW
+0 !KEYWORDS Divers
+0 !HISTORY 1998-02-12 [PTadmin] Official Update 1998-02
+0 !HISTORY 2007-10-12 [PTadmin] Header formatted for Contributor Agreement
+0 !HISTORY 2008-07-01 [PTadmin] Official Update 2008-01
+0 !HISTORY 2010-07-12 [MagFors] Completed the design, BFC'ed, used more primitives
+0 !HISTORY 2010-07-21 [PTadmin] Renamed from 30080
+0 !HISTORY 2010-07-22 [MagFors] Divided file into new parts 30080b and 30081
+0 !HISTORY 2011-12-29 [PTadmin] Official Update 2011-02
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 30080b.dat
+1 40 0 22.815 -28.365 -1 0 0 0 0.689657 0.724136 0 0.724136 -0.689657 30081.dat
+0 
+0 
+0
+0

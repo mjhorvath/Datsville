@@ -1,0 +1,18 @@
+0 Blue Team Bench Warmer
+0 Name: pedestrian_091_blueteamsitting6.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 -77 -2 1 0 0 0 1 0 0 0 1 4485.dat
+1 6 0 -77 -2 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 1 0 -53 -2 1 0 0 0 1 0 0 0 1 973p14.dat
+1 1 0 -21 -2 1 0 0 0 1 0 0 0 1 3815.dat
+1 15 -15.552 -44 -2 0.985 -0.17 0 0.17 0.985 0 0 0 1 3818.dat
+1 15 15.552 -44 -2 0.985 0.17 0 -0.17 0.985 0 0 0 1 3819.dat
+1 6 -23.8634 -26.4044 -12.321 0.985 -0.12019 0.12019 0.17 0.696395 -0.696395 0 0.707 0.707 3820.dat
+1 6 23.8634 -26.4044 -12.321 0.985 0.12019 -0.12019 -0.17 0.696395 -0.696395 0 0.707 0.707 3820.dat
+1 1 0 -9 -2 1 0 0 0 0 1 0 -1 0 3816.dat
+1 1 0 -9 -2 1 0 0 0 0 1 0 -1 0 3817.dat
+0

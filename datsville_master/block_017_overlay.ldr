@@ -1,0 +1,17 @@
+0 Datsville City Block #17
+0 Name: block_017_overlay.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -2800 0 -2360 0 0 -1 0 1 0 1 0 0 building_060_icecreamparlor.mpd
+1 16 -3720 0 -1400 0 0 1 0 1 0 -1 0 0 building_015_parisianshop.mpd
+1 16 -2680 8 -1480 0 0 -1 0 1 0 1 0 0 building_058_bundenogkanden.mpd
+1 16 -3520 0 -260 -1 0 0 0 1 0 0 0 -1 building_055_traveloffice.mpd
+1 16 -2660 0 -1920 0 0 -1 0 1 0 1 0 0 building_079_clothingstore.ldr
+1 16 -3180 0 -1740 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
+1 16 -3660 8 -2280 0 0 1 0 1 0 -1 0 0 building_029_movietheater.ldr
+1 16 -3730 0 -1760 0 0 1 0 1 0 -1 0 0 building_091_clothingstore2.ldr
+1 16 -3200 0 -1200 0 0 -1 0 1 0 1 0 0 infrastructure_tornadosiren.mpd
+0

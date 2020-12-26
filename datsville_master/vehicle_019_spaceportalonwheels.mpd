@@ -1,0 +1,162 @@
+0 FILE vehicle_019_spaceportalonwheels.ldr
+0 Oteconn1 on Wheels
+0 Author: Tore Eriksson
+0 Was: Mtepushr.ldr
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 2 0 1 0 0 0 1 0 0 0 1 vehicle_019_Oteconn2.ldr
+1 1 -132 -1 6 0 0 -1 0 1 0 1 0 0 vehicle_019_minifigg.ldr
+
+0
+0 FILE vehicle_019_minifigg.ldr
+0 Untitled
+0 Name: vehicle_019_minifigg.ldr
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 // Left Leg
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 -28 0 1 0 0 0 0.886 0.5 0 -0.5 0.886 3817.dat
+0 // Right Leg
+1 1 0 -28 0 1 0 0 0 0.986 -0.12 0 0.12 0.986 3816.dat
+1 1 0 -38.4 -6.3 1 0 0 0 0.886 -0.5 0 0.5 0.886 vehicle_019_upperbody.ldr
+
+0
+0 FILE vehicle_019_upperbody.ldr
+0 Untitled
+0 Name: vehicle_019_upperbody.ldr
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 // Hips
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 0 0 1 0 0 0 1 0 0 0 1 3815.dat
+0 // Torso
+1 1 0 -32 0 1 0 0 0 1 0 0 0 1 973p26.dat
+0 // Head
+1 14 0 -56 0 0.707 0 -0.707 0 1 0 0.707 0 0.707 3626bp03.dat
+0 // hair
+1 4 0 -56 0 0.707 0 -0.707 0 1 0 0.707 0 0.707 3901.dat
+0 // Arms and Hands
+1 1 -15.552 -24 0 0.9859 -0.17 0 0.17 0.9859 0 0 0 1 vehicle_019_arm-r.ldr
+1 1 0 -24 0 1 0 0 0 0.17 0.9859 0 -0.9859 0.17 vehicle_019_arm-l.ldr
+
+0
+0 FILE vehicle_019_arm-l.ldr
+0 Untitled
+0 Name: vehicle_019_arm-l.ldr
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 0.9859 -0.17 0 0.17 0.9859 0 0 0 1 vehicle_019_d976c15.dat
+
+0
+0 FILE vehicle_019_arm-r.ldr
+0 Untitled
+0 Name: vehicle_019_arm-r.ldr
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 -0.3 0.9 0 -0.9 -0.3 vehicle_019_arm-r-w-hand.ldr
+
+0
+0 FILE vehicle_019_arm-r-w-hand.ldr
+0 Untitled
+0 Name: vehicle_019_arm-r-w-hand.ldr
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 // arm-r
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 3818.dat
+1 15 -4.9 19.5 -10.5 1 0 0 0 0.707 -0.707 0 0.707 0.707 vehicle_019_hand-r.ldr
+
+0
+0 FILE vehicle_019_hand-r.ldr
+0 Untitled
+0 Name: vehicle_019_hand-r.ldr
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 // hand
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_019_hrwgear.ldr
+
+0
+0 FILE vehicle_019_hrwgear.ldr
+0 Untitled
+0 Name: vehicle_019_hrwgear.ldr
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 3820.dat
+
+0
+0 FILE vehicle_019_d976c15.dat
+0 Untitled
+0 Name: vehicle_019_d976c15.dat
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 15.552 0 0 0.9859 0.17 0 -0.17 0.9859 0 0 0 1 3819.dat
+1 15 23.6943 17.7843 -9.9 0.9859 0.1202 -0.1202 -0.17 0.6972 -0.6972 0 0.7071 0.7071 3820.dat
+
+0
+0 FILE vehicle_019_Oteconn2.ldr
+0 Oteconn1 on Wheels
+0 Name: vehicle_019_Oteconn2.ldr
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 40 -24 0 0 0 -1 0 1 0 1 0 0 6157.dat
+1 7 -40 -24 0 0 0 -1 0 1 0 1 0 0 6157.dat
+1 4 40 -20 -40 1 0 0 0 1 0 0 0 1 4624.dat
+1 256 40 -20 -40 1 0 0 0 1 0 0 0 1 3641.dat
+1 4 -40 -20 -40 1 0 0 0 1 0 0 0 1 4624.dat
+1 256 -40 -20 -40 1 0 0 0 1 0 0 0 1 3641.dat
+1 4 40 -20 40 -1 0 0 0 1 0 0 0 -1 4624.dat
+1 256 40 -20 40 1 0 0 0 1 0 0 0 1 3641.dat
+1 4 -40 -20 40 -1 0 0 0 1 0 0 0 -1 4624.dat
+1 256 -40 -20 40 1 0 0 0 1 0 0 0 1 3641.dat
+1 16 20 -104 40 1 0 0 0 1 0 0 0 1 vehicle_019_Oteconn1.ldr
+
+0
+0 FILE vehicle_019_Oteconn1.ldr
+0 Mystery Model
+0 Name: vehicle_019_Oteconn1.ldr
+0 Author: Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -20 80 -40 1 0 0 0 1 0 0 0 1 3034.dat
+1 16 50 56 -40 0 0 -1 0 1 0 1 0 0 3004.dat
+1 16 30 56 -40 0 0 1 0 1 0 -1 0 0 3039.dat
+1 16 -70 56 -40 0 0 -1 0 1 0 1 0 0 3039.dat
+1 16 -90 56 -40 0 0 -1 0 1 0 1 0 0 3004.dat
+1 16 40 32 -40 0 0 -1 0 1 0 1 0 0 3003.dat
+1 16 -80 32 -40 0 0 -1 0 1 0 1 0 0 3003.dat
+1 16 40 8 -30 1 0 0 0 1 0 0 0 1 3004.dat
+1 16 -80 8 -30 1 0 0 0 1 0 0 0 1 3004.dat
+1 16 40 8 -50 -1 0 0 0 1 0 0 0 -1 3700.dat
+1 16 -80 8 -50 -1 0 0 0 1 0 0 0 -1 3700.dat
+1 16 -80 -16 -40 1 0 0 0 1 0 0 0 1 3003.dat
+1 16 40 -16 -40 1 0 0 0 1 0 0 0 1 3003.dat
+1 16 -90 -40 -40 0 0 -1 0 1 0 1 0 0 3004.dat
+1 16 50 -40 -40 0 0 -1 0 1 0 1 0 0 3004.dat
+1 16 30 -40 -40 0 0 1 0 1 0 -1 0 0 3660.dat
+1 16 -70 -40 -40 0 0 -1 0 1 0 1 0 0 3660.dat
+1 16 -20 -48 -40 1 0 0 0 1 0 0 0 1 3034.dat
+1 16 30 -72 -40 0 0 -1 0 1 0 1 0 0 3039.dat
+1 16 -70 -72 -40 0 0 1 0 1 0 -1 0 0 3039.dat
+1 16 -20 -72 -40 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 
+0
+0

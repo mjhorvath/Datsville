@@ -1,0 +1,6 @@
+0 Building guide - Medium 45 deg intersection
+0 UNOFFICIAL PART
+0 BFC CERTIFY CCW
+0 !TEXMAP START PLANAR   -1280 0 1280   1280 0 1280   -1280 0 -1280   intersection_left_02.png
+0 !: 4 16   -1280 0 1280   -1280 0 -1280   1280 0 -1280   1280 0 1280
+0 !TEXMAP END

@@ -1,0 +1,3948 @@
+0 MLCAD BTG Group name
+0 Soccer field grass
+0 MLCAD BTG Group name
+0 Name: soccer_field.ldr
+0 MLCAD BTG Group name
+0 Author: Michael Horvath
+0 MLCAD BTG Group name
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 MLCAD BTG Group name
+0 Unofficial Datsville Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 MLCAD BTG Group name
+1 2 -1120 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1040 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -960 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -800 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -720 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -640 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -560 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -480 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -400 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -320 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -240 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -160 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -80 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 -680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 -640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 -600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 -560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 -520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 -480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 -400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 -360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 -320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 -280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 -240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 120 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 200 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 280 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 360 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 440 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 520 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 600 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 680 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 760 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 180 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 260 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 340 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 420 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 500 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 580 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 660 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 740 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 -160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 -140 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -140 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 -100 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -100 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -720 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -640 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -560 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -480 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -400 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -320 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -240 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 240 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 320 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 400 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 480 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 560 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 640 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 720 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 -80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -120 -8 -60 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 -60 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -60 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 260 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 340 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 420 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 500 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 580 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 660 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 -40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 -20 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 -20 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 -20 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 260 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 340 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 420 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 500 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 580 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 660 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 20 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 20 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 20 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 260 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 340 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 420 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 500 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 580 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 660 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 40 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -120 -8 60 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 60 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 60 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -720 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -640 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -560 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -480 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -400 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -320 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -240 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 260 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 340 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 420 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 500 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 580 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 660 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 80 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -120 -8 100 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 100 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 100 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 740 -8 100 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -720 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -640 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -560 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -480 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -400 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -320 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -240 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 240 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 320 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 400 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 480 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 560 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 640 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -80 -8 140 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 140 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 720 -8 140 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -760 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -680 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -600 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -520 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -440 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -360 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -280 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -200 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 200 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 280 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 360 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 440 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 520 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 600 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 160 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 680 -8 180 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 760 -8 180 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 160 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 240 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 320 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 400 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 480 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 560 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 200 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 640 -8 220 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 720 -8 220 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 800 -8 220 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 240 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 260 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 260 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 260 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 280 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 300 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 300 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 300 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 320 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 340 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 340 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 340 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 360 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 380 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 380 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 380 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 900 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 980 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1060 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1140 -8 400 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 420 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 420 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 420 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 440 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 460 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 460 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 460 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 480 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 500 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 500 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 500 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 520 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 540 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 540 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 540 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 560 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 580 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 580 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 580 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 600 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 620 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 620 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 620 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 640 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 660 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 660 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 660 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 60 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 140 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 220 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 300 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 380 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 460 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 540 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 860 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 940 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1020 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 1100 -8 680 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 620 -8 700 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 700 -8 700 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 2 780 -8 700 1 0 0 0 1 0 0 0 1 3020.dat
+0 MLCAD BTG Group name
+1 15 -1180 -8 -700 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 15 1200 -8 -700 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -20 -8 -680 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 -680 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 -640 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 -640 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 -600 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 -600 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 -560 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 -560 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 -520 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 -520 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 -480 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 -480 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 -200 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -80 -8 -200 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 820 -8 -200 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 -200 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 -160 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -160 -8 -160 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 800 -8 -160 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 -160 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 -120 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -200 -8 -120 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 120 -8 -120 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 760 -8 -120 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 -120 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 -100 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 -80 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -800 -8 -80 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 820 -8 -80 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 -80 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 -40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -800 -8 -40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -240 -8 -40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 720 -8 -40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 820 -8 -40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 -40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -800 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -240 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 720 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 800 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -800 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -240 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 720 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 800 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 40 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -800 -8 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 820 -8 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 120 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 120 -8 120 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 120 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -20 -8 140 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 780 -8 140 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 160 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 160 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -20 -8 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 40 -8 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 820 -8 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 200 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 200 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 480 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 480 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 520 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 520 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 560 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 560 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 600 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 600 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 640 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 640 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 680 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 680 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 15 -1180 -8 720 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 15 1200 -8 720 1 0 0 0 1 0 0 0 1 3022.dat
+0 MLCAD BTG Group name
+1 15 -1140 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1100 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1060 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1020 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -980 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -940 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -900 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -860 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -820 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -780 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -740 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -700 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -660 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -620 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -580 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -540 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -500 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -460 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -420 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -380 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -340 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -300 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -260 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -220 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -180 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -140 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -100 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -60 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -20 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 20 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 60 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 100 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 140 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 180 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 220 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 260 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 300 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 340 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 380 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 420 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 460 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 500 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 540 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 580 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 620 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 660 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 700 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 740 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 780 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 820 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 860 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 900 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 940 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 980 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1020 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1060 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1100 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1140 -8 -710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1160 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1120 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1080 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1040 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1000 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -960 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -920 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -840 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 840 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 880 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 920 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 960 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1000 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1080 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1120 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 -450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1180 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1140 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1100 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1060 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1020 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -980 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -940 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -900 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -860 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 860 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 900 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 940 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 980 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1020 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1060 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1100 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1140 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1180 -8 -430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1160 -8 -210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1120 -8 -210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1080 -8 -210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -40 -8 -210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 40 -8 -210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1080 -8 -210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1120 -8 -210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 -210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1180 -8 -190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1140 -8 -190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1100 -8 -190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -40 -8 -190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 0 -8 -190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 40 -8 -190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1100 -8 -190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1140 -8 -190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1180 -8 -190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -120 -8 -170 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -80 -8 -170 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -20 -8 -170 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 40 -8 -170 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 80 -8 -170 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -820 -8 -130 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -160 -8 -130 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 800 -8 -130 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 840 -8 -130 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -180 -8 -50 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 780 -8 -50 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -180 -8 70 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 200 -8 70 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 720 -8 70 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 780 -8 70 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -800 -8 110 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 160 -8 110 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 820 -8 110 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 130 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -820 -8 150 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 120 -8 150 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 660 -8 150 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 840 -8 150 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 170 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -80 -8 170 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 80 -8 170 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1160 -8 190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1120 -8 190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -80 -8 190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 80 -8 190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 620 -8 190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1120 -8 190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 190 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1180 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1140 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1100 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -80 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -40 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 0 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 40 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 100 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1100 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1140 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1180 -8 210 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1160 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1120 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1080 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1040 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1000 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -960 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -920 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -880 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 880 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 920 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 960 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1000 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1080 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1120 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 430 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1180 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1140 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1100 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1060 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1020 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -980 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -940 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -900 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -860 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 860 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 900 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 940 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 980 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1020 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1060 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1100 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1140 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1180 -8 450 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1140 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1100 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1060 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -1020 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -980 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -940 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -900 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -860 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -820 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -780 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -740 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -700 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -660 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -620 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -580 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -540 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -500 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -460 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -420 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -380 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -340 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -300 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -260 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -220 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -180 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -140 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -100 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -60 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 -20 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 40 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 80 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 120 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 160 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 200 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 240 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 280 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 320 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 360 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 400 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 440 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 480 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 520 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 560 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 840 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 880 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 920 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 960 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1000 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1040 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1080 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1120 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 2 1160 -8 710 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1140 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1100 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1060 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -1020 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -980 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -940 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -900 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -860 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -820 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -780 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -740 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -700 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -660 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -620 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -580 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -540 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -500 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -460 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -420 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -380 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -340 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -300 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -260 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -220 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -180 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -140 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -100 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -60 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 -20 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 20 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 60 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 100 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 140 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 180 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 220 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 260 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 300 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 340 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 380 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 420 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 460 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 500 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 540 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 580 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 620 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 660 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 700 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 740 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 780 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 820 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 860 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 900 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 940 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 980 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1020 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1060 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1100 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1140 -8 730 1 0 0 0 1 0 0 0 1 3023.dat
+0 MLCAD BTG Group name
+1 15 1170 -8 -710 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -690 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1170 -8 -670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 70 -8 -210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 70 -8 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -50 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 110 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 130 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -130 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -110 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 110 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 130 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -790 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -130 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -110 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 150 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 170 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -810 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -790 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -170 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -150 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 150 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 170 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 790 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 810 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -770 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -190 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -170 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -150 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 190 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 770 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 790 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -770 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -190 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -170 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 190 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 770 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 790 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -770 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -750 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -210 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 190 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 210 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 750 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -770 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -750 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -210 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -190 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 190 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 210 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 750 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 770 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 790 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -770 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -750 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -210 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -190 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 190 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 210 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 750 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 770 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -770 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -750 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -210 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -190 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 190 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 210 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 750 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 770 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -770 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -750 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -210 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -190 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 190 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 210 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 750 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 770 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -770 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -750 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -210 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -190 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -170 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 190 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 210 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 750 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 770 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -770 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 750 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 70 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -770 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -190 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -170 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 190 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 210 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 790 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 90 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -770 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -190 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -170 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 190 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 690 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 790 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 110 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -810 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -790 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -770 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -150 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -130 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 150 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 170 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 190 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 810 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 130 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -150 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -130 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 150 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 810 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 150 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -810 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -110 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -50 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 110 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 130 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 150 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 170 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -1090 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -50 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 110 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1090 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 190 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1070 -8 210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 70 -8 210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1070 -8 210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 210 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 590 -8 230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 230 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 250 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 270 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 290 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 310 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 330 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 350 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 370 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 390 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 410 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -850 -8 430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 850 -8 430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 430 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -830 -8 450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 830 -8 450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 450 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 470 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 490 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 510 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 530 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 550 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 570 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 590 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 610 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 630 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 650 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 670 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 -1190 -8 690 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 -10 -8 690 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 690 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 2 1190 -8 690 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1210 -8 690 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 10 -8 710 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+1 15 1170 -8 730 1 0 0 0 1 0 0 0 1 3024.dat
+0 MLCAD BTG Group name
+0 STEP
+0 GROUP 1972 Group name
+0

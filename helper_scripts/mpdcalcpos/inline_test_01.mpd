@@ -1,0 +1,95 @@
+0 FILE level_3.ldr
+0 New Model
+0 Name: level_3.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -77.2741 0 -340.706 0.866025 0 -0.5 0 1 0 0.5 0 0.866025 level_1.ldr
+1 0 0 0 -320 0.965926 0 -0.258819 0 1 0 0.258819 0 0.965926 level_2.ldr
+0 
+0
+0 FILE level_2.ldr
+0 New Model
+0 Name: level_2.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG -3 0
+1 0 -80 0 0 0.965925 0 -0.258819 0 1 0 0.258819 0 0.965925 level_1.ldr
+0 
+0
+0 FILE level_1.ldr
+0 New Model
+0 Name: level_1.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG -3 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
+1 14 120 0 10 1 0 0 0 1 0 0 0 1 60479.dat
+1 14 360 0 10 1 0 0 0 1 0 0 0 1 60479.dat
+
+
+
+
+
+
+0
+0 FILE axis_32s.dat
+0 
+0 Name: axis_32s.dat
+0 Author: Marc Schickele, Michael Horvath
+0 Unofficial Part
+
+0 Axis X
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+2 4 -320 0 0 320 0 0
+
+2 4 310 4 0 314 -4 0
+2 4 314 0 0 316 0 0
+2 4 315 -1 0 315 1 0
+2 4 314 4 0 310 -4 0
+
+2 4 310 0 4 314 0 -4
+2 4 314 0 0 316 0 0
+2 4 315 0 -1 315 0 1
+2 4 314 0 4 310 0 -4
+
+0 Axis Y
+2 2 0 -320 0 0 320 0
+
+2 2 -2 310 0 0 314 0
+2 2 2 310 0 0 314 0
+2 2 0 314 0 0 317 0
+2 2 2 314 0 4 314 0
+2 2 3 313 0 3 315 0
+
+2 2 0 310 -2 0 314 0
+2 2 0 310 2 0 314 0
+2 2 0 314 0 0 317 0
+2 2 0 204 4 0 204 4
+2 2 0 313 3 0 315 3
+
+0 Axis Z
+2 1 0 4 310 0 -4 314
+2 1 0 0 314 0 0 316
+2 1 0 -1 315 0 1 315
+2 1 0 4 314 0 4 310
+2 1 0 -4 314 0 -4 310
+
+2 1 4 0 310 -4 0 314
+2 1 0 0 314 0 0 316
+2 1 -1 0 205 1 0 205
+2 1 4 0 314 4 0 310
+2 1 -4 0 314 -4 0 310
+
+2 1 0 0 -320 0 0 320
+
+
+
+0 
+0 
+0
+0

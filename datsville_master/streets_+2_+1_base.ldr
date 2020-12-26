@@ -1,0 +1,35 @@
+0 Datsville street sector
+0 Name: streets_+2_+1_base.ldr
+0 Author: Michael Horvath, John VanZwieten, Tore Eriksson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 6720 0 960 0 0 -1 0 1 0 1 0 0 snotroad_quadoneway_2222.ldr
+1 7 6720 0 3520 0 0 1 0 1 0 -1 0 0 snotroad_tripledots_000.ldr
+1 7 6720 0 320 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_11_leftaheadonly.ldr
+1 7 6080 0 960 0 0 1 0 1 0 -1 0 0 snotroad_doubleoneway_00.ldr
+1 7 6720 0 1600 -1 0 0 0 1 0 0 0 -1 snotroad_doublestripe_10.ldr
+1 7 6720 0 2880 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_10.ldr
+1 7 6080 0 3520 0 0 1 0 1 0 -1 0 0 snotroad_doublestripe_10.ldr
+1 7 6720 0 2240 -1 0 0 0 1 0 0 0 -1 snotroad_doublestripe_00.ldr
+1 7 5440 0 3520 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 5440 0 3520 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 6080 0 3520 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 6720 0 2880 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 7 6720 0 2240 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 7 6720 0 1600 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 7 6080 0 960 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 5440 0 960 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 5440 0 960 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 6080 0 960 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 6720 0 320 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 7 6720 0 320 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
+1 7 6720 0 1600 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
+1 7 6720 0 2240 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
+1 7 6720 0 2880 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
+1 7 6720 0 3520 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 6080 0 3520 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 5440 0 3520 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 5440 0 960 0 0 -1 0 1 0 1 0 0 snotroad_doubleoneway_10.ldr
+0

@@ -1,0 +1,15 @@
+HISTORY of FOLDER Pending
+(In the Pending folder, models that may be added to Datsville dwell
+until decisions  are made)
+
+
+rev018 - 2006-10-31
+Yet another Datsville restart.
+Ran MovedTo.bat - 104 references to moved files found in 10 files
+Added Bmhcastl.ldr and Bmhmine.ldr
+Ran MovedTo.bat - 24 references to moved files found in 2 files
+
+rev017 - 2003-02-02
+http://home.swipnet.se/simlego/ldraw/datsvill/rev017.zip:\_bjwgs51
+As it was on Feb 2 2003
+Any undocumented changes between 2003-02-02 and 2006-10-31 are lost.

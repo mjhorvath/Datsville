@@ -1,0 +1,19 @@
+0 Blue worker with pickaxe
+0 Name: pedestrian_038_blueworker.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 -28 1 1 0 0 0 1 0 0 0 1 3816.dat
+1 1 0 -28 1 1 0 0 0 1 0 0 0 1 3817.dat
+1 1 0 -40 1 1 0 0 0 1 0 0 0 1 3815.dat
+1 1 0 -72 1 1 0 0 0 1 0 0 0 1 973.dat
+1 14 0 -96 1 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 4 0 -96 1 1 0 0 0 1 0 0 0 1 3833.dat
+1 1 0 -63 1 1 0 0 0 0.71 0.71 0 -0.71 0.71 975.dat
+1 1 0 -63 1 1 0 0 0 0.71 0.71 0 -0.71 0.71 976.dat
+1 14 -22 -59 -27 0 0 -1 0 1 0 1 0 0 977.dat
+1 7 -22 -59 -31 1 0 0 0 1 0 0 0 1 3841.dat
+1 14 22 -59 -27 0 0 -1 0 1 0 1 0 0 977.dat
+0

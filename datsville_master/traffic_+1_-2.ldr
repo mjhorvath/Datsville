@@ -1,0 +1,27 @@
+0 Datsville Traffic and People Layer
+0 Name: traffic_+1_-2.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 1470 10 -6250 -1 0 0 0 1 0 0 0 -1 vehicle_072_steamroller.ldr
+1 16 1310 8 -6250 -1 0 0 0 1 0 0 0 -1 vehicle_073_bulldozer.ldr
+1 16 330 10 -5310 1 0 0 0 1 0 0 0 1 vehicle_074_dumptruck.ldr
+1 16 1320 10 -5330 1 0 0 0 1 0 0 0 1 vehicle_075_flatbedtruck.ldr
+1 16 1530 10 -5420 1 0 0 0 1 0 0 0 1 vehicle_076_flatbedtrucklong.ldr
+1 16 990 10 -6280 -1 0 0 0 1 0 0 0 -1 vehicle_077_forklift.ldr
+1 16 1120 10 -5310 1 0 0 0 1 0 0 0 1 vehicle_078_wreckingball.ldr
+1 16 930 10 -5350 1 0 0 0 1 0 0 0 1 vehicle_079_mobilecrane.ldr
+1 16 130 8 -5370 1 0 0 0 1 0 0 0 1 vehicle_080_cherrypicker.ldr
+1 16 1630 10 -6230 -1 0 0 0 1 0 0 0 -1 vehicle_081_asphalttruck.ldr
+1 16 1150 10 -6240 -1 0 0 0 1 0 0 0 -1 vehicle_082_wideloadwarningcar.ldr
+1 16 540 10 -5310 1 0 0 0 1 0 0 0 1 vehicle_083_traytruck.ldr
+1 13 480 0 -7860 1 0 0 0 1 0 0 0 1 vehicle_070_traffichelicopter.ldr
+1 13 1440 0 -7880 1 0 0 0 1 0 0 0 1 vehicle_066_policewhitehelicopter.ldr
+1 13 2400 0 -7770 1 0 0 0 1 0 0 0 1 vehicle_004_smallshuttle.mpd
+1 13 3130 0 -7770 1 0 0 0 1 0 0 0 1 vehicle_042_mannedmech.mpd
+1 0 4730 0 -6370 -0.866 0 0.5 0 1 0 -0.5 0 -0.866 pedestrian_069_darkjacketbluepants.ldr
+1 0 3180 -8 -6100 1 0 0 0 1 0 0 0 1 vehicle_026_bluecoupe.ldr
+1 0 3300 -8 -6080 1 0 0 0 1 0 0 0 1 pedestrian_001_mustachewalking.ldr
+0

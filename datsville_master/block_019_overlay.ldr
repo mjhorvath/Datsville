@@ -1,0 +1,15 @@
+0 Datsville City Block #19
+0 Name: block_019_overlay.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 1440 8 -3660 -1 0 0 0 1 0 0 0 -1 building_076_gradeschool.mpd
+1 13 360 0 -4120 0 0 -1 0 1 0 1 0 0 building_030_policehq.mpd
+1 16 1690 0 -4360 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
+1 16 820 0 -4410 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
+1 16 800 0 -4000 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
+1 16 1250 0 -4280 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
+1 16 480 0 -3840 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
+0

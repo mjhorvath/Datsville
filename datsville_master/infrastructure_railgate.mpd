@@ -1,0 +1,109 @@
+0 FILE infrastructure_railgate_complete.ldr
+0 New Model
+0 Name: infrastructure_railgate_complete.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 24 -170 240 0 0 1 0 1 0 -1 0 0 infrastructure_railgate_sign.ldr
+1 16 -10 -70 240 1 0 0 0 1 0 0 0 1 infrastructure_railgate_arm.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 infrastructure_railgate_mechanism.ldr
+0
+0 FILE infrastructure_railgate_mechanism.ldr
+0 New Model
+0 Name: infrastructure_railgate_mechanism.ldr
+0 Author: Jonathan Wilson, Tore Eriksson, Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 10 -24 230 0 0 -1 0 1 0 1 0 0 3040b.dat
+1 0 10 -24 250 -1 0 0 0 1 0 0 0 -1 3040b.dat
+1 0 10 -136 240 0 0 -1 0 1 0 1 0 0 3794b.dat
+1 0 10 -160 240 0 0 -1 0 1 0 1 0 0 4070.dat
+1 7 10 -70 240 1 0 0 0 1 0 0 0 1 4519.dat
+1 7 30 -70 240 0 0 -1 0 1 0 1 0 0 4185.dat
+1 7 36 -90 240 -1 0 0 0 1 0 0 0 -1 32002.dat
+1 0 10 -128 240 0 0 -1 0 1 0 1 0 0 3004.dat
+1 0 10 -48 240 0 0 -1 0 1 0 1 0 0 3004.dat
+1 0 10 -56 240 0 0 -1 0 1 0 1 0 0 3023.dat
+1 0 10 -80 240 0 0 -1 0 1 0 1 0 0 3700.dat
+1 0 10 -104 240 0 0 -1 0 1 0 1 0 0 3004.dat
+1 0 0 -24 -230 1 0 0 0 1 0 0 0 1 3004.dat
+1 0 0 -48 -230 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 0 0 -56 -230 -1 0 0 0 1 0 0 0 -1 3023.dat
+0 
+0 
+0 
+0
+0 FILE infrastructure_railgate_arm.ldr
+0 New Model
+0 Name: infrastructure_railgate_arm.ldr
+0 Author: LDraw
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 10197.dat
+1 15 0 0 -34 0 0 1 1 0 0 0 1 0 u9026.dat
+1 15 0 0 -58 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -82 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -106 0 0 1 1 0 0 0 1 0 u9026.dat
+1 15 0 0 -130 0 0 1 1 0 0 0 1 0 u9026.dat
+1 15 0 0 -154 0 0 1 1 0 0 0 1 0 u9026.dat
+1 15 0 0 -226 0 0 1 1 0 0 0 1 0 u9026.dat
+1 15 0 0 -250 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -178 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -202 0 0 1 1 0 0 0 1 0 u9026.dat
+1 15 0 0 -322 0 0 1 1 0 0 0 1 0 u9026.dat
+1 15 0 0 -346 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -274 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -298 0 0 1 1 0 0 0 1 0 u9026.dat
+1 15 0 0 -418 0 0 1 1 0 0 0 1 0 u9026.dat
+1 15 0 0 -442 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -370 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -394 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -466 0 0 1 1 0 0 0 1 0 u9026.dat
+1 4 0 0 -490 0 0 1 1 0 0 0 1 0 u9026.dat
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+0
+0 FILE infrastructure_railgate_sign.ldr
+0 Rail crossing sign
+0 Name: infrastructure_railgate_sign.ldr
+0 Author: Jonathan Wilson, Tore Eriksson, Michael Horvath
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 -10 10 8 1 0 0 0 0 1 0 -1 0 3020.dat
+1 36 20 0 16 1 0 0 0 0 1 0 -1 0 6141.dat
+1 36 -20 0 16 1 0 0 0 0 1 0 -1 0 6141.dat
+1 0 40 10 8 0 0 1 -1 0 0 0 -1 0 3023.dat
+1 0 10 -20 8 -1 0 0 0 0 -1 0 -1 0 3710.dat
+1 0 -40 -20 8 -1 0 0 0 0 -1 0 -1 0 3024.dat
+1 0 -30 0 0 0 0 -1 1 0 0 0 -1 0 3021.dat
+1 0 30 0 0 0 0 -1 1 0 0 0 -1 0 3021.dat
+1 0 0 0 0 0 0 -1 1 0 0 0 -1 0 3623.dat
+0 
+0 
+0 
+0
+0

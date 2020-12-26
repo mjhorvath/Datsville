@@ -1,0 +1,15 @@
+0 Datsville street sector
+0 Name: streets_+2_-2_overlay.ldr
+0 Author: Michael Horvath, John VanZwieten, Tore Eriksson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 6460 0 -6460 -1 0 0 0 1 0 0 0 -1 infrastructure_streetsign_wilsonave_7thst_a.ldr
+1 7 6720 0 -6720 0 0 1 0 1 0 -1 0 0 infrastructure_interstoptriple.ldr
+1 7 6720 0 -6720 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_single.ldr
+1 7 6080 0 -6720 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 6720 0 -6080 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 6720 0 -5440 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 5440 0 -6720 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_pair.ldr
+0

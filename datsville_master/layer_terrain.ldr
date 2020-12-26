@@ -1,0 +1,10 @@
+0 Datsville Terrain Layer
+0 Name: layer_terrain.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 2 0 1968 0 0 0 1 0 1 0 -1 0 0 terrain_hills_edges.ldr
+1 1 0  240 0 1 0 0 0 1 0  0 0 1 terrain_water.ldr
+0

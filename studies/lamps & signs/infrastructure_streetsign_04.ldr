@@ -1,0 +1,13 @@
+0 Street Lamp Mk2
+0 Name: streetsign_04.ldr
+0 Author: Michael Horvath
+0 Unofficial Datsville Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 288 0 -168 0 1 0 0 0 1 0 0 0 1 2039.dat
+1 288 0 -192 0 1 0 0 0 1 0 0 0 1 4733.dat
+1 2 30 -182 -18 1 0 0 0 0 -1 0 1 0 2431.dat
+1 2 -18 -182 30 0 1 0 0 0 -1 -1 0 0 2431.dat
+1 47 0 -216 0 1 0 0 0 1 0 0 0 1 3062b.dat
+1 288 0 -224 0 1 0 0 0 1 0 0 0 1 4740.dat
+0

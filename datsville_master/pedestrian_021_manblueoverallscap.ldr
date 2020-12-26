@@ -1,0 +1,21 @@
+0 Mechanic
+0 Name: pedestrian_021_manredoverallsredcap.ldr
+0 Author: Jonathan Wilson
+0 Was: Mfig.dat
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 1 0 -28 0 1 0 0 0 1 0 0 0 1 3817.dat
+1 1 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
+1 1 0 -40 0 1 0 0 0 1 0 0 0 1 3815.dat
+0 1 4 0 -72 0 1 0 0 0 1 0 0 0 1 973p11.dat
+1 15 0 -72 0 1 0 0 0 1 0 0 0 1 973p7w.dat
+1 14 0 -96 0 1 0 0 0 1 0 0 0 1 3626bp01.dat
+1 1 0 -100 0 1 0 0 0 1 0 0 0 1 4485.dat
+0 Arms and Hands
+1 15 15.552 -63 0 0.9855 0.1699 0 -0.1699 0.9855 0 0 0 1 3819.dat
+1 14 23.6904 -45.2243 -9.9 0.9855 0.1201 -0.1201 -0.1699 0.6968 -0.6968 0 0.7071 0.7071 3820.dat
+1 15 -15.552 -63 0 0.9855 -0.1699 0 0.1699 0.9855 0 0 0 1 3818.dat
+1 14 -23.6904 -45.2243 -9.9 0.9855 -0.1201 0.1201 0.1699 0.6968 -0.6968 0 0.7071 0.7071 3820.dat
+0

@@ -1,0 +1,13 @@
+0 Toilet
+0 Name: building_065_toilet.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 -24 0 1 0 0 0 1 0 0 0 1 3747a.dat
+1 16 0 -32 -30 1 0 0 0 1 0 0 0 1 3068b.dat
+1 16 0 -56 0 1 0 0 0 1 0 0 0 1 3069b.dat
+1 15 0 -48 0 1 0 0 0 1 0 0 0 1 3004.dat
+
+0

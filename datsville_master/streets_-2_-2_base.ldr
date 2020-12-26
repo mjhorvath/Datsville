@@ -1,0 +1,52 @@
+0 Datsville street sector
+0 Name: streets_-2_-2_base.ldr
+0 Author: Michael Horvath, John VanZwieten, Tore Eriksson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 7 -6720 0 -5440 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_10_railxing.ldr
+1 7 -6720 0 -5440 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 7 -6720 0 -6080 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 7 -6720 0 -6720 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -6080 0 -6720 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -5440 0 -6720 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -5440 0 -6720 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -6080 0 -6720 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -6720 0 -5440 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
+1 7 -6720 0 -6080 1 0 0 0 1 0 0 0 1 snotroad_triplestripe_000.ldr
+1 7 -6420 0 -5780 1 0 0 0 1 0 0 0 1 3003.dat
+1 7 -6420 24 -5780 1 0 0 0 1 0 0 0 1 3003.dat
+1 7 -6420 24 -6400 0 0 -1 0 1 0 1 0 0 3001.dat
+1 7 -6420 0 -6400 0 0 -1 0 1 0 1 0 0 3001.dat
+1 7 -6320 0 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -6160 0 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -6000 0 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5840 0 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -6320 24 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -6160 24 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -6000 24 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5840 24 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5680 0 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5520 0 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5360 0 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5200 0 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5680 24 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5520 24 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5360 24 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5200 24 -6420 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5440 0 -6720 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 -5440 0 -7360 0 0 -1 0 1 0 1 0 0 snotroad_parkinglotoneleft.ldr
+1 7 -5200 0 -7020 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5360 0 -7020 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5520 0 -7020 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5660 0 -7020 -1 0 0 0 1 0 0 0 -1 2456.dat
+1 7 -5200 24 -7020 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5360 24 -7020 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5520 24 -7020 -1 0 0 0 1 0 0 0 -1 3007.dat
+1 7 -5660 24 -7020 -1 0 0 0 1 0 0 0 -1 2456.dat
+1 7 -5440 0 -6080 0 0 1 0 1 0 -1 0 0 snotroad_parkinglotpizzaplace.ldr
+1 7 -6080 0 -6080 0 0 1 0 1 0 -1 0 0 snotroad_parkinglotpizzaplace.ldr
+1 7 -6080 0 -6720 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_10.ldr
+1 7 -6720 0 -6720 0 0 -1 0 1 0 1 0 0 snotroad_tripledots_222.ldr
+0

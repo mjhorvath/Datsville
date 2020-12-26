@@ -1,0 +1,16 @@
+0 Untitled
+0 Name: street_test.ldr
+0 Author: LDraw
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 -64 0 1 0 0 0 0.980581 -0.196116 0 0.196116 0.980581 snotroad_doubledash_+0.ldr
+1 0 0 0 -640 1 0 0 0 1 0 0 0 1 snotroad_doubledash_+0.ldr
+1 0 0 192 -1280 1 0 0 0 0.857493 -0.514496 0 0.514496 0.857493 snotroad_doubledash_+4.ldr
+1 0 0 384 -1920 1 0 0 0 1 0 0 0 1 snotroad_doubledash_+0.ldr
+1 0 0 -128 640 1 0 0 0 1 0 0 0 1 snotroad_doubledash_+0.ldr
+1 0 0 -256 1280 1 0 0 0 0.928477 -0.371391 0 0.371391 0.928477 snotroad_doubledash_+2.ldr
+1 0 0 -384 1920 1 0 0 0 1 0 0 0 1 snotroad_doubledash_+0.ldr
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 axis32x.dat
+1 0 0 -128 0 1 0 0 0 1 0 0 0 1 axis32x.dat
+0

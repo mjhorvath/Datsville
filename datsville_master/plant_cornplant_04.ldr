@@ -1,0 +1,16 @@
+0 Corn Plant #4
+0 Name: plant_cornplant_04.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 2 0 -76 0 1 0 0 0 1 0 0 0 1 3741a.dat
+1 2 0 -64 0 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 30176.dat
+1 2 0 -12 0 1 0 0 0 1 0 0 0 1 3741a.dat
+1 2 0 -36 0 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 3741a.dat
+1 2 0 -24 0 0 0 1 0 1 0 -1 0 0 3741a.dat
+1 14 0 -84 0 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 6141.dat
+1 14 0 -92 0 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 6141.dat
+1 14 0 -100 0 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 6141.dat
+0

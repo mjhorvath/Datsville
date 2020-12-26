@@ -1,0 +1,16 @@
+0 SNOT road element
+0 Name: snotroad_walkway_straight_section_blank.ldr
+0 Author: Mike Gallagher, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 -192 20 310 0 -1 0 -1 0 0 0 0 -1 3794a.dat
+1 14 -192 20 250 0 -1 0 -1 0 0 0 0 -1 3794a.dat
+1 7 -230 0 280 0 0 1 0 1 0 -1 0 0 3010.dat
+1 7 -210 0 280 0 0 -1 0 1 0 1 0 0 30414.dat
+1 7 -260 0 280 0 0 1 0 1 0 -1 0 0 3001.dat
+1 7 -240 24 260 1 0 0 0 1 0 0 0 1 3001.dat
+1 7 -240 24 300 1 0 0 0 1 0 0 0 1 3001.dat
+1 14 -192 10 280 0 -1 0 0 0 1 -1 0 0 3069b.dat
+0

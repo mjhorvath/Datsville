@@ -1,0 +1,5 @@
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 2 0 0 0 0 0 1 0 1 0 -1 0 0 terrain_superstepped_standin.ldr
+1 1 0 1920 0 1 0 0 0 1 0 0 0 1 terrain_water.ldr
+0

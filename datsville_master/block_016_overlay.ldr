@@ -1,0 +1,14 @@
+0 Datsville City Block #16
+0 Name: block_016_overlay.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -1170 0 -1410 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 -970 0 -1530 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
+1 16 -920 8 -2140 1 0 0 0 1 0 0 0 1 building_032_grocerystore.mpd
+1 0 -1270 -24 -2020 -1 0 0 0 1 0 0 0 -1 infrastructure_phonebooth.ldr
+1 16 -1640 8 -920 -1 0 0 0 1 0 0 0 -1 building_059_restaraunt.mpd
+1 16 -920 8 -920 0 0 -1 0 1 0 1 0 0 building_052_newspaperoffice.mpd
+0

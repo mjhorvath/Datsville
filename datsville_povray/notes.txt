@@ -1,0 +1,34 @@
+NOTES
+
+* Open the "wrapper" files and render them. The other files are included inside 
+  the wrappers when needed.
+* Note that the default L3P colors have not been updated to the latest values 
+  listed in "ldconfig.ldr". They probably will never be as the author is no 
+  longer active.
+* Cannot use LDX (LDView) colors with (how many?) other scripts since it does 
+  not separate textures and materials into separate entities like the other 
+  tools do.
+* Every material needs to have an IOR for SSLT to work. Further, ideally, the 
+  IORs (and other materials properties) for ABS and PC plastics should be 
+  different.
+* Currently, SSLT only works with "materials_ldc_defs_mjh.inc" and 
+  "materials_ldc_defs_clipka.inc".
+* SSLT is super slow! Only enable it if you have a lot of time available to 
+  dedicate to a render.
+
+CODES
+
+* L3P = L3P.exe
+* LDV = LDview
+* LDC = LDCad
+* LEO = LeoCAD
+
+* GH = Michael Horvath (GitHub)
+* SF = Michael Horvath (SourceForge)
+* GC = Michael Horvath (Google Code)
+* TE = Tore Eriksson
+* JVZ = John VanZwieten
+
+* inlined = LDraw models have been processed using MPDCenter to create a single larger "flattened" model file out of many smaller hierarchical model files
+* boxed = LDraw models have been processed using LDBoxer or MyBoxer to replace partially hidden parts with simple boxes
+* lgeo = POV-Ray models are using LGEO parts

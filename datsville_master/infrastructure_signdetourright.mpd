@@ -1,0 +1,87 @@
+0 FILE infrastructure_signdetourright.ldr
+0 Datsville Constructions Detour Sign Right
+0 Name: infrastructure_signdetourright.ldr
+0 Author: Jonathan Wilson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 infrastructure_signdetourright_detourb.ldr
+1 0 0 -40 -14 -1 0 0 0 0 1 0 1 0 infrastructure_signdetourright_detour.ldr
+0
+0 FILE infrastructure_signdetourright_detour.ldr
+0 Datsville Constructions Detour Sign Front
+0 Name: infrastructure_signdetourright_detour.ldr
+0 Author: Jonathan Wilson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3958.dat
+1 0 30 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 30 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 10 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 10 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -10 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -10 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -30 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -30 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -50 -8 10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -50 -8 -10 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -30 -8 -30 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -10 -8 -50 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -10 -8 50 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -30 -8 30 1 0 0 0 1 0 0 0 1 3024.dat
+1 0 -30 -8 -50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 -50 -8 -50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 -50 -8 -30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 -10 -8 -30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 10 -8 -30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 30 -8 -30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 50 -8 -30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 50 -8 -50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 30 -8 -50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 10 -8 -50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 10 -8 30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 -10 -8 30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 -50 -8 30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 -50 -8 50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 -30 -8 50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 10 -8 50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 30 -8 50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 50 -8 50 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 50 -8 30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 30 -8 30 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 50 -8 10 1 0 0 0 1 0 0 0 1 3070a.dat
+1 0 50 -8 -10 1 0 0 0 1 0 0 0 1 3070a.dat
+1 46 30 -16 -10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 30 -16 10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 10 -16 10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 10 -16 -10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -10 -16 -10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -10 -16 10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -30 -16 10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -30 -16 30 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -10 -16 50 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -50 -16 10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -50 -16 -10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -30 -16 -10 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -30 -16 -30 1 0 0 0 1 0 0 0 1 4073.dat
+1 46 -10 -16 -50 1 0 0 0 1 0 0 0 1 4073.dat
+0 
+0
+0 FILE infrastructure_signdetourright_detourb.ldr
+0 Datsville Constructions Detour Sign Base
+0 Name: infrastructure_signdetourright_detourb.ldr
+0 Author: Jonathan Wilson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 0 50 0 0 1 0 0 0 1 0 0 0 1 4070.dat
+1 0 30 0 0 1 0 0 0 1 0 0 0 1 4070.dat
+1 0 10 0 0 1 0 0 0 1 0 0 0 1 4070.dat
+1 0 -10 0 0 1 0 0 0 1 0 0 0 1 4070.dat
+1 0 -30 0 0 1 0 0 0 1 0 0 0 1 4070.dat
+1 0 -50 0 0 1 0 0 0 1 0 0 0 1 4070.dat
+0 
+0
+0

@@ -1,0 +1,28 @@
+0 Minifig Payphone
+0 Name: infrastructure_phonebooth.ldr
+0 Author: Jonathan Wilson
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 14 20 -80 0 0 0 -1 0 1 0 1 0 0 3039p11.dat
+1 7 0 0 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 7 0 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+1 7 0 -48 0 0 0 -1 0 1 0 1 0 0 3660.dat
+1 7 0 -56 0 0 0 1 0 1 0 -1 0 0 3710.dat
+1 7 30 -56 0 0 0 1 0 1 0 -1 0 0 3020.dat
+1 47 40 -128 -30 0 0 -1 0 1 0 1 0 0 2449.dat
+1 47 20 -80 -30 1 0 0 0 1 0 0 0 1 3005.dat
+1 47 20 -104 -30 1 0 0 0 1 0 0 0 1 3005.dat
+1 47 20 -128 -30 1 0 0 0 1 0 0 0 1 3005.dat
+1 47 20 -128 30 1 0 0 0 1 0 0 0 1 3005.dat
+1 47 20 -104 30 1 0 0 0 1 0 0 0 1 3005.dat
+1 47 20 -80 30 1 0 0 0 1 0 0 0 1 3005.dat
+1 7 0 -80 0 0 0 1 0 1 0 -1 0 0 3010.dat
+1 7 0 -104 0 0 0 1 0 1 0 -1 0 0 3010.dat
+1 7 0 -128 0 0 0 1 0 1 0 -1 0 0 3010.dat
+1 47 40 -128 30 0 0 -1 0 1 0 1 0 0 2449.dat
+1 25 20 -152 0 0 0 -1 0 1 0 1 0 0 4861.dat
+1 25 0 -152 -10 1 0 0 0 1 0 0 0 1 3040b.dat
+1 25 0 -152 10 -1 0 0 0 1 0 0 0 -1 3040b.dat
+0

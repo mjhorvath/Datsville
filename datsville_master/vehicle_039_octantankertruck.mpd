@@ -1,0 +1,204 @@
+0 FILE vehicle_039_octantankertruck.ldr
+0 Petrol Tanker
+0 Name: vehicle_039_octantankertruck.ldr
+0 Author: Jonathan Wilson, Tore Eriksson
+0 Was: Tanker.dat
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+
+0 Driver
+1 4 0 -16 -70 1 0 0 0 1 0 0 0 1 pedestrian_024_manoctanredcapsitting.ldr
+
+0 Trailer
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_039_greentankertrailer.ldr
+
+0 Petrol Tanker Cab
+0 Author: Jonathan Wilson
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_039_Yellow039.ldr
+1 2 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_039_Red039.ldr
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_039_White039.ldr
+
+0
+0 FILE vehicle_039_White039.ldr
+0 Untitled
+0 Name: vehicle_039_White039.ldr
+0 Author: Jonathan Wilson, Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 -8 40 1 0 0 0 1 0 0 0 1 3788.dat
+1 16 0 -8 -120 1 0 0 0 1 0 0 0 1 3788.dat
+1 16 0 -8 -80 1 0 0 0 1 0 0 0 1 3788.dat
+1 16 0 8 -120 1 0 0 0 1 0 0 0 1 3022.dat
+1 16 0 8 -80 1 0 0 0 1 0 0 0 1 3022.dat
+1 16 0 8 40 1 0 0 0 1 0 0 0 1 3022.dat
+1 16 0 -8 -40 0 0 1 0 1 0 -1 0 0 3832.dat
+1 16 0 16 -120 1 0 0 0 1 0 0 0 1 4600.dat
+1 16 0 16 -80 1 0 0 0 1 0 0 0 1 4600.dat
+1 16 0 16 40 1 0 0 0 1 0 0 0 1 4600.dat
+1 15 31 21 -120 0 0 -1 0 1 0 1 0 0 4624.dat
+1 15 31 21 -80 0 0 -1 0 1 0 1 0 0 4624.dat
+1 256 30 21 -120 0 0 -1 0 1 0 1 0 0 3641.dat
+1 256 30 21 -80 0 0 -1 0 1 0 1 0 0 3641.dat
+1 256 30 21 40 0 0 -1 0 1 0 1 0 0 3641.dat
+1 15 30 21 40 0 0 -1 0 1 0 1 0 0 4624.dat
+1 15 -30 21 -120 0 0 1 0 1 0 -1 0 0 4624.dat
+1 15 -30 21 -80 0 0 1 0 1 0 -1 0 0 4624.dat
+1 256 -30 21 -120 0 0 1 0 1 0 -1 0 0 3641.dat
+1 256 -30 21 -80 0 0 1 0 1 0 -1 0 0 3641.dat
+1 256 -30 21 40 0 0 1 0 1 0 -1 0 0 3641.dat
+1 15 -30 21 40 0 0 1 0 1 0 -1 0 0 4624.dat
+1 16 0 -16 -40 0 0 1 0 1 0 -1 0 0 3030.dat
+1 16 0 -24 40 -1 0 0 0 1 0 0 0 -1 3731.dat
+0 
+
+0
+0 FILE vehicle_039_Red039.ldr
+0 Untitled
+0 Name: vehicle_039_Red039.ldr
+0 Author: Jonathan Wilson, Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 30 -40 -110 1 0 0 0 1 0 0 0 1 3822.dat
+1 16 -30 -40 -110 1 0 0 0 1 0 0 0 1 3821.dat
+1 0 0 -40 -130 1 0 0 0 1 0 0 0 1 4175.dat
+1 16 0 -32 -130 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -24 -130 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -24 -110 1 0 0 0 1 0 0 0 1 3829c01.dat
+1 16 -30 -40 -130 1 0 0 0 1 0 0 0 1 4070.dat
+1 46 -30 -30 -144 1 0 0 0 0 -1 0 1 0 3024.dat
+1 46 30 -30 -144 1 0 0 0 0 -1 0 1 0 3024.dat
+1 16 30 -40 -130 1 0 0 0 1 0 0 0 1 4070.dat
+1 16 30 -48 -130 0 0 -1 0 1 0 1 0 0 2420.dat
+1 16 -30 -48 -130 1 0 0 0 1 0 0 0 1 2420.dat
+1 16 -30 -56 -110 1 0 0 0 1 0 0 0 1 3024.dat
+1 16 30 -56 -110 1 0 0 0 1 0 0 0 1 3024.dat
+1 16 0 -56 -130 1 0 0 0 1 0 0 0 1 3710.dat
+1 16 0 -40 -50 1 0 0 0 1 0 0 0 1 3010.dat
+1 16 0 -48 -50 1 0 0 0 1 0 0 0 1 3710.dat
+1 16 0 -56 -50 1 0 0 0 1 0 0 0 1 3710.dat
+
+0
+0 FILE vehicle_039_Yellow039.ldr
+0 Untitled
+0 Name: vehicle_039_Yellow039.ldr
+0 Author: Jonathan Wilson, Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 47 0 -104 -110 1 0 0 0 1 0 0 0 1 3823.dat
+1 16 0 -104 -50 1 0 0 0 1 0 0 0 1 4214.dat
+1 16 0 -112 -80 1 0 0 0 1 0 0 0 1 4213.dat
+1 16 10 -120 -90 1 0 0 0 1 0 0 0 1 2555.dat
+1 16 -10 -120 -90 1 0 0 0 1 0 0 0 1 2555.dat
+1 4 -5 -128 -103 0 -1 0 1 0 0 0 0 1 4599a.dat
+1 4 7 -128 -103 0 1 0 -1 0 0 0 0 1 4599a.dat
+0 
+
+0
+0 FILE vehicle_039_greentankertrailer.ldr
+0 Petrol Tanker Trailer
+0 Name: vehicle_039_greentankertrailer.ldr
+0 Author: Jonathan Wilson, Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_039_yellow042.ldr
+1 2 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_039_vred042.ldr
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 vehicle_039_White042.ldr
+0 // Stickers
+1 15 -40 -76 170 0 1 0 0 0 -1 -1 0 0 168185a.dat
+1 15 40 -76 170 0 -1 0 0 0 -1 1 0 0 168185a.dat
+1 15 0 -90 330 -1 0 0 0 0 -1 0 -1 0 4521703c.dat
+0 
+
+0
+0 FILE vehicle_039_White042.ldr
+0 Untitled
+0 Name: vehicle_039_White042.ldr
+0 Author: Jonathan Wilson, Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 8 290 1 0 0 0 1 0 0 0 1 3022.dat
+1 16 0 16 290 1 0 0 0 1 0 0 0 1 4600.dat
+1 16 0 16 330 1 0 0 0 1 0 0 0 1 4600.dat
+1 16 0 16 110 1 0 0 0 1 0 0 0 1 4600.dat
+1 16 0 -8 210 0 0 1 0 1 0 -1 0 0 2445.dat
+1 16 30 -32 110 0 0 1 0 1 0 -1 0 0 3004.dat
+1 16 -30 -32 110 0 0 1 0 1 0 -1 0 0 3004.dat
+1 15 30 21 110 0 0 -1 0 1 0 1 0 0 4624.dat
+1 256 30 21 110 0 0 1 0 1 0 -1 0 0 3641.dat
+1 256 30 21 330 0 0 1 0 1 0 -1 0 0 3641.dat
+1 256 30 21 290 0 0 1 0 1 0 -1 0 0 3641.dat
+1 15 30 21 330 0 0 -1 0 1 0 1 0 0 4624.dat
+1 15 30 21 290 0 0 -1 0 1 0 1 0 0 4624.dat
+1 15 -30 21 110 0 0 1 0 1 0 -1 0 0 4624.dat
+1 256 -30 21 110 0 0 1 0 1 0 -1 0 0 3641.dat
+1 256 -30 21 330 0 0 1 0 1 0 -1 0 0 3641.dat
+1 256 -30 21 290 0 0 1 0 1 0 -1 0 0 3641.dat
+1 15 -30 21 330 0 0 1 0 1 0 -1 0 0 4624.dat
+1 15 -30 21 290 0 0 1 0 1 0 -1 0 0 4624.dat
+1 16 0 -32 110 1 0 0 0 1 0 0 0 1 3022.dat
+1 16 0 -8 340 -1 0 0 0 1 0 0 0 -1 2436a.dat
+1 36 30 2 362 1 0 0 0 0 1 0 -1 0 3024.dat
+1 36 -30 2 362 1 0 0 0 0 1 0 -1 0 3024.dat
+1 16 -10 -32 150 0 0 1 0 1 0 -1 0 0 3660.dat
+1 16 10 -32 150 0 0 -1 0 1 0 1 0 0 3660.dat
+1 16 10 -32 190 0 0 -1 0 1 0 1 0 0 3660.dat
+1 16 -10 -32 190 0 0 1 0 1 0 -1 0 0 3660.dat
+1 16 -10 -32 230 0 0 1 0 1 0 -1 0 0 3660.dat
+1 16 10 -32 230 0 0 -1 0 1 0 1 0 0 3660.dat
+1 16 10 -32 270 0 0 -1 0 1 0 1 0 0 3660.dat
+1 16 -10 -32 270 0 0 1 0 1 0 -1 0 0 3660.dat
+1 16 10 -32 310 0 0 -1 0 1 0 1 0 0 3660.dat
+1 16 -10 -32 310 0 0 1 0 1 0 -1 0 0 3660.dat
+0
+0 FILE vehicle_039_yellow042.ldr
+0 Untitled
+0 Name: vehicle_039_yellow042.ldr
+0 Author: Jonathan Wilson, Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -30 -88 170 0 0 1 0 1 0 -1 0 0 2465.dat
+1 16 30 -88 170 0 0 1 0 1 0 -1 0 0 2465.dat
+1 16 0 -88 320 1 0 0 0 1 0 0 0 1 3004.dat
+1 16 0 -88 20 -1 0 0 0 1 0 0 0 -1 3004.dat
+1 16 0 -96 20 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -104 20 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -104 320 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 0 -96 320 1 0 0 0 1 0 0 0 1 3023.dat
+1 16 -10 -120 50 0 0 1 0 1 0 -1 0 0 6081.dat
+1 16 -10 -120 130 0 0 1 0 1 0 -1 0 0 6081.dat
+1 16 -10 -120 210 0 0 1 0 1 0 -1 0 0 6081.dat
+1 16 -10 -120 290 0 0 1 0 1 0 -1 0 0 6081.dat
+1 16 10 -120 290 0 0 -1 0 1 0 1 0 0 6081.dat
+1 16 10 -120 210 0 0 -1 0 1 0 1 0 0 6081.dat
+1 16 10 -120 130 0 0 -1 0 1 0 1 0 0 6081.dat
+1 16 10 -120 50 0 0 -1 0 1 0 1 0 0 6081.dat
+1 16 0 -120 170 0 0 1 0 1 0 -1 0 0 4282.dat
+0
+0 FILE vehicle_039_vred042.ldr
+0 Untitled
+0 Name: vehicle_039_vred042.ldr
+0 Author: Jonathan Wilson, Tore Eriksson
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 -40 250 0 0 1 0 1 0 -1 0 0 3035.dat
+1 16 0 -40 90 0 0 1 0 1 0 -1 0 0 3035.dat
+1 16 -30 -64 170 0 0 1 0 1 0 -1 0 0 2465.dat
+1 16 30 -64 170 0 0 1 0 1 0 -1 0 0 2465.dat
+1 16 0 -64 320 1 0 0 0 1 0 0 0 1 3004.dat
+1 16 0 -64 20 1 0 0 0 1 0 0 0 1 3004.dat
+1 4 0 -128 70 1 0 0 0 1 0 0 0 1 4032a.dat
+1 4 0 -128 170 1 0 0 0 1 0 0 0 1 4032a.dat
+1 4 0 -128 270 1 0 0 0 1 0 0 0 1 4032a.dat
+0 
+0 
+0
+0

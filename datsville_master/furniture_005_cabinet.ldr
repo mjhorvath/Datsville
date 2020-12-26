@@ -1,0 +1,17 @@
+0 Cabinet
+0 Name: building_065_cabinet.ldr
+0 Author: Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -30 -56 10 1 0 0 0 1 0 0 0 1 3581.dat
+1 16 30 -56 10 1 0 0 0 1 0 0 0 1 3581.dat
+1 16 -30 -56 -2 0 0 -1 0 1 0 1 0 0 3582.dat
+1 16 30 -56 -2 0 0 1 0 1 0 -1 0 0 3582.dat
+1 16 0 -56 30 1 0 0 0 1 0 0 0 1 3010.dat
+1 16 0 -32 30 1 0 0 0 1 0 0 0 1 3010.dat
+1 16 0 -64 20 1 0 0 0 1 0 0 0 1 3020.dat
+1 16 0 -8 20 1 0 0 0 1 0 0 0 1 3020.dat
+
+0

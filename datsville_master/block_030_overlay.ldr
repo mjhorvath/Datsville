@@ -1,0 +1,17 @@
+0 Datsville City Block #30
+0 Name: block_030_overlay.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 -4800 0 -6080 1 0 0 0 1 0 0 0 1 building_048_pizzatakeout.mpd
+1 16 -6220 0 -5320 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 -5920 0 -5320 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
+1 16 -5600 0 -5320 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
+1 16 -5280 0 -5320 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
+1 16 -4940 0 -5320 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 -4640 0 -5320 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
+1 16 -5440 0 -6080 1 0 0 0 1 0 0 0 1 building_092_carlot.mpd
+1 16 -5980 10 -5900 0 0 1 0 1 0 -1 0 0 building_084_printshop.ldr
+0

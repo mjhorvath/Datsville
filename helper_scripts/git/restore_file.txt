@@ -1,0 +1,1 @@
+git checkout 9dfa5d8 -- renders/streetmaps/datsville_streetmap.xcf

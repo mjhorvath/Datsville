@@ -1,0 +1,41 @@
+0 Datsville City Blocks Layer
+0 Name: layer_blocks.ldr
+0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
+0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_001_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_002_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_003_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_004_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_005_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_006_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_007_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_008_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_009_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_010_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_011_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_012_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_013_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_014_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_015_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_016_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_017_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_018_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_019_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_020_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_021_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_022_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_023_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_024_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_025_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_026_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_027_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_028_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_029_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_030_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_031_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_032_overlay.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 block_033_overlay.ldr
+0
