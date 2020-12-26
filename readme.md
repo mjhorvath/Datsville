@@ -29,7 +29,7 @@ New submissions are of course always welcome! :)
 * Detailed maps of Datsville can be found at [Model Maps](https://github.com/mjhorvath/Datsville/wiki/Model-Maps) and [Street Maps](https://github.com/mjhorvath/Datsville/wiki/Street-Maps).
 * A table of models and contributors can be found at [Model Table](https://mjhorvath.github.io/Datsville/docs/model-table/model-table.html).
 * A high resolution isometric render of Datsville can be found at [Interactive Town Map](https://mjhorvath.github.io/Datsville/docs/interactive-town-map/interactive-town-map.html).
-* Additional documentation can be found within the repository itself, in the form of an MS Excel workbook called "datsville_checklist.xlsx".
+* Additional documentation can be found within the repository itself, in the form of an MS Excel workbook titled "datsville_checklist.xlsx".
 
 
 ## Datsville on Flickr
