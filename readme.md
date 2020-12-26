@@ -39,6 +39,12 @@ Visit Datsville on Flickr [here](https://www.flickr.com/groups/datsville/).
 
 ![datsville_modelmap_revSF527](https://c1.staticflickr.com/5/4648/38973533994_6eba031c4e_c.jpg)
 
+
+## Datsville RPG
+
+[Datsville RPG](https://github.com/mjhorvath/Datsville-RPG) is a test project aimed at creating a tactical RPG based on Datsville using RPG Maker VX Ace and RPG Maker MV.
+
+
 ## Legal disclaimer
 
 LEGO&reg; is a trademark of the LEGO Group, which does not sponsor, authorize, or endorse this project.
