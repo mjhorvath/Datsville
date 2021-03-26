@@ -15,8 +15,8 @@
 #include "settings_common_before.inc"
 #include "settings_modelmap_normal.inc"
 #include "settings_common_after.inc"
-#include "lg_defs.inc"							// needed if your model contains LGEO parts
-#include "lg_color.inc"							// needed if your model contains LGEO parts
+//#include "lg_defs.inc"							// needed if your model contains LGEO parts
+//#include "lg_color.inc"							// needed if your model contains LGEO parts
 #include "materials_blurred_reflections.inc"	// currently only supported by "materials_ldc_defs_clipka.inc" and "materials_ldc_defs_mjh.inc"
 #include "materials_ldc_defs_mjh.inc"
 #include "materials_ldc_out.inc"
@@ -30,7 +30,8 @@
 // LDV = LDview
 // LDC = LDCad
 // LEO = LeoCAD
-// GH = Michael Horvath (GitHub)
+// GH2 = Michael Horvath (GitHub 2)
+// GH1 = Michael Horvath (GitHub 1)
 // SF = Michael Horvath (SourceForge)
 // GC = Michael Horvath (Google Code)
 // TE = Tore Eriksson
@@ -54,7 +55,7 @@
 //#include "ldv_datsville_sf_rev531_inlined_y_boxed_h_lgeo_n.pov"
 
 // If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-//#include "ldv_datsville_gh_rev442_inlined_n_boxed_n_lgeo_n.pov"
+//#include "ldv_datsville_gh1_rev442_inlined_n_boxed_n_lgeo_n.pov"
 
 // If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-#include "l3p_datsville_gh_rev497_inlined_n_boxed_n_lgeo_n.pov"
+#include "l3p_datsville_gh1_rev497_inlined_n_boxed_n_lgeo_n.pov"

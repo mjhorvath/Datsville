@@ -23,7 +23,8 @@
 // LDV = LDview
 // LDC = LDCad
 // LEO = LeoCAD
-// GH = Michael Horvath (GitHub)
+// GH2 = Michael Horvath (GitHub 2)
+// GH1 = Michael Horvath (GitHub 1)
 // SF = Michael Horvath (SourceForge)
 // GC = Michael Horvath (Google Code)
 // TE = Tore Eriksson
@@ -35,7 +36,7 @@
 #declare block__001__base_dot_ldr = union {}
 #declare block__001__overlay_dot_ldr = union {}
 #declare block__002__base_dot_ldr = union {}
-#declare block__002__overlay_dot_ldr = union {}
+//#declare block__002__overlay_dot_ldr = union {}
 #declare block__003__base_dot_ldr = union {}
 #declare block__003__overlay_dot_ldr = union {}
 #declare block__004__base_dot_ldr = union {}
@@ -99,7 +100,7 @@
 #declare block__033__base_dot_ldr = union {}
 #declare block__033__overlay_dot_ldr = union {}
 #declare building__001__jessimanmemorial_dot_mpd = union {}
-#declare building__002__townhall_dot_mpd = union {}
+//#declare building__002__townhall_dot_mpd = union {}
 #declare building__004__bramlcottage_dot_ldr = union {}
 #declare building__006__casaverde_dot_ldr = union {}
 #declare building__007__firecompany_dot_mpd = union {}
@@ -758,7 +759,7 @@
 
 
 // If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-#include "l3p_datsville_gh_rev464_inlined_n_boxed_n_lgeo_n.pov"
+#include "l3p_datsville_gh1_rev464_inlined_n_boxed_n_lgeo_n.pov"
 
 cylinder
 {

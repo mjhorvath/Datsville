@@ -16,14 +16,15 @@ NOTES
 * SSLT is super slow! Only enable it if you have a lot of time available to 
   dedicate to a render.
 
-CODES
+CODES & ABBREVIATIONS
 
 * L3P = L3P.exe
 * LDV = LDview
 * LDC = LDCad
 * LEO = LeoCAD
 
-* GH = Michael Horvath (GitHub)
+* GH2 = Michael Horvath (GitHub 2)
+* GH1 = Michael Horvath (GitHub 1)
 * SF = Michael Horvath (SourceForge)
 * GC = Michael Horvath (Google Code)
 * TE = Tore Eriksson
