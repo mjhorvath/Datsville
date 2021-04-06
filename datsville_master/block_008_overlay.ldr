@@ -7,7 +7,7 @@
 0 ROTATION CONFIG 0 0
 1 0 -3840 0 960 1 0 0 0 1 0 0 0 1 building_053_animalexhibit.mpd
 1 16 -5700 -8 1600 0 0 1 0 1 0 -1 0 0 building_019_cricketground.mpd
-1 16 -5680 -8 1940 1 0 0 0 1 0 0 0 1 building_090_policegraduationpodium.ldr
+1 16 -5700 -8 1300 -1 0 0 0 1 0 0 0 -1 building_090_policegraduationpodium.ldr
 1 16 -4640 0 1760 1 0 0 0 1 0 0 0 1 building_073_radiotower.ldr
 1 16 -4640 0 2040 -1 0 0 0 1 0 0 0 -1 building_033_telephoneexchange.mpd
 1 16 -4570 0 730 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
