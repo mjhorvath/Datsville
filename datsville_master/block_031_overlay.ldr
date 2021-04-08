@@ -6,6 +6,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 13 -2720 0 10080 0 0 1 0 1 0 -1 0 0 building_067_habidomesmall.mpd
+1 13 -4760 392 8540 0 0 1 0 1 0 -1 0 0 building_020_baitshop.mpd
 1 15 -650 -64 10480 0 0 -1 0 1 0 1 0 0 6079.dat
 1 15 -650 -64 10640 0 0 -1 0 1 0 1 0 0 6079.dat
 1 15 -650 -64 10800 0 0 -1 0 1 0 1 0 0 6079.dat
