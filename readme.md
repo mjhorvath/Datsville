@@ -10,7 +10,7 @@ Since this project is brand new, the main things that need to be done at this mo
 * Get permission to relicense models from the original model authors.
 * Determine what (if any) organizational steps need to be taken to get models in a state where they are ready to render into new scenes, animations and so forth.
 
-Once that is completed hopefully we can develop some ready-to-use tools for people to develop the scenes they want.
+Once that is completed hopefully we can develop some ready-to-use tools for people to create new scenes with.
 
 The preferred licenses are:
 
@@ -18,6 +18,8 @@ The preferred licenses are:
 * [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) or later  for artistic content (LDraw models, rendered images, etc.)
 
 New submissions are of course always welcome! :)
+
+Update: further development of Datsville has stalled due to a number of [Issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
 
 
 ## More information
