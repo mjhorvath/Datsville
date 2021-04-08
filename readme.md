@@ -19,8 +19,6 @@ The preferred licenses are:
 
 New submissions are of course always welcome! :)
 
-Update: further development of Datsville has stalled due to a number of [Issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
-
 
 ## More information
 
@@ -33,7 +31,7 @@ Update: further development of Datsville has stalled due to a number of [Issues]
 * A high resolution isometric render of Datsville can be found at [Interactive Town Map](https://mjhorvath.github.io/Datsville/docs/interactive-town-map/interactive-town-map.html).
 * The models' statuses can be tracked using the MS Excel workbook [datsville_checklist.xlsx](https://mjhorvath.github.io/Datsville/docs/miscellaneous/datsville_notes_checklist.xlsx).
 * Additional documentation can be found within the "docs" folder of the repository.
-
+* Further development of Datsville has stalled due to a number of [Issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
 
 ## Datsville on Flickr
 
