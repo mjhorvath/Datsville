@@ -19,7 +19,7 @@ The preferred licenses are:
 
 New submissions are of course always welcome! :)
 
-Update: further development of Datsville has stalled due to a number of [issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
+Update: further development of Datsville has stalled due to a number of issues [described here](https://github.com/mjhorvath/Datsville/wiki/Issues).
 
 
 ## More information
