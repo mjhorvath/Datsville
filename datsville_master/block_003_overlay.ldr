@@ -5,8 +5,6 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
+1 0 1100 0 340 0 0 -1 0 1 0 1 0 0 building_094_chapel.ldr
 1 16 1640 0 320 0 0 -1 0 1 0 1 0 0 building_043_datsvillememorial.ldr
-1 16 1400 0 90 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 16 1090 0 230 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 16 810 0 490 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 0
