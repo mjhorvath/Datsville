@@ -1,9 +1,14 @@
-0 Datsville City Block #10
+0 Datsville City Block #9
 0 Name: block_010_overlay.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 2 4960 8 4160 1 0 0 0 1 0 0 0 1 building_031_carriagehouse.mpd
+1 0 -7360 0 1600 -1 0 0 0 1 0 0 0 -1 building_022_houseonahill.mpd
+1 2 -7980 0 1600 0 0 1 0 1 0 -1 0 0 infrastructure_ljphill1.ldr
+1 2 -7340 0 960 0 0 -1 0 1 0 1 0 0 infrastructure_ljphill2.ldr
+1 2 -7980 0 960 1 0 0 0 1 0 0 0 1 infrastructure_ljphill2.ldr
+1 2 -7980 0 2240 0 0 1 0 1 0 -1 0 0 infrastructure_ljphill2.ldr
+1 2 -7340 0 2240 -1 0 0 0 1 0 0 0 -1 infrastructure_ljphill2.ldr
 0

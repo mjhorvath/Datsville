@@ -31,4 +31,9 @@
 1 0 -5670 -8 1410 -1 0 0 0 1 0 0 0 -1 pedestrian_118_policewhiteshirtandtiestandingnohat3.ldr
 1 0 -5610 -8 1410 -1 0 0 0 1 0 0 0 -1 pedestrian_119_policewhiteshirtandtiestandingnohat4.ldr
 1 0 -5700 -40 1290 -1 0 0 0 1 0 0 0 -1 pedestrian_120_policewhiteshirtandtiestandingnohat5.ldr
+0 
+1 2 -6620 10 3870 -1 0 0 0 1 0 0 0 -1 vehicle_005_yellowasphaltspreader.ldr
+1 2 -6210 10 3620 0 0 1 0 1 0 -1 0 0 vehicle_085_dumptruck2.ldr
+1 7 -6800 10 3780 -1 0 0 0 1 0 0 0 -1 pedestrian_001_mustachewalking.ldr
+1 0 -6840 10 3840 0.94 0 -0.34 0 1 0 0.34 0 0.94 pedestrian_001_mustachewalking.ldr
 0

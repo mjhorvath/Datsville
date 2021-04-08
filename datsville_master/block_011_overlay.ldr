@@ -32,6 +32,8 @@
 1 2 -6230 0 4640 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 2 -5910 0 4640 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 2 -480 0 4640 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
+1 2 480 0 4160 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
+1 2 490 0 4640 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 2 -160 0 4640 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 2 -4950 0 4640 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 2 -4630 0 4640 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
@@ -41,8 +43,11 @@
 1 2 -2710 0 4640 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 2 -2390 0 4640 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 2 -790 0 4640 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
+1 2 140 0 4160 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
+1 2 150 0 4640 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 2 -1110 0 4640 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 2 -2070 0 4640 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 2 -1750 0 4640 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 2 -1430 0 4640 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
+1 16 1280 0 4440 1 0 0 0 1 0 0 0 1 building_051_highschool.mpd
 0

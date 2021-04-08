@@ -5,11 +5,5 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 3200 0 4480 0 0 1 0 1 0 -1 0 0 building_051_highschool.mpd
-1 0 960 0 4180 0 0 -1 0 1 0 1 0 0 building_022_houseonahill.mpd
-1 2 960 0 4800 -1 0 0 0 1 0 0 0 -1 infrastructure_ljphill1.ldr
-1 2 320 0 4160 1 0 0 0 1 0 0 0 1 infrastructure_ljphill2.ldr
-1 2 320 0 4800 0 0 1 0 1 0 -1 0 0 infrastructure_ljphill2.ldr
-1 2 1600 0 4800 -1 0 0 0 1 0 0 0 -1 infrastructure_ljphill2.ldr
-1 2 1600 0 4160 0 0 -1 0 1 0 1 0 0 infrastructure_ljphill2.ldr
+1 2 3080 8 4160 1 0 0 0 1 0 0 0 1 building_031_carriagehouse.mpd
 0

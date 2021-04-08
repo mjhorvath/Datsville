@@ -7,6 +7,23 @@
 0 ROTATION CONFIG 0 0
 1 16 -6980 -8 3780 0 0 -1 0 1 0 1 0 0 infrastructure_trafficlight_010_1stst_a11.ldr
 1 16 -6460 -8 3780 1 0 0 0 1 0 0 0 1 infrastructure_trafficlight_005_erikssonpkwy_a11.ldr
+1 25 -6920 10 3640 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6920 10 3720 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6920 10 3560 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6920 10 3480 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6920 10 3400 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6920 10 3320 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -5780 10 3640 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -5780 10 3560 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -5780 10 3480 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -5730 -14 3520 0 0 -1 0 1 0 1 0 0 infrastructure_signdetourleft.mpd
+1 25 -6720 -14 3200 1 0 0 0 1 0 0 0 1 infrastructure_signdetourright.mpd
+1 25 -5780 10 3400 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6840 10 3320 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6760 10 3320 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6680 10 3320 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6600 10 3320 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
+1 25 -6520 10 3320 1 0 0 0 1 0 0 0 1 infrastructure_witcheshat.ldr
 1 16 -6980 -8 3260 -1 0 0 0 1 0 0 0 -1 infrastructure_trafficlight_005_erikssonpkwy_a11.ldr
 1 16 -6460 -8 3260 0 0 1 0 1 0 -1 0 0 infrastructure_trafficlight_010_1stst_a11.ldr
 1 16 -5180 0 3260 1 0 0 0 1 0 0 0 1 infrastructure_streetsign_erikssonpkwy_wilsoncirc_a.ldr

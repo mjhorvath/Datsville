@@ -11,11 +11,7 @@
 1 0 -3210 0 2330 0 0 1 0 1 0 -1 0 0 character_007_angus.ldr
 1 0 -3220 0 2420 0 0 1 0 1 0 -1 0 0 character_008_esmee.ldr
 1 16 -2950 10 1690 0 0 1 0 1 0 -1 0 0 vehicle_054_monaro.mpd
-1 2 -260 10 3880 -1 0 0 0 1 0 0 0 -1 vehicle_005_yellowasphaltspreader.ldr
-1 2 -840 10 3630 0 0 1 0 1 0 -1 0 0 vehicle_085_dumptruck2.ldr
 1 15 -1040 0 1660 0 0 -1 0 1 0 1 0 0 vehicle_013_yellowroundmailvan_parked.mpd
-1 7 -440 10 3790 -1 0 0 0 1 0 0 0 -1 pedestrian_001_mustachewalking.ldr
-1 0 -480 10 3850 0.94 0 -0.34 0 1 0 0.34 0 0.94 pedestrian_001_mustachewalking.ldr
 1 4 -180 0 390 0 0 1 0 1 0 -1 0 0 pedestrian_002_suitblackhat.ldr
 1 0 -670 0 670 0.71 0 -0.71 0 1 0 0.71 0 0.71 pedestrian_003_mailman.ldr
 1 15 -1080 -8 1590 -1 0 0 0 1 0 0 0 -1 pedestrian_003_mailman.ldr
