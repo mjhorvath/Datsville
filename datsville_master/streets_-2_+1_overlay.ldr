@@ -5,11 +5,13 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 -6460 0 3260 1 0 0 0 1 0 0 0 1 infrastructure_streetsign_erikssonpkwy_1stst_a.ldr
+1 16 -6980 -8 3780 0 0 -1 0 1 0 1 0 0 infrastructure_trafficlight_010_1stst_a11.ldr
+1 16 -6460 -8 3780 1 0 0 0 1 0 0 0 1 infrastructure_trafficlight_005_erikssonpkwy_a11.ldr
+1 16 -6980 -8 3260 -1 0 0 0 1 0 0 0 -1 infrastructure_trafficlight_005_erikssonpkwy_a11.ldr
+1 16 -6460 -8 3260 0 0 1 0 1 0 -1 0 0 infrastructure_trafficlight_010_1stst_a11.ldr
 1 16 -5180 0 3260 1 0 0 0 1 0 0 0 1 infrastructure_streetsign_erikssonpkwy_wilsoncirc_a.ldr
 1 16 -6460 0 2620 1 0 0 0 1 0 0 0 1 infrastructure_streetsign_wilsoncirc_1stst_a.ldr
 1 16 -6460 0 60 1 0 0 0 1 0 0 0 1 infrastructure_streetsign_andersenst_1stst_a.ldr
-1 7 -6720 0 3520 0 0 -1 0 1 0 1 0 0 infrastructure_interstoptriple.ldr
 1 7 -5440 0 3520 1 0 0 0 1 0 0 0 1 infrastructure_interstopsingle.ldr
 1 7 -6720 0 2880 0 0 -1 0 1 0 1 0 0 infrastructure_interstopsingle.ldr
 1 7 -6720 0 320 1 0 0 0 1 0 0 0 1 infrastructure_interstopquad.ldr
@@ -22,8 +24,10 @@
 1 7 -6080 0 2880 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_pair.ldr
 1 7 -6080 0 2880 0 0 -1 0 1 0 1 0 0 infrastructure_trashcan_single.ldr
 1 7 -6080 0 3520 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_pair.ldr
+1 7 -6720 0 4160 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 -6720 0 4800 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
+1 7 -6720 0 5440 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_pair.ldr
 1 7 -6720 0 2880 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_single.ldr
-1 7 -6720 0 3520 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_single.ldr
 1 7 -5440 0 3520 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_single.ldr
 1 7 -5440 0 2880 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_single.ldr
 1 7 -5440 0 2880 -1 0 0 0 1 0 0 0 -1 infrastructure_firehydrant_single.ldr

@@ -6,23 +6,29 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 -120 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
-1 16 120 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
-1 16 360 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 16 -600 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
 1 16 600 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
 1 16 840 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
 1 16 1080 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
-1 16 1440 0 0 -1 0 0 0 1 0 0 0 -1 infrastructure_roadbridge_large_end.ldr
-1 16 -360 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
-1 16 -600 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 16 1320 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 16 1560 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 16 1920 0 0 -1 0 0 0 1 0 0 0 -1 infrastructure_roadbridge_large_end.ldr
 1 16 -840 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
 1 16 -1080 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
-1 16 -1440 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_end.ldr
-1 13 480 -144 260 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_02.ldr
-1 13 0 -144 -260 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_02.ldr
-1 13 960 -144 -260 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_02.ldr
-1 13 -480 -144 260 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_02.ldr
-1 13 -960 -144 -260 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_02.ldr
+1 16 -1320 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 16 -1560 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 16 -1920 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_end.ldr
+1 13 960 -144 260 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_02.ldr
+1 13 -480 -144 -260 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_02.ldr
+1 13 0 -144 260 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_02.ldr
+1 16 360 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 16 120 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 16 -360 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 16 -120 0 0 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_large_section.ldr
+1 13 480 -144 -260 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_02.ldr
+1 13 1440 -144 -260 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_02.ldr
+1 13 -960 -144 260 0 0 -1 0 1 0 1 0 0 infrastructure_streetlamp_02.ldr
+1 13 -1440 -144 -260 0 0 1 0 1 0 -1 0 0 infrastructure_streetlamp_02.ldr
 0
 0 FILE infrastructure_roadbridge_large_section.ldr
 0 New Model
@@ -351,6 +357,7 @@
 1 7 20 0 270 1 0 0 0 1 0 0 0 1 3455.dat
 1 7 -100 0 250 1 0 0 0 1 0 0 0 1 3455.dat
 1 7 -100 0 270 1 0 0 0 1 0 0 0 1 3455.dat
+0 
 0 
 0 
 0 

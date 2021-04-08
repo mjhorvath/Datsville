@@ -3,19 +3,4 @@
 0 Author: Michael Horvath, John VanZwieten, Tore Eriksson
 0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
-1 7 -320 0 6400 0 0 -1 0 1 0 1 0 0 infrastructure_roadbridge_a.mpd
-1 7 -320 0 8000 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
-1 7 -320 0 8640 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
-1 7 -320 0 9920 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
-1 7 -320 0 9920 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
-1 7 -320 0 9280 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
-1 7 -320 0 8640 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
-1 7 -320 0 8000 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
-1 7 -320 0 8000 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
-1 7 -320 0 8640 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
-1 7 -320 0 9280 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
-1 7 -320 0 9920 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
-1 7 -320 0 9280 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
 0
