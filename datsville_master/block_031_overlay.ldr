@@ -3,9 +3,9 @@
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/
 0 Unofficial Model
+0 
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-0
 1 15 -500 0 13470 0 0 1 0 1 0 -1 0 0 plant_cornpatch_medium_03.ldr
 1 15 -180 0 13470 0 0 1 0 1 0 -1 0 0 plant_cornpatch_medium_03.ldr
 1 15 140 0 13470 0 0 1 0 1 0 -1 0 0 plant_cornpatch_medium_03.ldr
@@ -87,7 +87,7 @@
 1 15 1420 0 10590 0 0 1 0 1 0 -1 0 0 plant_cornpatch_medium_03.ldr
 1 15 1740 0 10590 0 0 1 0 1 0 -1 0 0 plant_cornpatch_medium_03.ldr
 1 13 -2720 0 10080 0 0 1 0 1 0 -1 0 0 building_067_habidomesmall.mpd
-1 13 -4760 392 8540 0 0 1 0 1 0 -1 0 0 building_020_baitshop.mpd
+1 13 -4760 168 8540 0 0 1 0 1 0 -1 0 0 building_020_baitshop.mpd
 1 15 -1120 0 13450 0 0 -1 0 1 0 1 0 0 plant_cornpatch_medium_03.ldr
 1 15 -1120 0 13120 0 0 -1 0 1 0 1 0 0 plant_cornpatch_medium_04.ldr
 1 15 -800 0 13450 0 0 -1 0 1 0 1 0 0 plant_cornpatch_medium_04.ldr

@@ -5,6 +5,9 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 6 0 1968 -2400 0 0 1 0 1 0 -1 0 0 terrain_hills_edges.ldr
-1 1 0 480 -2400 1 0 0 0 1 0 0 0 1 terrain_water.ldr
+0 0 0 0 0 1 0 0 0 1 0 0 0 1 axis_32b.dat
+0 was 1968
+1 6 0 984 -2400 0 0 1 0 0.5 0 -1 0 0 terrain_hills_edges.ldr
+0 was 480
+1 1 0 240 -2400 1 0 0 0 1 0 0 0 1 terrain_water.ldr
 0

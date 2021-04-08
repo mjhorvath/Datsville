@@ -5,8 +5,8 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 -2650 448 7360 0 0 -1 0 1 0 1 0 0 vehicle_053_citycat.mpd
-1 2 -4760 480 8250 0 0 1 0 1 0 -1 0 0 vehicle_003_redfireboat.ldr
+1 16 -2650 240 7360 0 0 -1 0 1 0 1 0 0 vehicle_053_citycat.mpd
+1 2 -4770 240 7930 0 0 1 0 1 0 -1 0 0 vehicle_003_redfireboat.ldr
 1 2 -4740 0 10630 1 0 0 0 1 0 0 0 1 pedestrian_076_bullpoop.ldr
 1 1 -2120 -32 10260 0 0 -1 0 1 0 1 0 0 pedestrian_010_manblueoverallssunglasses.ldr
 1 1 -2220 -32 9940 0 0 -1 0 1 0 1 0 0 pedestrian_009_manblueoverallsmustache.ldr
