@@ -49,4 +49,17 @@
 1 7 -6080 0 -6080 0 0 1 0 1 0 -1 0 0 snotroad_parkinglotpizzaplace.ldr
 1 7 -6080 0 -6720 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_10.ldr
 1 7 -6720 0 -6720 0 0 -1 0 1 0 1 0 0 snotroad_tripledots_222.ldr
+1 7 -7360 0 -6720 0 0 1 0 1 0 -1 0 0 snotroad_45degree_curve_0.ldr
+1 7 -8320 0 -7040 -1 0 0 0 1 0 0 0 -1 snotroad_45degree_straightgap.ldr
+1 7 -8320 0 -8320 1 0 0 0 1 0 0 0 1 snotroad_45degree_straightnogap.ldr
+1 7 -9600 0 -8320 -1 0 0 0 1 0 0 0 -1 snotroad_45degree_straightnogap.ldr
+1 7 -9600 0 -9600 1 0 0 0 1 0 0 0 1 snotroad_45degree_straightnogap.ldr
+1 7 -10880 0 -9600 -1 0 0 0 1 0 0 0 -1 snotroad_45degree_straightnogap.ldr
+1 7 -10880 0 -10880 1 0 0 0 1 0 0 0 1 snotroad_45degree_straightnogap.ldr
+1 7 -12160 0 -10880 -1 0 0 0 1 0 0 0 -1 snotroad_45degree_straightnogap.ldr
+1 7 -12160 0 -12160 1 0 0 0 1 0 0 0 1 snotroad_45degree_straightnogap.ldr
+1 7 -13440 0 -12160 -1 0 0 0 1 0 0 0 -1 snotroad_45degree_straightnogap.ldr
+1 7 -13440 0 -13440 1 0 0 0 1 0 0 0 1 snotroad_45degree_straightnogap.ldr
+1 7 -14720 0 -13440 -1 0 0 0 1 0 0 0 -1 snotroad_45degree_straightnogap.ldr
+1 7 -14720 0 -14720 1 0 0 0 1 0 0 0 1 snotroad_45degree_connecter_0.ldr
 0
