@@ -5,7 +5,7 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 7 4160 0 6080 0 0 -1 0 1 0 1 0 0 infrastructure_roadbridge_a.mpd
+1 7 4160 0 6080 0 0 -1 0 1 0 1 0 0 infrastructure_roadbridge_d.mpd
 1 7 4160 0 8000 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
 1 7 4160 0 8640 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
 1 7 4160 0 9280 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr

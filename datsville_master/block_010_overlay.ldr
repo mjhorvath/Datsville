@@ -5,13 +5,5 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 2 5920 0 4640 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
-1 2 6240 0 4640 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
-1 2 4960 0 4640 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
-1 2 5600 0 4640 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 2 4960 8 4160 1 0 0 0 1 0 0 0 1 building_031_carriagehouse.mpd
-1 2 5280 0 4640 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
-1 2 4640 0 4640 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
-1 2 6560 0 4640 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
-1 2 6880 0 4640 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 0

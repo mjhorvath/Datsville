@@ -5,11 +5,11 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 super_blocks_base.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 super_streets_base.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 super_river.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 super_blocks_overlay.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 super_streets_overlay.ldr
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 super_traffic.ldr
-0 16 0 0 0 1 0 0 0 1 0 0 0 1 super_terrain.ldr
+1 16 0 0 2400 1 0 0 0 1 0 0 0 1 layer_blocks_base.ldr
+1 16 0 0 2400 1 0 0 0 1 0 0 0 1 layer_streets_base.ldr
+0 16 0 0 2400 1 0 0 0 1 0 0 0 1 layer_river.ldr
+1 16 0 0 2400 1 0 0 0 1 0 0 0 1 layer_blocks_overlay.ldr
+1 16 0 0 2400 1 0 0 0 1 0 0 0 1 layer_streets_overlay.ldr
+1 16 0 0 2400 1 0 0 0 1 0 0 0 1 layer_traffic.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 layer_terrain.ldr
 0
