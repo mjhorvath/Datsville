@@ -85,4 +85,8 @@
 1 7 18880 0 -2880 1 0 0 0 1 0 0 0 1 infrastructure_roadbridge_d.mpd
 1 7 6720 0 -5030 0 0 -1 0 1 0 1 0 0 rail_crossing_double_base.ldr
 1 7 6080 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
+1 7 7360 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
+1 7 8000 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
+1 7 8640 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
+1 7 9280 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
 0
