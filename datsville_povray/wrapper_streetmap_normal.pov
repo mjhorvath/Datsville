@@ -30,35 +30,31 @@
 // LDV = LDview
 // LDC = LDCad
 // LEO = LeoCAD
-// OL = Michael Horvath (offline)
-// GH = Michael Horvath (GitHub)
-// SF = Michael Horvath (SourceForge)
-// GC = Michael Horvath (Google Code)
-// TE = Tore Eriksson
-// JVZ = John VanZwieten
+// rev005.xxx = Michael Horvath (GitHub)
+// rev004.xxx = Michael Horvath (SourceForge)
+// rev003.xxx = Michael Horvath (Google Code)
+// rev002.xxx = Tore Eriksson (SkyDrive)
+// rev001.xxx = John VanZwieten (LUGNET)
 // inlined = LDraw models have been processed using MPDCenter to create a single larger "flattened" model file out of many smaller hierarchical model files
-// boxed = LDraw models have been processed using LDBoxer or MyBoxer to replace partially hidden parts with simple boxes
-// lgeo = POV-Ray models are using LGEO parts
+// boxed = LDraw models have been processed using LDBoxer or MyBoxer to replace totally or partially hidden parts with simpler box parts
+// lgeo = POV-Ray models use LGEO parts
 
-//#include "l3p_datsville_te_rev013_inlined_n_boxed_f_lgeo_n.pov"
-//object {datsville__te__rev013__noinline__boxed__full_dot_mpd material { L3Color7 } translate <+2240,0,-320>}
+//#include "l3p_datsville_rev002.013_inlined_n_boxed_f_lgeo_n.pov"
+//object {datsville__rev002_dot_013__noinline__boxed__full_dot_mpd material { L3Color7 } translate <+2240,0,-320>}
 
-//#include "ldc_datsville_sf_rev528_inlined_n_boxed_n_lgeo_n.pov"
+//#include "ldc_datsville_rev004.528_inlined_n_boxed_n_lgeo_n.pov"
 
-//#include "l3p_datsville_sf_rev531_inlined_y_boxed_h_lgeo_n.pov"
+//#include "l3p_datsville_rev004.531_inlined_y_boxed_h_lgeo_n.pov"
 
 // Sadly, 16GB is not enough RAM to render this scene.
 // Also, references some LGEO files that I have since misplaced.
-//#include "ldv_datsville_sf_rev531_inlined_y_boxed_h_lgeo_y.pov"
+//#include "ldv_datsville_rev004.531_inlined_y_boxed_h_lgeo_y.pov"
 
 // If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-//#include "ldv_datsville_sf_rev531_inlined_y_boxed_h_lgeo_n.pov"
+//#include "ldv_datsville_rev004.531_inlined_y_boxed_h_lgeo_n.pov"
 
 // If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-//#include "ldv_datsville_gh_rev442_inlined_n_boxed_n_lgeo_n.pov"
+//#include "ldv_datsville_rev005.442_inlined_n_boxed_n_lgeo_n.pov"
 
 // If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-//#include "l3p_datsville_gh_rev497_inlined_n_boxed_n_lgeo_n.pov"
-
-// If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-#include "l3p_datsville_ol_rev001_inlined_n_boxed_n_lgeo_n.pov"
+#include "l3p_datsville_rev005.497_inlined_n_boxed_n_lgeo_n.pov"

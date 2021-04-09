@@ -19,10 +19,10 @@
 // Models
 
 #declare ThisTranslate	= <+2240,0,-320>;
-#include "l3p_datsville_te_rev013_inlined_n_boxed_f_lgeo_n.pov"
+#include "l3p_datsville_rev002.013_inlined_n_boxed_f_lgeo_n.pov"
 object
 {
-	datsville__te__rev013__noinline__boxed__full_dot_mpd
+	datsville__rev002_dot_013__noinline__boxed__full_dot_mpd
 	translate ThisTranslate
 	//texture { MakeChromadepthTextureCameraRGB(Camera_Location, Camera_LookAt, 50) }
 	texture { MakeChromadepthTextureObjectRWB(Camera_Location, L3ModelBBoxMin + ThisTranslate, L3ModelBBoxMax + ThisTranslate) }
@@ -30,7 +30,7 @@ object
 
 /*
 // z bounding info not reported by LDCad, so must wrap the texture to the camera and not the object
-#include "ldc_datsville_rev528_inlined_n_boxed_n_lgeo_n.pov"
+#include "ldc_datsville_rev005.528_inlined_n_boxed_n_lgeo_n.pov"
 object
 {
 	sf_datsville_dot_ldr

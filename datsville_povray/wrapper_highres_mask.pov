@@ -23,15 +23,14 @@
 // LDV = LDview
 // LDC = LDCad
 // LEO = LeoCAD
-// GH2 = Michael Horvath (GitHub 2)
-// GH1 = Michael Horvath (GitHub 1)
-// SF = Michael Horvath (SourceForge)
-// GC = Michael Horvath (Google Code)
-// TE = Tore Eriksson
-// JVZ = John VanZwieten
+// rev005.xxx = Michael Horvath (GitHub)
+// rev004.xxx = Michael Horvath (SourceForge)
+// rev003.xxx = Michael Horvath (Google Code)
+// rev002.xxx = Tore Eriksson (SkyDrive)
+// rev001.xxx = John VanZwieten (LUGNET)
 // inlined = LDraw models have been processed using MPDCenter to create a single larger "flattened" model file out of many smaller hierarchical model files
-// boxed = LDraw models have been processed using LDBoxer or MyBoxer to replace partially hidden parts with simple boxes
-// lgeo = POV-Ray models are using LGEO parts
+// boxed = LDraw models have been processed using LDBoxer or MyBoxer to replace totally or partially hidden parts with simpler box parts
+// lgeo = POV-Ray models use LGEO parts
 
 #declare block__001__base_dot_ldr = union {}
 #declare block__001__overlay_dot_ldr = union {}
@@ -759,7 +758,7 @@
 
 
 // If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-#include "l3p_datsville_gh1_rev464_inlined_n_boxed_n_lgeo_n.pov"
+#include "l3p_datsville_rev005.464_inlined_n_boxed_n_lgeo_n.pov"
 
 cylinder
 {
