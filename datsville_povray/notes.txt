@@ -16,20 +16,20 @@ NOTES
 * SSLT is super slow! Only enable it if you have a lot of time available to 
   dedicate to a render.
 
-CODES & ABBREVIATIONS
+NAMING CODES
 
 * L3P = L3P.exe
 * LDV = LDview
 * LDC = LDCad
 * LEO = LeoCAD
 
-* GH2 = Michael Horvath (GitHub 2)
-* GH1 = Michael Horvath (GitHub 1)
-* SF = Michael Horvath (SourceForge)
-* GC = Michael Horvath (Google Code)
-* TE = Tore Eriksson
-* JVZ = John VanZwieten
+* rev006.xxx = Michael Horvath (GitHub 2)
+* rev005.xxx = Michael Horvath (GitHub 1)
+* rev004.xxx = Michael Horvath (SourceForge)
+* rev003.xxx = Michael Horvath (Google Code)
+* rev002.xxx = Tore Eriksson (SkyDrive)
+* rev001.xxx = John VanZwieten (LUGNET)
 
-* inlined = LDraw models have been processed using MPDCenter to create a single larger "flattened" model file out of many smaller hierarchical model files
-* boxed = LDraw models have been processed using LDBoxer or MyBoxer to replace partially hidden parts with simple boxes
-* lgeo = POV-Ray models are using LGEO parts
+* inlined = LDraw models have been processed using MPDCenter to create a single "flattened" model file out of many smaller hierarchical model files
+* boxed = LDraw models have been processed using LDBoxer or MyBoxer to replace totally or partially hidden parts with simpler box parts
+* lgeo = POV-Ray models use LGEO parts
