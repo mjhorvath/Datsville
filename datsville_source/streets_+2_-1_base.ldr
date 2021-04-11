@@ -87,6 +87,22 @@
 1 7 6080 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
 1 7 7360 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
 1 7 8000 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
-1 7 8640 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
-1 7 9280 0 -4960 0 0 1 0 1 0 -1 0 0 rail_straight_double.ldr
+1 7 8640 0 -4800 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 9280 0 -4800 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 9920 0 -4800 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 10560 0 -4800 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 11200 0 -4800 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 11840 0 -4800 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 12480 0 -4800 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 13120 0 -4800 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 13760 0 -4800 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 9112.12 0 -5580.03 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 9564.67 0 -6032.58 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 10017.6 0 -6485.48 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 10470.1 0 -6938.03 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 10923.1 0 -7390.19 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 11375.7 0 -7842.73 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 11828.2 0 -8295.28 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 12280.8 0 -8747.83 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 8720 0 -5520 0 0 1 0 1 0 -1 0 0 rail_curved_045.0.ldr
 0

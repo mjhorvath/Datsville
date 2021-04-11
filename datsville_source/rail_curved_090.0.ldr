@@ -1,0 +1,11 @@
+0 Untitled
+0 Name: rail_curved_090.0.ldr
+0 Author: MLCad
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 8 -44.4562 -16 265.176 0.83147 0 -0.55557 0 1 0 0.55557 0 0.83147 rail_curved_022.5.ldr
+1 8 243.928 -16 384.628 0.980785 0 -0.19509 0 1 0 0.19509 0 0.980785 rail_curved_022.5.ldr
+1 8 -384.628 -16 -243.928 0.19509 0 -0.980785 0 1 0 0.980785 0 0.19509 rail_curved_022.5.ldr
+1 8 -265.176 -16 44.4562 0.55557 0 -0.83147 0 1 0 0.83147 0 0.55557 rail_curved_022.5.ldr
+0
