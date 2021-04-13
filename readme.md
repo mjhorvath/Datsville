@@ -26,7 +26,7 @@ New submissions are of course always welcome! :)
 * The current "to do" list is at [To Do List](https://github.com/mjhorvath/Datsville/wiki/To-Do-List).
 * Some useful links are at [Links](https://github.com/mjhorvath/Datsville/wiki/Links).
 * For a list of releases past and present see [Old Releases](https://github.com/mjhorvath/Datsville/wiki/Old-Releases).
-* Detailed maps of Datsville can be found at [Model Maps](https://github.com/mjhorvath/Datsville/wiki/Model-Maps) and [Street Maps](https://github.com/mjhorvath/Datsville/wiki/Street-Maps).
+* Detailed maps of Datsville can be found at [Model Maps](https://mjhorvath.github.io/Datsville/docs/model-maps/model-maps.html) and [Street Maps](https://mjhorvath.github.io/Datsville/docs/street-maps/street-maps.html).
 * A table of models and contributors can be found at [Model Table](https://mjhorvath.github.io/Datsville/docs/model-table/model-table.html).
 * A high resolution isometric render of Datsville can be found at [Interactive Town Map](https://mjhorvath.github.io/Datsville/docs/interactive-town-map/interactive-town-map.html).
 * The models' statuses can be tracked using the MS Excel workbook [datsville_checklist.xlsx](https://mjhorvath.github.io/Datsville/docs/miscellaneous/datsville_notes_checklist.xlsx).
@@ -37,7 +37,7 @@ New submissions are of course always welcome! :)
 
 Visit Datsville on Flickr [here](https://www.flickr.com/groups/datsville/).
 
-![datsville_modelmap_revSF527](https://c1.staticflickr.com/5/4648/38973533994_6eba031c4e_c.jpg)
+![datsville_modelmap_revSF527](https://mjhorvath.github.io/Datsville/docs/model-maps/datsville_modelmap_rev006.061.png)
 
 
 ## Datsville RPG
