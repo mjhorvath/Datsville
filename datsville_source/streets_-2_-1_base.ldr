@@ -18,8 +18,15 @@
 1 7 -6720 0 -320 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_10.ldr
 1 7 -6720 0 -320 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
 1 7 -6720 0 -960 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
-1 7 -6720 0 -1600 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
 1 7 -6720 0 -2240 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 7 -6720 0 -2160 1 0 0 0 1 0 0 0 1 snotroad_driveway_section.ldr
+1 7 -6720 0 -2080 1 0 0 0 1 0 0 0 1 snotroad_driveway_section.ldr
+1 7 -6720 0 -2000 1 0 0 0 1 0 0 0 1 snotroad_driveway_section.ldr
+1 7 -6720 0 -1920 1 0 0 0 1 0 0 0 1 snotroad_driveway_section.ldr
+1 7 -6720 0 -1840 1 0 0 0 1 0 0 0 1 snotroad_driveway_section.ldr
+1 7 -6720 0 -1760 1 0 0 0 1 0 0 0 1 snotroad_driveway_section.ldr
+1 7 -6720 0 -1680 1 0 0 0 1 0 0 0 1 snotroad_driveway_section.ldr
+1 7 -6720 0 -1600 1 0 0 0 1 0 0 0 1 snotroad_driveway_section.ldr
 1 7 -6720 0 -3520 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
 1 7 -6720 0 -4160 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
 1 7 -6720 0 -4800 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr

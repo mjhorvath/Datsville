@@ -89,17 +89,19 @@
 		#declare grid_distance = 5120;
 		#local beg_y = 0;
 		#local end_y = -128;
-		#for (step_x, grid_x_min, grid_x_max-1, 1)
+		#for (step_x, grid_x_min, grid_x_max, 1)
 			#local beg_x = (step_x + 0) * grid_distance;
 			#local end_x = (step_x + 1) * grid_distance;
-			#for (step_z, grid_z_min, grid_z_max-1, 1)
-				#local beg_z = (step_z + 0) * grid_distance;
-				#local end_z = (step_z + 1) * grid_distance;
-				polygon {4, <beg_x, beg_y, beg_z>, <beg_x, end_y, beg_z>, <end_x, end_y, beg_z>, <end_x, beg_y, beg_z>}
-				polygon {4, <beg_x, beg_y, beg_z>, <beg_x, end_y, beg_z>, <beg_x, end_y, end_z>, <beg_x, beg_y, end_z>}
-				polygon {4, <beg_x, beg_y, end_z>, <beg_x, end_y, end_z>, <end_x, end_y, end_z>, <end_x, beg_y, end_z>}
-				polygon {4, <end_x, beg_y, beg_z>, <end_x, end_y, beg_z>, <end_x, end_y, end_z>, <end_x, beg_y, end_z>}
-			#end
+			#local beg_z = grid_z_min * grid_distance;
+			#local end_z = grid_z_max * grid_distance;
+			polygon {4, <beg_x, beg_y, beg_z>, <beg_x, end_y, beg_z>, <beg_x, end_y, end_z>, <beg_x, beg_y, end_z>}
+		#end
+		#for (step_z, grid_z_min, grid_z_max, 1)
+			#local beg_x = grid_x_min * grid_distance;
+			#local end_x = grid_x_max * grid_distance;
+			#local beg_z = (step_z + 0) * grid_distance;
+			#local end_z = (step_z + 1) * grid_distance;
+			polygon {4, <beg_x, beg_y, beg_z>, <beg_x, end_y, beg_z>, <end_x, end_y, beg_z>, <end_x, beg_y, beg_z>}
 		#end
 		pigment {color srgb +x+z}
 	}
