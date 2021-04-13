@@ -37,7 +37,7 @@ New submissions are of course always welcome! :)
 
 Visit Datsville on Flickr [here](https://www.flickr.com/groups/datsville/).
 
-![datsville_modelmap_revSF527](https://mjhorvath.github.io/Datsville/docs/model-maps/datsville_modelmap_rev006.061.png)
+![Revision 006.061](https://live.staticflickr.com/65535/51113512624_63feaf077d_k.jpg)
 
 
 ## Datsville RPG
