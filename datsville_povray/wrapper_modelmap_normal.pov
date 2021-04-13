@@ -62,4 +62,4 @@
 //#include "l3p_datsville_rev005.497_inlined_n_boxed_n_lgeo_n.pov"
 
 // If you turn a lot of fancy POV-Ray features off, you will be able to barely render this with 16GiB RAM on a Windows system.
-//#include "l3p_datsville_rev006.061_inlined_n_boxed_n_lgeo_n.pov"
+#include "l3p_datsville_rev006.061_inlined_n_boxed_n_lgeo_n.pov"

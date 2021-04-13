@@ -23,7 +23,8 @@
 // LDV = LDview
 // LDC = LDCad
 // LEO = LeoCAD
-// rev005.xxx = Michael Horvath (GitHub)
+// rev006.xxx = Michael Horvath (GitHub #2)
+// rev005.xxx = Michael Horvath (GitHub #1)
 // rev004.xxx = Michael Horvath (SourceForge)
 // rev003.xxx = Michael Horvath (Google Code)
 // rev002.xxx = Tore Eriksson (SkyDrive)

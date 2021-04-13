@@ -101,6 +101,7 @@ function Convert_File()
 	{
 		var TempString = InputFileObject.ReadLine()
 		var TempArray = TempString.split(' ')
+		// TempArray[0] is line type
 		if ((TempArray[0] == '0') || (TempArray.length == 0))
 		{
 			HeaderString += TempString + '\n'
@@ -108,25 +109,25 @@ function Convert_File()
 		else if (TempArray[0] == '3')
 		{
 			// maximum
-			maxPos[0] = Math.max(maxPos[0], TempArray[2])
-			maxPos[1] = Math.max(maxPos[1], TempArray[3])
-			maxPos[2] = Math.max(maxPos[2], TempArray[4])
-			maxPos[0] = Math.max(maxPos[0], TempArray[5])
-			maxPos[1] = Math.max(maxPos[1], TempArray[6])
-			maxPos[2] = Math.max(maxPos[2], TempArray[7])
-			maxPos[0] = Math.max(maxPos[0], TempArray[8])
-			maxPos[1] = Math.max(maxPos[1], TempArray[9])
-			maxPos[2] = Math.max(maxPos[2], TempArray[10])
+			maxPos[0] = Math.max(maxPos[0], TempArray[2])	// x
+			maxPos[1] = Math.max(maxPos[1], TempArray[3])	// y
+			maxPos[2] = Math.max(maxPos[2], TempArray[4])	// z
+			maxPos[0] = Math.max(maxPos[0], TempArray[5])	// x
+			maxPos[1] = Math.max(maxPos[1], TempArray[6])	// y
+			maxPos[2] = Math.max(maxPos[2], TempArray[7])	// z
+			maxPos[0] = Math.max(maxPos[0], TempArray[8])	// x
+			maxPos[1] = Math.max(maxPos[1], TempArray[9])	// y
+			maxPos[2] = Math.max(maxPos[2], TempArray[10])	// z
 			// minimum
-			minPos[0] = Math.min(minPos[0], TempArray[2])
-			minPos[1] = Math.min(minPos[1], TempArray[3])
-			minPos[2] = Math.min(minPos[2], TempArray[4])
-			minPos[0] = Math.min(minPos[0], TempArray[5])
-			minPos[1] = Math.min(minPos[1], TempArray[6])
-			minPos[2] = Math.min(minPos[2], TempArray[7])
-			minPos[0] = Math.min(minPos[0], TempArray[8])
-			minPos[1] = Math.min(minPos[1], TempArray[9])
-			minPos[2] = Math.min(minPos[2], TempArray[10])
+			minPos[0] = Math.min(minPos[0], TempArray[2])	// x
+			minPos[1] = Math.min(minPos[1], TempArray[3])	// y
+			minPos[2] = Math.min(minPos[2], TempArray[4])	// z
+			minPos[0] = Math.min(minPos[0], TempArray[5])	// x
+			minPos[1] = Math.min(minPos[1], TempArray[6])	// y
+			minPos[2] = Math.min(minPos[2], TempArray[7])	// z
+			minPos[0] = Math.min(minPos[0], TempArray[8])	// x
+			minPos[1] = Math.min(minPos[1], TempArray[9])	// y
+			minPos[2] = Math.min(minPos[2], TempArray[10])	// z
 		}
 	}
 	InputFileObject.Close()
