@@ -42,7 +42,7 @@ Visit Datsville on Flickr [here](https://www.flickr.com/groups/datsville/).
 
 ## Datsville RPG
 
-[Datsville RPG](https://github.com/mjhorvath/Datsville-RPG) is a test project aimed at creating a tactical RPG based on Datsville using RPG Maker VX Ace and RPG Maker MV.
+[Datsville RPG](https://github.com/mjhorvath/Datsville-RPG) is a test project aimed at creating a tactical RPG set in Datsville using RPG Maker.
 
 
 ## Legal disclaimer
