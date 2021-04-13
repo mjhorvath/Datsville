@@ -30,7 +30,8 @@
 // LDV = LDview
 // LDC = LDCad
 // LEO = LeoCAD
-// rev005.xxx = Michael Horvath (GitHub)
+// rev006.xxx = Michael Horvath (GitHub #2)
+// rev005.xxx = Michael Horvath (GitHub #1)
 // rev004.xxx = Michael Horvath (SourceForge)
 // rev003.xxx = Michael Horvath (Google Code)
 // rev002.xxx = Tore Eriksson (SkyDrive)
@@ -60,4 +61,4 @@
 //#include "l3p_datsville_rev005.497_inlined_n_boxed_n_lgeo_n.pov"
 
 // If you turn a lot of fancy features off you will be able to barely render this with 16GiB RAM.
-#include "l3p_datsville_rev006.060_inlined_n_boxed_n_lgeo_n.pov"
+#include "l3p_datsville_rev006.061_inlined_n_boxed_n_lgeo_n.pov"
