@@ -5,7 +5,7 @@
 // +ac = ???
 // +q = quality level
 
-#version 3.7;
+#version 3.8;
 
 
 // -------------------------------------------------------------
@@ -37,7 +37,7 @@
 #ifndef (Use_BlurTyp)		#declare Use_BlurTyp		= 1;		#end				// type of blurred reflections, method 1 requires focal blur and lots of antialiasing or the texture will look grainy, method 3 does not require these things but is much much slower, method 2 lies somewhere in between
 #ifndef (Use_BlurSmp)		#declare Use_BlurSmp		= 8;		#end				// number of samples in blurred reflections
 #ifndef (Use_BlurAmt)		#declare Use_BlurAmt		= 1/32;		#end				// amount of surface reflection blurring
-#ifndef (Use_BlurFoc)		#declare Use_BlurFoc		=false;		#end				// slow, camera focal blur
+#ifndef (Use_BlurFoc)		#declare Use_BlurFoc		=false;		#end				// camera focal blur, slow, not working yet
 #ifndef (Use_Clouds)		#declare Use_Clouds			=false;		#end				// does not include haze yet
 #ifndef (Use_Floor_Trans)	#declare Use_Floor_Trans	= <0,0,0>;	#end				// translate the floor up, down or sideways by this amount
 #ifndef (Use_Uber)			#declare Use_Uber			=false;		#end				// use uberpov instead of regular povray
@@ -183,7 +183,7 @@ light_source
 	fade_power 1
 //	shadowless
 	parallel
-	point_at <0,0,0>		// not for point lights
+	point_at <0,0,0>
 }
 
 
