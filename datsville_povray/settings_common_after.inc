@@ -82,261 +82,36 @@
 	// street grid
 	union
 	{
-		cylinder {<-10240,0,+10240>, <+10240,0,+10240>, 10}
-		cylinder {<-10240,0, +5120>, <+10240,0, +5120>, 10}
-		cylinder {<-10240,0,     0>, <+10240,0,     0>, 10}
-		cylinder {<-10240,0, -5120>, <+10240,0, -5120>, 10}
-		cylinder {<-10240,0,-10240>, <+10240,0,-10240>, 10}
-		cylinder {<+10240,0,-10240>, <+10240,0,+10240>, 10}
-		cylinder {< +5120,0,-10240>, < +5120,0,+10240>, 10}
-		cylinder {<     0,0,-10240>, <     0,0,+10240>, 10}
-		cylinder {< -5120,0,-10240>, < -5120,0,+10240>, 10}
-		cylinder {<-10240,0,-10240>, <-10240,0,+10240>, 10}
+		#declare grid_x_min = -2;
+		#declare grid_x_max = +2;
+		#declare grid_z_min = -2;
+		#declare grid_z_max = +2;
+		#declare grid_distance = 5120;
+		#local beg_y = 0;
+		#local end_y = -128;
+		#for (step_x, grid_x_min, grid_x_max-1, 1)
+			#local beg_x = (step_x + 0) * grid_distance;
+			#local end_x = (step_x + 1) * grid_distance;
+			#for (step_z, grid_z_min, grid_z_max-1, 1)
+				#local beg_z = (step_z + 0) * grid_distance;
+				#local end_z = (step_z + 1) * grid_distance;
+				polygon {4, <beg_x, beg_y, beg_z>, <beg_x, end_y, beg_z>, <end_x, end_y, beg_z>, <end_x, beg_y, beg_z>}
+				polygon {4, <beg_x, beg_y, beg_z>, <beg_x, end_y, beg_z>, <beg_x, end_y, end_z>, <beg_x, beg_y, end_z>}
+				polygon {4, <beg_x, beg_y, end_z>, <beg_x, end_y, end_z>, <end_x, end_y, end_z>, <end_x, beg_y, end_z>}
+				polygon {4, <end_x, beg_y, beg_z>, <end_x, end_y, beg_z>, <end_x, end_y, end_z>, <end_x, beg_y, end_z>}
+			#end
+		#end
 		pigment {color srgb +x+z}
 	}
 #end
 
 
 // -------------------------------------------------------------
-// Checker floor
-// Not used for "showcase" scenes
-// May conflict with Use_Env_Mode
-
-#declare latitude_pigment_1 = pigment
-{
-	radial
-	color_map
-	{
-		[0.5 color srgb <040,066,018>/255]
-		[0.5 color srgb <067,084,029>/255]
-	}
-	frequency longitude_div/2
-}
-#declare latitude_pigment_2 = pigment
-{
-	radial
-	color_map
-	{
-		[0.5 color srgb <067,084,029>/255]
-		[0.5 color srgb <040,066,018>/255]
-	}
-	frequency longitude_div/2
-}
-
-#declare longitude_pigment_1 = pigment
-{
-	function {f_ph(x,y,z)/pi}
-	pigment_map
-	{
-		[0.5 latitude_pigment_1]
-		[0.5 latitude_pigment_2]
-	}
-	frequency longitude_div/4
-}
-
-#declare longitude_pigment_2 = pigment
-{
-	function {f_ph(x,y,z)/pi}
-	pigment_map
-	{
-		[0.5 latitude_pigment_2]
-		[0.5 latitude_pigment_1]
-	}
-	frequency longitude_div/4
-}
-
-#declare radius_pigment = pigment
-{
-	function {f_r(x,y,z) * earth_radius/plate_size/2}
-	pigment_map
-	{
-		[0.5 longitude_pigment_1]
-		[0.5 longitude_pigment_2]
-	}
-}
-
-#declare checker_sphere_pigment = pigment {radius_pigment}
-
-
-#switch (Use_Floor_Check)
-	// do nothing
-	#case (0)
-	#break
-	// Flat (cube) Checkered Floor
-	#case (1)
-		difference
-		{
-			plane { -y, 0 }
-			#if (Use_Floor_Cutout = 1)
-				box {< -7040,-10240,-10880>,< +7040,+10240,+10240>}
-			#end
-			texture
-			{
-				pigment
-				{
-					checker
-					pigment {color srgb <067,084,029>/255}
-					pigment {color srgb <040,066,018>/255}
-				}
-				finish { ambient L3Ambient diffuse L3Diffuse }
-				scale plate_size
-			}
-			translate Use_Floor_Trans
-		}
-	#break
-	// Curved (sphere) Checker Floor
-	// not much of a difference from the previous method at planet Earth scales
-	#case (2)
-		difference
-		{
-			sphere
-			{
-				0, 1
-				scale		earth_radius
-				translate	+y * earth_radius	// this is down not up!
-			}
-			#if (Use_Floor_Cutout = 1)
-				box {< -7040,-10240,-10880>,< +7040,+10240,+10240>}
-			#end
-			texture
-			{
-				pigment {checker_sphere_pigment}
-				finish { ambient L3Ambient diffuse L3Diffuse }
-				rotate		+x * 090
-				scale		earth_radius
-				translate	+y * earth_radius	// this is down not up!
-			}
-			translate Use_Floor_Trans
-		}
-	#break
-#end
-
-
-// -------------------------------------------------------------
 // Clouds
 // Not used for "showcase" scenes
-// Uses spheres not planes or boxes
 
 #if (Use_Clouds)
-	#local inner_radius = earth_radius + cloud_min_radius;
-	#local outer_radius = earth_radius + cloud_max_radius;
-	#local inn_out_ratio = inner_radius/outer_radius;
-//	#local bound_radius = sin(acos(earth_radius/outer_radius)) * outer_radius;
-	#local cloud_scale = 1000000/2 * earth_fudge;
-	#local cloud_media = media
-	{
-		method 3
-		samples 20
-		scattering
-		{
-			2,
-			color rgb 2/cloud_scale
-			extinction 1
-		}
 
-		density
-		{
-//			wrinkles
-			bozo
-			color_map
-			{
-				[0.00 color rgb 1.00]
-				[0.40 color rgb 0.80]
-				[0.45 color rgb 0.00]
-				[1.00 color rgb 0.00]
-			}
-			warp
-			{
-				turbulence 0.6
-				lambda 4
-				octaves 4
-			}
-			scale sqrt(cloud_scale)
-			warp
-			{
-				turbulence 5
-				lambda 4
-			}
-			scale sqrt(cloud_scale)
-		}
-
-		density
-		{
-			spherical		// spherical = 1 in the middle, 0 at the edge
-			color_map
-			{
-				[0.00 color rgb 0.00]
-				[1-(inn_out_ratio + (1-inn_out_ratio)*0.60) color rgb 1.00]
-				[1-(inn_out_ratio + (1-inn_out_ratio)*0.10) color rgb 1.00]
-				[1-(inn_out_ratio + (1-inn_out_ratio)*0.00) color rgb 0.00]
-				[1.00 color rgb 0.00]
-			}
-			scale outer_radius
-		}
-    }
-	#local cloud_sphere = difference
-	{
-		sphere {0, outer_radius}
-		sphere {0, inner_radius}
-//		bounded_by {cylinder {<0,-earth_radius,0,>, <0,-outer_radius,0,>, bound_radius}}
-		hollow
-		material
-		{
-			texture {pigment {color srgbft <1,1,1,0,1>}}
-//			texture {pigment {color srgbft <1,0,0,0,0>}}
-			interior
-			{
-				media {cloud_media}
-			}
-		}
-		translate +y * earth_radius
-	}
-	#local inner_radius = earth_radius - 1;
-	#local outer_radius = earth_radius + atmos_max_radius;
-	#local inn_out_ratio = inner_radius/outer_radius;
-//	#local bound_radius = sin(acos(earth_radius/outer_radius)) * outer_radius;
-	#local atmos_scale = 100000000 * earth_fudge;
-	#local atmos_media = media
-	{
-		scattering
-		{
-			1,
-			color rgb 2/atmos_scale
-			extinction 0.25
-		}
-
-		density
-		{
-			spherical		// spherical = 1 in the middle, 0 at the edge
-			color_map
-			{
-				[0.00 color rgb 0.00]
-				[1-inn_out_ratio color rgb 1.00]
-				[1-inn_out_ratio color rgb 0.00]
-				[1.00 color rgb 0.00]
-			}
-			scale outer_radius
-		}
-	}
-	#local atmos_sphere = difference
-	{
-		sphere {0, outer_radius}
-		sphere {0, inner_radius}
-//		bounded_by {cylinder {<0,-earth_radius,0,>, <0,-outer_radius,0,>, bound_radius}}
-		hollow
-		material
-		{
-			texture {pigment {color srgbft <1,1,1,0,1>}}
-//			texture {pigment {color srgbft <1,1,0,0,0>}}
-			interior
-			{
-				media {atmos_media}
-			}
-		}
-		translate +y * earth_radius
-	}
-	object {cloud_sphere}
-	object {atmos_sphere}		// precision issues in POV-Ray make this not work
 #end
 
 

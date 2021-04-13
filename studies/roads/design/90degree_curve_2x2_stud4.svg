@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 1280" width="1280" height="1280" shape-rendering="crispEdges">
+	<title></title>
+	<desc></desc>
+	<rect
+		x="0"
+		y="0"
+		width="1280"
+		height="1280"
+		style="fill:#ffffff;stroke:none;stroke-width:1;"
+	/>
+	<path
+		d="
+			M 680, 0
+			A 680 680 0 0 1 0, 680
+			L 0, 760
+			A 760 760 0 0 0 760 0
+			Z
+		"
+		style="fill:#000000;stroke:none;stroke-width:1;"
+	/>
+	<path
+		d="
+			M 1160, 0
+			A 1160 1160 0 0 1 0, 1160
+			L 0, 1240
+			A 1240 1240 0 0 0 1240 0
+			Z
+		"
+		style="fill:#000000;stroke:none;stroke-width:1;"
+	/>
+</svg>
