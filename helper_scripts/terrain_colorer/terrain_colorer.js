@@ -95,7 +95,7 @@ function Get_Input(InputPath)
 	}
 	catch (e_1)
 	{
-		WScript.echo('Error: ' + e_2)
+		WScript.echo('Error: ' + e_1)
 	}
 }
 

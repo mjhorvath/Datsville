@@ -1,4 +1,0 @@
-- Layout view:
-  * Circles with zero radius cannot be deleted or adjusted.
-  * Can't enter exact coordinates for rivers and such.
-  * Snap to grid cannot be adjusted.

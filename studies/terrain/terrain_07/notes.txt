@@ -1,0 +1,10 @@
+Authors: Michael Horvath
+Created: 2015-08-21
+Updated: 2015-08-21
+License: CC-LGPL
+
+1. OBJ files were generated in World Machine.
+2. OBJ files were scaled, translated, flipped and saved as STL files in MeshLab.
+3. STL files were converted to LDR files using "stl2dat.exe".
+4. LDR files modified using "terrain_stepper.js".
+5. "LSculpt.exe" was used to generate the 1x1 plates.
