@@ -12,15 +12,15 @@
 1 0 -3220 0 2420 0 0 1 0 1 0 -1 0 0 character_008_esmee.ldr
 1 16 -2950 10 1690 0 0 1 0 1 0 -1 0 0 vehicle_054_monaro.mpd
 1 15 -1040 0 1660 0 0 -1 0 1 0 1 0 0 vehicle_013_yellowroundmailvan_parked.mpd
-1 4 -180 0 390 0 0 1 0 1 0 -1 0 0 pedestrian_002_suitblackhat.ldr
-1 0 -670 0 670 0.71 0 -0.71 0 1 0 0.71 0 0.71 pedestrian_003_mailman.ldr
-1 15 -1080 -8 1590 -1 0 0 0 1 0 0 0 -1 pedestrian_003_mailman.ldr
-1 0 -1180 0 560 -1 0 0 0 1 0 0 0 -1 pedestrian_004_sleevelesswaving.ldr
-1 15 -1080 -8 1590 -1 0 0 0 1 0 0 0 -1 pedestrian_003_mailman.ldr
+1 4 -180 0 390 0 0 1 0 1 0 -1 0 0 creature_002_suitblackhat.ldr
+1 0 -670 0 670 0.71 0 -0.71 0 1 0 0.71 0 0.71 creature_003_mailman.ldr
+1 15 -1080 -8 1590 -1 0 0 0 1 0 0 0 -1 creature_003_mailman.ldr
+1 0 -1180 0 560 -1 0 0 0 1 0 0 0 -1 creature_004_sleevelesswaving.ldr
+1 15 -1080 -8 1590 -1 0 0 0 1 0 0 0 -1 creature_003_mailman.ldr
 1 7 -1760 10 1070 0 0 1 0 1 0 -1 0 0 vehicle_065_orangewhitevan.ldr
-1 16 -1350 -48 320 0 0 -1 0 1 0 1 0 0 pedestrian_011_manmayortophat.ldr
-1 0 -3450 -8 2280 0 0 -1 0 1 0 1 0 0 pedestrian_059_thaisoldier.mpd
-1 0 -3450 -8 2480 0 0 -1 0 1 0 1 0 0 pedestrian_059_thaisoldier.mpd
-1 0 -3510 -80 2380 0 0 -1 0 1 0 1 0 0 pedestrian_060_thaimonk.ldr
+1 16 -1350 -48 320 0 0 -1 0 1 0 1 0 0 creature_011_manmayortophat.ldr
+1 0 -3450 -8 2280 0 0 -1 0 1 0 1 0 0 creature_059_thaisoldier.mpd
+1 0 -3450 -8 2480 0 0 -1 0 1 0 1 0 0 creature_059_thaisoldier.mpd
+1 0 -3510 -80 2380 0 0 -1 0 1 0 1 0 0 creature_060_thaimonk.ldr
 1 2 -2960 10 2010 0 0 1 0 1 0 -1 0 0 vehicle_009_redcoupe.ldr
 0

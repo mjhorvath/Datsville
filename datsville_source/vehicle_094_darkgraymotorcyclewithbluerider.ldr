@@ -5,7 +5,7 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 pedestrian_063_bluemotorcyclerider.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 creature_063_bluemotorcyclerider.ldr
 0 // Front wheel (y=0, z=-90)
 1 4 0 -18 -50 1 0 0 0 1 0 0 0 1 3464.dat
 1 256 0 -18 -50 0 0 1 0 1 0 -1 0 0 3641.dat

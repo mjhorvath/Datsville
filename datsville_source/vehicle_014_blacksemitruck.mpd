@@ -7,7 +7,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 0 Truck Base
-1 0 20 -82 -50 1 0 0 0 1 0 0 0 1 pedestrian_016_manblueoverallsblackhatsitting.ldr
+1 0 20 -82 -50 1 0 0 0 1 0 0 0 1 creature_016_manblueoverallsblackhatsitting.ldr
 1 16 0 -82 -110 1 0 0 0 1 0 0 0 1 vehicle_014_1.ldr
 1 0 0 -42 410 1 0 0 0 1 0 0 0 1 vehicle_014_2.ldr
 1 0 0 -31 -80 1 0 0 0 1 0 0 0 1 vehicle_014_3.ldr

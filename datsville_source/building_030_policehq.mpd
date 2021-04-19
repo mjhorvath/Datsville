@@ -115,8 +115,8 @@
 1 15 90 -24 80 0 0 1 0 1 0 -1 0 0 3010.dat
 1 15 90 -48 80 0 0 1 0 1 0 -1 0 0 3010.dat
 1 15 80 -56 80 0 0 1 0 1 0 -1 0 0 3020.dat
-1 15 50 0 80 0 0 -1 0 1 0 1 0 0 pedestrian_054_policewhiteshirtandtiestanding9.ldr
-1 15 -70 0 130 0 0 -1 0 1 0 1 0 0 pedestrian_018_policewhiteshirtandtiestanding10.ldr
+1 15 50 0 80 0 0 -1 0 1 0 1 0 0 creature_054_policewhiteshirtandtiestanding9.ldr
+1 15 -70 0 130 0 0 -1 0 1 0 1 0 0 creature_018_policewhiteshirtandtiestanding10.ldr
 1 15 -110 -24 220 0 0 1 0 1 0 -1 0 0 3004.dat
 1 15 -110 -48 220 0 0 1 0 1 0 -1 0 0 3004.dat
 1 15 -110 -56 220 0 0 1 0 1 0 -1 0 0 3023.dat
@@ -173,11 +173,11 @@
 1 15 -90 -256 -90 0 0 1 0 1 0 -1 0 0 73436.dat
 1 15 -130 -248 30 0 0 1 0 1 0 -1 0 0 73435.dat
 1 15 -80 -160 -180 1 0 0 0 1 0 0 0 1 building_030_desk.ldr
-1 15 -80 -136 -220 -1 0 0 0 1 0 0 0 -1 pedestrian_065_policewhiteshirtandtiesitting.ldr
+1 15 -80 -136 -220 -1 0 0 0 1 0 0 0 -1 creature_065_policewhiteshirtandtiesitting.ldr
 1 15 -160 -152 160 0 0 1 0 1 0 -1 0 0 building_030_desk.ldr
-1 15 -130 -128 160 0 0 1 0 1 0 -1 0 0 pedestrian_028_policewhiteshirtandtiestanding11.ldr
-1 15 10 -128 160 0 0 1 0 1 0 -1 0 0 pedestrian_030_policewhiteshirtandtiestanding12.ldr
-1 15 130 -128 160 0 0 1 0 1 0 -1 0 0 pedestrian_073_policewhiteshirtandtiestanding13.ldr
+1 15 -130 -128 160 0 0 1 0 1 0 -1 0 0 creature_028_policewhiteshirtandtiestanding11.ldr
+1 15 10 -128 160 0 0 1 0 1 0 -1 0 0 creature_030_policewhiteshirtandtiestanding12.ldr
+1 15 130 -128 160 0 0 1 0 1 0 -1 0 0 creature_073_policewhiteshirtandtiestanding13.ldr
 1 15 -40 -152 160 0 0 1 0 1 0 -1 0 0 building_030_desk.ldr
 1 15 80 -152 160 0 0 1 0 1 0 -1 0 0 building_030_desk.ldr
 1 15 180 -152 160 0 0 1 0 1 0 -1 0 0 building_030_desk.ldr

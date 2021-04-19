@@ -8,8 +8,8 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 15 200 -8 10 -1 0 0 0 1 0 0 0 -1 pedestrian_025_womanblondehairredsleeves.ldr
-1 15 160 -8 330 1 0 0 0 1 0 0 0 1 pedestrian_019_manblondehairwhiteshirt.ldr
+1 15 200 -8 10 -1 0 0 0 1 0 0 0 -1 creature_025_womanblondehairredsleeves.ldr
+1 15 160 -8 330 1 0 0 0 1 0 0 0 1 creature_019_manblondehairwhiteshirt.ldr
 1 15 -200 -32 280 1 0 0 0 1 0 0 0 1 building_032_6disp.ldr
 1 15 60 -32 280 1 0 0 0 1 0 0 0 1 building_032_4rdisp.ldr
 1 15 140 -32 280 1 0 0 0 1 0 0 0 1 building_032_4ldisp.ldr

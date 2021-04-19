@@ -7,7 +7,7 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
-1 2 -60 -484 -40 0.707 0 0.707 0 1 0 -0.707 0 0.707 pedestrian_012_manexplorerbinoculars.ldr
+1 2 -60 -484 -40 0.707 0 0.707 0 1 0 -0.707 0 0.707 creature_012_manexplorerbinoculars.ldr
 1 7 0 -24 0 1 0 0 0 1 0 0 0 1 3001.dat
 1 7 -30 -48 10 1 0 0 0 1 0 0 0 1 3005.dat
 1 7 30 -48 10 1 0 0 0 1 0 0 0 1 3005.dat

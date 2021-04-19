@@ -1,6 +1,6 @@
-0 FILE pedestrian_059_thaisoldier.ldr
+0 FILE creature_059_thaisoldier.ldr
 0 Thai Temple Guard
-0 Name: pedestrian_059_thaisoldier.ldr
+0 Name: creature_059_thaisoldier.ldr
 0 Author: Tim Gould
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
@@ -20,11 +20,11 @@
 1 14 0 -28 1 1 0 0 0 1 0 0 0 1 3817.dat
 1 4 15.552 -66 1 0.985 0.106984 0.132115 -0.17 0.619881 0.765489 0 -0.777146 0.62932 3819.dat
 1 14 21.3176 -63.155 -20.0753 0.999317 0.012874 0.0177672 -0.0146863 0.993991 0.102945 -0.0163494 -0.103226 0.994372 3820.dat
-1 14 19.789 -175.205 -41.288 0.999317 0.012874 0.0177672 -0.0109662 0.993732 -0.106046 -0.0190456 0.105692 0.994046 pedestrian_059_polearm.ldr
+1 14 19.789 -175.205 -41.288 0.999317 0.012874 0.0177672 -0.0109662 0.993732 -0.106046 -0.0190456 0.105692 0.994046 creature_059_polearm.ldr
 0
-0 FILE pedestrian_059_polearm.ldr
+0 FILE creature_059_polearm.ldr
 0 New Model
-0 Name: pedestrian_059_polearm.ldr
+0 Name: creature_059_polearm.ldr
 0 Author: Tim Gould
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 

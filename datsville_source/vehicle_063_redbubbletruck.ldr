@@ -70,5 +70,5 @@
 1 0 -40 -18 -40 0 0 1 0 1 0 -1 0 0 3641.dat
 1 0 40 -18 -40 0 0 -1 0 1 0 1 0 0 3641.dat
 0 STEP
-1 16 0 -23 -30 1 0 0 0 1 0 0 0 1 pedestrian_064_bluechauffeur.ldr
+1 16 0 -23 -30 1 0 0 0 1 0 0 0 1 creature_064_bluechauffeur.ldr
 0

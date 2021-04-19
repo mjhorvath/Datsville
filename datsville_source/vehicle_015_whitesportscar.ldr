@@ -108,7 +108,7 @@
 1 15 50 -63 -90 0 0 1 0 1 0 -1 0 0 3623.dat
 1 15 50 -71 -80 0 0 1 0 1 0 -1 0 0 3710.dat
 1 15 50 -71 -130 1 0 0 0 1 0 0 0 1 4286.dat
-1 15 20 -23 10 1 0 0 0 1 0 0 0 1 pedestrian_046_sportscardriver.ldr
+1 15 20 -23 10 1 0 0 0 1 0 0 0 1 creature_046_sportscardriver.ldr
 0 NOSTEP
 0 
 0 

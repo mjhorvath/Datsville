@@ -7,7 +7,7 @@
 0 Truck Base
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 0 20 -82 -50 1 0 0 0 1 0 0 0 1 pedestrian_017_manredspacelogosunglassessitting.ldr
+1 0 20 -82 -50 1 0 0 0 1 0 0 0 1 creature_017_manredspacelogosunglassessitting.ldr
 1 16 0 -82 -110 1 0 0 0 1 0 0 0 1 vehicle_017_1.ldr
 1 16 0 -42 410 1 0 0 0 1 0 0 0 1 vehicle_017_2.ldr
 1 7 0 -31 -80 1 0 0 0 1 0 0 0 1 vehicle_017_3.ldr

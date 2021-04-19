@@ -7,9 +7,9 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 7 0 -46 -160 1 0 0 0 1 0 0 0 1 pedestrian_023_manfiremanredcapdriving.ldr
-1 7 30 -46 -100 -1 0 0 0 1 0 0 0 -1 pedestrian_023_manfiremanredcapdriving.ldr
-1 7 -30 -46 -100 -1 0 0 0 1 0 0 0 -1 pedestrian_023_manfiremanredcapdriving.ldr
+1 7 0 -46 -160 1 0 0 0 1 0 0 0 1 creature_023_manfiremanredcapdriving.ldr
+1 7 30 -46 -100 -1 0 0 0 1 0 0 0 -1 creature_023_manfiremanredcapdriving.ldr
+1 7 -30 -46 -100 -1 0 0 0 1 0 0 0 -1 creature_023_manfiremanredcapdriving.ldr
 
 1 7 0 -30 50 0 0 1 0 1 0 -1 0 0 3832.dat
 1 7 0 -30 -130 0 0 1 0 1 0 -1 0 0 3034.dat

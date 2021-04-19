@@ -18,7 +18,7 @@
 1 8 30 -31 0 0 0 1 0 1 0 -1 0 0 3623.dat
 1 8 -30 -31 0 0 0 1 0 1 0 -1 0 0 3623.dat
 1 8 -30 -23 0 0 0 1 0 1 0 -1 0 0 3623.dat
-1 8 0 -15 20 1 0 0 0 1 0 0 0 1 pedestrian_067_policedetectiveblacksuitredshirt.ldr
+1 8 0 -15 20 1 0 0 0 1 0 0 0 1 creature_067_policedetectiveblacksuitredshirt.ldr
 1 15 30 -18 -50 0 0 -1 0 1 0 1 0 0 4624.dat
 1 0 30 -18 -50 0 0 1 0 1 0 -1 0 0 3641.dat
 1 0 30 -18 50 0 0 1 0 1 0 -1 0 0 3641.dat

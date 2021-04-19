@@ -21,8 +21,8 @@
 1 15 -170 -120 50 0 0 1 0 1 0 -1 0 0 3755.dat
 1 15 170 -120 50 0 0 1 0 1 0 -1 0 0 3755.dat
 1 15 -120 -8 20 0 0 -1 0 1 0 1 0 0 4079.dat
-1 15 -130 -8 20 0 0 -1 0 1 0 1 0 0 pedestrian_065_policewhiteshirtandtiesitting.ldr
-1 15 10 -8 20 0 0 1 0 1 0 -1 0 0 pedestrian_065_policewhiteshirtandtiesitting.ldr
+1 15 -130 -8 20 0 0 -1 0 1 0 1 0 0 creature_065_policewhiteshirtandtiesitting.ldr
+1 15 10 -8 20 0 0 1 0 1 0 -1 0 0 creature_065_policewhiteshirtandtiesitting.ldr
 1 15 100 -24 0 1 0 0 0 1 0 0 0 1 building_083_desk.ldr
 1 15 0 -8 20 0 0 1 0 1 0 -1 0 0 4079.dat
 1 15 -60 -24 20 1 0 0 0 1 0 0 0 1 3003.dat

@@ -6,7 +6,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 0 0 -23 0 1 0 0 0 1 0 0 0 1 4212b.dat
-1 0 0 -23 10 1 0 0 0 1 0 0 0 1 pedestrian_074_policemotorcyclesuitreclining.ldr
+1 0 0 -23 10 1 0 0 0 1 0 0 0 1 creature_074_policemotorcyclesuitreclining.ldr
 1 0 0 -15 -90 1 0 0 0 1 0 0 0 1 3710.dat
 1 0 30 -15 0 0 0 1 0 1 0 -1 0 0 3710.dat
 1 0 -30 -15 0 0 0 1 0 1 0 -1 0 0 3710.dat

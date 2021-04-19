@@ -556,7 +556,7 @@
 0 ROTATION CONFIG 0 0
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 3679.dat
 1 14 0 -8 0 0 0 1 0 1 0 -1 0 0 4079.dat
-1 1 10 -8 0 0 0 -1 0 1 0 1 0 0 pedestrian_036_bluefiguresit2.ldr
+1 1 10 -8 0 0 0 -1 0 1 0 1 0 0 creature_036_bluefiguresit2.ldr
 0
 0 FILE building_009_figure_sit1.ldr
 0 New Model
@@ -567,7 +567,7 @@
 0 ROTATION CONFIG 0 0
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 3679.dat
 1 14 0 -8 0 0 0 1 0 1 0 -1 0 0 4079.dat
-1 14 10 -8 0 1 0 0 0 1 0 0 0 1 pedestrian_037_bluefiguresit1.ldr
+1 14 10 -8 0 1 0 0 0 1 0 0 0 1 creature_037_bluefiguresit1.ldr
 0 
 0
 0 FILE building_009_figure_sit3.ldr

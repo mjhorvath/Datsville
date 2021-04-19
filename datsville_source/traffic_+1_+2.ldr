@@ -5,8 +5,8 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 15 4090 0 8660 0 0 -1 0 1 0 1 0 0 pedestrian_026_castleguard.ldr
-1 15 3910 0 9100 0 0 -1 0 1 0 1 0 0 pedestrian_026_castleguard.ldr
-1 15 4480 0 9450 1 0 0 0 1 0 0 0 1 pedestrian_026_castleguard.ldr
-1 15 4890 0 8740 0 0 1 0 1 0 -1 0 0 pedestrian_026_castleguard.ldr
+1 15 4090 0 8660 0 0 -1 0 1 0 1 0 0 creature_026_castleguard.ldr
+1 15 3910 0 9100 0 0 -1 0 1 0 1 0 0 creature_026_castleguard.ldr
+1 15 4480 0 9450 1 0 0 0 1 0 0 0 1 creature_026_castleguard.ldr
+1 15 4890 0 8740 0 0 1 0 1 0 -1 0 0 creature_026_castleguard.ldr
 0

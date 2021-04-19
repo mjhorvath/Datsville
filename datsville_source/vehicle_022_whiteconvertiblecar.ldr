@@ -6,7 +6,7 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 0 -18 10 1 0 0 0 1 0 0 0 1 pedestrian_047_brownjacketdriver.ldr
+1 16 0 -18 10 1 0 0 0 1 0 0 0 1 creature_047_brownjacketdriver.ldr
 0 
 1 15 0 -34 0 1 0 0 0 1 0 0 0 1 4212b.dat
 0 The original model had zebra-striped doors

@@ -7,7 +7,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 0 EXTRACT
-1 7 0 -38 -110 1 0 0 0 1 0 0 0 1 pedestrian_023_manfiremanredcapdriving.ldr
+1 7 0 -38 -110 1 0 0 0 1 0 0 0 1 creature_023_manfiremanredcapdriving.ldr
 1 7 0 -30 0 0 0 1 0 1 0 -1 0 0 4282.dat
 1 7 40 -30 -20 0 0 1 0 1 0 -1 0 0 3795.dat
 1 7 -40 -30 -20 0 0 1 0 1 0 -1 0 0 3795.dat

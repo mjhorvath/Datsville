@@ -1,6 +1,6 @@
-0 FILE pedestrian_048_bluemotorider.ldr
+0 FILE creature_048_bluemotorider.ldr
 0 Blue Motorcycle Rider
-0 Name: pedestrian_048_bluemotorider.ldr
+0 Name: creature_048_bluemotorider.ldr
 0 Author: Tore Eriksson
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
@@ -16,7 +16,7 @@
 0 
 0 // Head
 0 1 14 0 -94.751 -43.975 1 0 0 0 .982 -.191 0 .191 .982 3626bp01.dat
-1 7 0 -95.751 -43.975 1 0 0 0 0.982 -0.191 0 0.191 0.982 pedestrian_048_vtemc1.ldr
+1 7 0 -95.751 -43.975 1 0 0 0 0.982 -0.191 0 0.191 0.982 creature_048_vtemc1.ldr
 0 // Helmet w/ Visor
 0 1 1 0 -97.696 -42.5 1 0 0 0 .982 -.191 0 .191 .982 2446.dat
 0 1 46 0 -97.696 -42.5 1 0 0 0 .982 -.191 0 .191 .982 2447.dat
@@ -27,9 +27,9 @@
 1 15 -23.552 -52.605 -54.994 0.077 -0.995 -0.058 0.961 0.089 -0.26 0.263 -0.036 0.964 3820.dat
 1 15 23.552 -52.605 -54.994 0.077 0.995 0.054 -0.961 0.089 -0.273 -0.263 -0.036 0.96 3820.dat
 0
-0 FILE pedestrian_048_vtemc1.ldr
+0 FILE creature_048_vtemc1.ldr
 0 Motorcycle Driver head
-0 Name: pedestrian_048_vtemc1.ldr
+0 Name: creature_048_vtemc1.ldr
 0 Author: Tore Eriksson
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 

@@ -29,11 +29,11 @@
 0 LPUB PAGE PLI NO
 0 LPUB CALLOUT BEGIN
 0 LPUB CALLOUT PLACEMENT TOP_RIGHT PAGE
-1 7 42 -40 -170 1 0 0 0 1 0 0 0 1 pedestrian_058_citycattourist.ldr
+1 7 42 -40 -170 1 0 0 0 1 0 0 0 1 creature_058_citycattourist.ldr
 0 LPUB CALLOUT END
 0 LPUB CALLOUT BEGIN
 0 LPUB CALLOUT PLACEMENT BOTTOM_RIGHT PAGE
-1 7 100 -48 10 1 0 0 0 1 0 0 0 1 pedestrian_057_citycatbusinessman.ldr
+1 7 100 -48 10 1 0 0 0 1 0 0 0 1 creature_057_citycatbusinessman.ldr
 0 LPUB CALLOUT END
 0 LPUB PAGE PLI YES
 0

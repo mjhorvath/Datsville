@@ -18,5 +18,5 @@
 0 REM bicycle front wheel
 1 47 0 -21 -46 0 0 -1 0 1 0 1 0 0 4720.dat
 0 
-1 0 0 -48 10 1 0 0 0 1 0 0 0 1 pedestrian_062_bicyclistredshirt.ldr
+1 0 0 -48 10 1 0 0 0 1 0 0 0 1 creature_062_bicyclistredshirt.ldr
 0

@@ -8,9 +8,9 @@
 0 ROTATION CONFIG 0 0
 0 REM (Work in progress. Second floor w/Bank President coming soon.)
 0 REM Minifigs
-1 16 -140 -16 80 1 0 0 0 1 0 0 0 1 pedestrian_013_manblacksuitdriving.ldr
-1 16 -140 -16 -60 1 0 0 0 1 0 0 0 1 pedestrian_014_mandarkskingraysuitdriving.ldr
-1 16 170 -16 10 1 0 0 0 1 0 0 0 1 pedestrian_015_mangreengraysuitmustache.mpd
+1 16 -140 -16 80 1 0 0 0 1 0 0 0 1 creature_013_manblacksuitdriving.ldr
+1 16 -140 -16 -60 1 0 0 0 1 0 0 0 1 creature_014_mandarkskingraysuitdriving.ldr
+1 16 170 -16 10 1 0 0 0 1 0 0 0 1 creature_015_mangreengraysuitmustache.mpd
 0 NOSTEP
 1 15 -80 -8 -30 0 0 1 0 1 0 -1 0 0 91405.dat
 1 15 140 -8 -30 0 0 1 0 1 0 -1 0 0 3027.dat

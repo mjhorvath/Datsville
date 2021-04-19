@@ -19,7 +19,7 @@
 0 LPUB MULTI_STEP BEGIN
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 0 80 0 0 1 0 0 0 1 0 0 0 1 pedestrian_056_bogan.ldr
+1 0 80 0 0 1 0 0 0 1 0 0 0 1 creature_056_bogan.ldr
 1 7 -32 -18 -70.001 0 0 1 1 0 0 0 1 0 4624.dat
 1 256 -32 -18 -70.001 0 0 1 1 0 0 0 1 0 3641.dat
 1 7 -32 -18 70 0 0 1 1 0 0 0 1 0 4624.dat
