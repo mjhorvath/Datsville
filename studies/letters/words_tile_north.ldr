@@ -4,6 +4,7 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
+0 MLCAD HIDE 1 0 0 0 0 1 0 0 0 1 0 0 0 1 axis_32s.dat
 1 4 -230 -90 0 1 0 0 0 0 -1 0 1 0 3070b.dat
 1 4 -230 -40 0 0 0 -1 -1 0 0 0 1 0 2431.dat
 1 4 -30 -40 0 0 0 -1 -1 0 0 0 1 0 2431.dat

@@ -1,0 +1,21 @@
+0 letter m
+0 Name: letter_line_m.dat
+0 Author: Magnus Forsberg [MagFors]
+0 Unofficial Model
+0 
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+2 16 0 0 3 -0.5 0 3
+2 16 0 0 0 0 0 3
+2 16 0 0 2.5 0.5 0 3
+2 16 0.5 0 3 1.5 0 3
+2 16 1.5 0 3 2 0 2.5
+2 16 2 0 2.5 2 0 0
+2 16 -0.5 0 0 0.5 0 0
+2 16 1.5 0 0 2.5 0 0
+2 16 2 0 2.5 2.5 0 3
+2 16 2.5 0 3 3.5 0 3
+2 16 3.5 0 3 4 0 2.5
+2 16 4 0 2.5 4 0 0
+2 16 3.5 0 0 4.5 0 0
+0

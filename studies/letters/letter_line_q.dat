@@ -1,0 +1,18 @@
+0 letter q
+0 Name: letter_line_q.dat
+0 Author: Magnus Forsberg [MagFors]
+0 Unofficial Model
+0 
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+2 16 2 0 -2 2 0 3
+2 16 1.5 0 -2 2.5 0 -2
+2 16 2 0 3 2.5 0 3
+2 16 0 0 2.5 0.5 0 3
+2 16 0.5 0 3 1.5 0 3
+2 16 1.5 0 3 2 0 2.5
+2 16 2 0 0.5 1.5 0 0
+2 16 0.5 0 0 1.5 0 0
+2 16 0.5 0 0 0 0 0.5
+2 16 0 0 2.5 0 0 0.5
+0

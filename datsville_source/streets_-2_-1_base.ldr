@@ -9,7 +9,7 @@
 1 7 -5440 0 -2880 0 0 -1 0 1 0 1 0 0 snotroad_triplestripe_020.ldr
 1 7 -5140 24 -2580 0 0 -1 0 1 0 1 0 0 3003.dat
 1 7 -5140 0 -2580 0 0 -1 0 1 0 1 0 0 3003.dat
-1 7 -6080 0 -2880 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 -6080 0 -2880 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_10.ldr
 1 7 -6720 0 -2240 -1 0 0 0 1 0 0 0 -1 snotroad_doublestripe_10.ldr
 1 7 -6720 0 -1600 -1 0 0 0 1 0 0 0 -1 snotroad_doublestripe_00.ldr
 1 7 -6720 0 -3520 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_10.ldr
@@ -35,7 +35,7 @@
 1 7 -6720 0 -3520 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
 1 7 -6080 0 -2880 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
 1 7 -6080 0 -2880 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
-1 7 -7360 0 -2880 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 -7360 0 -2880 0 0 1 0 1 0 -1 0 0 snotroad_doublestripe_10.ldr
 1 7 -7360 0 -2880 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
 1 7 -7360 0 -2880 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
 1 7 -8000 0 -2880 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
