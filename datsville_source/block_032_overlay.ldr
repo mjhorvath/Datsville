@@ -14,9 +14,7 @@
 1 13 -5280 0 -8360 0 0 -1 0 1 0 1 0 0 building_082_airportcontroltower.ldr
 1 13 -5310 0 -8460 0 0 -1 0 1 0 1 0 0 infrastructure_windsock.ldr
 1 13 -4820 0 -8060 1 0 0 0 1 0 0 0 1 building_083_airportlounge.mpd
-0 
 1 0 4960 0 -7680 1 0 0 0 1 0 0 0 1 building_089_controltower2.mpd
-0 
 1 7 -6960 0 -9280 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightlarge.ldr
 1 7 -6960 0 -9600 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightlarge.ldr
 1 7 -6960 0 -9920 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightlarge.ldr
@@ -24,7 +22,6 @@
 1 7 -6960 0 -10560 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightlarge.ldr
 1 7 -6960 0 -8320 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightlarge.ldr
 1 7 -6960 0 -8640 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightlarge.ldr
-0 
 1 7 -2240 0 -10800 -1 0 0 0 1 0 0 0 -1 infrastructure_heavywall_straightlarge.ldr
 1 7 -1920 0 -10800 -1 0 0 0 1 0 0 0 -1 infrastructure_heavywall_straightlarge.ldr
 1 7 -6720 0 -10800 -1 0 0 0 1 0 0 0 -1 infrastructure_heavywall_straightlarge.ldr
@@ -96,7 +93,6 @@
 1 7 -4800 0 -7760 1 0 0 0 1 0 0 0 1 infrastructure_heavywall_straightlarge.ldr
 1 7 -4480 0 -7760 1 0 0 0 1 0 0 0 1 infrastructure_heavywall_straightlarge.ldr
 1 7 -4150 0 -7750 -1 0 0 0 1 0 0 0 -1 infrastructure_heavywall_gate.ldr
-0 
 1 7 1920 0 -10800 -1 0 0 0 1 0 0 0 -1 infrastructure_heavywall_straightlarge.ldr
 1 7 2240 0 -10800 -1 0 0 0 1 0 0 0 -1 infrastructure_heavywall_straightlarge.ldr
 1 7 2560 0 -10800 -1 0 0 0 1 0 0 0 -1 infrastructure_heavywall_straightlarge.ldr
