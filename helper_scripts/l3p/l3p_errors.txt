@@ -89,6 +89,7 @@ NOTABENE "4287.dat" referenced by "plant_bigtree_04.ldr": Moved to 4287a
 NOTABENE "32.dat" referenced by "building_016_postoffice.ldr": Moved to 32c
 NOTABENE "axleho11.dat" referenced by "30517.dat": Moved to axl2hole
 NOTABENE "3755.dat" referenced by "building_033_telephoneexchange.mpd": Moved to 3755a
+WARNING "building_031_carriagehouse.mpd" Line 15: Unknown color, using 7: 1 4294967295 0 -8 0 1 0 0 0 1 0 0 0 1 building_031_floor.ldr
 NOTABENE "6160.dat" referenced by "building_051_floor_2.ldr": Moved to 6160c01
 NOTABENE "6159.dat" referenced by "building_051_roof.ldr": Moved to 6159c01
 NOTABENE "69c01.dat" referenced by "building_059_sink.ldr": Moved to 3496c01
@@ -103,7 +104,7 @@ NOTABENE "3829.dat" referenced by "vehicle_099_kassevogn.ldr": Moved to 3829c01
 NOTABENE "4865.dat" referenced by "vehicle_099_kassevogn.ldr": Moved to 4865a
 NOTABENE "298.dat" referenced by "vehicle_099_kassevogn.ldr": Moved to 4592
 NOTABENE "7.dat" referenced by "vehicle_099_kassevogn.ldr": Moved to 3139
-NOTABENE "44302.dat" referenced by "pedestrian_076_bullpoop.ldr": Moved to 44302a
+NOTABENE "44302.dat" referenced by "creature_076_bullpoop.ldr": Moved to 44302a
 NOTABENE "2350.dat" referenced by "vehicle_078_wreckingball.ldr": Moved to 2350a
 NOTABENE "6153.dat" referenced by "vehicle_070_traffichelicopter.ldr": Moved to 6153a
 NOTABENE "5-16ri12.dat" referenced by "59895.dat": Moved to 5-16ring12
