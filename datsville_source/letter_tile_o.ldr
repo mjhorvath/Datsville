@@ -1,0 +1,15 @@
+0 Words North
+0 Name: letter_tile_o.ldr
+0 Author: Michael Horvath, utilizing font by Artemiy Karpinskiy
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 4 70 -8 90 0 0 -1 0 1 0 1 0 0 25269.dat
+1 4 10 -8 90 -1 0 0 0 1 0 0 0 -1 25269.dat
+1 4 10 -8 10 0 0 1 0 1 0 -1 0 0 25269.dat
+1 4 70 -8 10 1 0 0 0 1 0 0 0 1 25269.dat
+1 4 10 -8 50 0 0 1 0 1 0 -1 0 0 63864.dat
+1 4 70 -8 50 0 0 1 0 1 0 -1 0 0 63864.dat
+1 4 40 -8 90 1 0 0 0 1 0 0 0 1 3069b.dat
+1 4 40 -8 10 1 0 0 0 1 0 0 0 1 3069b.dat
+0

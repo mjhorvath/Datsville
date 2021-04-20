@@ -1,10 +1,8 @@
 0 FILE building_031_carriagehouse.ldr
 0 New Model
-0 Name: complete.dat
+0 Name: building_031_carriagehouse.ldr
 0 Author: Michael Horvath
-0 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
-0 International License. You should have received a copy of the license along
-0 with this work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER -402.807 -24 20.3509 1 "Custom" 
 0 ROTATION CONFIG -2 0

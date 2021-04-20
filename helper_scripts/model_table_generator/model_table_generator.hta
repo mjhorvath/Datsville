@@ -200,7 +200,7 @@
 			function performAction()
 			{
 				updAll();
-				OutputString = 'Filename (new)\tFilename (old)\tSource\tLicense\tAuthor\tTitle\tImage\n';
+				OutputString = 'Filename (new)\tFilename (old)\tSource\tLicense Text\tLicense Code\tAuthor\tTitle\tImage\n';
 				runProgram_recursive(InputHodPath);
 				OutputTextAreaObj.innerText = OutputString;
 			}
@@ -208,7 +208,8 @@
 			{
 				var FileTitle = '???';
 				var FileAuthor = '???';
-				var FileLicense = '???';
+				var FileLicenseText = '???';
+				var FileLicenseCode = '???';
 				var FileNewName = '???';
 				var FileOldName = '???';
 				var FileSource = '???';
@@ -243,9 +244,28 @@
 					}
 
 					var Test_lcns = /^0\s\!LICENSE\s(.*)$/;
-					if ((FileLicense == '???') && (Test_lcns.test(TempLine)))
+					if ((FileLicenseText == '???') && (Test_lcns.test(TempLine)))
 					{
-						FileLicense = TempLine.replace(Test_lcns, '$1');
+						FileLicenseText = TempLine.replace(Test_lcns, '$1');
+					}
+
+					switch (FileLicenseText)
+					{
+						case 'Redistributable under CCAL version 2.0 : see CAreadme.txt':
+							FileLicenseCode = 'CCAL 2.0';
+						break;
+						case 'Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/':
+							FileLicenseCode = 'CC BY-NC-SA 4.0';
+						break;
+						case 'The Beer-Ware License (Revision 42)':
+							FileLicenseCode = 'Beer-Ware';
+						break;
+						case 'Redistributable under CC BY-SA version 3.0 : see https://creativecommons.org/licenses/by-sa/3.0/':
+							FileLicenseCode = 'CC BY-SA 3.0';
+						break;
+						case 'Public Domain':
+							FileLicenseCode = 'PD';
+						break;
 					}
 
 					var Test_oldn = /^0\sWas\:\s(.*)$/;
@@ -267,7 +287,7 @@
 						break;
 					}
 				}
-				OutputString += FileNewName + '\t' + FileOldName + '\t' + FileSource + '\t' + FileLicense + '\t' + FileAuthor + '\t' + FileTitle + '\t' + FileImage + '\n';
+				OutputString += FileNewName + '\t' + FileOldName + '\t' + FileSource + '\t' + FileLicenseText + '\t' + FileLicenseCode + '\t' + FileAuthor + '\t' + FileTitle + '\t' + FileImage + '\n';
 			}
 			function runProgram_recursive(path)
 			{

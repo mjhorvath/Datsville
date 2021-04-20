@@ -1,0 +1,11 @@
+0 letter i
+0 Name: i.dat
+0 Author: Magnus Forsberg [MagFors]
+0 Unofficial Model
+0 
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+2 24 0 0 0 0 0 3
+2 24 -0.5 0 0 0.5 0 0
+2 24 -0.5 0 3 0 0 3
+0
