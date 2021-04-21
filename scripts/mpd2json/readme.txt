@@ -1,4 +1,4 @@
-This program reads an MPD or XMPD model and ouputs a JSON representation of it. 
+This program reads an MPD or XMPD model and outputs a JSON representation of the file. 
 It currently totally ignores most meta tags such as BFC. It also ignores all 
 comments. You should not expect the conversion process to be reversible for 
 these reasons.
