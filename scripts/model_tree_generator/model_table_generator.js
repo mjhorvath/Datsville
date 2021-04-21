@@ -112,7 +112,8 @@ if (typeof(WScript) != 'undefined')
 			(
 				'Error name: '			+ e1.name
 				+ '\nError message: '		+ e1.message
-				+ '\nError number: '		+ e1.number
+				+ '\nError facility code: '	+ (e1.number>>16 & 0x1FFF)
+				+ '\nError error code: '	+ (e1.number & 0xFFFF)
 				+ '\nError description: '	+ e1.description
 			);
 		}
@@ -134,6 +135,7 @@ function ProcessFile(inFilePath)
 	arrayOne = eval('(' + inputCodeString + ')');
 
 	// get output file ready
+	WScript.Echo('Prepping output.');
 	var outFilePath = inFilePath + '.txt';
 	OutputFileObject = fso.OpenTextFile(outFilePath, 2, 1, 0);
 
@@ -144,12 +146,13 @@ function ProcessFile(inFilePath)
 	var iSubs = iModel.subFiles;
 	modelCount += 1;
 	objectCount += 1;
-	AddOutput(iFile);
+	WScript.Echo(iFile);
+	OutputFileObject.WriteLine(iFile);
 	WalkTree(iSubs, 1);
 
 	// finishing up
-	OutputFileObject.Close();
 	WScript.Echo('Done.');
+	OutputFileObject.Close();
 	WScript.Echo(partCount + ' parts.');
 	WScript.Echo(modelCount + ' models.');
 	WScript.Echo(objectCount + ' objects.');
@@ -179,8 +182,8 @@ function WalkTree(inSubFiles, indentLevel)
 		{
 			if ((outMode == 1) || (outMode == 0))
 			{
-				WScript.Echo(inString);
-				OutputFileObject.WriteLine(inString);
+				WScript.Echo(kString);
+				OutputFileObject.WriteLine(kString);
 			}
 			partCount += 1;
 			objectCount += 1;
@@ -189,8 +192,8 @@ function WalkTree(inSubFiles, indentLevel)
 		{
 			if ((outMode == 2) || (outMode == 0))
 			{
-				WScript.Echo(inString);
-				OutputFileObject.WriteLine(inString);
+				WScript.Echo(kString);
+				OutputFileObject.WriteLine(kString);
 			}
 			modelCount += 1;
 			objectCount += 1;

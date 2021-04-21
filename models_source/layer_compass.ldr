@@ -1,8 +1,8 @@
-0 Untitled
+0 Datsville Compass Layer
 0 Name: layer_compass.ldr
 0 Author: MLCad
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
-1 0 0 0 81920 1 0 0 0 1 0 0 0 1 word_line_north.ldr
+0 ROTATION CONFIG -3 0
+1 0 -81920 0 0 0 0 -1 0 1 0 1 0 0 word_line_north.ldr
 0
