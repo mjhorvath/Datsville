@@ -1,0 +1,7 @@
+The DAE files were created by loading the model in LeoCAD and exporting as Collada.
+
+I have also tried using the LDR Importer to get them into Blender, but it is very, very slow. After two days, it was not finished processing the old version of Datsville I inputted, so I quit.
+
+In either case, the transparent colors are not properly transparent. Not sure how to fix this or any other problems with materials. I am saddened that the conversion tools don't already apply the proper materials to begin with.
+
+Blender uses a ton of RAM. An old version of Datsville can barely load. Newer versions use up more RAM than the 8 GiB I have.

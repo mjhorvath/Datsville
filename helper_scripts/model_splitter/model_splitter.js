@@ -1,9 +1,9 @@
 // Authors: Michael Horvath
-// Version: 1.0.1
+// Version: 1.0.2
 // Created: 2020/02/02
-// Updated: 2020/02/03
+// Updated: 2021/04/20
 // 
-// This program splits model into a grid of chunks based on the XZ coordinates.
+// This program splits terrain model into a grid of chunks based on the XZ coordinates.
 // 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU Lesser General Public
@@ -32,7 +32,10 @@ var MaxZ = 0
 var InputPath = ''
 var CellData = []
 var HeaderString = '0 Split using "model_splitter.js" by Michael Horvath.\n0\n'
-var LettersTable = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']		// NumDivisions must be less than or equal to the length of this array
+// NumDivisions must be less than or equal to the length of the LettersTable array.
+// Could start doubling up letters AA, AB, AC, etc. like in Excel.
+// In which case I should do this using a script instead of a hardcoded table.
+var LettersTable = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 function main()
 {
@@ -61,7 +64,7 @@ function main()
 				'\t<n> is the number of divisions to make along each side.\n' +
 				'\tThe maximum allowed value for <n> is 26.\n' +
 				'\tThe total number of sections overall will be equal to <n> squared.\n' +
-				'\nNote this program only recognizes line type 1 and completely ignores any other line types, including comments.\n'
+				'\nNote this program only recognizes line type 1 and completely ignores/discards any other line types, including comments.\n'
 			)
 		}
 	}
@@ -72,7 +75,7 @@ function Get_Input()
 	fso = new ActiveXObject('Scripting.FileSystemObject')
 	WshShell = new ActiveXObject('WScript.Shell')
 
-	// quickly test whether the file exists
+	// check first whether the file exists
 	fso.GetFile(InputPath)
 
 	// list of valid file extensions
@@ -81,7 +84,7 @@ function Get_Input()
 	var Test_c = /\.[mM][pP][dD]$/
 	var Test_d = /\.[xX][mM][pP][dD]$/
 
-	if (Test_a.test(InputPath) || Test_b.test(InputPath) || Test_c.test(InputPath) || Test_d.test(InputPath))
+	if (Test_a.test(InputPath))
 	{
 		var InputRoot = InputPath.substring(0, InputPath.lastIndexOf('\\') + 1)
 		if (InputRoot == '')
@@ -93,7 +96,7 @@ function Get_Input()
 	}
 	else
 	{
-		WScript.Echo('Invalid file type: input file must have an .ldr, .dat, .mpd or .xmpd extension.\n')
+		WScript.Echo('Invalid file type: input file must have an .ldr extension.\n')
 	}
 }
 

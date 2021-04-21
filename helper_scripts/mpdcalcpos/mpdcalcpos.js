@@ -5,7 +5,8 @@
 // Updated: 2020/02/24
 // 
 // This program calculates the positions of MPD sub-models in 3D space after 
-// all transformations have been applied. 
+// all transformations have been applied. Requires as input a JSON file created 
+// by mpd2json.
 // 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU Lesser General Public
