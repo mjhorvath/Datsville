@@ -7,8 +7,9 @@ syntax example: cscript mpd2json.js [input path]
 
 [input path] must be an MPD or XMPD file.
 
-XMPD files will work, but the file naming is not properly handled in the JSON 
-output. You will have to fix the file naming manually. Sorry.
+XMPD files will work, but the file naming for the top-level object is not 
+handled properly in the JSON output yet. You will have to fix the file naming 
+manually. Sorry.
 
 You will need to use an external tool to pretty-print the JSON. There are 
 several JSON pretty-printers online.
