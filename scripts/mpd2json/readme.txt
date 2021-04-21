@@ -7,5 +7,5 @@ syntax example: cscript mpd2json.js [input path]
 
 [input path] must be an MPD or XMPD file.
 
-You will need to use an external tool to pretty-print the JSON. There are 
+You will need to use an external utility to pretty-print the JSON file. There are 
 several JSON pretty-printers online.
