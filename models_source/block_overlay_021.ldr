@@ -1,37 +1,37 @@
 0 Datsville City Block #21
-0 Name: block_021_overlay.ldr
+0 Name: block_overlay_021.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 3500 0 8780 0 0 1 0 1 0 -1 0 0 building_045_yellowcastle.mpd
-1 16 3140 0 7760 -1 0 0 0 1 0 0 0 -1 building_040_belvedere.ldr
-1 16 5420 0 9430 1 0 0 0 1 0 0 0 1 building_057_castletavern.ldr
-1 2 2920 0 8780 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
-1 2 4220 0 8860 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
-1 2 4120 0 8420 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
-1 2 3440 0 8420 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
-1 2 3660 0 7580 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
-1 2 4320 0 7460 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
-1 2 4920 0 7980 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 2 4720 0 8900 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
-1 2 4720 0 9400 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 2 3360 0 9490 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 2 2880 0 7980 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
-1 2 3720 0 9370 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
-1 2 4220 0 9560 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
-1 2 4840 0 7470 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
-1 2 5380 0 7500 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 2 6140 0 7980 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 2 5880 0 8900 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 2 6140 0 9480 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 2 5360 0 10000 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
-1 2 5380 0 8740 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
-1 2 4700 0 10060 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
-1 2 5940 0 10080 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
-1 2 4080 0 10160 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 2 3460 0 10060 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
-1 2 4130 0 7810 -1 0 0 0 1 0 0 0 -1 building_071_boathouse.mpd
-1 2 5370 0 8200 0 0 1 0 1 0 -1 0 0 building_070_bikerack.mpd
+1 16 3500 0 11340 0 0 1 0 1 0 -1 0 0 building_045_yellowcastle.mpd
+1 16 3140 0 10320 -1 0 0 0 1 0 0 0 -1 building_040_belvedere.ldr
+1 16 5420 0 11990 1 0 0 0 1 0 0 0 1 building_057_castletavern.ldr
+1 2 2920 0 11340 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
+1 2 4220 0 11420 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
+1 2 4120 0 10980 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
+1 2 3440 0 10980 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
+1 2 3660 0 10140 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
+1 2 4320 0 10020 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
+1 2 4920 0 10540 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
+1 2 4720 0 11460 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
+1 2 4720 0 11960 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
+1 2 3360 0 12050 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
+1 2 2880 0 10540 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
+1 2 3720 0 11930 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
+1 2 4220 0 12120 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
+1 2 4840 0 10030 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
+1 2 5380 0 10060 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
+1 2 6140 0 10540 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
+1 2 5880 0 11460 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
+1 2 6140 0 12040 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
+1 2 5360 0 12560 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
+1 2 5380 0 11300 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
+1 2 4700 0 12620 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
+1 2 5940 0 12640 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
+1 2 4080 0 12720 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
+1 2 3460 0 12620 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
+1 2 4130 0 10370 -1 0 0 0 1 0 0 0 -1 building_071_boathouse.mpd
+1 2 5370 0 10760 0 0 1 0 1 0 -1 0 0 building_070_bikerack.mpd
 0

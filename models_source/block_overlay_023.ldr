@@ -1,9 +1,9 @@
 0 Datsville City Block #23
-0 Name: block_023_overlay.ldr
+0 Name: block_overlay_023.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 -5440 8 -3840 1 0 0 0 1 0 0 0 1 building_062_officebuildinglarge.mpd
+1 16 -5440 8 -1280 1 0 0 0 1 0 0 0 1 building_062_officebuildinglarge.mpd
 0

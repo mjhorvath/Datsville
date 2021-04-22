@@ -1,17 +1,17 @@
 0 Datsville City Block #5
-0 Name: block_005_overlay.ldr
+0 Name: block_overlay_005.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 3310 0 2910 -1 0 0 0 1 0 0 0 -1 building_023_missionstylehouse.mpd
-1 7 3160 0 3180 1 0 0 0 1 0 0 0 1 87079.dat
-1 7 3160 0 3140 1 0 0 0 1 0 0 0 1 87079.dat
-1 7 3160 0 3100 1 0 0 0 1 0 0 0 1 87079.dat
-1 16 2840 0 1640 1 0 0 0 1 0 0 0 1 building_011_bramshome.ldr
-1 16 3580 0 1580 -1 0 0 0 1 0 0 0 -1 building_010_johnshouse.ldr
-1 16 3110 0 2150 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 16 3290 0 2470 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 16 2790 0 2470 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 3310 0 5470 -1 0 0 0 1 0 0 0 -1 building_023_missionstylehouse.mpd
+1 7 3160 0 5740 1 0 0 0 1 0 0 0 1 87079.dat
+1 7 3160 0 5700 1 0 0 0 1 0 0 0 1 87079.dat
+1 7 3160 0 5660 1 0 0 0 1 0 0 0 1 87079.dat
+1 16 2840 0 4200 1 0 0 0 1 0 0 0 1 building_011_bramshome.ldr
+1 16 3580 0 4140 -1 0 0 0 1 0 0 0 -1 building_010_johnshouse.ldr
+1 16 3110 0 4710 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 3290 0 5030 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 2790 0 5030 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 0

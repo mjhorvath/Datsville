@@ -1,10 +1,10 @@
 0 Datsville City Block #3
-0 Name: block_003_overlay.ldr
+0 Name: block_overlay_003.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 0 1100 0 340 0 0 -1 0 1 0 1 0 0 building_094_chapel.ldr
-1 16 1640 0 320 0 0 -1 0 1 0 1 0 0 building_043_datsvillememorial.ldr
+1 0 1100 0 2900 0 0 -1 0 1 0 1 0 0 building_094_chapel.ldr
+1 16 1640 0 2880 0 0 -1 0 1 0 1 0 0 building_043_datsvillememorial.ldr
 0

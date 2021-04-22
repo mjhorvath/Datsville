@@ -1,12 +1,12 @@
 0 Datsville City Block #20
-0 Name: block_020_overlay.ldr
+0 Name: block_overlay_020.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 16 2900 0 -4310 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
-1 16 2850 0 -3990 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 16 2720 0 -3520 0 0 1 0 1 0 -1 0 0 building_038_hospital.ldr
-1 16 3400 0 -4160 1 0 0 0 1 0 0 0 1 building_039_tanmosque.mpd
+1 16 2900 0 -1750 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
+1 16 2850 0 -1430 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 2720 0 -960 0 0 1 0 1 0 -1 0 0 building_038_hospital.ldr
+1 16 3400 0 -1600 1 0 0 0 1 0 0 0 1 building_039_tanmosque.mpd
 0

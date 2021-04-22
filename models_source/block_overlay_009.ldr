@@ -1,9 +1,9 @@
 0 Datsville City Block #9
-0 Name: block_009_overlay.ldr
+0 Name: block_overlay_009.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 2 3080 8 4160 1 0 0 0 1 0 0 0 1 building_031_carriagehouse.mpd
+1 2 3080 8 6720 1 0 0 0 1 0 0 0 1 building_031_carriagehouse.mpd
 0

@@ -1,16 +1,16 @@
 0 Datsville City Block #9
-0 Name: block_009_base.ldr
+0 Name: block_base_009.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 13 2920 8 4160 1 0 0 0 1 0 0 0 1 3811.dat
-1 13 3400 8 4160 0 0 -1 0 1 0 1 0 0 3857.dat
-1 2 2760 0 3820 1 0 0 0 1 0 0 0 1 4282.dat
-1 2 3400 0 3820 1 0 0 0 1 0 0 0 1 4282.dat
-1 2 2580 0 3820 1 0 0 0 1 0 0 0 1 3022.dat
-1 2 2580 0 4000 0 0 -1 0 1 0 1 0 0 4282.dat
-1 2 2580 0 4320 0 0 -1 0 1 0 1 0 0 4282.dat
+1 13 2920 8 6720 1 0 0 0 1 0 0 0 1 3811.dat
+1 13 3400 8 6720 0 0 -1 0 1 0 1 0 0 3857.dat
+1 2 2760 0 6380 1 0 0 0 1 0 0 0 1 4282.dat
+1 2 3400 0 6380 1 0 0 0 1 0 0 0 1 4282.dat
+1 2 2580 0 6380 1 0 0 0 1 0 0 0 1 3022.dat
+1 2 2580 0 6560 0 0 -1 0 1 0 1 0 0 4282.dat
+1 2 2580 0 6880 0 0 -1 0 1 0 1 0 0 4282.dat
 0

@@ -1,10 +1,10 @@
 0 Datsville City Block #26
-0 Name: block_026_overlay.ldr
+0 Name: block_overlay_026.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 13 5240 32 -6190 1 0 0 0 1 0 0 0 1 building_074_mediumfactory.mpd
-1 13 4660 0 -6140 1 0 0 0 1 0 0 0 1 building_086_redfactory.mpd
+1 13 5240 32 -3630 1 0 0 0 1 0 0 0 1 building_074_mediumfactory.mpd
+1 13 4660 0 -3580 1 0 0 0 1 0 0 0 1 building_086_redfactory.mpd
 0

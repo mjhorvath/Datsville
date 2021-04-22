@@ -1,38 +1,38 @@
 0 Datsville City Block #8
-0 Name: block_008_overlay.ldr
+0 Name: block_overlay_008.ldr
 0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
 0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 0 -3840 0 960 1 0 0 0 1 0 0 0 1 building_053_animalexhibit.mpd
-1 16 -5700 -8 1600 0 0 1 0 1 0 -1 0 0 building_019_cricketground.mpd
-1 16 -5700 -8 1300 -1 0 0 0 1 0 0 0 -1 building_090_policegraduationpodium.ldr
-1 16 -4640 0 1760 1 0 0 0 1 0 0 0 1 building_073_radiotower.ldr
-1 16 -4640 0 2040 -1 0 0 0 1 0 0 0 -1 building_033_telephoneexchange.mpd
-1 16 -4570 0 730 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4570 0 970 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4570 0 1210 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4810 0 1210 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4810 0 970 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4810 0 730 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4690 0 850 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4690 0 1070 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4570 0 2630 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4570 0 2870 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4570 0 3110 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4810 0 3110 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4810 0 2870 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4810 0 2630 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4690 0 2750 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4570 0 2390 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4810 0 2390 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4690 0 2510 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -4690 0 2970 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 16 -3280 0 880 -1 0 0 0 1 0 0 0 -1 building_081_marketstall.ldr
-1 16 -3800 -8 2380 0 0 -1 0 1 0 1 0 0 building_075_buddhisttemple.mpd
-1 16 -3210 0 2070 0.5 0 -0.866 0 1 0 0.866 0 0.5 plant_bigtree_06.mpd
-1 16 -3210 0 1930 0.9703 0 0.2419 0 1 0 -0.2419 0 0.9703 plant_bigtree_06.mpd
-1 16 -3210 0 2690 0.1219 0 -0.9925 0 1 0 0.9925 0 0.1219 plant_bigtree_06.mpd
-1 16 -3210 0 2830 -0.5 0 -0.866 0 1 0 0.866 0 -0.5 plant_bigtree_06.mpd
+1 0 -3840 0 3520 1 0 0 0 1 0 0 0 1 building_053_animalexhibit.mpd
+1 16 -5700 -8 4160 0 0 1 0 1 0 -1 0 0 building_019_cricketground.mpd
+1 16 -5700 -8 3860 -1 0 0 0 1 0 0 0 -1 building_090_policegraduationpodium.ldr
+1 16 -4640 0 4320 1 0 0 0 1 0 0 0 1 building_073_radiotower.ldr
+1 16 -4640 0 4600 -1 0 0 0 1 0 0 0 -1 building_033_telephoneexchange.mpd
+1 16 -4570 0 3290 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4570 0 3530 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4570 0 3770 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4810 0 3770 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4810 0 3530 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4810 0 3290 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4690 0 3410 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4690 0 3630 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4570 0 5190 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4570 0 5430 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4570 0 5670 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4810 0 5670 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4810 0 5430 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4810 0 5190 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4690 0 5310 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4570 0 4950 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4810 0 4950 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4690 0 5070 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -4690 0 5530 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 16 -3280 0 3440 -1 0 0 0 1 0 0 0 -1 building_081_marketstall.ldr
+1 16 -3800 -8 4940 0 0 -1 0 1 0 1 0 0 building_075_buddhisttemple.mpd
+1 16 -3210 0 4630 0.5 0 -0.866 0 1 0 0.866 0 0.5 plant_bigtree_06.mpd
+1 16 -3210 0 4490 0.9703 0 0.2419 0 1 0 -0.2419 0 0.9703 plant_bigtree_06.mpd
+1 16 -3210 0 5250 0.1219 0 -0.9925 0 1 0 0.9925 0 0.1219 plant_bigtree_06.mpd
+1 16 -3210 0 5390 -0.5 0 -0.866 0 1 0 0.866 0 -0.5 plant_bigtree_06.mpd
 0
