@@ -1,9 +1,10 @@
 // Authors: Michael Horvath
-// Version: 1.0.2
+// Version: 1.1.0
 // Created: 2020/02/02
-// Updated: 2021/04/20
+// Updated: 2021/04/21
 // 
-// This program splits terrain model into a grid of chunks based on the XZ coordinates.
+// This program splits a model into several files based on their XZ 
+// coordinates. It strips and skips all meta tags and comments.
 // 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU Lesser General Public
@@ -21,163 +22,175 @@
 // 
 // Note that the 'ichar' and 'jchar' variables have issues. Read the comments in the code.
 
-var fso
-var WshShell
-var InputPath = ''
-var NumDivisions = 0
-var MinX = 0
-var MinZ = 0
-var MaxX = 0
-var MaxZ = 0
-var InputPath = ''
-var CellData = []
-var HeaderString = '0 Split using "model_splitter.js" by Michael Horvath.\n0\n'
-// NumDivisions must be less than or equal to the length of the LettersTable array.
-// Could start doubling up letters AA, AB, AC, etc. like in Excel.
-// In which case I should do this using a script instead of a hardcoded table.
-var LettersTable = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+var fso;
+var WshShell;
+var inputPath = '';
+var numDivisions = 0;
+var minX = 0;
+var minZ = 0;
+var maxX = 0;
+var maxZ = 0;
+var cellData = [];
+var headerText = '0 Split using "model_splitter.js" by Michael Horvath.\n0\n';
+var usageText =
+'Invalid parameters.\n\n'+
+'cscript model_splitter.js [inputfile.ldr] [n] [minX] [maxX] [minZ] [maxZ]\n\n'+
+'\t[inputfile.ldr] is the terrain file to split.\n'+
+'\t[n] is the number of divisions to make along each side. It should be an even number.\n'+
+'\tThe total number of sections overall will be equal to [n] squared.\n'+
+'\nNote this program totally ignores/discards comments.\n';
 
-function main()
+function Main()
 {
 	// only continue if the script is run via Windows Scripting Host
 	// should spawn a message here if the condition is true instead of false
 	if (typeof(WScript) != 'undefined')
 	{
-		var ProgArgs = WScript.Arguments
-		InputPath = ProgArgs(0)
-		NumDivisions = ProgArgs(1)
-		MinX = parseFloat(ProgArgs(2))
-		MaxX = parseFloat(ProgArgs(3))
-		MinZ = parseFloat(ProgArgs(4))
-		MaxZ = parseFloat(ProgArgs(5))
-		if ((ProgArgs.length == 6) && isNumber(NumDivisions) && (NumDivisions > 0) && isNumber(MinX) && isNumber(MaxX) && isNumber(MinZ) && isNumber(MaxZ))
+		var progArgs = WScript.Arguments;
+		inputPath = progArgs(0);
+		numDivisions = progArgs(1);
+		minX = parseFloat(progArgs(2));
+		maxX = parseFloat(progArgs(3));
+		minZ = parseFloat(progArgs(4));
+		maxZ = parseFloat(progArgs(5));
+		if ((progArgs.length == 6) && isNumber(numDivisions) && (numDivisions > 0) && isNumber(minX) && isNumber(maxX) && isNumber(minZ) && isNumber(maxZ))
 		{
-			Get_Input()
+			Get_Input();
 		}
 		else
 		{
-			WScript.Echo
-			(
-				'Invalid parameters.\n\n' +
-				'cscript model_splitter.js <inputfile.ldr> <n> <minX> <maxX> <minZ> <maxZ>\n\n' +
-				'\t<inputfile.ldr> is the terrain file to split.\n' +
-				'\t<n> is the number of divisions to make along each side.\n' +
-				'\tThe maximum allowed value for <n> is 26.\n' +
-				'\tThe total number of sections overall will be equal to <n> squared.\n' +
-				'\nNote this program only recognizes line type 1 and completely ignores/discards any other line types, including comments.\n'
-			)
+			WScript.Echo(usageText);
 		}
 	}
 }
 
 function Get_Input()
 {
-	fso = new ActiveXObject('Scripting.FileSystemObject')
-	WshShell = new ActiveXObject('WScript.Shell')
+	fso = new ActiveXObject('Scripting.FileSystemObject');
+	WshShell = new ActiveXObject('WScript.Shell');
 
 	// check first whether the file exists
-	fso.GetFile(InputPath)
+	fso.GetFile(inputPath);
 
 	// list of valid file extensions
-	var Test_a = /\.[lL][dD][rR]$/
-	var Test_b = /\.[dD][aA][tT]$/
-	var Test_c = /\.[mM][pP][dD]$/
-	var Test_d = /\.[xX][mM][pP][dD]$/
+	var Test_a = /\.[lL][dD][rR]$/;
+	var Test_b = /\.[dD][aA][tT]$/;
+	var Test_c = /\.[mM][pP][dD]$/;
+	var Test_d = /\.[xX][mM][pP][dD]$/;
 
-	if (Test_a.test(InputPath))
+	if (Test_a.test(inputPath) || Test_b.test(inputPath))
 	{
-		var InputRoot = InputPath.substring(0, InputPath.lastIndexOf('\\') + 1)
-		if (InputRoot == '')
+		var inputRoot = inputPath.substring(0, inputPath.lastIndexOf('\\') + 1);
+		if (inputRoot == '')
 		{
-			InputRoot = WshShell.CurrentDirectory + '\\'
-			InputPath = InputRoot + InputPath
+			inputRoot = WshShell.CurrentDirectory + '\\';
+			inputPath = inputRoot + inputPath;
 		}
-		Convert_File()
+		Process_File();
 	}
 	else
 	{
-		WScript.Echo('Invalid file type: input file must have an .ldr extension.\n')
+		WScript.Echo('Invalid file type: input file must have an .ldr extension.\n');
 	}
 }
 
 // read the input file and store its contents as a table
-function Convert_File()
+function Process_File()
 {
 	// set up the cells needed to contain the data
-	for (var i = 0; i < NumDivisions; i++)
+	for (var i = 0; i < numDivisions; i++)
 	{
-		CellData[i] = []
-		for (var j = 0; j < NumDivisions; j++)
+		cellData[i] = [];
+		for (var j = 0; j < numDivisions; j++)
 		{
-			CellData[i][j] = []
+			cellData[i][j] = [];
 		}
 	}
 
-	var lengthX = Math.abs(MaxX - MinX)
-	var lengthZ = Math.abs(MaxZ - MinZ)
-	var stepX = lengthX/NumDivisions
-	var stepZ = lengthZ/NumDivisions
+	var lengthX = Math.abs(maxX - minX);
+	var lengthZ = Math.abs(maxZ - minZ);
+	var stepX = lengthX/numDivisions;
+	var stepZ = lengthZ/numDivisions;
 
-	var InputFileObject = fso.OpenTextFile(InputPath, 1)
+	var InputFileObject = fso.OpenTextFile(inputPath, 1);
 	while (!InputFileObject.AtEndOfStream)
 	{
-		var TempString = InputFileObject.ReadLine()
-		var TempArray = TempString.split(' ')
-		var PartCoords = [TempArray[2],TempArray[3],TempArray[4]]	// x,y,z
-		if (TempArray[0] == '1')
+		var inputString = InputFileObject.ReadLine();
+		var inputArray = inputString.split(' ');
+		var partCoords = [inputArray[2],inputArray[3],inputArray[4]];	// x,y,z
+		if (inputArray[0] != '0')
 		{
-			for (var i = 0; i < NumDivisions; i++)
+			for (var i = 0; i < numDivisions; i++)
 			{
-				var xPosLow = MinX + stepX * i
-				var xPosHgh = MinX + stepX * (i + 1)
+				var xPosLow = minX + stepX * i;
+				var xPosHgh = minX + stepX * (i + 1);
 				// should spawn an error message here if these criteria are not met! need to fix this!
-				if ((PartCoords[0] >= xPosLow) && (PartCoords[0] < xPosHgh))		// if both conditions are <= or >= then in theory some objects may end up being duplicated
+				// if both conditions are <= or >= then in theory some objects may end up being duplicated
+				if ((partCoords[0] >= xPosLow) && (partCoords[0] < xPosHgh))
 				{
-					for (var j = 0; j < NumDivisions; j++)
+					for (var j = 0; j < numDivisions; j++)
 					{
-						var zPosLow = MinZ + stepZ * j
-						var zPosHgh = MinZ + stepZ * (j + 1)
+						var zPosLow = minZ + stepZ * j;
+						var zPosHgh = minZ + stepZ * (j + 1);
 						// should spawn an error message here if these criteria are not met! need to fix this!
-						if ((PartCoords[2] >= zPosLow) && (PartCoords[2] < zPosHgh))		// if both conditions are <= or >= then in theory some objects may end up being duplicated
+						// if both conditions are <= or >= then in theory some objects may end up being duplicated
+						if ((partCoords[2] >= zPosLow) && (partCoords[2] < zPosHgh))
 						{
-							CellData[i][j].push(TempString)
-							break
+							cellData[i][j].push(inputString);
+							break;
 						}
 					}
-					break
+					break;
 				}
 			}
 		}
 	}
-	InputFileObject.Close()
-	Write_Output()
+	InputFileObject.Close();
+	Write_Output();
 }
 
 // write copies of the converted file
 // multiple periods in the filename could potentially mess up this script
 function Write_Output()
 {
-	var OutputPath = InputPath.split(/(\\|\/)/g).pop().split('.')[0]
-	var LargeModelPath = OutputPath + '_all.ldr'
-	var LargeModelString = HeaderString
-	for (var i = 0; i < NumDivisions; i++)
+	var outputPath = inputPath.split(/(\\|\/)/g).pop().split('.')[0];
+	var largeHeaderString =
+	'0 Split Model Container\n'+
+	'0 Name: '+outputPath+'\n'+
+	'0 Author: model_splitter.js\n'+
+	'0 Unofficial Model\n'+
+	'0 ROTATION CENTER 0 0 0 1 "Custom"\n'+
+	'0 ROTATION CONFIG 0 0\n';
+	var largeModelPath = outputPath + '_container.ldr';
+	var largeModelString = largeHeaderString;
+	for (var i = 0; i < numDivisions; i++)
 	{
-		var ichar = LettersTable[i]				// this means NumDivisions should be limited to 26 or fewer, or else the file numbering will go wrong! need to fix this!
-		for (var j = 0; j < NumDivisions; j++)
+		var iChar = i - numDivisions/2;
+		iChar = iChar >= 0 ? '+'+(iChar+1): iChar;
+		for (var j = 0; j < numDivisions; j++)
 		{
-			var jchar = j < 10 ? '0' + j : j				// this means NumDivisions should be limited to 100 or fewer, or else the file numbering will go wrong! need to fix this!
-			var SmallModelPath = OutputPath + '_' + ichar + jchar + '.ldr'
-			var SmallModelString = HeaderString + CellData[i][j].join('\n')
-			var OutputFileObject = fso.OpenTextFile(SmallModelPath, 2, 1, 0)
-			OutputFileObject.Write(SmallModelString)
-			OutputFileObject.Close()
-//			WScript.Echo(SmallModelString)
-			LargeModelString += '1 16 0 0 0 1 0 0 0 1 0 0 0 1 ' + SmallModelPath + '\n'
+			var jChar = j - numDivisions/2;
+			jChar = jChar >= 0 ? '+'+(jChar+1): jChar;
+			var smallHeaderString =
+			'0 Split Model\n'+
+			'0 Name: '+outputPath+'\n'+
+			'0 Author: model_splitter.js\n'+
+			'0 Unofficial Model\n'+
+			'0 ROTATION CENTER 0 0 0 1 "Custom"\n'+
+			'0 ROTATION CONFIG 0 0\n';
+			var smallModelPath = outputPath + '_' + iChar + '_' + jChar + '.ldr';
+			var cellDataJoin = cellData[i][j].join('\n');
+			var smallModelString = smallHeaderString + cellDataJoin + (cellDataJoin.length > 0 ? '\n' : '') + '0\n';
+			var OutputFileObject = fso.OpenTextFile(smallModelPath, 2, 1, 0);
+			OutputFileObject.Write(smallModelString);
+			OutputFileObject.Close();
+//			WScript.Echo(smallModelString);
+			largeModelString += '1 16 0 0 0 1 0 0 0 1 0 0 0 1 ' + smallModelPath + '\n';
 		}
 	}
-	var OutputFileObject = fso.OpenTextFile(LargeModelPath, 2, 1, 0)
-	OutputFileObject.Write(LargeModelString)
-	OutputFileObject.Close()
+	var OutputFileObject = fso.OpenTextFile(largeModelPath, 2, 1, 0);
+	OutputFileObject.Write(largeModelString + '0\n');
+	OutputFileObject.Close();
 }
 
 function isPowerOfTwo(iNum)
@@ -195,4 +208,4 @@ function padZeros(iNum, iMax)
 	// to do
 }
 
-main()
+Main();

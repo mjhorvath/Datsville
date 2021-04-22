@@ -1,10 +1,40 @@
-0 Datsville Traffic and People Layer
-0 Name: traffic_-1_+1.ldr
-0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
-0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
+0 Split Model
+0 Name: traffic
+0 Author: model_splitter.js
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
+1 7 -6070 10 2770 0 0 -1 0 1 0 1 0 0 vehicle_064_blacklimousine_2.ldr
+1 0 -5730 -8 1470 1 0 0 0 1 0 0 0 1 creature_114_policewhiteshirtandtiestanding7.ldr
+1 0 -5730 -8 1510 1 0 0 0 1 0 0 0 1 creature_109_policewhiteshirtandtiestanding2.ldr
+1 0 -5730 -8 1550 1 0 0 0 1 0 0 0 1 creature_105_policewhiteshirtandtiestandingradio6.ldr
+1 0 -5730 -8 1590 1 0 0 0 1 0 0 0 1 creature_102_policewhiteshirtandtiestandingradio3.ldr
+1 0 -5730 -8 1630 1 0 0 0 1 0 0 0 1 creature_098_policeblackjacketwhitehelmetstanding3.ldr
+1 0 -5670 -8 1630 1 0 0 0 1 0 0 0 1 creature_097_policeblackjacketwhitehelmetstanding2.ldr
+1 0 -5670 -8 1590 1 0 0 0 1 0 0 0 1 creature_101_policewhiteshirtandtiestandingradio2.ldr
+1 0 -5670 -8 1550 1 0 0 0 1 0 0 0 1 creature_106_policewhiteshirtandtiestandingradio7.ldr
+1 0 -5670 -8 1510 1 0 0 0 1 0 0 0 1 creature_110_policewhiteshirtandtiestanding3.ldr
+1 0 -5670 -8 1470 1 0 0 0 1 0 0 0 1 creature_113_policewhiteshirtandtiestanding6.ldr
+1 0 -5610 -8 1470 1 0 0 0 1 0 0 0 1 creature_112_policewhiteshirtandtiestanding5.ldr
+1 0 -5610 -8 1510 1 0 0 0 1 0 0 0 1 creature_111_policewhiteshirtandtiestanding4.ldr
+1 0 -5610 -8 1550 1 0 0 0 1 0 0 0 1 creature_107_policewhiteshirtandtiestandingradio8.ldr
+1 0 -5610 -8 1590 1 0 0 0 1 0 0 0 1 creature_100_policewhiteshirtandtiestandingradio1.ldr
+1 0 -5610 -8 1630 1 0 0 0 1 0 0 0 1 creature_096_policeblackjacketwhitehelmetstanding1.ldr
+1 0 -5790 -8 1630 1 0 0 0 1 0 0 0 1 creature_099_policeblackjacketwhitehelmetstanding4.ldr
+1 0 -5790 -8 1590 1 0 0 0 1 0 0 0 1 creature_103_policewhiteshirtandtiestandingradio4.ldr
+1 0 -5790 -8 1550 1 0 0 0 1 0 0 0 1 creature_104_policewhiteshirtandtiestandingradio5.ldr
+1 0 -5790 -8 1510 1 0 0 0 1 0 0 0 1 creature_108_policewhiteshirtandtiestanding1.ldr
+1 0 -5790 -8 1470 1 0 0 0 1 0 0 0 1 creature_115_policewhiteshirtandtiestanding8.ldr
+1 0 -5790 -8 1410 -1 0 0 0 1 0 0 0 -1 creature_116_policewhiteshirtandtiestandingnohat1.ldr
+1 0 -5730 -8 1410 -1 0 0 0 1 0 0 0 -1 creature_117_policewhiteshirtandtiestandingnohat2.ldr
+1 0 -5670 -8 1410 -1 0 0 0 1 0 0 0 -1 creature_118_policewhiteshirtandtiestandingnohat3.ldr
+1 0 -5610 -8 1410 -1 0 0 0 1 0 0 0 -1 creature_119_policewhiteshirtandtiestandingnohat4.ldr
+1 0 -5700 -40 1290 -1 0 0 0 1 0 0 0 -1 creature_120_policewhiteshirtandtiestandingnohat5.ldr
+1 2 -6620 10 3870 -1 0 0 0 1 0 0 0 -1 vehicle_005_yellowasphaltspreader.ldr
+1 2 -6210 10 3620 0 0 1 0 1 0 -1 0 0 vehicle_085_dumptruck2.ldr
+1 7 -6800 10 3780 -1 0 0 0 1 0 0 0 -1 creature_001_mustachewalking.ldr
+1 0 -6840 10 3840 0.94 0 -0.34 0 1 0 0.34 0 0.94 creature_001_mustachewalking.ldr
+1 2 -6833.9 -94 8204.9 -1 0 0 0 1 0 0 0 -1 vehicle_002_yellowheavyequipmentcarrier.ldr
 1 0 -3180 0 2500 0 0 1 0 1 0 -1 0 0 character_002_vinnie.ldr
 1 0 -3190 0 2260 0 0 1 0 1 0 -1 0 0 character_003_terrel.ldr
 1 0 -3120 0 2380 0 0 1 0 1 0 -1 0 0 character_004_ignaz.ldr
@@ -23,4 +53,7 @@
 1 0 -3450 -8 2480 0 0 -1 0 1 0 1 0 0 creature_059_thaisoldier.mpd
 1 0 -3510 -80 2380 0 0 -1 0 1 0 1 0 0 creature_060_thaimonk.ldr
 1 2 -2960 10 2010 0 0 1 0 1 0 -1 0 0 vehicle_009_redcoupe.ldr
+1 16 -2650 240 7360 0 0 -1 0 1 0 1 0 0 vehicle_053_citycat.mpd
+1 2 -4770 240 7930 0 0 1 0 1 0 -1 0 0 vehicle_003_redfireboat.ldr
+1 1 -2220 -32 9940 0 0 -1 0 1 0 1 0 0 creature_009_manblueoverallsmustache.ldr
 0

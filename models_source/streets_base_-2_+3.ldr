@@ -1,0 +1,26 @@
+0 Split Model
+0 Name: streets_base
+0 Author: model_splitter.js
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 7 -12160 0 20480 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 -13440 0 20480 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 -13440 0 21760 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightgap.ldr
+1 7 -14400 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_45degree_curve_1.ldr
+1 7 -15040 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 -15040 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -15040 0 22080 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -15680 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 -15680 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -15680 0 22080 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -16320 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 -16320 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -16320 0 22080 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -16960 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 -16960 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -16960 0 22080 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -17600 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 -17600 0 22080 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 -17600 0 22080 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+0

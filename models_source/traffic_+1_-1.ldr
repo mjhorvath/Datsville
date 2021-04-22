@@ -1,10 +1,28 @@
-0 Datsville Traffic and People Layer
-0 Name: traffic_+1_-1.ldr
-0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
-0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
+0 Split Model
+0 Name: traffic
+0 Author: model_splitter.js
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
+1 16 1470 10 -6250 -1 0 0 0 1 0 0 0 -1 vehicle_072_steamroller.ldr
+1 16 1310 8 -6250 -1 0 0 0 1 0 0 0 -1 vehicle_073_bulldozer.ldr
+1 16 330 10 -5310 1 0 0 0 1 0 0 0 1 vehicle_074_dumptruck.ldr
+1 16 1320 10 -5330 1 0 0 0 1 0 0 0 1 vehicle_075_flatbedtruck.ldr
+1 16 1530 10 -5420 1 0 0 0 1 0 0 0 1 vehicle_076_flatbedtrucklong.ldr
+1 16 990 10 -6280 -1 0 0 0 1 0 0 0 -1 vehicle_077_forklift.ldr
+1 16 1120 10 -5310 1 0 0 0 1 0 0 0 1 vehicle_078_wreckingball.ldr
+1 16 930 10 -5350 1 0 0 0 1 0 0 0 1 vehicle_079_mobilecrane.ldr
+1 16 130 8 -5370 1 0 0 0 1 0 0 0 1 vehicle_080_cherrypicker.ldr
+1 16 1630 10 -6230 -1 0 0 0 1 0 0 0 -1 vehicle_081_asphalttruck.ldr
+1 16 1150 10 -6240 -1 0 0 0 1 0 0 0 -1 vehicle_082_wideloadwarningcar.ldr
+1 16 540 10 -5310 1 0 0 0 1 0 0 0 1 vehicle_083_traytruck.ldr
+1 13 480 0 -7860 1 0 0 0 1 0 0 0 1 vehicle_070_traffichelicopter.ldr
+1 13 1440 0 -7880 1 0 0 0 1 0 0 0 1 vehicle_066_policewhitehelicopter.ldr
+1 13 2400 0 -7770 1 0 0 0 1 0 0 0 1 vehicle_004_smallshuttle.mpd
+1 13 3130 0 -7770 1 0 0 0 1 0 0 0 1 vehicle_042_mannedmech.mpd
+1 0 4730 0 -6370 -0.866 0 0.5 0 1 0 -0.5 0 -0.866 creature_069_darkjacketbluepants.ldr
+1 0 3180 -8 -6100 1 0 0 0 1 0 0 0 1 vehicle_026_bluecoupe.ldr
+1 0 3300 -8 -6080 1 0 0 0 1 0 0 0 1 creature_001_mustachewalking.ldr
 1 0 130 8 -3500 -1 0 0 0 1 0 0 0 -1 vehicle_007_whitepolicecar.ldr
 1 0 290 10 -3500 -1 0 0 0 1 0 0 0 -1 vehicle_007_whitepolicecar.ldr
 1 0 450 8 -3480 -1 0 0 0 1 0 0 0 -1 vehicle_036_whitepolicevan01.ldr
@@ -39,4 +57,14 @@
 1 2 4510 -24 -1900 0 0 -1 0 1 0 1 0 0 creature_091_blueteamsitting6.ldr
 1 2 4510 -24 -1840 0 0 -1 0 1 0 1 0 0 creature_092_blueteamsitting7.ldr
 1 15 4590 10 -190 0 0 1 0 1 0 -1 0 0 vehicle_018_blackpolicemotorcycle.ldr
+1 16 6020 -24 -5120 0 0 -1 0 1 0 1 0 0 vehicle_071_cranerailcar.mpd
+1 2 5480 -80 -2550 -1 0 0 0 1 0 0 0 -1 creature_033_pinkfemalesitting.ldr
+1 2 5560 -56 -2510 -1 0 0 0 1 0 0 0 -1 creature_032_pinkpunksitting.ldr
+1 2 5298 -8 -1687 1 0 0 0 1 0 0 0 1 creature_029_blueteamstanding1.ldr
+1 2 5238 -8 -1628 1 0 0 0 1 0 0 0 1 creature_081_redteamstanding5.ldr
+1 2 5368 -8 -2317 0 0 1 0 1 0 -1 0 0 creature_080_redteamstanding4.ldr
+1 2 5318 0 -2447 -1 0 0 0 1 0 0 0 -1 creature_070_baseballumpire2.ldr
+1 2 5368 -8 -1798 0 0 1 0 1 0 -1 0 0 creature_079_redteamstanding3.ldr
+1 2 5949 0 -2158 0 0 1 0 1 0 -1 0 0 creature_077_redteamstanding1.ldr
+1 2 5869 0 -1138 0 0 1 0 1 0 -1 0 0 creature_078_redteamstanding2.ldr
 0

@@ -1,0 +1,11 @@
+0 Word North
+0 Name: word_line_west.ldr
+0 Author: Michael Horvath, Magnus Forsberg [MagFors]
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 5 -550 0 0 100 0 0 0 0 -100 0 100 0 letter_line_w.dat
+1 5 -100 0 0 100 0 0 0 0 -100 0 100 0 letter_line_e.dat
+1 5 150 0 0 100 0 0 0 0 -100 0 100 0 letter_line_s.dat
+1 5 400 0 0 100 0 0 0 0 -100 0 100 0 letter_line_t.dat
+0

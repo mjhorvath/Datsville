@@ -1,10 +1,18 @@
-0 Datsville Traffic and People Layer
-0 Name: traffic_-1_-1.ldr
-0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
-0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
+0 Split Model
+0 Name: traffic
+0 Author: model_splitter.js
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
+1 0 -5920 -21 -70 1 0 0 0 1 0 0 0 1 character_005_natalya.mpd
+1 0 -5240 10 -2150 0 0 -1 0 1 0 1 0 0 vehicle_093_pinkconvertible.ldr
+1 0 -5870.71 -24 -130 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 character_006_sanford.mpd
+1 0 -5840.71 -24 -220 0 0 1 0 1 0 -1 0 0 character_001_owen.ldr
+1 16 -4870 10 -6255 -1 0 0 0 1 0 0 0 -1 vehicle_047_pizzadelivery.ldr
+1 16 -5040 10 -7440 1 0 0 0 1 0 0 0 1 vehicle_067_policeunmarkedcar_1.ldr
+1 16 -2400 0 -7810 1 0 0 0 1 0 0 0 1 vehicle_084_yellowfighterjet.mpd
+1 16 -2180 0 -8230 -1 0 0 0 1 0 0 0 -1 creature_072_manwithwhitehat.ldr
+1 16 -2620 0 -8230 -1 0 0 0 1 0 0 0 -1 creature_071_manwithblackhat.ldr
 1 0 -1280 0 -3370 0 0 -1 0 1 0 1 0 0 vehicle_020_redferrari.ldr
 1 2 -660 0 -2610 -0.5 0 0.87 0 1 0 -0.87 0 -0.5 creature_005_womanredhairwalking.ldr
 1 0 -1710 10 -2270 0 0 1 0 1 0 -1 0 0 vehicle_021_blueandwhitedeliverytruck.ldr

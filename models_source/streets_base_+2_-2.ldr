@@ -1,0 +1,13 @@
+0 Split Model
+0 Name: streets_base
+0 Author: model_splitter.js
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 7 14080 0 -10880 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 15360 0 -10880 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 15360 0 -12160 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 16640 0 -12160 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 16640 0 -13440 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 17920 0 -13440 0 0 -1 0 1 0 1 0 0 snotroad_45degree_connecter_0.ldr
+0

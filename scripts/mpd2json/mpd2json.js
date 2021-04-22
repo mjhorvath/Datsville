@@ -1,8 +1,8 @@
 // Caption: LDraw MPD to JSON converter
 // Authors: Michael Horvath
-// Version: 0.2.2
+// Version: 0.2.3
 // Created: 2020/02/20
-// Updated: 2021/04/20
+// Updated: 2021/04/21
 // 
 // This program reads an MPD or XMPD model and ouputs a JSON representation of 
 // it. It currently totally ignores most meta tags such as BFC. It also ignores 

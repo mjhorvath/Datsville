@@ -1,18 +1,7 @@
-0 Datsville Traffic and People Layer
-0 Name: traffic_+2_-1.ldr
-0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
-0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
+0 Split Model
+0 Name: traffic
+0 Author: model_splitter.js
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
-1 16 6020 -24 -5120 0 0 -1 0 1 0 1 0 0 vehicle_071_cranerailcar.mpd
-1 2 5480 -80 -2550 -1 0 0 0 1 0 0 0 -1 creature_033_pinkfemalesitting.ldr
-1 2 5560 -56 -2510 -1 0 0 0 1 0 0 0 -1 creature_032_pinkpunksitting.ldr
-1 2 5298 -8 -1687 1 0 0 0 1 0 0 0 1 creature_029_blueteamstanding1.ldr
-1 2 5238 -8 -1628 1 0 0 0 1 0 0 0 1 creature_081_redteamstanding5.ldr
-1 2 5368 -8 -2317 0 0 1 0 1 0 -1 0 0 creature_080_redteamstanding4.ldr
-1 2 5318 0 -2447 -1 0 0 0 1 0 0 0 -1 creature_070_baseballumpire2.ldr
-1 2 5368 -8 -1798 0 0 1 0 1 0 -1 0 0 creature_079_redteamstanding3.ldr
-1 2 5949 0 -2158 0 0 1 0 1 0 -1 0 0 creature_077_redteamstanding1.ldr
-1 2 5869 0 -1138 0 0 1 0 1 0 -1 0 0 creature_078_redteamstanding2.ldr
 0

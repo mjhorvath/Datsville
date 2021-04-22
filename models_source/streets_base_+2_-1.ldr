@@ -1,0 +1,53 @@
+0 Split Model
+0 Name: streets_base
+0 Author: model_splitter.js
+0 Unofficial Model
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+1 7 10560 0 -320 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 10560 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 10560 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 11200 0 -320 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 11200 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 11200 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 11840 0 -320 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 11840 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 11840 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 12480 0 -320 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 12480 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 12480 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 13120 0 -320 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 13120 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 13120 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 13760 0 -320 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 13760 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 13760 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 14400 0 -320 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 14400 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 14400 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 15040 0 -320 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 15040 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 15040 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 15680 0 -320 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_full.ldr
+1 7 15680 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_walkway_straight_full.ldr
+1 7 15680 0 -320 0 0 -1 0 1 0 1 0 0 snotroad_doublestripe_00.ldr
+1 7 18880 0 -320 1 0 0 0 1 0 0 0 1 snotroad_roadbridge_d.mpd
+1 7 10560 0 -2240 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 11200 0 -2240 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 11840 0 -2240 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 12480 0 -2240 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 13120 0 -2240 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 13760 0 -2240 0 0 1 0 1 0 -1 0 0 rail_straight_single.ldr
+1 7 10470.1 0 -4378.03 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 10923.1 0 -4830.19 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 11375.7 0 -5282.73 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 11828.2 0 -5735.28 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 12280.8 0 -6187.83 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 rail_straight_single.ldr
+1 7 10240 0 -5760 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 10240 0 -7040 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 11520 0 -7040 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 11520 0 -8320 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 12800 0 -8320 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 12800 0 -9600 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
+1 7 14080 0 -9600 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
+0

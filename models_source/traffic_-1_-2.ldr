@@ -1,13 +1,7 @@
-0 Datsville Traffic and People Layer
-0 Name: traffic_-1_-2.ldr
-0 Author: John VanZwieten, Tore Eriksson, Michael Horvath
-0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
+0 Split Model
+0 Name: traffic
+0 Author: model_splitter.js
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
-1 16 -4870 10 -6255 -1 0 0 0 1 0 0 0 -1 vehicle_047_pizzadelivery.ldr
-1 16 -5040 10 -7440 1 0 0 0 1 0 0 0 1 vehicle_067_policeunmarkedcar_1.ldr
-1 16 -2400 0 -7810 1 0 0 0 1 0 0 0 1 vehicle_084_yellowfighterjet.mpd
-1 16 -2180 0 -8230 -1 0 0 0 1 0 0 0 -1 creature_072_manwithwhitehat.ldr
-1 16 -2620 0 -8230 -1 0 0 0 1 0 0 0 -1 creature_071_manwithblackhat.ldr
 0
