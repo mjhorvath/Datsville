@@ -13,12 +13,15 @@ global_settings
 // -------------------------------------------------------------
 // Standard includes
 
-#include "stdinc.inc"
+//#include "stdinc.inc"
+#include "colors.inc"
 #include "textures.inc"
 #include "woods.inc"
 #include "stones.inc"
 #include "glass.inc"
 #include "metals.inc"
+#include "transforms.inc"
+#include "screen_mjh.inc"		// https://github.com/mjhorvath/POVRay-Updated-Screen-Inc
 
 
 // -------------------------------------------------------------

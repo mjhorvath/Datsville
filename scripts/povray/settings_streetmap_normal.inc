@@ -1,19 +1,19 @@
 // +KFI0 +KFF3 +KI0.0 +KF1.0 +KC
 // +KFI0 +KFF7 +KI0.0 +KF1.0 +KC
 
-#version 3.7;
+#version 3.8;
 
 
 // -------------------------------------------------------------
 // Scene settings
 
-#ifndef (Use_Radiosity)		#declare Use_Radiosity		= true;		#end				// turns radiosity on/off. (Recommend leaving this off. have to decrease diffuse if it is on.)
+#ifndef (Use_Radiosity)		#declare Use_Radiosity		=false;		#end				// turns radiosity on/off. (Recommend leaving this off. have to decrease diffuse if it is on.)
 #ifndef (Use_Rad_Setting)	#declare Use_Rad_Setting	= 8;		#end
 #ifndef (Use_SSLT)			#declare Use_SSLT			=false;		#end				// too slow, not needed for most parts
 #ifndef (Use_Uber)			#declare Use_Uber			=false;		#end				// toggle blurred reflections method depending on whether you are using POV-Ray or UberPOV
-#ifndef (Use_Guides)		#declare Use_Guides			=false;		#end
-#ifndef (Use_Floor_Cutout)	#declare Use_Floor_Cutout	= true;		#end
-#ifndef (Use_Floor_Check)	#declare Use_Floor_Check	= true;		#end
+#ifndef (Use_Guides)		#declare Use_Guides			= true;		#end				// building, block and sector markers and labels, coordinate axes
+#ifndef (Use_Floor_Cutout)	#declare Use_Floor_Cutout	= true;		#end				// obsolete
+#ifndef (Use_Floor_Check)	#declare Use_Floor_Check	= true;		#end				// obsolete
 #ifndef (Use_Sky)			#declare Use_Sky			= true;		#end				// sky sphere
 #ifndef (Use_Shadows)		#declare Use_Shadows		=false;		#end				// turns shadows on/off. (Recommend turning this off for walls that are always covered by rooves.) Not used often.
 #ifndef (Use_BlurRef)		#declare Use_BlurRef		=false;		#end				// too slow
@@ -22,9 +22,9 @@
 #ifndef (Use_BlurAmt)		#declare Use_BlurAmt		= 1/32;		#end				// amount of surface reflection blurring
 #ifndef (Use_BlurFoc)		#declare Use_BlurFoc		=false;		#end				// focal_blur
 #ifndef (Use_Clouds)		#declare Use_Clouds			=false;		#end				// does not include haze yet
-#ifndef (Use_Floor_Trans)	#declare Use_Floor_Trans	= <0,0,0>;	#end				// translate the floor up, down or sideways by this amount
+#ifndef (Use_Floor_Trans)	#declare Use_Floor_Trans	= <0,0,0>;	#end				// obsolete, translate the floor up, down or sideways by this amount
 #ifndef (Use_Uber)			#declare Use_Uber			=false;		#end				// use uberpov instead of regular povray
-#ifndef (Use_Area_Light)	#declare Use_Area_Light		= true;		#end				// turn the sun into an area light vs regular point light, spot light or parallel light
+#ifndef (Use_Area_Light)	#declare Use_Area_Light		=false;		#end				// turn the sun into an area light vs regular point light, spot light or parallel light
 #ifndef (Use_Seed)			#declare Use_Seed			= seed(08763);		#end		// seed for some random stuff
 
 
@@ -192,42 +192,99 @@ light_source
 // Camera
 
 #declare TileWidth			= 640;				// float
-#declare TilesNum			= 32;				// integer
-#declare cam_mode			= 2;				// integer
+#declare TilesNum			= 48;				// integer
+#declare cam_mode			= 3;				// integer
 #switch (cam_mode)
-	// orthographic
+	// isometric, old
 	#case (0)
-		#declare Diagonal_horz		= cos(pi/4);
-		#declare Diagonal_vert		= sin(pi/4);
-		camera
+		#declare cam_orth = true;
+		#declare cam_aspc = image_width/image_height;
+		#declare cam_skew = cosd(045);
+		#declare cam_dist = 4096 * TilesNum;
+		#declare cam_area = cam_skew * TileWidth * 2 * TilesNum;
+		#declare cam_loca = -z * cam_dist;
+		#declare cam_dirc = cam_loca * -1;
+		#declare cam_look = cam_loca + cam_dirc;
+		#declare cam_upvc = -y * cam_area * cam_aspc;
+		#declare cam_rgvc = +x * cam_area;
+		#declare cam_tran = transform
 		{
-			orthographic
-			up			-y * Diagonal_horz * TileWidth * 2 * TilesNum * image_height/image_width
-			right		+x * Diagonal_horz * TileWidth * 2 * TilesNum
-			location	-z * 4096 * TilesNum
-			direction	+z * 4096 * TilesNum
 			rotate		-x * 30
 			rotate		+y * 45
 			translate	+x * 960
 			translate	+z * 960
 		}
+		camera
+		{
+			#if (cam_orth)
+				orthographic
+			#else
+				perspective
+			#end
+			up			cam_upvc
+			right		cam_rgvc
+			location	cam_loca
+			direction	cam_dirc
+			transform {cam_tran}
+		}
+	#break
+	// isometric, new
+	#case (1)
+		#declare cam_orth = true;
+		#declare cam_skew = cosd(45);
+		#declare cam_aspc = image_height / image_width;
+		#declare cam_widt = 10240;	// was 7680 * 4/3
+		#declare cam_vert = 225;		// was 225
+		#declare cam_horz = 30;
+		#declare cam_dist = 100000;
+		#declare cam_loca = -z * cam_dist;
+		#declare cam_dirc = +z;
+		#declare cam_look = cam_loca + cam_dirc;
+		#declare cam_upvc = -y * cam_skew * cam_widt * cam_aspc;
+		#declare cam_rgvc = +x * cam_skew * cam_widt;
+		#declare cam_tran = transform
+		{
+			rotate		<-cam_horz,cam_vert,0,>
+			scale		4
+			translate	<0,0,0>
+		}
+		camera
+		{
+			#if (cam_orth)
+				orthographic
+			#else
+				perspective
+			#end
+			location	cam_loca
+			direction	cam_dirc
+			up			cam_upvc
+			right		cam_rgvc
+			transform {cam_tran}
+		}
 	#break
 	// oblique, top down
-	#case (1)
-		#local cam_aspc =     image_width/image_height;
-		#local cam_dist =     100000;
-		#local cam_area =     TileWidth * TilesNum;
-		#local cam_loca =     -z * cam_dist;
-		#local cam_dirc =     +z * cam_dist;
-		#local cam_upvc =     -y * cam_area * sind(045);
-		#local cam_rgvc =     +x * cam_area * cam_aspc;
-		#local cam_tran = transform
+	#case (2)
+		#declare cam_orth = true;
+		#declare cam_aspc = image_width/image_height;
+		#declare cam_skew = sind(045);
+		#declare cam_dist = 100000;
+		#declare cam_area = TileWidth * TilesNum;
+		#declare cam_loca = -z * cam_dist;
+		#declare cam_dirc = cam_loca * -1;
+		#declare cam_look = cam_loca + cam_dirc;
+		#declare cam_upvc = -y * cam_area * cam_skew;
+		#declare cam_rgvc = +x * cam_area * cam_aspc;
+		#declare cam_tran = transform
 		{
 			rotate		-x * 045
 		}
 		camera
 		{
-			orthographic
+			#if (cam_orth)
+				orthographic
+			#else
+				perspective
+			#end
 			location	cam_loca
 			direction	cam_dirc
 			up			cam_upvc
@@ -236,22 +293,28 @@ light_source
 		}
 	#break
 	// oblique, Ultima VII style
-	#case (2)
-		#local cam_aspc =     image_width/image_height;
-		#local cam_dist =     100000;
-		#local cam_area =     TileWidth * TilesNum;
-		#local cam_loca =     <+1,-1,-1> * cam_dist;
-		#local cam_dirc =     <-1,+1,+1> * cam_dist;
-		#local cam_upvc =     +z * cam_area;
-		#local cam_rgvc =     +x * cam_area * cam_aspc;
-		#local cam_tran = transform
+	#case (3)
+		#declare cam_orth = true;
+		#declare cam_aspc = image_width/image_height;
+		#declare cam_dist = 100000;
+		#declare cam_area = TileWidth * TilesNum;
+		#declare cam_loca = vnormalize(<+1,-1,-1>) * cam_dist;
+		#declare cam_dirc = vnormalize(<+1,-1,-1>) * -1;
+		#declare cam_look = cam_loca + cam_dirc;
+		#declare cam_upvc = +z * cam_area;
+		#declare cam_rgvc = +x * cam_area * cam_aspc;
+		#declare cam_tran = transform
 		{
 			scale		<1,2,1>
 			rotate		-y * 90
 		}
 		camera
 		{
-			orthographic
+			#if (cam_orth)
+				orthographic
+			#else
+				perspective
+			#end
 			location	cam_loca
 			direction	cam_dirc
 			up			cam_upvc
@@ -259,4 +322,107 @@ light_source
 			transform {cam_tran}
 		}
 	#break
+#end
+
+#declare cam_loca = vtransform(cam_loca,cam_tran);
+#declare cam_dirc = vtransform(cam_dirc,cam_tran);
+#declare cam_look = vtransform(cam_look,cam_tran);
+#declare cam_upvc = vtransform(cam_upvc,cam_tran);
+#declare cam_rgvc = vtransform(cam_rgvc,cam_tran);
+
+Set_Camera_Orthographic(cam_orth)
+Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
+
+
+// -------------------------------------------------------------
+// Labels
+
+// Street labels
+#declare Font_Size = 1/64;
+#include "data_streets.inc"
+#for (i, 0, Streets_Number - 1)
+	#declare Text_Object = text
+	{
+		ttf "cyrvetic.ttf" Streets_Labels[i], 1/1024, 0
+		rotate +z * Streets_Angles[i]
+		scale Font_Size
+		pigment {color srgb 1}
+		finish {emission 1 diffuse 0 ambient 0}
+		no_shadow			// shouldn't cast shadows in the scene
+		no_reflection		// shouldn't be reflected in scene elements
+		no_radiosity		// also make the object invisible to radiosity rays
+	}
+	#declare Text_Object = object
+	{
+		Text_Object
+		Center_Trans(Text_Object, x+y+z)
+	}
+	#declare Marker_Object = sphere
+	{
+		0, 1/16
+		scale Font_Size
+		pigment {color srgb x}
+		finish {emission 1 diffuse 0 ambient 0}
+		no_shadow			// shouldn't cast shadows in the scene
+		no_reflection		// shouldn't be reflected in scene elements
+		no_radiosity		// also make the object invisible to radiosity rays
+	}
+	#local Text_Coo3D			= <Streets_Coords[i].y,0,Streets_Coords[i].x>;
+	#local Text_Coo2D			= Get_Screen_XY(Text_Coo3D);
+	#local Text_Coo2D			= Text_Coo2D/<image_width,image_height>;
+	#local Text_Coo2D			= <0+Text_Coo2D.x,1-Text_Coo2D.y>;
+	Screen_Object(Text_Object, Text_Coo2D, 0, false, 0.01)
+//	Screen_Object(Marker_Object, Text_Coo2D, 0, false, 0.01)
+#end
+
+// Compass rose
+#declare Compass_Object = polygon
+{
+	4, <0,0>, <0,1>, <1,1>, <1,0>
+	pigment
+	{
+		image_map {png "compass_vertical.png"}
+	}
+	scale 1/16
+}
+Screen_Object(Compass_Object, <15/16,15/16>, 0, false, 0)
+
+// Sector labels
+#declare Font_Size = 1/64;
+#for (i, 0, 7)
+	#for (j, 0, 7)
+		#local PosX = i - 4;
+		#local PosZ = j - 4;
+		#if (PosX >= 0)
+			#local CharX = concat("+", str(PosX+1, 0, 0));
+		#else
+			#local CharX = str(PosX, 0, 0);
+		#end
+		#if (PosZ >= 0)
+			#local CharZ = concat("+", str(PosZ+1, 0, 0));
+		#else
+			#local CharZ = str(PosZ, 0, 0);
+		#end
+		#local PosString = concat("(", CharX, ",", CharZ, ")");
+		#declare Text_Object = text
+		{
+			ttf "cyrvetic.ttf" PosString, 1/1024, 0
+			scale Font_Size
+			pigment {color srgb x+z}
+			finish {emission 1 diffuse 0 ambient 0}
+			no_shadow			// shouldn't cast shadows in the scene
+			no_reflection		// shouldn't be reflected in scene elements
+			no_radiosity		// also make the object invisible to radiosity rays
+		}
+		#declare Text_Object = object
+		{
+			Text_Object
+			Center_Trans(Text_Object, x+y+z)
+		}
+		#local Text_Coo3D			= <(PosX+0.5)*640*8,0,(PosZ+0.5)*640*8>;
+		#local Text_Coo2D			= Get_Screen_XY(Text_Coo3D);
+		#local Text_Coo2D			= Text_Coo2D/<image_width,image_height>;
+		#local Text_Coo2D			= <0+Text_Coo2D.x,1-Text_Coo2D.y>;
+		Screen_Object(Text_Object, Text_Coo2D, 0, false, 0.01)
+	#end
 #end

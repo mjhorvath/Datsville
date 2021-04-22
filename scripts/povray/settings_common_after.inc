@@ -72,20 +72,20 @@
 	union
 	{
 		cylinder {0, +x*32000, 20 pigment {color srgb x}}
-		cylinder {0, +y*32000, 20 pigment {color srgb y}}
+//		cylinder {0, +y*32000, 20 pigment {color srgb y}}
 		cylinder {0, +z*32000, 20 pigment {color srgb z}}
 		cylinder {0, -x*32000, 20 pigment {color srgb y+z}}
-		cylinder {0, -y*32000, 20 pigment {color srgb x+z}}
+//		cylinder {0, -y*32000, 20 pigment {color srgb x+z}}
 		cylinder {0, -z*32000, 20 pigment {color srgb x+y}}
 		sphere {0, 20 pigment {color srgb 0}}
 	}
-	// street grid
+	// street & traffic sector grid
 	union
 	{
-		#declare grid_x_min = -2;
-		#declare grid_x_max = +2;
-		#declare grid_z_min = -2;
-		#declare grid_z_max = +2;
+		#declare grid_x_min = -8;
+		#declare grid_x_max = +8;
+		#declare grid_z_min = -8;
+		#declare grid_z_max = +8;
 		#declare grid_distance = 5120;
 		#local beg_y = 0;
 		#local end_y = -128;
@@ -105,6 +105,34 @@
 		#end
 		pigment {color srgb +x+z}
 	}
+/*
+	// baseplate grid
+	union
+	{
+		#declare grid_x_min = -64;
+		#declare grid_x_max = +64;
+		#declare grid_z_min = -64;
+		#declare grid_z_max = +64;
+		#declare grid_distance = 640;
+		#local beg_y = 0;
+		#local end_y = -64;
+		#for (step_x, grid_x_min, grid_x_max, 1)
+			#local beg_x = (step_x + 0) * grid_distance;
+			#local end_x = (step_x + 1) * grid_distance;
+			#local beg_z = grid_z_min * grid_distance;
+			#local end_z = grid_z_max * grid_distance;
+			polygon {4, <beg_x, beg_y, beg_z>, <beg_x, end_y, beg_z>, <beg_x, end_y, end_z>, <beg_x, beg_y, end_z>}
+		#end
+		#for (step_z, grid_z_min, grid_z_max, 1)
+			#local beg_x = grid_x_min * grid_distance;
+			#local end_x = grid_x_max * grid_distance;
+			#local beg_z = (step_z + 0) * grid_distance;
+			#local end_z = (step_z + 1) * grid_distance;
+			polygon {4, <beg_x, beg_y, beg_z>, <beg_x, end_y, beg_z>, <end_x, end_y, beg_z>, <end_x, beg_y, beg_z>}
+		#end
+		pigment {color srgb +y+z}
+	}
+*/
 #end
 
 

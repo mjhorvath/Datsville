@@ -1,4 +1,4 @@
-#version 3.7;
+#version 3.8;
 
 // -------------------------------------------------------------
 // Misc. settings
@@ -65,4 +65,7 @@
 //#include "l3p_datsville_rev006.061_inlined_n_boxed_n_lgeo_n.pov"
 
 // If you turn a lot of fancy POV-Ray features off, you will be able to barely render this with 16GiB RAM on a Windows system.
-#include "l3p_datsville_rev006.066_inlined_n_boxed_n_lgeo_n.pov"
+//#include "l3p_datsville_rev006.066_inlined_n_boxed_n_lgeo_n.pov"
+
+// If you turn a lot of fancy POV-Ray features off, you will be able to barely render this with 16GiB RAM on a Windows system.
+#include "l3p_datsville_rev006.103_inlined_n_boxed_n_lgeo_n.pov"
