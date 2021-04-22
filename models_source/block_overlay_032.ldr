@@ -84,9 +84,9 @@
 1 7 -3200 0 -4560 1 0 0 0 1 0 0 0 1 infrastructure_heavywall_straightlarge.ldr
 1 7 -3740 0 -4580 0 0 1 0 1 0 -1 0 0 infrastructure_heavywall_cornerouter.ldr
 1 7 -3740 0 -5220 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_cornerinner.ldr
-1 7 -3760 0 -4800 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightlarge.ldr
+1 7 -3760 0 -4960 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightlarge.ldr
 1 7 -3920 0 -5200 1 0 0 0 1 0 0 0 1 infrastructure_heavywall_straightsmall.ldr
-1 7 -3760 0 -5040 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightsmall.ldr
+1 7 -3760 0 -4720 0 0 -1 0 1 0 1 0 0 infrastructure_heavywall_straightsmall.ldr
 1 7 -5760 0 -5200 1 0 0 0 1 0 0 0 1 infrastructure_heavywall_straightlarge.ldr
 1 7 -5440 0 -5200 1 0 0 0 1 0 0 0 1 infrastructure_heavywall_straightlarge.ldr
 1 7 -5120 0 -5200 1 0 0 0 1 0 0 0 1 infrastructure_heavywall_straightlarge.ldr
