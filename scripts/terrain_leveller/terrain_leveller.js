@@ -1,5 +1,5 @@
-// LDraw Terrain Leveler
-// Author: Michael Horvath
+// Caption: LDraw Terrain Leveler
+// Authors: Michael Horvath
 // Version: 0.1.1
 // Created: 2015/08/21
 // Updated: 2021/04/23

@@ -1,5 +1,5 @@
-// LDraw Terrain Colorer
-// Author: Michael Horvath
+// Caption: LDraw Terrain Colorer
+// Authors: Michael Horvath
 // Version: 1.0.4
 // Created: 2013/10/27
 // Updated: 2021/04/23

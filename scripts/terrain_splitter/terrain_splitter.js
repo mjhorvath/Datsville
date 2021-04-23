@@ -1,4 +1,5 @@
-// Script authored by: Michael Horvath
+// Caption: LDraw Terrain Splitter
+// Authors: Michael Horvath
 // Version: 1.0.1
 // Created: 2013/11/06
 // Updated: 2021/04/23

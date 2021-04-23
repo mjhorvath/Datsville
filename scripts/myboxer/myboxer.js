@@ -1,3 +1,4 @@
+// Caption: MyBoxer
 // Authors: Michael Horvath
 // Version: 1.1.2
 // Created: 2011/09/08
@@ -23,7 +24,7 @@
 // Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 var AppName = 'MyBoxer';
-var AppVersion = '1.1.0';
+var AppVersion = '1.1.2';
 var MssgDebug = false;
 var MssgVerbose = true;
 var BatchReplacementCount = 0;
