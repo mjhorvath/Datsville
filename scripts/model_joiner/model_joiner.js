@@ -4,8 +4,8 @@
 // Created: 2021/04/21
 // Updated: 2021/04/21
 // 
-// This program joins several models into a single file. It strips and skips 
-// all meta tags and comments.
+// This program joins several models into a single file. It strips all meta 
+// tags and comments in the process.
 // 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU Lesser General Public
