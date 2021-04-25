@@ -82,3 +82,5 @@ building_089_controltower2.mpd
 building_090_policegraduationpodium.ldr
 building_091_clothingstore2.ldr
 building_092_carlot.mpd
+building_093_university.ldr
+building_094_chapel.ldr

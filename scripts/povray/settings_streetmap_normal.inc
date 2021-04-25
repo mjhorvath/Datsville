@@ -337,44 +337,6 @@ Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
 // -------------------------------------------------------------
 // Labels
 
-// Street labels
-#declare Font_Size = 1/64;
-#include "data_streets.inc"
-#for (i, 0, Streets_Number - 1)
-	#declare Text_Object = text
-	{
-		ttf "cyrvetic.ttf" Streets_Labels[i], 1/1024, 0
-		rotate +z * Streets_Angles[i]
-		scale Font_Size
-		pigment {color srgb 1}
-		finish {emission 1 diffuse 0 ambient 0}
-		no_shadow			// shouldn't cast shadows in the scene
-		no_reflection		// shouldn't be reflected in scene elements
-		no_radiosity		// also make the object invisible to radiosity rays
-	}
-	#declare Text_Object = object
-	{
-		Text_Object
-		Center_Trans(Text_Object, x+y+z)
-	}
-	#declare Marker_Object = sphere
-	{
-		0, 1/16
-		scale Font_Size
-		pigment {color srgb x}
-		finish {emission 1 diffuse 0 ambient 0}
-		no_shadow			// shouldn't cast shadows in the scene
-		no_reflection		// shouldn't be reflected in scene elements
-		no_radiosity		// also make the object invisible to radiosity rays
-	}
-	#local Text_Coo3D			= <Streets_Coords[i].y,0,Streets_Coords[i].x>;
-	#local Text_Coo2D			= Get_Screen_XY(Text_Coo3D);
-	#local Text_Coo2D			= Text_Coo2D/<image_width,image_height>;
-	#local Text_Coo2D			= <0+Text_Coo2D.x,1-Text_Coo2D.y>;
-	Screen_Object(Text_Object, Text_Coo2D, 0, false, 0.01)
-//	Screen_Object(Marker_Object, Text_Coo2D, 0, false, 0.01)
-#end
-
 // Compass rose
 #declare Compass_Object = polygon
 {
@@ -389,6 +351,7 @@ Screen_Object(Compass_Object, <15/16,15/16>, 0, false, 0)
 
 // Sector labels
 #declare Font_Size = 1/64;
+#declare Font_Color = <1,0,1>;
 #for (i, 0, 7)
 	#for (j, 0, 7)
 		#local PosX = i - 4;
@@ -408,7 +371,7 @@ Screen_Object(Compass_Object, <15/16,15/16>, 0, false, 0)
 		{
 			ttf "cyrvetic.ttf" PosString, 1/1024, 0
 			scale Font_Size
-			pigment {color srgb x+z}
+			pigment {color srgb Font_Color}
 			finish {emission 1 diffuse 0 ambient 0}
 			no_shadow			// shouldn't cast shadows in the scene
 			no_reflection		// shouldn't be reflected in scene elements
@@ -425,4 +388,43 @@ Screen_Object(Compass_Object, <15/16,15/16>, 0, false, 0)
 		#local Text_Coo2D			= <0+Text_Coo2D.x,1-Text_Coo2D.y>;
 		Screen_Object(Text_Object, Text_Coo2D, 0, false, 0.01)
 	#end
+#end
+
+// Street labels
+#declare Font_Size = 1/64;
+#declare Font_Color = <1,1,1>;
+#include "data_streets.inc"
+#for (i, 0, Streets_Number - 1)
+	#declare Text_Object = text
+	{
+		ttf "cyrvetic.ttf" Streets_Labels[i], 1/1024, 0
+		rotate +z * Streets_Angles[i]
+		scale Font_Size
+		pigment {color srgb Font_Color}
+		finish {emission 1 diffuse 0 ambient 0}
+		no_shadow			// shouldn't cast shadows in the scene
+		no_reflection		// shouldn't be reflected in scene elements
+		no_radiosity		// also make the object invisible to radiosity rays
+	}
+	#declare Text_Object = object
+	{
+		Text_Object
+		Center_Trans(Text_Object, x+y+z)
+	}
+	#declare Marker_Object = sphere
+	{
+		0, 1/16
+		scale Font_Size
+		pigment {color srgb Font_Color}
+		finish {emission 1 diffuse 0 ambient 0}
+		no_shadow			// shouldn't cast shadows in the scene
+		no_reflection		// shouldn't be reflected in scene elements
+		no_radiosity		// also make the object invisible to radiosity rays
+	}
+	#local Text_Coo3D			= <Streets_Coords[i].x,Streets_Coords[i].y,Streets_Coords[i].z>;
+	#local Text_Coo2D			= Get_Screen_XY(Text_Coo3D);
+	#local Text_Coo2D			= Text_Coo2D/<image_width,image_height>;
+	#local Text_Coo2D			= <0+Text_Coo2D.x,1-Text_Coo2D.y>;
+	Screen_Object(Text_Object, Text_Coo2D, 0, false, 0.01)
+//	Screen_Object(Marker_Object, Text_Coo2D, 0, false, 0.01)
 #end

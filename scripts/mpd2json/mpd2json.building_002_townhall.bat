@@ -1,3 +1,4 @@
-set mpd2json_path="D:\GitHub\Datsville\helper_scripts\mpd2json"
-cscript "%mpd2json_path%\mpd2json.js" "building_002_townhall.mpd"
+set script_path=D:\GitHub\Datsville\scripts\mpd2json
+set model_path=D:\GitHub\Datsville\models_processed
+cscript "%script_path%\mpd2json.js" "%model_path%\building_002_townhall.mpd"
 pause

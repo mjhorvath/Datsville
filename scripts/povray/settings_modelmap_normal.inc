@@ -5,7 +5,7 @@
 // +ac = ???
 // +q = quality level
 
-#version 3.7;
+#version 3.8;
 
 
 // -------------------------------------------------------------
@@ -312,3 +312,87 @@ light_source
 
 Set_Camera_Orthographic(cam_orth)
 Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
+
+
+// -------------------------------------------------------------
+// Labels
+
+// Sector labels
+#declare Font_Size = 1/64;
+#declare Font_Color = <1,0,1>;
+#for (i, 0, 7)
+	#for (j, 0, 7)
+		#local PosX = i - 4;
+		#local PosZ = j - 4;
+		#if (PosX >= 0)
+			#local CharX = concat("+", str(PosX+1, 0, 0));
+		#else
+			#local CharX = str(PosX, 0, 0);
+		#end
+		#if (PosZ >= 0)
+			#local CharZ = concat("+", str(PosZ+1, 0, 0));
+		#else
+			#local CharZ = str(PosZ, 0, 0);
+		#end
+		#local PosString = concat("(", CharX, ",", CharZ, ")");
+		#declare Text_Object = text
+		{
+			ttf "cyrvetic.ttf" PosString, 1/1024, 0
+			scale Font_Size
+			pigment {color srgb Font_Color}
+			finish {emission 1 diffuse 0 ambient 0}
+			no_shadow			// shouldn't cast shadows in the scene
+			no_reflection		// shouldn't be reflected in scene elements
+			no_radiosity		// also make the object invisible to radiosity rays
+		}
+		#declare Text_Object = object
+		{
+			Text_Object
+			Center_Trans(Text_Object, x+y+z)
+		}
+		#local Text_Coo3D			= <(PosX+0.5)*640*8,0,(PosZ+0.5)*640*8>;
+		#local Text_Coo2D			= Get_Screen_XY(Text_Coo3D);
+		#local Text_Coo2D			= Text_Coo2D/<image_width,image_height>;
+		#local Text_Coo2D			= <0+Text_Coo2D.x,1-Text_Coo2D.y>;
+		Screen_Object(Text_Object, Text_Coo2D, 0, false, 0.01)
+	#end
+#end
+
+// Building labels
+#declare Font_Size = 1/64;
+#declare Font_Color = <1,1,0>;
+#include "data_buildings.inc"
+#for (i, 0, Buildings_Number - 1)
+	#declare Text_Object = text
+	{
+		ttf "cyrvetic.ttf" Buildings_Labels[i], 1/1024, 0
+		rotate +z * Buildings_Angles[i]
+		scale Font_Size
+		pigment {color srgb Font_Color}
+		finish {emission 1 diffuse 0 ambient 0}
+		no_shadow			// shouldn't cast shadows in the scene
+		no_reflection		// shouldn't be reflected in scene elements
+		no_radiosity		// also make the object invisible to radiosity rays
+	}
+	#declare Text_Object = object
+	{
+		Text_Object
+		Center_Trans(Text_Object, x+y+z)
+	}
+	#declare Marker_Object = sphere
+	{
+		0, 1/16
+		scale Font_Size
+		pigment {color srgb Font_Color}
+		finish {emission 1 diffuse 0 ambient 0}
+		no_shadow			// shouldn't cast shadows in the scene
+		no_reflection		// shouldn't be reflected in scene elements
+		no_radiosity		// also make the object invisible to radiosity rays
+	}
+	#local Text_Coo3D			= <Buildings_Coords[i].x,Buildings_Coords[i].y,Buildings_Coords[i].z>;
+	#local Text_Coo2D			= Get_Screen_XY(Text_Coo3D);
+	#local Text_Coo2D			= Text_Coo2D/<image_width,image_height>;
+	#local Text_Coo2D			= <0+Text_Coo2D.x,1-Text_Coo2D.y>;
+	Screen_Object(Text_Object, Text_Coo2D, 0, false, 0.01)
+//	Screen_Object(Marker_Object, Text_Coo2D, 0, false, 0.01)
+#end

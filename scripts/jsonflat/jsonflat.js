@@ -1,12 +1,20 @@
-// Caption: LDraw model flattener
+// Caption: JSON model flattener
 // Authors: Michael Horvath
-// Version: 0.2.4
+// Version: 0.3.0
 // Created: 2020/02/21
-// Updated: 2021/04/22
+// Updated: 2021/04/24
 // 
 // This program calculates the positions of MPD sub-models in 3D space after 
 // all matrix transformations have been applied. Requires as input a JSON file 
-// created using mpd2json. The output is another JSON file.
+// created using mpd2json. The output is another JSON file. Note that the 
+// format and structure of the JSON file outputted by this program and the 
+// format and structure of the JSON file outputted by mpd2json are different! 
+// The output file name is the same as the input file name plus the 
+// ".flattened.json" extension.
+//
+// To do: the output JSON should really have an identical format to the input 
+// JSON, except with the rotation matrices replaced by the identity matrix 
+// where appropriate.
 // 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU Lesser General Public
@@ -23,229 +31,217 @@
 // Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 var fso;
+var InputFileObject;
+var OutputFileObject;
 var arrayOne = [];
 var arrayTwo = [];
 var partCount = 0;
 var modelCount = 0;
-var objectCount = 0;
 var outMode = 0;
 var usageText = 
 'Invalid usage.\n\n' +
 'Example:\n' +
-'\tcscript jsonflatten.js [input path] [-p|-m|-b]\n' +
+'\tcscript jsonflat.js [input path] [-p|-m|-b]\n\n' +
 '\t[input path] must point to a JSON file.\n' +
 '\t[-p] parts only.\n' +
 '\t[-s] sub-models only.\n' +
 '\t[-b] both parts and sub-models.\n';
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
-if (!String.prototype.repeat) {
-  String.prototype.repeat = function(count) {
-    'use strict';
-    if (this == null)
-      throw new TypeError('can\'t convert ' + this + ' to object');
+if (!String.prototype.repeat)
+{
+	String.prototype.repeat = function(count)
+	{
+		'use strict';
+		if (this == null)
+		{
+			throw new TypeError('can\'t convert ' + this + ' to object');
+		}
 
-    var str = '' + this;
-    // To convert string to integer.
-    count = +count;
-    // Check NaN
-    if (count != count)
-      count = 0;
+		var str = '' + this;
+		// To convert string to integer.
+		count = +count;
+		// Check NaN
+		if (count != count)
+		{
+			count = 0;
+		}
 
-    if (count < 0)
-      throw new RangeError('repeat count must be non-negative');
+		if (count < 0)
+		{
+			throw new RangeError('repeat count must be non-negative');
+		}
 
-    if (count == Infinity)
-      throw new RangeError('repeat count must be less than infinity');
+		if (count == Infinity)
+		{
+			throw new RangeError('repeat count must be less than infinity');
+		}
 
-    count = Math.floor(count);
-    if (str.length == 0 || count == 0)
-      return '';
+		count = Math.floor(count);
+		if (str.length == 0 || count == 0)
+		{
+			return '';
+		}
 
-    // Ensuring count is a 31-bit integer allows us to heavily optimize the
-    // main part. But anyway, most current (August 2014) browsers can't handle
-    // strings 1 << 28 chars or longer, so:
-    if (str.length * count >= 1 << 28)
-      throw new RangeError('repeat count must not overflow maximum string size');
+		// Ensuring count is a 31-bit integer allows us to heavily optimize the
+		// main part. But anyway, most current (August 2014) browsers can't handle
+		// strings 1 << 28 chars or longer, so:
+		if (str.length * count >= 1 << 28)
+		{
+			throw new RangeError('repeat count must not overflow maximum string size');
+		}
 
-    var maxCount = str.length * count;
-    count = Math.floor(Math.log(count) / Math.log(2));
-    while (count) {
-       str += str;
-       count--;
-    }
-    str += str.substring(0, maxCount - str.length);
-    return str;
-  }
+		var maxCount = str.length * count;
+		count = Math.floor(Math.log(count) / Math.log(2));
+		while (count)
+		{
+			str += str;
+			count--;
+		}
+		str += str.substring(0, maxCount - str.length);
+		return str;
+	}
 }
 
 // only continue if the script is run via Windows Scripting Host
 if (typeof(WScript) != 'undefined')
 {
 	var progArgs = WScript.Arguments;
-	var canContinue = true;
 	var extensionA = /\.[jJ][sS][oO][nN]$/;
+	var failCode = 0;	// needs to always be a power of 2
 	if (progArgs.length != 2)
-		canContinue = false;
-	else if (!extensionA.test(progArgs(0)))
-		canContinue = false;
-	else if (progArgs(1) == '-b')
-		outMode = 0;
-	else if (progArgs(1) == '-p')
-		outMode = 1;
-	else if (progArgs(1) == '-m')
-		outMode = 2;
-	else
-		canContinue = false;
-	if (canContinue)
 	{
-		try
-		{
-			fso = new ActiveXObject('Scripting.FileSystemObject');
-			var inputPath = fso.GetFile(progArgs(0)).Path;
-			ProcessFile(inputPath);
-		}
-		catch (e1)
-		{
-			WScript.echo
-			(
-				'Error name: '			+ e1.name
-				+ '\nError message: '		+ e1.message
-				+ '\nError number: '		+ e1.number
-				+ '\nError description: '	+ e1.description
-			);
-		}
+		failCode += 1;
+	}
+	if (!extensionA.test(progArgs(0)))
+	{
+		failCode += 2;
+	}
+	if (progArgs(1) == '-b')
+	{
+		outMode = 0;
+	}
+	else if (progArgs(1) == '-p')
+	{
+		outMode = 1;
+	}
+	else if (progArgs(1) == '-m')
+	{
+		outMode = 2;
 	}
 	else
-		WScript.Echo(usageText);
+	{
+		failCode += 4;
+	}
+	if (failCode == 0)
+	{
+		ProcessFile(progArgs(0));
+	}
+	else
+	{
+		WScript.Echo(usageText + '\nFailure code: ' + failCode);
+	}
 }
 
 function ProcessFile(thisPath)
 {
+	var startDate = new Date();
 	WScript.Echo('Processing file: ' + thisPath);
+	fso = new ActiveXObject('Scripting.FileSystemObject');
 
-	// read the input file and store its contents as a string
+	// read the input and store its contents as an array
 	WScript.Echo('Reading input.');
-	var inputFileObject = fso.OpenTextFile(thisPath, 1);
+	inputFileObject = fso.OpenTextFile(thisPath, 1);
 	var inputCodeString = inputFileObject.ReadAll();
 	inputFileObject.Close();
-//	WScript.Echo(inputCodeString);
 	arrayOne = eval('(' + inputCodeString + ')');
 
-	// collect hierarchy info
+	// process the model
 	WScript.Echo('Walking the tree.');
-	var iModel = arrayOne[0];
-	var iFile = iModel.fileName;
-	var iSubs = iModel.subFiles;
-	var iCoos = [0,0,0,1,0,0,0,1,0,0,0,1];
-	PushFile(iFile, iCoos, 0);
-	WalkTree(iSubs, iCoos, 0);
+	var outModel = arrayOne[0];
+	var outCoos = {x:0,y:0,z:0,a:1,b:0,c:0,d:0,e:1,f:0,g:0,h:0,i:1};
+	PushItem(outModel.fileName, outCoos, 0);
 	modelCount += 1;
-	objectCount += 1;
+	WalkTree(outModel.subFiles, outCoos, 0);
 
 	// write a copy of the output
 	WScript.Echo('Writing output.');
-	var OutputFileString = ObjToSource(arrayTwo);
+	var OutputFileString = ObjectToString(arrayTwo);
 	var OutFile = thisPath + '.flattened.json';
-	var OutputFileObject = fso.OpenTextFile(OutFile, 2, 1, 0);
+	OutputFileObject = fso.OpenTextFile(OutFile, 2, 1, 0);
 	OutputFileObject.Write(OutputFileString);
 	OutputFileObject.Close();
 
 	// finishing up
-	WScript.Echo('Done.');
-	WScript.Echo(partCount + ' parts.');
+	WScript.Echo('Finishing up.');
 	WScript.Echo(modelCount + ' models.');
-	WScript.Echo(objectCount + ' objects.');
+	WScript.Echo(partCount + ' parts.');
+	WScript.Echo((modelCount + partCount) + ' objects.');
+	var endDate = new Date();
+	WScript.Echo(((endDate - startDate)/1000) + ' seconds.');
 }
 
-function DoMatrix(inCoos1, inCoos2)
+function DoMatrix(inModel, inCoord)
 {
-	var X1 = inCoos1[0], X2 = inCoos2[0];
-	var Y1 = inCoos1[1], Y2 = inCoos2[1];
-	var Z1 = inCoos1[2], Z2 = inCoos2[2];
-	var A1 = inCoos1[3], A2 = inCoos2[3];
-	var B1 = inCoos1[4], B2 = inCoos2[4];
-	var C1 = inCoos1[5], C2 = inCoos2[5];
-	var D1 = inCoos1[6], D2 = inCoos2[6];
-	var E1 = inCoos1[7], E2 = inCoos2[7];
-	var F1 = inCoos1[8], F2 = inCoos2[8];
-	var G1 = inCoos1[9], G2 = inCoos2[9];
-	var H1 = inCoos1[10], H2 = inCoos2[10];
-	var I1 = inCoos1[11], I2 = inCoos2[11];
-	var X3 = A2*X1 + B2*Y1 + C2*Z1 + X2;
-	var Y3 = D2*X1 + E2*Y1 + F2*Z1 + Y2;
-	var Z3 = G2*X1 + H2*Y1 + I2*Z1 + Z2;
-	var A3 = A2*A1 + B2*D1 + C2*G1;
-	var B3 = A2*B1 + B2*E1 + C2*H1;
-	var C3 = A2*C1 + B2*F1 + C2*I1;
-	var D3 = D2*A1 + E2*D1 + F2*G1;
-	var E3 = D2*B1 + E2*E1 + F2*H1;
-	var F3 = D2*C1 + E2*F1 + F2*I1;
-	var G3 = G2*A1 + H2*D1 + I2*G1;
-	var H3 = G2*B1 + H2*E1 + I2*H1;
-	var I3 = G2*C1 + H2*F1 + I2*I1;
-	return [X3,Y3,Z3,A3,B3,C3,D3,E3,F3,G3,H3,I3];
+	var outX = inCoord.a*inModel.x + inCoord.b*inModel.y + inCoord.c*inModel.z + inCoord.x;
+	var outY = inCoord.d*inModel.x + inCoord.e*inModel.y + inCoord.f*inModel.z + inCoord.y;
+	var outZ = inCoord.g*inModel.x + inCoord.h*inModel.y + inCoord.i*inModel.z + inCoord.z;
+	var outA = inCoord.a*inModel.a + inCoord.b*inModel.d + inCoord.c*inModel.g;
+	var outB = inCoord.a*inModel.b + inCoord.b*inModel.e + inCoord.c*inModel.h;
+	var outC = inCoord.a*inModel.c + inCoord.b*inModel.f + inCoord.c*inModel.i;
+	var outD = inCoord.d*inModel.a + inCoord.e*inModel.d + inCoord.f*inModel.g;
+	var outE = inCoord.d*inModel.b + inCoord.e*inModel.e + inCoord.f*inModel.h;
+	var outF = inCoord.d*inModel.c + inCoord.e*inModel.f + inCoord.f*inModel.i;
+	var outG = inCoord.g*inModel.a + inCoord.h*inModel.d + inCoord.i*inModel.g;
+	var outH = inCoord.g*inModel.b + inCoord.h*inModel.e + inCoord.i*inModel.h;
+	var outI = inCoord.g*inModel.c + inCoord.h*inModel.f + inCoord.i*inModel.i;
+	return {x:outX,y:outY,z:outZ,a:outA,b:outB,c:outC,d:outD,e:outE,f:outF,g:outG,h:outH,i:outI};
 }
 
-function WalkTree(inSubFiles, inCoos, indentLevel)
+function WalkTree(inSubFiles, inCoord, indentLevel)
 {
 	for (var k in inSubFiles)
 	{
 		var kModel = inSubFiles[k];
-		var kFile = kModel.fileName;
-		var kX = kModel.x, kD = kModel.d;
-		var kY = kModel.y, kE = kModel.e;
-		var kZ = kModel.z, kF = kModel.f;
-		var kA = kModel.a, kG = kModel.g;
-		var kB = kModel.b, kH = kModel.h;
-		var kC = kModel.c, kI = kModel.i;
-		var kCoos = [kX,kY,kZ,kA,kB,kC,kD,kE,kF,kG,kH,kI];
-		var outCoos = DoMatrix(kCoos, inCoos);
-		var subModels = [];
+		var kFile = kModel.subFileName;
+		var kCoord = DoMatrix(kModel, inCoord);
+		var outModel = {};
 		var isSubModel = false;
 		for (var i in arrayOne)
 		{
 			var iModel = arrayOne[i];
 			var iFile = iModel.fileName;
-			var iSubs = iModel.subFiles;
 			if (kFile.toLowerCase() == iFile.toLowerCase())
 			{
-				subModels = iSubs;
+				outSubFiles = iModel.subFiles;
 				isSubModel = true;
 				break;
 			}
 		}
-		if (isSubModel == false)
+		if (isSubModel == true)
 		{
-			if (outMode == 1) {PushFile(kFile, outCoos, indentLevel);}
-			partCount += 1;
+			if ((outMode == 2) || (outMode == 0)) {PushItem(kFile, kCoord, indentLevel);}
+			modelCount += 1;
+			WalkTree(outSubFiles, kCoord, indentLevel+1);
 		}
 		else
 		{
-			if (outMode == 2) {PushFile(kFile, outCoos, indentLevel);}
-			modelCount += 1;
+			if ((outMode == 1) || (outMode == 0)) {PushItem(kFile, kCoord, indentLevel);}
+			partCount += 1;
 		}
-		if (outMode == 0) {PushFile(kFile, outCoos, indentLevel);}
-		WalkTree(subModels, outCoos, indentLevel+1);
-		objectCount += 1;
 	}
 }
 
-function PushFile(inFileName, inCoos, indentLevel)
+function PushItem(inFile, inCoos, indentLevel)
 {
-	WScript.Echo('  '.repeat(indentLevel) + inFileName);
-	arrayTwo.push({fileName:inFileName,matrix:FinalRound(inCoos)});
-}
-
-function EscapeQuotes(inString)
-{
-	return inString.replace(/\"/g,'\\"');
+	WScript.Echo('  '.repeat(indentLevel) + inFile);
+	arrayTwo.push({fileName:inFile,matrix:RoundObject(inCoos)});
 }
 
 // https://stackoverflow.com/questions/11832914/round-to-at-most-2-decimal-places-only-if-necessary
 // cc by-sa 4.0
 // with modifications
-function RoundMe(n, p)
+function RoundValue(n, p)
 {
 	if (Number.EPSILON === undefined) {Number.EPSILON = Math.pow(2, -52);}
 	var r = 0.5 * Number.EPSILON * n;
@@ -255,16 +251,16 @@ function RoundMe(n, p)
 	return Math.round((n + r) * o) / o;
 }
 
-function FinalRound(inArray)
+function RoundObject(inArray)
 {
-	for (var i in inArray) {inArray[i] = RoundMe(inArray[i], 6);}
+	for (var i in inArray) {inArray[i] = RoundValue(inArray[i], 6);}
 	return inArray;
 }
 
 // https://stackoverflow.com/questions/957537/how-can-i-display-a-javascript-object
 // cc by-sa 4.0
 // with modifications, no indentation sadly
-function ObjToSource(o)
+function ObjectToString(o)
 {
 	if (!o) {return 'null';}
 	var k = '';
@@ -274,7 +270,7 @@ function ObjToSource(o)
 	{
 		if (na) {k = '"' + p + '":';}
 		if (typeof o[p] == 'string') {str += k + '"' + o[p] + '",';}
-		else if (typeof o[p] == 'object') {str += k + ObjToSource(o[p]) + ',';}
+		else if (typeof o[p] == 'object') {str += k + ObjectToString(o[p]) + ',';}
 		else {str += k + o[p] + ',';}
 	}
 	if (na) {return '{' + str.slice(0, -1) + '}';}

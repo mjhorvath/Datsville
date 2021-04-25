@@ -61,4 +61,4 @@
 //#include "l3p_datsville_rev005.497_inlined_n_boxed_n_lgeo_n.pov"
 
 // If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-#include "l3p_datsville_rev006.103_inlined_n_boxed_n_lgeo_n.pov"
+//#include "l3p_datsville_rev006.106_inlined_n_boxed_n_lgeo_n.pov"
