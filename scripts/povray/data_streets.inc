@@ -1,4 +1,3 @@
-#declare Streets_Widths = 640;
 #declare Streets_Number = 19;
 #declare Streets_Labels = array[Streets_Number]
 {
@@ -46,23 +45,23 @@
 }
 #declare Streets_Coords = array[Streets_Number]
 {
-	<-10.5, 0, -3.5> * Streets_Widths,	// 1st St
-	< -6.5, 0, -3.5> * Streets_Widths,	// 2nd St
-	< -3.5, 0, +1.5> * Streets_Widths,	// 3rd St
-	< -3.5, 0, +7.5> * Streets_Widths,	// 3rd St
-	< -0.5, 0, -3.5> * Streets_Widths,	// 4th St
-	< -0.5, 0, +7.5> * Streets_Widths,	// 4th St
-	< +3.5, 0, -3.5> * Streets_Widths,	// 5th St
-	< +3.5, 0, +7.5> * Streets_Widths,	// 5th St
-	< +6.5, 0, -3.5> * Streets_Widths,	// 6th St
-	< +6.5, 0, +7.5> * Streets_Widths,	// 6th St
-	<+10.5, 0, -3.5> * Streets_Widths,	// 7th St
-	<+10.5, 0, +7.5> * Streets_Widths,	// 7th St
-	< -8.0, 0, +4.5> * Streets_Widths,	// Andersen St
-	<-10.0, 0, +8.5> * Streets_Widths,	// Wilson Circ
-	< -4.0, 0, +9.5> * Streets_Widths,	// Eriksson Pkwy
-	< +4.0, 0, +5.5> * Streets_Widths,	// VanZwieten Blvd
-	< +4.0, 0, +3.5> * Streets_Widths,	// Jessiman Ave
-	< +4.0, 0, -0.5> * Streets_Widths,	// Dennet Ave
-	< +4.0, 0, -6.5> * Streets_Widths	// Gould Ave
+	<-10.5, 0, -3.5> * 640,	// 1st St
+	< -6.5, 0, -3.5> * 640,	// 2nd St
+	< -3.5, 0, +1.5> * 640,	// 3rd St
+	< -3.5, 0, +7.5> * 640,	// 3rd St
+	< -0.5, 0, -3.5> * 640,	// 4th St
+	< -0.5, 0, +7.5> * 640,	// 4th St
+	< +3.5, 0, -3.5> * 640,	// 5th St
+	< +3.5, 0, +7.5> * 640,	// 5th St
+	< +6.5, 0, -3.5> * 640,	// 6th St
+	< +6.5, 0, +7.5> * 640,	// 6th St
+	<+10.5, 0, -3.5> * 640,	// 7th St
+	<+10.5, 0, +7.5> * 640,	// 7th St
+	< -8.0, 0, +4.5> * 640,	// Andersen St
+	<-10.0, 0, +8.5> * 640,	// Wilson Circ
+	< -4.0, 0, +9.5> * 640,	// Eriksson Pkwy
+	< +4.0, 0, +5.5> * 640,	// VanZwieten Blvd
+	< +4.0, 0, +3.5> * 640,	// Jessiman Ave
+	< +4.0, 0, -0.5> * 640,	// Dennet Ave
+	< +4.0, 0, -6.5> * 640	// Gould Ave
 }

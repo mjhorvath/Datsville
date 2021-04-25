@@ -1,5 +1,6 @@
 #version 3.8;
 
+
 // -------------------------------------------------------------
 // Misc. settings
 
@@ -8,7 +9,10 @@
 //#declare Use_Floor_Trans	= <0,4,0>;			// needed for rev001 and rev002
 #declare Use_Floor_Cutout	= true;				// needed for rev005
 #declare Use_Floor_Trans	= <0,52,0>;			// needed for rev005
-#declare Use_Guides			= true;
+#declare Use_2DGuides		= true;				// axis markers, street sector markers, etc. mainly for maps
+#declare Use_3DGuides		= true;				// axis markers, street sector markers, etc. mainly for maps
+#declare Use_GridGuides		=false;				// show guides marking baseplate corners
+
 
 // -------------------------------------------------------------
 // Settings & materials
@@ -23,6 +27,7 @@
 #include "materials_ldc_out.inc"
 #include "materials_all_missing.inc"
 #include "materials_all_convert.inc"
+
 
 // -------------------------------------------------------------
 // Models
@@ -68,4 +73,4 @@
 //#include "l3p_datsville_rev006.066_inlined_n_boxed_n_lgeo_n.pov"
 
 // If you turn a lot of fancy POV-Ray features off, you will be able to barely render this with 16GiB RAM on a Windows system.
-//#include "l3p_datsville_rev006.106_inlined_n_boxed_n_lgeo_n.pov"
+#include "l3p_datsville_rev006.106_inlined_n_boxed_n_lgeo_n.pov"

@@ -1,5 +1,6 @@
 #version 3.8;
 
+
 // -------------------------------------------------------------
 // Misc. settings
 
@@ -8,6 +9,10 @@
 //#declare Use_Floor_Trans	= <0,4,0>;			// needed for rev001 and rev002
 #declare Use_Floor_Cutout	= true;				// needed for rev005
 #declare Use_Floor_Trans	= <0,52,0>;			// needed for rev005
+#declare Use_2DGuides		= true;				// axis markers, street sector markers, etc. mainly for maps
+#declare Use_3DGuides		= true;				// axis markers, street sector markers, etc. mainly for maps
+#declare Use_GridGuides		=false;				// show guides marking baseplate corners
+
 
 // -------------------------------------------------------------
 // Settings & materials
@@ -22,6 +27,7 @@
 #include "materials_ldc_out.inc"
 #include "materials_all_missing.inc"
 #include "materials_all_convert.inc"
+
 
 // -------------------------------------------------------------
 // Models
@@ -47,18 +53,17 @@
 
 //#include "l3p_datsville_rev004.531_inlined_y_boxed_h_lgeo_n.pov"
 
-// Sadly, 16GB is not enough RAM to render this scene.
-// Also, references some LGEO files that I have since misplaced.
+// References some LGEO files that I have misplaced. 16GiB is not enough RAM to render this scene on my Windows 10 machine.
 //#include "ldv_datsville_rev004.531_inlined_y_boxed_h_lgeo_y.pov"
 
-// If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
+// If I turn a lot of fancy features off I can barely render this scene on my Windows 10 machine with 16GiB RAM.
 //#include "ldv_datsville_rev004.531_inlined_y_boxed_h_lgeo_n.pov"
 
-// If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
+// If I turn a lot of fancy features off I can barely render this scene on my Windows 10 machine with 16GiB RAM.
 //#include "ldv_datsville_rev005.442_inlined_n_boxed_n_lgeo_n.pov"
 
-// If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
+// If I turn a lot of fancy features off I can barely render this scene on my Windows 10 machine with 16GiB RAM.
 //#include "l3p_datsville_rev005.497_inlined_n_boxed_n_lgeo_n.pov"
 
-// If you turn a lot of fancy features off you will be able to barely render this with 16GB RAM.
-//#include "l3p_datsville_rev006.106_inlined_n_boxed_n_lgeo_n.pov"
+// If I turn a lot of fancy features off I can barely render this scene on my Windows 10 machine with 16GiB RAM.
+#include "l3p_datsville_rev006.106_inlined_n_boxed_n_lgeo_n.pov"

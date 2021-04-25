@@ -1,0 +1,68 @@
+*		{font-family:'Open Sans',sans-serif;font-size:10pt;line-height:133%;}
+body		{padding:0;margin:0;color:#ffffff;background-color:#404040;}
+h3		{margin:0.25em;font-family:'Titillium Web',sans-serif;font-size:20pt;line-height:150%;}
+.over p,ul,ol	{margin:0.5em;}
+.over li	{line-height:150%;}
+button		{border-radius:4px;margin:4px;padding:4px;background-color:rgba(0,0,0,1.0);color:#ffffff;font-size:10pt;border:solid 1px #000000;}
+button:hover	{background-color:rgba(64,64,64,1.0);border:solid 1px #000000;}
+button:active	{background-color:rgba(64,64,64,1.0);border:solid 1px #a0a0a0;}
+button:focus	{outline:solid 1px #a0a0a0;}
+::-webkit-scrollbar
+		{background:#c0c0c0;width:20px;height:20px;}
+::-webkit-scrollbar-thumb
+		{background:#404040;}
+::-webkit-scrollbar-corner
+		{background:#ffffff;}
+::-webkit-scrollbar-button
+		{background:#808080;width:20px;height:20px;display:none;}
+.zoom		{border-radius:4px;margin:4px;width:48px;height:48px;}
+.zoom:hover	{background-color:rgba(128,128,128,0.5);}
+.zoom:active	{background-color:rgba(192,192,192,0.5);}
+.mark		{z-index:2;position:absolute;display:none;}
+#float1		{position:fixed;left:0;top:0;		border-radius:0px 0px 8px 0px;}
+#float2		{position:fixed;left:0;bottom:0;	border-radius:0px 8px 0px 0px;font-size:smaller;}
+#float3		{position:fixed;right:0;bottom:0;	border-radius:8px 0px 0px 0px;text-align:center;}
+#cross		{z-index:3;position:fixed;left:50%;top:50%;width:16px;height:16px;visibility:hidden;margin-left:-8px;margin-top:-8px;}
+#crose		{width:128px;height:64px;margin:4px;}
+#embed		{visibility:hidden;}
+#load		{z-index:-1;position:fixed;display:inline-block;left:50%;top:50%;width:10em;margin-left:-5em;text-align:center;overflow:hidden;}
+.over		{z-index:5;padding:4px;box-shadow:0px 0px 2px #000000;background-color:rgba(0,0,0,0.5);}
+.mask		{stroke:yellow;stroke-width:8px;stroke-linejoin:miter;fill:transparent;}		/* vector-effect:non-scaling-stroke; */
+.mask:hover	{stroke-width:16px;}
+.face		{float:right;width:64px;height:64px;}
+a:link,a:visited
+		{color:#ffff00;text-decoration:none;}
+a:hover,a:active
+		{color:#ffff00;text-decoration:underline;}
+
+/* https://leaverou.github.io/bubbly/ */
+/* presumably public domain code */
+.popup {
+	width:192px;
+	padding:8px;
+	z-index:4;
+	color:#000000;
+	position: absolute;
+	background-color: #ffffa0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	display: none;
+	line-height:100%;
+}
+.popup:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 64px;
+	width: 0;
+	height: 0;
+	border: 32px solid transparent;
+	border-left-color: #ffffa0;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -16px;
+	margin-right: -32px;
+}
+.popup h4	{margin:4px;padding:0;}
+.popup p	{margin:4px;padding:0;}

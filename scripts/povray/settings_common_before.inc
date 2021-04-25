@@ -1,4 +1,4 @@
-#version 3.7;
+#version 3.8;
 
 
 // -------------------------------------------------------------
@@ -13,7 +13,6 @@ global_settings
 // -------------------------------------------------------------
 // Standard includes
 
-//#include "stdinc.inc"
 #include "colors.inc"
 #include "textures.inc"
 #include "woods.inc"
