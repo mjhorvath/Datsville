@@ -8,6 +8,10 @@
 //#declare Use_Floor_Trans	= <0,4,0>;			// needed for the oldest scenes created by John VanZwieten and Tore Eriksson
 #declare Use_Floor_Cutout	= true;				// needed for the latest scenes created by Michael Horvath
 #declare Use_Floor_Trans	= <0,52,0>;			// needed for the latest scenes created by Michael Horvath
+#declare Use_2DGuides		=false;				// axis markers, street sector markers, etc. mainly for maps
+#declare Use_3DGuides		=false;				// axis markers, street sector markers, etc. mainly for maps
+#declare Use_GridGuides		=false;				// show guides marking baseplate corners
+
 
 // -------------------------------------------------------------
 // Settings & materials
@@ -15,6 +19,7 @@
 #include "settings_highres_mask.inc"
 #include "materials_all_blank.inc"
 #include "materials_all_convert.inc"
+
 
 // -------------------------------------------------------------
 // Models

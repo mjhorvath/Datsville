@@ -5,6 +5,8 @@ structures. This tool returns both partial and complete matches. The search
 terms may be strings or regular expressions. The output file name is the 
 same as the input file name plus the ".result.json" extension.
 
+To do: give the user the option to choose which field to search against.
+
 cscript jsonsearch.js -j [JSON input path] -m [JSON input path]
 
 -j [JSON input path] the JSON file to search in.

@@ -12,6 +12,8 @@
 // same as the input file name plus the ".result.json" extension. The JSON file 
 // containing the search terms must have the same file name as the input file 
 // plus the ".search.json" extension.
+//
+// To do: give the user the option to choose which field to search against.
 // 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU Lesser General Public

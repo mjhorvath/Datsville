@@ -28,7 +28,9 @@
 #ifndef (Use_Rad_Setting)	#declare Use_Rad_Setting	= 8;		#end				// radiosity presets, see chart above
 #ifndef (Use_Uber)			#declare Use_Uber			=false;		#end				// toggle blurred reflections method depending on whether you are using POV-Ray or UberPOV
 #ifndef (Use_SSLT)			#declare Use_SSLT			=false;		#end				// subsurface light transport, only present in "materials_ldc_defs_clipka.inc" and "materials_ldc_defs_mjh.inc" currently
-#ifndef (Use_Guides)		#declare Use_Guides			=false;		#end				// axis markers, street sector markers, mainly for maps
+#ifndef (Use_2DGuides)		#declare Use_2DGuides		= true;		#end				// axis markers, street sector markers, etc. mainly for maps
+#ifndef (Use_3DGuides)		#declare Use_3DGuides		= true;		#end				// axis markers, street sector markers, etc. mainly for maps
+#ifndef (Use_GridGuides)	#declare Use_GridGuides		= true;		#end				// show guides marking baseplate corners
 #ifndef (Use_Floor_Cutout)	#declare Use_Floor_Cutout	= true;		#end				// cut a hole in the ground plane to fit the city into?
 #ifndef (Use_Floor_Check)	#declare Use_Floor_Check	= true;		#end				// 0 = none, 1 = flat (cube) checkered floor, 2 = curved (sphere) checker floor
 #ifndef (Use_Sky)			#declare Use_Sky			= true;		#end				// colored sky sphere
@@ -43,6 +45,7 @@
 #ifndef (Use_Uber)			#declare Use_Uber			=false;		#end				// use uberpov instead of regular povray
 #ifndef (Use_Area_Light)	#declare Use_Area_Light		= true;		#end				// slow, turn the sun into an area light vs regular point light, spot light or parallel light
 #ifndef (Use_Seed)			#declare Use_Seed			= seed(08763);		#end		// seed for some random stuff
+#ifndef (Use_Isometric)		#declare Use_Isometric		= true;		#end				// is an isometric camera used? needed for text labels, replace this with camera mode check once the camera code is unified
 
 
 // -------------------------------------------------------------
@@ -190,36 +193,144 @@ light_source
 // -------------------------------------------------------------
 // Camera
 
-#declare Camera_Diagonal	= cosd(45);
-#declare Camera_Aspect		= image_height / image_width;
-#declare Camera_Width		= 10240;	// was 7680 * 4/3
-#declare Camera_Vertical	= 225;		// was 225
-#declare Camera_Horizontal	= 30;
-#declare Camera_Distance	= Camera_Width;
-#declare Camera_Up			= -y * Camera_Diagonal * Camera_Width * Camera_Aspect;
-#declare Camera_Right		= +x * Camera_Diagonal * Camera_Width;
-#declare Camera_Location	= -z * Camera_Distance;
-#declare Camera_Direction	= +z * Camera_Distance;
-#declare Camera_LookAt		= Camera_Location + Camera_Direction;
-#declare Camera_Rotate		= <-Camera_Horizontal,Camera_Vertical,0,>;
-#declare Camera_Scale		= 4;
-#declare Camera_Translate	= <0,0,0>;
-#declare Camera_Transform = transform
-{
-	rotate		Camera_Rotate
-	scale		Camera_Scale
-	translate	Camera_Translate
-}
+#declare TileWidth			= 640;				// float
+#declare TilesNum			= 48;				// integer
+#declare cam_mode			= 1;				// integer
+#switch (cam_mode)
+	// isometric, old
+	#case (0)
+		#declare cam_orth = true;
+		#declare cam_aspc = image_width/image_height;
+		#declare cam_skew = cosd(045);
+		#declare cam_dist = 4096 * TilesNum;
+		#declare cam_area = cam_skew * TileWidth * 2 * TilesNum;
+		#declare cam_loca = -z * cam_dist;
+		#declare cam_dirc = cam_loca * -1;
+		#declare cam_look = cam_loca + cam_dirc;
+		#declare cam_upvc = -y * cam_area * cam_aspc;
+		#declare cam_rgvc = +x * cam_area;
+		#declare cam_tran = transform
+		{
+			rotate		-x * 30
+			rotate		+y * 45
+			translate	+x * 960
+			translate	+z * 960
+		}
+		camera
+		{
+			#if (cam_orth)
+				orthographic
+			#else
+				perspective
+			#end
+			up			cam_upvc
+			right		cam_rgvc
+			location	cam_loca
+			direction	cam_dirc
+			transform {cam_tran}
+		}
+	#break
+	// isometric, new
+	#case (1)
+		#declare cam_orth = true;
+		#declare cam_skew = cosd(45);
+		#declare cam_aspc = image_height / image_width;
+		#declare cam_widt = 10240;	// was 7680 * 4/3
+		#declare cam_vert = 225;		// was 225
+		#declare cam_horz = 30;
+		#declare cam_dist = 100000;
+		#declare cam_loca = -z * cam_dist;
+		#declare cam_dirc = +z;
+		#declare cam_look = cam_loca + cam_dirc;
+		#declare cam_upvc = -y * cam_skew * cam_widt * cam_aspc;
+		#declare cam_rgvc = +x * cam_skew * cam_widt;
+		#declare cam_tran = transform
+		{
+			rotate		<-cam_horz,cam_vert,0,>
+			scale		4
+			translate	<0,0,0>
+		}
+		camera
+		{
+			#if (cam_orth)
+				orthographic
+			#else
+				perspective
+			#end
+			location	cam_loca
+			direction	cam_dirc
+			up			cam_upvc
+			right		cam_rgvc
+			transform {cam_tran}
+		}
+	#break
+	// oblique, top down
+	#case (2)
+		#declare cam_orth = true;
+		#declare cam_aspc = image_width/image_height;
+		#declare cam_skew = sind(045);
+		#declare cam_dist = 100000;
+		#declare cam_area = TileWidth * TilesNum;
+		#declare cam_loca = -z * cam_dist;
+		#declare cam_dirc = cam_loca * -1;
+		#declare cam_look = cam_loca + cam_dirc;
+		#declare cam_upvc = -y * cam_area * cam_skew;
+		#declare cam_rgvc = +x * cam_area * cam_aspc;
+		#declare cam_tran = transform
+		{
+			rotate		-x * 045
+		}
+		camera
+		{
+			#if (cam_orth)
+				orthographic
+			#else
+				perspective
+			#end
+			location	cam_loca
+			direction	cam_dirc
+			up			cam_upvc
+			right		cam_rgvc
+			transform {cam_tran}
+		}
+	#break
+	// oblique, Ultima VII style
+	#case (3)
+		#declare cam_orth = true;
+		#declare cam_aspc = image_width/image_height;
+		#declare cam_dist = 100000;
+		#declare cam_area = TileWidth * TilesNum;
+		#declare cam_loca = vnormalize(<+1,-1,-1>) * cam_dist;
+		#declare cam_dirc = vnormalize(<+1,-1,-1>) * -1;
+		#declare cam_look = cam_loca + cam_dirc;
+		#declare cam_upvc = +z * cam_area;
+		#declare cam_rgvc = +x * cam_area * cam_aspc;
+		#declare cam_tran = transform
+		{
+			scale		<1,2,1>
+			rotate		-y * 90
+		}
+		camera
+		{
+			#if (cam_orth)
+				orthographic
+			#else
+				perspective
+			#end
+			location	cam_loca
+			direction	cam_dirc
+			up			cam_upvc
+			right		cam_rgvc
+			transform {cam_tran}
+		}
+	#break
+#end
 
-camera
-{
-	orthographic
-	up			Camera_Up
-	right		Camera_Right
-	location	Camera_Location
-	direction	Camera_Direction
-	transform {Camera_Transform}
-}
+#declare cam_loca = vtransform(cam_loca,cam_tran);
+#declare cam_dirc = vtransform(cam_dirc,cam_tran);
+#declare cam_look = vtransform(cam_look,cam_tran);
+#declare cam_upvc = vtransform(cam_upvc,cam_tran);
+#declare cam_rgvc = vtransform(cam_rgvc,cam_tran);
 
-#declare Camera_Location	= vtransform(Camera_Location,Camera_Transform);
-#declare Camera_LookAt		= vtransform(Camera_LookAt,Camera_Transform);
+Set_Camera_Orthographic(cam_orth)
+Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)

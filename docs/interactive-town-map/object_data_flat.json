@@ -1,4 +1,3 @@
-var object_data =
 [
 {"fileName":"building_001_jessimanmemorial.mpd","matrix":{"x":-320,"y":0,"z":2880,"a":1,"b":0,"c":0,"d":0,"e":1,"f":0,"g":0,"h":0,"i":1}},
 {"fileName":"building_002_townhall.mpd","matrix":{"x":-1920,"y":0,"z":2880,"a":0,"b":0,"c":-1,"d":0,"e":1,"f":0,"g":1,"h":0,"i":0}},
@@ -87,32 +86,3 @@ var object_data =
 {"fileName":"building_093_university.ldr","matrix":{"x":-7240,"y":0,"z":4200,"a":0,"b":0,"c":-1,"d":0,"e":1,"f":0,"g":1,"h":0,"i":0}},
 {"fileName":"building_094_chapel.ldr","matrix":{"x":1100,"y":0,"z":2900,"a":0,"b":0,"c":-1,"d":0,"e":1,"f":0,"g":1,"h":0,"i":0}}
 ]
-
-document.write("<pre>\n");
-
-// labels
-document.write("#declare Buildings_Labels = array[Buildings_Number]\n{\n");
-for (var i in object_data)
-{
-	document.write("\"" + (object_data[i].fileName.replace(/(building_)(\d\d\d)(_.*)/,'$2')) + "\",\n");
-}
-document.write("}\n");
-
-// angles
-document.write("#declare Buildings_Angles = array[Buildings_Number]\n{\n");
-for (var i in object_data)
-{
-	document.write("0,\n");
-}
-document.write("}\n");
-
-// coords
-document.write("#declare Buildings_Coords = array[Buildings_Number]\n{\n");
-for (var i in object_data)
-{
-	document.write("<" + (object_data[i].matrix.x) + "," + (object_data[i].matrix.y) + "," + (object_data[i].matrix.z) + ">,\n");
-}
-document.write("}\n");
-
-document.write("</pre>\n");
-document.close();
