@@ -2,7 +2,7 @@
 0 Car Dealership
 0 Name: building_092_carlot.ldr
 0 Author: Thomas Burger
-0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
+0 !LICENSE Redistributable under CC BY-SA version 4.0 : see https://creativecommons.org/licenses/by-sa/4.0/
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 16 180 2 220 1 0 0 0 1 0 0 0 1 building_092_office.ldr

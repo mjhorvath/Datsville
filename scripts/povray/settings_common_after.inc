@@ -253,7 +253,7 @@
 	#end
 
 	// street labels
-	#declare Streets_FontSize = 1/64 * Iso_ScaleAmount;
+	#declare Streets_FontSize = 1/128 * Iso_ScaleAmount;
 	#declare Streets_FontColor = <1,1,1>;
 	#declare Streets_ZIndex = 3;
 	#include "data_streets.inc"
@@ -264,28 +264,22 @@
 			#if (Use_Isometric)
 				#if (Streets_Angles[i] = 0)
 					// if I used some trig here I could support any arbitrary angle
-					// can be merged into the matrix transformation probably
-					// these are a bit off
 					matrix
 					<
-					  +1, +0, +0,
-                      +3/4, +1, +0,
-                      +0, +0, +1,
-                      +0, +0, +0
+					  +1.0, -0.5,  0.0,
+					  +2.0, +1.0,  0.0,
+					   0.0,  0.0, +1.0,
+					   0.0,  0.0,  0.0
 					>
-					rotate -z * atand(1/2)
 				#elseif (Streets_Angles[i] = 90)
 					// if I used some trig here I could support any arbitrary angle
-					// can be merged into the matrix transformation probably
-					// these are a bit off
 					matrix
 					<
-					  +1, +0, +0,
-                      -3/4, +1, +0,
-                      +0, +0, +1,
-                      +0, +0, +0
+					  +1.0, +0.5,  0.0,
+					  -2.0, +1.0,  0.0,
+					   0.0,  0.0, +1.0,
+					   0.0,  0.0,  0.0
 					>
-					rotate +z * atand(1/2)
 				#end
 			#else
 				rotate +z * Streets_Angles[i]

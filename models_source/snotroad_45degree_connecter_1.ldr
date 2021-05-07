@@ -1,7 +1,7 @@
 0 SNOT road element
 0 Name: snotroad_45degree_connecter_1.ldr
 0 Author: Michael Horvath based on designs by Mike Gallagher
-0 !LICENSE Redistributable under CC BY-NC-SA version 4.0 : see https://creativecommons.org/licenses/by-nc-sa/4.0/
+0 !LICENSE Redistributable under CC BY-SA version 4.0 : see https://creativecommons.org/licenses/by-sa/4.0/
 0 ROTATION CENTER -740 0.333333 -75.6667 1 "Custom" 
 0 ROTATION CONFIG -1 0
 1 6 -320 48 -320 1 0 0 0 1 0 0 0 1 3811.dat
