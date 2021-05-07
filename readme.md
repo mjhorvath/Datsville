@@ -15,7 +15,9 @@ Once that is completed hopefully we can develop some ready-to-use tools for peop
 The preferred licenses are:
 
 * [LGPL 3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html) or later for programming code (POV-Ray SDL, JavaScript, etc.)
-* [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) or later wherever possible for artistic content (LDraw models, rendered images, etc.)
+* [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) or later wherever possible for artistic content (LDraw models, rendered images, etc.)
+
+There are some public domain and "beerware" models as well.
 
 New submissions are of course always welcome! :)
 
