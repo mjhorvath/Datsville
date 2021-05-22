@@ -7,7 +7,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 0 was 1968, then 984 (1968 scaled by 0.5), then 1012 (984 plus one stud height plus one baseplate height)
-1 6 0 1012 0 0 0 1 0 0.5 0 -1 0 0 terrain_hills_edges_colors.ldr
+1 6 0 1012 0 0 0 1 0 0.5 0 -1 0 0 terrain_hills_noedges_nocolors.ldr
 0 was 480
 1 1 0 240 0 1 0 0 0 1 0 0 0 1 terrain_water.ldr
 0

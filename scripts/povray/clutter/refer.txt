@@ -1,0 +1,183 @@
+//-----------Clutter Macro------by Jonathan Rafael Ghiglia-----
+
+How to use this macro:
+
+NOTE: if you just have to place objects on a plane, then have a look 
+to the very first version of the macro posted in the official PoV newsgroup. 
+It's far easier to use and faster to set. (This doesn't mean that this version's 
+not easy to use too.)
+You'll need Pov 3.5 to use this macro.
+
+
+Description of the parameters: 
+
+First of all you have to define three arrays:
+
+1) ob_ar[n]: this array should contain your different objects you want to place.
+
+2) ob_rel_ar[n][2]: ob_rel_ar[n][0] defines how many copies of the n_th object you 
+want to place; ob_rel_ar[n][1] defines the max radius of the n_th object 
+                (i.e. for a sphere its actual radius, for a box l/2*sqrt(2), etc. 
+                briefly the min area which should be left free around the n_th object)
+                 
+3) obstacle_ar[m][2]: obstacle_ar[m][0] defines the coordinates of the centre of an 
+area you want to leave free (or which is already occupied by other objects). 
+obstacle_ar[m][1] defines the radius of the m_th area to leave free (it has to be a vector of the xz plane: use radius*<1,0,0>).                    
+While placing the obstacles remember that the objects are placed in a rectangle with the lower left corner at the origin.
+
+4) x_lim: a float which determines the x size of the rectangle you're placing the objects on.
+
+5) z_lim: z size of the rectangle.
+
+This was the easy part.
+
+In order to completely understand the usage of next params you first have to understand what I mean with "probability map". 
+A probability map is simply a pigment identifier which influences the placing of the object. Imagine you want your objects 
+to be placed more in an area of the rectangle rather than in another. You simply have to define a greyscale pigment 
+(image maps are often quite useful here): the black areas correspond to a certain probability value p1, the white areas to 
+another probability value p2. The probability values for the grey areas will be interpolated (through a simple linear interpolation) 
+between the two values p1 and p2. When the macro checks if a random position for an object is okay,it first 
+verifies if the probability of that spot allows the object to be placed there (if p=1 that position has passed the "exam" and goes 
+through the other tests for overlapping, if p<1, well that position has p*100 per cent possibilities to be kept). You have to define n 
+probability maps (one for every object) and two probability values for every map. This allows you to define different placing 
+probabilities for different objects.
+
+6) p[n][2]: this array defines for every object (and map) the two probability values to be interpolated; p[n][0] defines p1 
+        (which corresponds to the black areas of the map) for the n_th object; p[n][1] defines p2 (white areas) for the n_th object.
+
+7) map[n]: this array defines the probability map for every object; map[n] is the probability map (it must be a pigment {}!) 
+        for the n_th object.
+
+IMPORTANT: the probability map has to be placed in the XZ plane (just like the rectangle which limits the placement) with the lower 
+left corner at the origin. The map won't be scaled inside the macro (just because it was difficult to foresee the map size when using 
+standard procedural patterns), so you have to scale it as well. If you are using an image map define the map as follows:
+#declare map[n]= pigment {image_map {sys "image.sys"} rotate 90*x scale <x_lim,1,z_lim>}
+If you're not getting the expected results, first check if you've placed the pigment right. 
+You can use coloured image maps, but they will be treated just like greyscale images. You can use any procedural pattern 
+(as long as you defines a greyscale colour_map).
+
+
+The next parameters concern a nice addition. You can now define another greyscale map 
+(still one for every object) to control the interpolation between two different textures. This is particularly useful when 
+placing plants: you can paint a map to control where a plant should be fully green and where it should be more yellowish 
+(it's just an example). Again you'll have to define two arrays.
+
+8) do_tex: this float turns on or off the texture placement (if your objects are already fully textures this and the following 
+        parameters shouldn't make any difference).
+
+9) tex_ar[n][2]: this array defines for every objects the two textures to be interpolated; tex_ar[n][0] defines t1 (corresponding 
+        to the black areas of the map) for the n_th object; tex_ar[n][1] defines t2 (corresponding to the white areas).
+
+10) map_tex[n]; this array defines the texture interpolation maps for every object; map_tex[n] defines the map for the n_th object.
+
+
+Well, we have almost finished.
+
+11) land: simply the object where you want to place the objects on. It is supposed to be a continuos object (i.e. it shouldn't have 
+        any sudden step or similia). It shouldn't be higher than 10000 units and should be placed keeping in mind that the objects are 
+        placed in that famous rectangle. This means that it should at least cover that x_lim*z_lim rectangle (which have the lower left
+        corner at <0,0,0>).
+
+12) rotation: if you turn this on your objects will be rotated according to the normal vectors of the land (there's no need to say 
+        that this is meant to work best with height-fields and similia).    
+
+13) max_y_rot: this float simply controls the maximum random rotation around y axis for every object.
+
+
+13) RS: this defines the random seed.
+
+14) file_option: when you want to place really many objects the computer may spend much time for parse. This option allows you to write and
+                 later on read an include file containing all arrays. Once you've written the file, you can use dummies instead of your
+                 objects to speed up rendering tests. Texture arrays are not stored in the file so that you can experiment with different
+                 map_tex and tex_ar arrays without getting old while the computer is parsing. There are three options:
+                 0: if you don't want the macro to write an include file;
+                 1: after parsing the macro will store the arrays in a file;
+                 2: the macro will skip the parsing and load a pre-written file.
+                 
+15) file_name: this parameter is a string defining the name of the include file you want to write or read. If you've chosen file_option=0
+               you can define this parameter anyway you want (it'll be ignored). 
+                
+
+
+FAQ:
+
+1)Can I use objects with different sizes?
+Yes, as long as you define different radii (ob_rel_ar[n][1]).
+
+2)I want to place just one type of object. Do I have to define all those arrays as well?
+Yes, you do.
+
+3)My computer keeps on parsing for ever. What is wrong?
+The macro never gives up. That means that it goes on parsing until it reaches the total number of objects defined in every 
+ob_rel_ar[n][0]. If your parsing seems really too slow then the cause is probably one or more of the following ones:
+- you want to place too many objects and there's not too much space available.
+- You want to place your objects in a too little space.
+- You want to place too large objects (or with too large radii).
+- Your probability map has just a few areas with p=1.
+As concern the last answer you have to keep in mind that if half of the map has p=0 (no probability) then the parsing time 
+will be about x2 the normal. If <p> is the average probability of a map the parsing time will be about 1/<p> *t, where t is the time 
+spent when <p>=1.
+
+4)I don't want to define any obstacle.
+Define any coordinate for obstacle_ar[m][0] and then a radius of zero: obstacle_ar[m][1]=0*<1,0,0>;
+
+5)I don't want to define any probability map.
+Really? Well just define any pigment for every map[n] and then define every probability value =1: p[n][0]=1; and p[n][1]=1;
+
+6)If I declare do_tex=false, should I define all those texture arrays?
+The macro won't read them so you should be able to replace all those parameters with a 0.
+
+7)I don't want to use any land.
+Well, just define a plane as a land (or use the simpler Clutter macro version).
+
+8)I'm using rotation=true, but my objects seem to partially sink in the land.
+Probably your objects aren't small enough compared to the landscape.
+
+9)I'm getting an error about normal calculation when using an isosurface as land.
+This is a known bug concerning method 2 in isosurface parsing. Adding method 1 should make it work correctly. If you need method 2, then
+there are several workarounds: for example turn normal calculation off, make the macro parse (even with a few objects), and then turn it 
+back on.  THIS SHOULD BE FIXED IN POV 3.5 (METHOD 1 AND METHOD 2 ARE NOT NEEDED ANYMORE).
+
+10)I'm getting the same error about normal calculation, but I'm not using isosurface or I'm using method 1.
+Then, you probably have not placed and scaled the land properly. The land has to cover at least a rectangle of x_lim*z_lim with
+the lower left corner at <0,0,0>.
+
+11)I want to add a little amount of noise to the texture interpolation, since I don't want the objects' textures to follow the map_tex
+   too strictly.
+Just add turbulence to the map_tex. 
+
+
+Tips:
+
+1)When declaring your ob_ar put in the first positions the largest objects. This will make things go faster sometimes, because the macro
+  places your different objects following their order in the array. If many little objects are placed first, then it will be harder for the
+  macro to find space enough for larger objects. 
+  
+2)If you want the objects to strictly follow a probability map, then you probably would want to define a color_map with 
+  sudden transictions:
+  color_map {[.5 rgb 0][.5 rgb 1]} or (softer) color_map {[.45 rgb 0][.55 rgb 1]}.     
+
+For every doubt don't hesitate to contact me.
+
+//------------------------------------
+
+
+
+Terms of use:
+
+You can use this file in your scene without asking for my permission.
+You can change this file anyway you want (but if you make cool changes please contact me!)
+
+Please forgive me for my poor English.
+
+Feedback and suggestions are always welcome.
+
+                                            
+--
+Jonathan Rafael Ghiglia
+
+jrg_pov@hotmail.com
+
+                                            
+Florence, 13th July 2001.                                            
+Florence, 12th September 2001 (very quick revision).

@@ -86,28 +86,21 @@ function Get_Input(InputPath)
 	var Test_a = /\.[lL][dD][rR]$/;
 	var Test_b = /\.[dD][aA][tT]$/;
 
-	try
+	fso.GetFile(InputPath);
+	if (Test_a.test(InputPath) || Test_b.test(InputPath))
 	{
-		fso.GetFile(InputPath);
-		if (Test_a.test(InputPath) || Test_b.test(InputPath))
+		var InputRoot = InputPath.substring(0, InputPath.lastIndexOf('\\') + 1);
+		var InputFile = InputPath;
+		if (InputRoot == '')
 		{
-			var InputRoot = InputPath.substring(0, InputPath.lastIndexOf('\\') + 1);
-			var InputFile = InputPath;
-			if (InputRoot == '')
-			{
-				InputRoot = WshShell.CurrentDirectory + '\\';
-				InputFile = InputRoot + InputPath;
-			}
-			Convert_File(InputFile);
+			InputRoot = WshShell.CurrentDirectory + '\\';
+			InputFile = InputRoot + InputPath;
 		}
-		else
-		{
-			WScript.Echo('Invalid file type: input file must have an .ldr or .dat extension.');
-		}
+		Convert_File(InputFile);
 	}
-	catch (e_1)
+	else
 	{
-		WScript.echo('Error: ' + e_1);
+		WScript.Echo('Invalid file type: input file must have an .ldr or .dat extension.');
 	}
 }
 
