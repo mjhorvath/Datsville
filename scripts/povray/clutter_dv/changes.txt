@@ -1,0 +1,27 @@
+2021 changes by Michael Horvath
+
+The script now also writes a TSV (tab-separated values) file that you can then import into a spreadsheet.
+
+Fixed a bug reported in the Newsgroups within the Interpolate macro.
+
+obj_obj_ar     object array
+obj_num_ar     object numbers array
+obj_rad_ar     object radii array
+obj_nam_ar     object names array
+obstacle_ar    obstacle array
+x_lim          x limit
+z_lim          z limit
+xyz_round      pos rounding amounts: round x, y and z coordinates to these multiples of these values
+xyz_offset     pos rounding offsets: offset x, y and z coordinates by these amounts
+obj_p_ar       probabilities array
+obj_pmap_ar    probabilities interpolation map array
+do_tex         switch texture interpolation on/off
+obj_t_ar       textures array
+obj_tmap_ar    textures interpolation map array
+land           environment you want to place the objects on
+rotation       switch normal orientation on/off
+max_y_rot      max random rotation around y axis
+rnd_y_rot      rotation rounding amount around y axis
+RS             random seed
+file_option    0 do not write array file, 1 write array file, 2 read array file, 3 write array file only
+file_name      name of the file you want to write or read

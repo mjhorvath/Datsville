@@ -1,8 +1,5 @@
 // render this as a square image, typically 128x128px
 
-#include "terrain.pov"
-
-
 // http://news.povray.org/povray.newusers/thread/%3C5473da29%40news.povray.org%3E/
 #macro pigment_multiply(p1, p2)
 	pigment
@@ -170,15 +167,19 @@
 // coniferous multiply
 #declare pigment_6b = pigment_multiply(pigment_2a, pigment_3c)
 
+#declare land = height_field
+{
+	png "heightmap.png"
+	scale -y * 30720/163840/2
+}
+
 object
 {
-	sf_layer_terrain_dot_ldr
-	translate	-y * 1012
-	scale		1/2/81920
-	translate	<1/2,0,1/2>
+	land
 	pigment {pigment_6b}
 	finish {ambient 0 diffuse 0 emission 1}
 }
+
 
 // -------------------------------------------------------------
 // Lights

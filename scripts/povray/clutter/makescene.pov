@@ -5,8 +5,8 @@
 // Date: 9th July 2001 22.24
 // Auth: Jonathan Rafael Ghiglia
 // Updated: 2021 Michael Horvath
-// See: povray.advanced-users, "Need a script to randomly scatter objects vertically", Tue, 20 Apr 2021 00:02:48 -0400
-// See: povray.advanced-users, "clutter.mcr and trace()", 
+// See: povray.advanced-users, "Need a script to randomly scatter objects vertically", 20 Apr 2021 00:02:48 -0400
+// See: povray.advanced-users, "clutter.mcr and trace()", 17 May 2021 01:12:14 -0400
 
 #version 3.8;
 
@@ -36,7 +36,7 @@ global_settings
 	assumed_gamma	1
 }
 
-sky_sphere { pigment { rgb <0.6, 0.8, 1> } }
+sky_sphere { pigment { rgb <0.6, 0.8, 1.0> } }
 
 light_source
 {
@@ -69,7 +69,7 @@ light_source
 {
 	png "heightmap.png"
 	smooth
-	scale y/10
+	scale y * 30720/163840/2
 	scale 10
 }
 

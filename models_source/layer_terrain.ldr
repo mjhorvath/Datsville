@@ -3,7 +3,6 @@
 0 Author: Michael Horvath
 0 !LICENSE Redistributable under CC BY-SA version 4.0 : see https://creativecommons.org/licenses/by-sa/4.0/
 0 Unofficial Model
-0 0 0 0 0 1 0 0 0 1 0 0 0 1 axis_32b.dat
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 0 was 1968, then 984 (1968 scaled by 0.5), then 1012 (984 plus one stud height plus one baseplate height)
