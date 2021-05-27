@@ -42,7 +42,6 @@
 1 16 -9830 52 5750 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 -32270 -180 43230 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 11470 52 73030 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 16 34070 324 -23670 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 -72950 52 14930 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 -22110 52 1070 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 52530 52 -69310 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
@@ -67,7 +66,6 @@
 1 16 60610 -1332 60310 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 58650 52 -25950 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 890 52 -8930 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
-1 16 -19110 52 9030 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 53610 -316 -9790 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 10510 52 -19090 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 52470 52 -20310 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
@@ -75,7 +73,6 @@
 1 16 63510 -220 -11770 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 -63010 52 -33470 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 7670 52 -22930 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
-1 16 -35990 52 7150 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 -31590 -260 40410 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 -32770 52 -7750 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 -15710 52 -76870 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
@@ -145,7 +142,6 @@
 1 16 -53490 -1124 -34590 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 32110 52 -58210 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 65330 52 -32450 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 16 7010 52 5950 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 31110 52 1650 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 75590 -468 8150 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 44970 52 -45870 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
@@ -159,9 +155,7 @@
 1 16 34310 52 -4530 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 -52650 52 25910 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 -6030 52 -79890 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
-1 16 -12890 540 7810 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 5410 52 -72770 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
-1 16 12970 52 -170 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 -40390 52 40690 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 -50410 52 13350 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 66750 -396 13350 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
@@ -171,7 +165,6 @@
 1 16 11090 52 -76250 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 18750 52 -70570 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 55750 52 -59290 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
-1 16 32070 508 -19350 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 -9130 52 850 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 11730 52 -70730 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 -7450 -500 -47910 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
@@ -235,7 +228,6 @@
 1 16 74190 52 1850 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 -66590 -1084 80110 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 42730 52 18810 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
-1 16 75750 348 -41630 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 78910 -292 5850 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 -56270 -3004 -55550 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 47750 52 6930 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
@@ -260,7 +252,6 @@
 1 16 56130 52 12490 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 55830 -2556 35890 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 22730 -2284 19070 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
-1 16 -29110 52 8470 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 34810 52 -36590 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 59390 52 -40950 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 30090 52 -76630 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
@@ -339,7 +330,6 @@
 1 16 73210 -180 76230 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 70030 52 -33330 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 1570 52 -67090 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
-1 16 65470 644 -37790 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 30590 52 3430 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 78190 52 -54910 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 -28070 -796 74970 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
@@ -358,7 +348,6 @@
 1 16 55210 52 1850 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 43170 52 -11830 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 8650 52 -55950 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
-1 16 20130 292 -310 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 20590 52 -50150 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 -58310 52 19730 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 46730 52 -68530 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
@@ -389,7 +378,6 @@
 1 16 29430 52 -55770 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 65690 -340 60110 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 67190 52 -27470 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
-1 16 8870 228 6410 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 -7910 -652 -38130 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 -3670 -516 -41110 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 -47390 52 -9490 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
@@ -402,7 +390,6 @@
 1 16 -43730 -4420 -60250 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 60270 -108 19270 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 48730 -3036 64930 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
-1 16 80750 268 -42210 0 0 1 0 1 0 -1 0 0 plant_bigtree_05.ldr
 1 16 -55330 52 -210 0 0 -1 0 1 0 1 0 0 plant_bigtree_05.ldr
 1 16 -31890 52 59930 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 1830 44 -24470 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
@@ -437,13 +424,11 @@
 1 16 -73730 52 25110 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 7290 52 -45110 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 32350 52 8690 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
-1 16 74990 812 -40710 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 56810 -1020 68770 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -73630 52 15330 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 13210 52 81710 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 63230 52 -2570 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -75550 52 -9730 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
-1 16 -78370 276 -7190 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -41970 52 30070 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 28850 -1028 79250 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -11850 52 -15030 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
@@ -453,18 +438,15 @@
 1 16 67050 52 -4490 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -80650 52 -65670 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 26550 52 -5870 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
-1 16 5330 52 3690 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 27970 -308 13390 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 -65070 -2436 74450 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 -70270 20 -36370 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
-1 16 -8310 52 -2350 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 27670 52 -67910 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 79450 -1420 75650 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 -22250 -308 58290 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 1470 52 -20910 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 16150 52 -76050 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 76710 -780 76530 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
-1 16 -7910 52 1370 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 47230 52 -25930 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 10710 52 -10810 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 -8730 -804 -38350 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
@@ -502,7 +484,6 @@
 1 16 43450 52 -44430 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 53330 28 -20470 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 21050 -3684 62730 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
-1 16 850 52 15450 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 75170 -340 72890 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 64870 -572 59270 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 21390 52 1290 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
@@ -523,7 +504,6 @@
 1 16 9270 52 1470 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 50010 52 -58830 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 -67990 52 -450 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
-1 16 65790 820 -37110 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -9170 -596 -51350 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -56690 52 28230 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -41430 52 11430 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
@@ -551,7 +531,6 @@
 1 16 28350 52 -22590 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 16830 52 -38650 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 -72350 52 -10030 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
-1 16 -72050 460 -5710 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 66430 52 -8610 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 64730 52 8790 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -52970 52 3090 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
@@ -580,17 +559,14 @@
 1 16 75270 52 -26630 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 53150 52 -71570 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 1030 52 -75930 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
-1 16 -76030 372 -5310 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 53990 52 17190 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -9310 -964 63350 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -19150 -2212 -36530 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 77230 52 -71690 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 10850 52 -24030 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
-1 16 16370 196 570 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 -21530 52 5750 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 7690 52 -78990 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 42810 52 -71710 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
-1 16 -33130 116 5310 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 70470 52 -68370 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 -8310 -412 -29110 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 54830 52 14150 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
@@ -662,7 +638,6 @@
 1 16 -58630 -612 35110 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 57290 52 4450 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -12910 52 -12430 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
-1 16 15550 52 -11330 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 57990 52 -80370 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 24170 52 4890 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 44130 52 -67790 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
@@ -682,7 +657,6 @@
 1 16 73370 52 -23150 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 -45830 52 -20230 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -55650 52 7730 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
-1 16 41530 380 -31250 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -41690 -3764 78190 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 36410 52 -3570 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -65830 52 -710 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
@@ -700,7 +674,6 @@
 1 16 78650 52 -63470 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 -71690 52 16630 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 -370 -468 -35350 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
-1 16 -71590 932 -6350 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 35610 52 -62510 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 -45850 52 22590 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 -65150 -3892 67710 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
@@ -724,7 +697,6 @@
 1 16 79790 52 56470 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 -41870 52 40930 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 67010 52 690 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
-1 16 12590 908 5810 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -9310 52 -6250 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -18450 -756 61910 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -79310 52 17790 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
@@ -779,7 +751,6 @@
 1 16 67210 52 -25290 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 56810 52 -57570 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 53450 52 -49750 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
-1 16 -79530 748 -6330 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
 1 16 -41770 -4172 -61810 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 12230 52 80530 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
 1 16 -24730 -2396 39930 0 0 1 0 1 0 -1 0 0 plant_bigtree_04.ldr
@@ -794,7 +765,6 @@
 1 16 46550 52 -58370 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -23970 -1996 -27350 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 -27050 -2028 -26770 -1 0 0 0 1 0 0 0 -1 plant_bigtree_04.ldr
-1 16 -25570 460 7910 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 330 -452 -36230 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
 1 16 72270 52 5790 1 0 0 0 1 0 0 0 1 plant_bigtree_04.ldr
 1 16 60570 52 -43010 0 0 -1 0 1 0 1 0 0 plant_bigtree_04.ldr
@@ -813,7 +783,6 @@
 1 16 58390 -12 -5010 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -19910 -100 25030 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 2290 -92 -43830 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
-1 16 -59950 52 -7990 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 -49110 52 22630 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 39570 52 13650 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 61990 52 -65270 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
@@ -831,7 +800,6 @@
 1 16 -21750 -1612 -24990 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -1170 -244 -44750 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -37670 52 870 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
-1 16 79710 604 -41810 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 -77590 -316 -54910 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -77230 -460 78210 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 -55750 52 14010 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
@@ -872,7 +840,6 @@
 1 16 -45110 52 -6430 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 12310 52 -34470 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -3290 52 -80290 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
-1 16 9710 52 -590 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 38570 52 10190 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 54130 52 -50610 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 -45850 52 -15310 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
@@ -905,7 +872,6 @@
 1 16 25830 -4364 24190 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 -68390 52 -77750 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -32190 52 14550 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
-1 16 73970 780 -39850 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -72050 -708 -48730 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 -30730 52 53230 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 50110 52 -42950 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
@@ -918,7 +884,6 @@
 1 16 21110 52 -40530 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 7430 52 -46710 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -8910 -1108 62670 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
-1 16 21770 868 -6610 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 53330 52 -56210 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 3930 52 -58450 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -62410 52 -76930 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
@@ -927,7 +892,6 @@
 1 16 -50030 -364 -76850 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -57970 52 19090 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 39410 52 14350 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
-1 16 -5010 52 1050 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 58470 -12 73470 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -64610 -1476 -49650 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 69450 52 990 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
@@ -961,7 +925,6 @@
 1 16 29250 -84 12570 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 38850 52 -44490 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 70950 52 -3670 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
-1 16 20510 380 -1950 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 -4870 52 -67650 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 -31570 -372 -17910 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -69010 -1548 74190 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
@@ -990,7 +953,6 @@
 1 16 60330 52 -44890 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -57970 -5812 67930 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 3770 -308 -36950 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
-1 16 -1530 52 -5330 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -24970 -388 74650 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -74750 52 5310 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -1150 52 150 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
@@ -1003,14 +965,12 @@
 1 16 56990 -492 -11690 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -77490 -300 71230 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 41670 52 -3710 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
-1 16 5750 52 2150 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 42830 52 -65450 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -40110 52 -3850 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 79650 -844 65250 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 -27850 -132 28110 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 75750 52 57910 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 23270 -284 13010 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
-1 16 -60490 100 -7510 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 15050 52 -52950 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 24250 52 -64130 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 61230 52 -64790 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
@@ -1043,7 +1003,6 @@
 1 16 79970 52 -47350 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -33210 52 -2210 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -10670 -452 -29090 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
-1 16 74990 380 -41430 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 68210 52 73750 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -76550 52 1710 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 33490 52 -18630 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
@@ -1066,7 +1025,6 @@
 1 16 -25890 -108 -15030 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 3270 52 -50130 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 -39910 52 23650 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
-1 16 -73250 100 -8190 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 -79770 -3484 40590 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 18350 52 81250 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 21970 44 -77950 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
@@ -1075,7 +1033,6 @@
 1 16 26410 52 -27150 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -56470 52 22730 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 16050 52 -57410 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
-1 16 65070 836 -37350 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 -10290 52 -68270 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 -44430 52 25550 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 -8190 52 6310 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
@@ -1108,7 +1065,6 @@
 1 16 -14290 52 -14610 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 70710 52 -36430 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 66070 52 -63270 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
-1 16 3350 52 -3950 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 57730 52 -57070 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 8930 52 -3230 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -62070 52 -16370 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
@@ -1129,7 +1085,6 @@
 1 16 -52210 52 35550 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 -2370 36 66950 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 56090 52 -22950 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
-1 16 31070 516 -18130 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 36790 52 -70330 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 45130 52 -47590 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 -48290 52 12650 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
@@ -1137,7 +1092,6 @@
 1 16 -22110 -2396 -36070 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -38270 52 35510 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 9510 52 -55870 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
-1 16 -17570 52 -570 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 67610 52 -1950 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 -50490 52 11630 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
 1 16 -22610 -164 63870 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
@@ -1177,7 +1131,6 @@
 1 16 -70530 -756 80190 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 11550 52 -41290 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 950 52 -9550 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
-1 16 14290 380 3610 -1 0 0 0 1 0 0 0 -1 plant_bigtree_03.ldr
 1 16 -12710 -1492 -38650 0 0 1 0 1 0 -1 0 0 plant_bigtree_03.ldr
 1 16 51750 -316 -12610 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr
 1 16 51270 52 16210 0 0 -1 0 1 0 1 0 0 plant_bigtree_03.ldr
@@ -1239,7 +1192,6 @@
 1 16 64470 52 -46950 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 53470 -4604 47770 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 37610 -8980 52210 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
-1 16 2190 52 -3550 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 74330 52 65210 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 59250 52 -31110 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 13910 52 -26130 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
@@ -1288,7 +1240,6 @@
 1 16 2310 52 -13230 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 21610 -8676 34390 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 17170 1012 47290 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
-1 16 6850 52 -4830 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -60930 -6836 49570 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 -64970 -6388 57110 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -22810 -2948 -44550 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
@@ -1338,7 +1289,6 @@
 1 16 43990 -3772 65610 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 46410 -4436 60250 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 -32790 -1836 -25430 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
-1 16 150 52 -90 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -42890 -2972 65250 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 59750 52 -52530 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -15830 -2356 -44090 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
@@ -1354,7 +1304,6 @@
 1 16 34770 1012 43990 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 38030 52 -75390 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 35930 1012 44290 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
-1 16 -47390 612 390 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 45790 52 14110 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 44090 -7004 52310 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -28610 -2484 -34530 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
@@ -1380,7 +1329,6 @@
 1 16 9330 52 -29990 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 75410 -532 77010 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 -29750 -3196 -41010 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 16 11350 52 -2110 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -79370 52 -11010 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -56150 -6276 51150 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -36530 52 -2170 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
@@ -1458,8 +1406,6 @@
 1 16 -39830 -3164 74470 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -20810 -3068 -53590 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 -51690 -2308 43130 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
-1 16 -4070 52 4350 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
-1 16 26050 276 -10090 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -570 1012 39790 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 16370 -1620 65010 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 43570 -3580 66550 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
@@ -1469,7 +1415,6 @@
 1 16 38610 52 -36130 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -60790 -6876 60110 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -24630 -1348 -68230 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
-1 16 43570 516 -32770 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 10670 -1956 61470 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -48250 -3188 -62990 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -23970 -548 79910 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
@@ -1534,7 +1479,6 @@
 1 16 16010 1012 48370 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -64230 -3132 72850 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 31850 52 -17710 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 16 -60850 188 -7150 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 -40570 52 -79990 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 69630 52 3770 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 -51910 -5964 60110 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
@@ -1608,7 +1552,6 @@
 1 16 72550 -132 77270 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 68810 -2940 38110 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -77630 -2844 37530 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
-1 16 48110 68 -34830 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 35450 -6828 32610 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 33390 1012 53670 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -20450 -2732 -42930 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
@@ -1616,8 +1559,6 @@
 1 16 -58410 -5924 67210 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -16530 -4804 49210 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 -48390 -372 -77730 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
-1 16 -610 52 5750 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
-1 16 -12390 452 9230 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 -60530 -7324 54110 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 63830 52 4670 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 41030 -4492 63590 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
@@ -1628,10 +1569,8 @@
 1 16 -15690 -6412 41610 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 62450 52 70590 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 -27710 -2244 -30250 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
-1 16 -58670 772 -6010 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 70230 52 -76610 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 -35350 52 29530 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
-1 16 -4150 52 3570 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 -69750 52 550 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 3190 52 -77050 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 -49990 -5028 72850 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
@@ -1711,7 +1650,6 @@
 1 16 -46890 -4180 63290 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -15430 -36 -16290 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -36350 -4852 -49050 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
-1 16 33850 236 -20910 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -2990 52 -62830 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 71330 52 -30410 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 22090 -7492 30770 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
@@ -1962,7 +1900,6 @@
 1 16 -25270 52 -80310 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 41090 1012 46590 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 50610 -5364 44790 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
-1 16 -32430 916 6330 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 -62030 -6508 47850 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 -44970 -4036 -61490 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
 1 16 79090 -4988 21170 -1 0 0 0 1 0 0 0 -1 plant_bigtree_01.ldr
@@ -1979,7 +1916,6 @@
 1 16 44970 52 -24190 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 -10990 -1228 -38690 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
 1 16 -68870 28 -66750 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 16 35930 300 -26030 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 -17250 -1588 -31530 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 1 16 -53410 -6156 66210 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
 1 16 32530 52 -73970 0 0 -1 0 1 0 1 0 0 plant_bigtree_01.ldr
@@ -2072,7 +2008,6 @@
 1 16 -46450 -4604 -43210 1 0 0 0 1 0 0 0 1 plant_bigtree_06.mpd
 1 16 37250 -8980 38590 -1 0 0 0 1 0 0 0 -1 plant_bigtree_06.mpd
 1 16 35510 -5668 62990 0 0 1 0 1 0 -1 0 0 plant_bigtree_06.mpd
-1 16 71150 524 -39010 1 0 0 0 1 0 0 0 1 plant_bigtree_06.mpd
 1 16 -42590 -5172 -49310 0 0 -1 0 1 0 1 0 0 plant_bigtree_06.mpd
 1 16 17270 52 -38510 1 0 0 0 1 0 0 0 1 plant_bigtree_06.mpd
 1 16 -24250 -2484 -62150 0 0 1 0 1 0 -1 0 0 plant_bigtree_06.mpd
@@ -2238,11 +2173,9 @@
 1 16 -62930 52 -27270 0 0 1 0 1 0 -1 0 0 plant_bigtree_06.mpd
 1 16 -7130 -612 -39610 1 0 0 0 1 0 0 0 1 plant_bigtree_06.mpd
 1 16 50770 -1188 75190 1 0 0 0 1 0 0 0 1 plant_bigtree_06.mpd
-1 16 25950 836 -12890 0 0 1 0 1 0 -1 0 0 plant_bigtree_06.mpd
 1 16 57790 52 12730 -1 0 0 0 1 0 0 0 -1 plant_bigtree_06.mpd
 1 16 48390 -76 -14930 1 0 0 0 1 0 0 0 1 plant_bigtree_06.mpd
 1 16 -75710 -556 80010 0 0 1 0 1 0 -1 0 0 plant_bigtree_06.mpd
-1 16 -67670 140 -7570 0 0 1 0 1 0 -1 0 0 plant_bigtree_06.mpd
 1 16 -150 1012 41190 0 0 1 0 1 0 -1 0 0 plant_bigtree_06.mpd
 1 16 32190 1012 51390 0 0 1 0 1 0 -1 0 0 plant_bigtree_06.mpd
 1 16 -17610 -1212 -27210 0 0 -1 0 1 0 1 0 0 plant_bigtree_06.mpd
@@ -2278,7 +2211,6 @@
 1 16 5950 -60 -39830 0 0 -1 0 1 0 1 0 0 plant_bigtree_06.mpd
 1 16 49770 52 -41970 1 0 0 0 1 0 0 0 1 plant_bigtree_06.mpd
 1 16 26710 1012 38790 0 0 -1 0 1 0 1 0 0 plant_bigtree_06.mpd
-1 16 -34450 52 4830 -1 0 0 0 1 0 0 0 -1 plant_bigtree_06.mpd
 1 16 9210 1012 38430 -1 0 0 0 1 0 0 0 -1 plant_bigtree_06.mpd
 1 16 67830 52 -60490 0 0 -1 0 1 0 1 0 0 plant_bigtree_06.mpd
 1 16 870 -180 -27210 0 0 -1 0 1 0 1 0 0 plant_bigtree_06.mpd
@@ -2404,5 +2336,4 @@
 1 16 -55850 -3980 76910 -1 0 0 0 1 0 0 0 -1 plant_bigtree_06.mpd
 1 16 68210 -2948 34190 0 0 -1 0 1 0 1 0 0 plant_bigtree_06.mpd
 1 16 54250 -2932 58750 -1 0 0 0 1 0 0 0 -1 plant_bigtree_06.mpd
-1 16 0 0 0 1 0 0 0 1 0 0 0 1 layer_terrain.ldr
 0

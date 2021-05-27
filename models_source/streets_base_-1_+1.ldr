@@ -1,8 +1,8 @@
 0 Split Model
-0 Name: streets_base
+0 Name: streets_base_-1_+1.ldr
 0 Author: model_splitter.js
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 7 -80 0 3520 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_section_blank.ldr
 1 7 -160 0 3520 0 0 1 0 1 0 -1 0 0 snotroad_walkway_straight_section_blank.ldr
@@ -255,7 +255,7 @@
 1 7 -4800 0 2240 -1 0 0 0 1 0 0 0 -1 snotroad_parkinglotflipmiddle_f.ldr
 1 7 -2240 0 960 -1 0 0 0 1 0 0 0 -1 snotroad_doublestripe_00.ldr
 1 7 -4160 0 960 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
-1 7 -2240 0 320 1 0 0 0 1 0 0 0 1 snotroad_triplestripe_021.ldr
+1 7 -2240 0 320 1 0 0 0 1 0 0 0 1 snotroad_triplestripe_001.ldr
 1 7 -1940 0 0 0 0 -1 0 1 0 1 0 0 3001.dat
 1 7 -1940 24 0 0 0 -1 0 1 0 1 0 0 3001.dat
 1 7 -1600 0 320 -1 0 0 0 1 0 0 0 -1 snotroad_parkinglotlongright.ldr
