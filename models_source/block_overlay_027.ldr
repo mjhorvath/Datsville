@@ -5,6 +5,6 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 7 3200 0 -3520 1 0 0 0 1 0 0 0 1 building_080_garagexsmall.mpd
-1 14 3500 0 -2680 -1 0 0 0 1 0 0 0 -1 building_037_trainstation.ldr
+1 16 3200 0 -3520 1 0 0 0 1 0 0 0 1 building_080_garagexsmall.mpd
+1 16 3500 0 -2680 -1 0 0 0 1 0 0 0 -1 building_037_trainstation.ldr
 0

@@ -1,37 +1,37 @@
 0 Split Model
-0 Name: traffic
+0 Name: traffic_+1_+1.ldr
 0 Author: model_splitter.js
 0 Unofficial Model
-0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 16 710 -48 2850 1 0 0 0 1 0 0 0 1 vehicle_055_mgb.mpd
 1 16 4980 0 1440 0 0 1 0 1 0 -1 0 0 vehicle_050_bluecargo.ldr
-1 2 210 10 420 -1 0 0 0 1 0 0 0 -1 vehicle_012_blueandwhitebus.ldr
-1 0 940 10 1050 0 0 1 0 1 0 -1 0 0 vehicle_014_blacksemitruck.mpd
-1 0 2150 10 1450 1 0 0 0 1 0 0 0 1 vehicle_057_yellowroundmailvan_withdriver.ldr
-1 1 4700 10 870 0 0 1 0 1 0 -1 0 0 vehicle_017_blacksemitruck.mpd
-1 7 4270 10 2880 -1 0 0 0 1 0 0 0 -1 vehicle_063_redbubbletruck.ldr
-1 2 3620 0 140 1 0 0 0 1 0 0 0 1 vehicle_033_redfiretruck04suv.ldr
-1 2 3480 0 150 1 0 0 0 1 0 0 0 1 vehicle_008_redfirecar.ldr
-1 2 3090 0 240 1 0 0 0 1 0 0 0 1 vehicle_035_redfiretruck06.ldr
-1 2 2880 0 320 1 0 0 0 1 0 0 0 1 vehicle_031_redfiretruck02ladder.mpd
-1 2 2680 0 290 1 0 0 0 1 0 0 0 1 vehicle_030_redfiretruck01.mpd
-1 2 3600 0 553 0 0 -1 0 1 0 1 0 0 vehicle_032_redfiretruck03.ldr
-1 2 3680 0 434 0 0 -1 0 1 0 1 0 0 vehicle_034_redfiretruck05.mpd
-1 2 2120 10 4890 0 0 -1 0 1 0 1 0 0 vehicle_087_greencoupe.ldr
-1 2 2120 10 4730 0 0 1 0 1 0 -1 0 0 vehicle_088_tanstationwagon.ldr
-1 2 2860 10 3620 0 0 1 0 1 0 -1 0 0 vehicle_089_blackbmwsedan.ldr
-1 15 4090 0 8660 0 0 -1 0 1 0 1 0 0 creature_026_castleguard.ldr
-1 15 3910 0 9100 0 0 -1 0 1 0 1 0 0 creature_026_castleguard.ldr
-1 15 4480 0 9450 1 0 0 0 1 0 0 0 1 creature_026_castleguard.ldr
-1 15 4890 0 8740 0 0 1 0 1 0 -1 0 0 creature_026_castleguard.ldr
+1 16 210 10 420 -1 0 0 0 1 0 0 0 -1 vehicle_012_blueandwhitebus.ldr
+1 16 940 10 1050 0 0 1 0 1 0 -1 0 0 vehicle_014_blacksemitruck.mpd
+1 16 2150 10 1450 1 0 0 0 1 0 0 0 1 vehicle_057_yellowroundmailvan_withdriver.ldr
+1 16 4700 10 870 0 0 1 0 1 0 -1 0 0 vehicle_017_blacksemitruck.mpd
+1 16 4270 10 2880 -1 0 0 0 1 0 0 0 -1 vehicle_063_redbubbletruck.ldr
+1 16 3620 0 140 1 0 0 0 1 0 0 0 1 vehicle_033_redfiretruck04suv.ldr
+1 16 3480 0 150 1 0 0 0 1 0 0 0 1 vehicle_008_redfirecar.ldr
+1 16 3090 0 240 1 0 0 0 1 0 0 0 1 vehicle_035_redfiretruck06.ldr
+1 16 2880 0 320 1 0 0 0 1 0 0 0 1 vehicle_031_redfiretruck02ladder.mpd
+1 16 2680 0 290 1 0 0 0 1 0 0 0 1 vehicle_030_redfiretruck01.mpd
+1 16 3600 0 553 0 0 -1 0 1 0 1 0 0 vehicle_032_redfiretruck03.ldr
+1 16 3680 0 434 0 0 -1 0 1 0 1 0 0 vehicle_034_redfiretruck05.mpd
+1 16 2120 10 4890 0 0 -1 0 1 0 1 0 0 vehicle_087_greencoupe.ldr
+1 16 2120 10 4730 0 0 1 0 1 0 -1 0 0 vehicle_088_tanstationwagon.ldr
+1 16 2860 10 3620 0 0 1 0 1 0 -1 0 0 vehicle_089_blackbmwsedan.ldr
+1 16 4090 0 8660 0 0 -1 0 1 0 1 0 0 creature_026_castleguard.ldr
+1 16 3910 0 9100 0 0 -1 0 1 0 1 0 0 creature_026_castleguard.ldr
+1 16 4480 0 9450 1 0 0 0 1 0 0 0 1 creature_026_castleguard.ldr
+1 16 4890 0 8740 0 0 1 0 1 0 -1 0 0 creature_026_castleguard.ldr
 1 16 6000 0 2100 1 0 0 0 1 0 0 0 1 vehicle_048_bluedigger.mpd
 1 16 5830 -24 1980 1 0 0 0 1 0 0 0 1 creature_038_blueworker.ldr
 1 16 5420 0 1640 1 0 0 0 1 0 0 0 1 vehicle_049_blueloader.mpd
 1 16 6060 0 1840 0 0 -1 0 1 0 1 0 0 vehicle_052_bluedozer.ldr
-1 14 5660 0 2880 1 0 0 0 1 0 0 0 1 vehicle_006_yellowrockbreaker.ldr
-1 14 5140 0 260 0 0 -1 0 1 0 1 0 0 vehicle_041_spaceportalwithoutwheels.ldr
-1 14 5180 0 280 0 0 -1 0 1 0 1 0 0 vehicle_041_spaceportalwithoutwheels.ldr
-1 14 5280 0 620 -0.5 0 0.886 0 1 0 -0.886 0 -0.5 vehicle_019_spaceportalonwheels.mpd
-1 7 5600 0 760 0.5 0 0.886 0 1 0 -0.886 0 0.5 creature_007_manprofessortophat.ldr
+1 16 5660 0 2880 1 0 0 0 1 0 0 0 1 vehicle_006_yellowrockbreaker.ldr
+1 16 5140 0 260 0 0 -1 0 1 0 1 0 0 vehicle_041_spaceportalwithoutwheels.ldr
+1 16 5180 0 280 0 0 -1 0 1 0 1 0 0 vehicle_041_spaceportalwithoutwheels.ldr
+1 16 5280 0 620 -0.5 0 0.886 0 1 0 -0.886 0 -0.5 vehicle_019_spaceportalonwheels.mpd
+1 16 5600 0 760 0.5 0 0.886 0 1 0 -0.886 0 0.5 creature_007_manprofessortophat.ldr
 0

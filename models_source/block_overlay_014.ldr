@@ -6,7 +6,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 16 2845 0 1740 0 0 0.5 0 0.5 0 -0.5 0 0 building_024_andershouse.ldr
-1 2 3580 0 1660 -1 0 0 0 1 0 0 0 -1 building_077_browntanhouse.ldr
+1 16 3580 0 1660 -1 0 0 0 1 0 0 0 -1 building_077_browntanhouse.ldr
 1 16 2800 0 980 0 0 1 0 1 0 -1 0 0 building_054_blueranchstyle.ldr
 1 16 3560 0 280 1 0 0 0 1 0 0 0 1 building_061_salmonhouse.mpd
 1 16 3200 0 640 1 0 0 0 1 0 0 0 1 building_049_smallpark01.mpd

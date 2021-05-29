@@ -11,8 +11,8 @@
 1 2 -30 0 300 1 0 0 0 1 0 0 0 1 building_022_hillside.ldr
 1 2 -30 0 -300 1 0 0 0 1 0 0 0 1 building_022_hillside.ldr
 1 2 -99 -184 -30 0 0 1 0 1 0 -1 0 0 building_022_bjphou1.ldr
-1 4 130 -192 300 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
-1 4 280 -192 210 1 0 0 0 1 0 0 0 1 plant_bigtree_02.ldr
+1 4 130 -192 300 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 4 280 -192 210 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
 0 1 4 -60 -160 180 1 0 0 0 1 0 0 0 1 pjpflow1.ldr
 1 4 -100 -144 180 1 0 0 0 1 0 0 0 1 3741c01.dat
 0 1 4 230 -160 180 1 0 0 0 1 0 0 0 1 pjpflow1.ldr

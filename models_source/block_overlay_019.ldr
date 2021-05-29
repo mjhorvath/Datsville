@@ -5,8 +5,8 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 7 1440 8 -1100 -1 0 0 0 1 0 0 0 -1 building_076_gradeschool.mpd
-1 13 360 0 -1560 0 0 -1 0 1 0 1 0 0 building_030_policehq.mpd
+1 16 1440 8 -1100 -1 0 0 0 1 0 0 0 -1 building_076_gradeschool.mpd
+1 16 360 0 -1560 0 0 -1 0 1 0 1 0 0 building_030_policehq.mpd
 1 16 1690 0 -1800 1 0 0 0 1 0 0 0 1 plant_bigtree_05.ldr
 1 16 820 0 -1850 -1 0 0 0 1 0 0 0 -1 plant_bigtree_05.ldr
 1 16 800 0 -1440 1 0 0 0 1 0 0 0 1 plant_bigtree_03.ldr

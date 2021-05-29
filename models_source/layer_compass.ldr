@@ -4,8 +4,8 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG -3 0
-1 0 -81920 0 0 0 0 -1 0 1 0 1 0 0 word_line_north.ldr
-1 0 0 0 81920 1 0 0 0 1 0 0 0 1 word_line_east.ldr
-1 0 81920 0 0 0 0 1 0 1 0 -1 0 0 word_line_south.ldr
-1 0 0 0 -81920 -1 0 0 0 1 0 0 0 -1 word_line_west.ldr
+1 16 -81920 0 0 0 0 -1 0 1 0 1 0 0 word_line_north.ldr
+1 16 0 0 81920 1 0 0 0 1 0 0 0 1 word_line_east.ldr
+1 16 81920 0 0 0 0 1 0 1 0 -1 0 0 word_line_south.ldr
+1 16 0 0 -81920 -1 0 0 0 1 0 0 0 -1 word_line_west.ldr
 0

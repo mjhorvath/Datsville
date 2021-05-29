@@ -6,19 +6,19 @@
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 13 -320 0 2880 1 0 0 0 1 0 0 0 1 building_001_jessimanmemorial.mpd
-1 8 -500 0 3120 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_06.ldr
-1 8 -560 0 3060 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_06.ldr
-1 8 -560 0 2700 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_06.ldr
-1 8 -500 0 2640 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_06.ldr
+1 16 -500 0 3120 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_06.ldr
+1 16 -560 0 3060 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_06.ldr
+1 16 -560 0 2700 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_06.ldr
+1 16 -500 0 2640 1 0 0 0 1 0 0 0 1 infrastructure_streetlamp_06.ldr
 0 REM Trees
 1 2 -560 -8 2960 1 0 0 0 1 0 0 0 1 3470.dat
 1 2 -600 -8 2740 1 0 0 0 1 0 0 0 1 3470.dat
 1 2 -400 -8 2620 1 0 0 0 1 0 0 0 1 3470.dat
 0 Other half
-1 8 -140 0 2640 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_06.ldr
-1 8 -80 0 2700 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_06.ldr
-1 8 -80 0 3060 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_06.ldr
-1 8 -140 0 3120 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_06.ldr
+1 16 -140 0 2640 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_06.ldr
+1 16 -80 0 2700 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_06.ldr
+1 16 -80 0 3060 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_06.ldr
+1 16 -140 0 3120 -1 0 0 0 1 0 0 0 -1 infrastructure_streetlamp_06.ldr
 0 REM Trees
 1 2 -80 -8 2800 -1 0 0 0 1 0 0 0 -1 3470.dat
 1 2 -40 -8 3020 -1 0 0 0 1 0 0 0 -1 3470.dat

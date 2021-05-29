@@ -4,20 +4,20 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom"
 0 ROTATION CONFIG 0 0
-1 7 -6720 0 10240 0 0 -1 0 1 0 1 0 0 snotroad_roadbridge_a.mpd
-1 7 -6720 0 12480 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
-1 7 -6720 0 13760 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
-1 7 -6720 0 14400 -1 0 0 0 1 0 0 0 -1 snotroad_45degree_curve_0.ldr
-1 7 -7040 0 15360 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightgap.ldr
-1 7 -8320 0 15360 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
-1 7 -8320 0 16640 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
-1 7 -9600 0 16640 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
-1 7 -9600 0 17920 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
-1 7 -6720 0 13760 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
-1 7 -6720 0 13120 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
-1 7 -6720 0 12480 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
-1 7 -6720 0 12480 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
-1 7 -6720 0 13120 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
-1 7 -6720 0 13760 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
-1 7 -6720 0 13120 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
+1 16 -6720 0 10240 0 0 -1 0 1 0 1 0 0 snotroad_roadbridge_a.mpd
+1 16 -6720 0 12480 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
+1 16 -6720 0 13760 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
+1 16 -6720 0 14400 -1 0 0 0 1 0 0 0 -1 snotroad_45degree_curve_0.ldr
+1 16 -7040 0 15360 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightgap.ldr
+1 16 -8320 0 15360 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
+1 16 -8320 0 16640 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
+1 16 -9600 0 16640 0 0 1 0 1 0 -1 0 0 snotroad_45degree_straightnogap.ldr
+1 16 -9600 0 17920 0 0 -1 0 1 0 1 0 0 snotroad_45degree_straightnogap.ldr
+1 16 -6720 0 13760 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 16 -6720 0 13120 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 16 -6720 0 12480 1 0 0 0 1 0 0 0 1 snotroad_walkway_straight_full.ldr
+1 16 -6720 0 12480 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
+1 16 -6720 0 13120 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
+1 16 -6720 0 13760 -1 0 0 0 1 0 0 0 -1 snotroad_walkway_straight_full.ldr
+1 16 -6720 0 13120 1 0 0 0 1 0 0 0 1 snotroad_doublestripe_00.ldr
 0

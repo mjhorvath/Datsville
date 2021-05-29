@@ -6,15 +6,15 @@
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 16 -960 8 -960 1 0 0 0 1 0 0 0 1 building_035_petrolstation.mpd
-1 0 -1250 -24 -1320 1 0 0 0 1 0 0 0 1 infrastructure_phonebooth.ldr
+1 16 -1250 -24 -1320 1 0 0 0 1 0 0 0 1 infrastructure_phonebooth.ldr
 1 16 -2940 8 -1200 0 0 1 0 1 0 -1 0 0 building_034_blueapartments.mpd
 1 16 -2260 8 -1200 0 0 1 0 1 0 -1 0 0 building_034_blueapartments.mpd
 1 16 -1780 8 -1200 0 0 -1 0 1 0 1 0 0 building_034_blueapartments.mpd
-1 0 -1370 0 -1370 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 0 -1370 0 -1920 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 0 -1840 0 -1940 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 0 -2220 0 -1930 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 0 -2650 0 -1900 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 0 -3060 0 -1930 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
-1 0 -3450 8 -790 0 0 1 0 1 0 -1 0 0 infrastructure_dumpster_small.ldr
+1 16 -1370 0 -1370 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 -1370 0 -1920 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 -1840 0 -1940 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 -2220 0 -1930 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 -2650 0 -1900 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 -3060 0 -1930 1 0 0 0 1 0 0 0 1 plant_bigtree_01.ldr
+1 16 -3450 8 -790 0 0 1 0 1 0 -1 0 0 infrastructure_dumpster_small.ldr
 0

@@ -5,7 +5,7 @@
 0 Unofficial Model
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
-1 2 1620 8 300 1 0 0 0 1 0 0 0 1 building_072_yelhouse.ldr
+1 16 1620 8 300 1 0 0 0 1 0 0 0 1 building_072_yelhouse.ldr
 1 16 280 8 1420 0 0 1 0 1 0 -1 0 0 building_028_sidewalkwithgarage.ldr
 1 16 1040 8 1660 0 0 -1 0 1 0 1 0 0 building_026_toresparentshouse.ldr
 1 16 410 0 1820 0 0 1 0 1 0 -1 0 0 plant_bigtree_01.ldr
