@@ -2,6 +2,8 @@ var zoomLevel = 0.5;
 const baseWidth = 16384;
 const baseHeight = 8192;
 const lastMod = document.lastModified;
+var textHid = false;
+
 // object coordinates are in LDU
 const objects =
 {
@@ -79,6 +81,18 @@ function Zoom_Update() {
 	else
 		document.querySelector('#level').innerHTML = 'Zoom Level: 1/' + (1/zoomLevel);
 	Place_Popups();
+}
+function Toggle_Text() {
+	if (textHid == true) {
+		document.querySelector('#float1').style.display = 'block';
+		document.querySelector('#float2').style.display = 'block';
+		textHid = false;
+	}
+	else {
+		document.querySelector('#float1').style.display = 'none';
+		document.querySelector('#float2').style.display = 'none';
+		textHid = true;
+	}
 }
 function init() {
 	Zoom_Update();

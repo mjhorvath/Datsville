@@ -20,9 +20,10 @@ button:focus	{outline:solid 0.1vh #a0a0a0;}
 .zoom:hover	{background-color:rgba(128,128,128,0.5);}
 .zoom:active	{background-color:rgba(192,192,192,0.5);}
 .mark		{z-index:2;position:absolute;display:none;}
-#float1		{position:fixed;left:0;top:0;		border-radius:0.0vh 0.0vh 0.8vh 0.0vh;	height:25vh;width:auto;}
-#float2		{position:fixed;left:0;bottom:0;	border-radius:0.0vh 0.8vh 0.0vh 0.0vh;	height:10vh;width:auto;font-size:smaller;}
-#float3		{position:fixed;right:0;bottom:0;	border-radius:0.8vh 0.0vh 0.0vh 0.0vh;	height:25vh;width:auto;text-align:center;}
+#float1		{display:block;position:fixed;left:0;top:0;	border-radius:0.0vh 0.0vh 0.8vh 0.0vh;	width:75vw;height:auto;}
+#float2		{display:block;position:fixed;left:0;bottom:0;	border-radius:0.0vh 0.8vh 0.0vh 0.0vh;	width:75vw;height:auto;font-size:smaller;}
+#float3		{display:block;position:fixed;right:0;bottom:0;	border-radius:0.8vh 0.0vh 0.0vh 0.0vh;	width:auto;height:25vh;text-align:center;}
+#float4		{display:block;position:fixed;right:0;top:0;	border-radius:0.0vh 0.0vh 0.8vh 0.0vh;	width:auto;height:5vh;text-align:center;}
 #cross		{z-index:3;position:fixed;left:50%;top:50%;width:1.6vh;height:1.6vh;visibility:hidden;margin-left:-0.8vh;margin-top:-0.8vh;}
 #crose		{width:12.8vh;height:6.4vh;margin:0.4vh;}
 #embed		{visibility:hidden;}
