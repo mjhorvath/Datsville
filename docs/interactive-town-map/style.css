@@ -31,7 +31,7 @@ button:focus	{outline:solid 0.1vh #a0a0a0;}
 .over		{z-index:5;padding:0.4vh;box-shadow:0vh 0vh 0.2vh #000000;background-color:rgba(0,0,0,0.5);}
 .mask		{stroke:yellow;stroke-width:0.8vh;stroke-linejoin:miter;fill:transparent;}		/* vector-effect:non-scaling-stroke; */
 .mask:hover	{stroke-width:1.6vh;}
-.face		{float:right;width:6.4vh;height:6.4vh;}
+.face		{float:right;width:10vh;height:10vh;margin:0.5vh;}
 a:link,a:visited
 		{color:#ffff00;text-decoration:none;}
 a:hover,a:active
@@ -40,15 +40,15 @@ a:hover,a:active
 /* https://leaverou.github.io/bubbly/ */
 /* presumably public domain code */
 .popup {
-	width:19.2vh;
-	padding:0.8vh;
+	width:25vh;
+	padding:1vh;
 	z-index:4;
 	color:#000000;
 	position: absolute;
 	background-color: #ffffa0;
-	-webkit-border-radius: 0.8vh;
-	-moz-border-radius: 0.8vh;
-	border-radius: 0.8vh;
+	-webkit-border-radius: 1vh;
+	-moz-border-radius: 1vh;
+	border-radius: 1vh;
 	display: none;
 	line-height:100%;
 }
@@ -66,5 +66,5 @@ a:hover,a:active
 	margin-top: -1.6vh;
 	margin-right: -3.2vh;
 }
-.popup h4	{margin:0.4vh;padding:0;}
-.popup p	{margin:0.4vh;padding:0;}
+.popup h4	{margin:0.5vh;padding:0;}
+.popup p	{margin:0.5vh;padding:0;}
