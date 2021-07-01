@@ -10,7 +10,7 @@ Since this project is brand new, the main things that need to be done at this mo
 * Get permission to relicense the models from the original model authors.
 * Determine what (if any) organizational steps need to be taken to get models into a state where they are ready to be rendered into new scenes, animations and so forth.
 
-Once that is completed hopefully we can develop some ready-to-use tools for people to create new scenes with.
+Once that is completed hopefully we can develop some easy-to-use tools for people to create new scenes with.
 
 The preferred licenses are:
 
