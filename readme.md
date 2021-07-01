@@ -39,7 +39,7 @@ New submissions are of course always welcome! :)
 
 ## Latest map
 
-![Revision 006.106](https://mjhorvath.github.io/Datsville/docs/model-maps/datsville_rev006.106_modelmap.small.png)
+[![Revision 006.106](https://mjhorvath.github.io/Datsville/docs/model-maps/datsville_rev006.106_modelmap.small.png)](https://mjhorvath.github.io/Datsville/docs/model-maps/datsville_rev006.106_modelmap.large.png)
 
 ## Datsville RPG
 
