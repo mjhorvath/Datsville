@@ -25,7 +25,7 @@ New submissions are of course always welcome! :)
 ## More information
 
 * More instructions are at [Basic Instructions](https://github.com/mjhorvath/Datsville/wiki/Basic-Instructions).
-* Read the Datsville [wiki](https://github.com/mjhorvath/Datsville/wiki).
+* Read the Datsville [Wiki](https://github.com/mjhorvath/Datsville/wiki).
 * The current "to do" list is at [To Do List](https://github.com/mjhorvath/Datsville/wiki/To-Do-List).
 * Some useful links are at [Links](https://github.com/mjhorvath/Datsville/wiki/Links).
 * For a list of releases past and present see [Old Releases](https://github.com/mjhorvath/Datsville/wiki/Old-Releases).
@@ -36,7 +36,7 @@ New submissions are of course always welcome! :)
 * The models' statuses can be tracked using the MS Excel workbook [datsville_checklist.xlsx](https://mjhorvath.github.io/Datsville/docs/miscellaneous/datsville_notes_checklist.xlsx).
 * Additional documentation can be found within the "docs" folder of the repository.
 * Further development of Datsville has stalled due to a number of [Issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
-* Visit the Datsville [Flickr feed](https://www.flickr.com/groups/datsville/).
+* Visit the Datsville [Flickr Feed](https://www.flickr.com/groups/datsville/).
 
 ## Latest map
 
