@@ -25,6 +25,7 @@ New submissions are of course always welcome! :)
 ## More information
 
 * More instructions are at [Basic Instructions](https://github.com/mjhorvath/Datsville/wiki/Basic-Instructions).
+* Read the Datsville [Wiki](https://github.com/mjhorvath/Datsville/wiki).
 * The current "to do" list is at [To Do List](https://github.com/mjhorvath/Datsville/wiki/To-Do-List).
 * Some useful links are at [Links](https://github.com/mjhorvath/Datsville/wiki/Links).
 * For a list of releases past and present see [Old Releases](https://github.com/mjhorvath/Datsville/wiki/Old-Releases).
@@ -35,13 +36,11 @@ New submissions are of course always welcome! :)
 * The models' statuses can be tracked using the MS Excel workbook [datsville_checklist.xlsx](https://mjhorvath.github.io/Datsville/docs/miscellaneous/datsville_notes_checklist.xlsx).
 * Additional documentation can be found within the "docs" folder of the repository.
 * Further development of Datsville has stalled due to a number of [Issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
+* Visit the Datsville [Flickr Feed](https://www.flickr.com/groups/datsville/).
 
-## Datsville on Flickr
+## Latest model map
 
-Visit Datsville on Flickr [here](https://www.flickr.com/groups/datsville/).
-
-![Revision 006.061](https://live.staticflickr.com/65535/51113512624_63feaf077d_k.jpg)
-
+[![Revision 006.106](https://mjhorvath.github.io/Datsville/docs/model-maps/datsville_rev006.106_modelmap.small.png)](https://mjhorvath.github.io/Datsville/docs/model-maps/datsville_rev006.106_modelmap.large.png)
 
 ## Datsville RPG
 
