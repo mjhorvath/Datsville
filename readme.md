@@ -35,7 +35,7 @@ New submissions are of course always welcome! :)
 * An interactive isometric render of Datsville can be found at [Interactive Town Map](https://mjhorvath.github.io/Datsville/docs/interactive-town-map/interactive-town-map.html).
 * The models' statuses can be tracked using the MS Excel workbook [datsville_checklist.xlsx](https://mjhorvath.github.io/Datsville/docs/miscellaneous/datsville_notes_checklist.xlsx).
 * Additional documentation can be found within the "docs" folder of the repository.
-* Further development of Datsville has stalled due to a number of [Issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
+* Further development of Datsville has stalled somewhat due to a number of [Issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
 * Visit the Datsville [Flickr Feed](https://www.flickr.com/groups/datsville/).
 
 ## Latest model map
