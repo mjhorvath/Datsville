@@ -31,6 +31,7 @@ New submissions are of course always welcome! :)
 * Detailed maps of Datsville can be found at [Model Maps](https://mjhorvath.github.io/Datsville/docs/model-maps/model-maps.html) and [Street Maps](https://mjhorvath.github.io/Datsville/docs/street-maps/street-maps.html).
 * A table of models and contributors can be found at [Parts Lists](https://mjhorvath.github.io/Datsville/docs/parts-lists/parts-lists.html), [Model Table](https://mjhorvath.github.io/Datsville/docs/model-table/model-table.html) and [Model Tree](https://mjhorvath.github.io/Datsville/docs/model-tree/model-tree.html).
 * A high resolution isometric render of Datsville can be found at [Interactive Town Map](https://mjhorvath.github.io/Datsville/docs/interactive-town-map/interactive-town-map.html).
+* High resolution renders of various models can be found at [Showcases](https://mjhorvath.github.io/Datsville/docs/showcases/showcases.html).
 * The models' statuses can be tracked using the MS Excel workbook [datsville_checklist.xlsx](https://mjhorvath.github.io/Datsville/docs/miscellaneous/datsville_notes_checklist.xlsx).
 * Additional documentation can be found within the "docs" folder of the repository.
 * Further development of Datsville has stalled due to a number of [Issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
