@@ -37,6 +37,8 @@ New submissions are of course always welcome! :)
 * Further development of Datsville has stalled due to a number of [Issues](https://github.com/mjhorvath/Datsville/wiki/Issues).
 * Visit the Datsville on [Flickr feed](https://www.flickr.com/groups/datsville/).
 
+## Latest map
+
 ![Revision 006.106](https://mjhorvath.github.io/Datsville/docs/model-maps/datsville_rev006.106_modelmap.small.png)
 
 ## Datsville RPG
