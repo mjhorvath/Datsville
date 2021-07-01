@@ -9,9 +9,8 @@ The main goals of this project are:
 
 * Get relicensing permission from the original model authors.
 * Determine what (if any) organizational steps need to be taken to get models into a state where they are ready to be rendered into new scenes, animations and so forth.
+* Develop tools to make further modifications to the town easier.
 * Develop and expand the town further.
-
-Once that is completed hopefully we can develop some ready-to-use tools for people to create new scenes with.
 
 The preferred licenses are:
 
