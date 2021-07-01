@@ -5,11 +5,10 @@ Datsville is a LEGO&reg;-inspired city started in 1999 by users of LUGNET using 
 
 ## Details
 
-The main goals of this project are:
+Since this project is brand new, the main things that need to be done at this moment are:
 
 * Get relicensing permission from the original model authors.
 * Determine what (if any) organizational steps need to be taken to get models into a state where they are ready to be rendered into new scenes, animations and so forth.
-* Develop and expand the town further.
 
 Once that is completed hopefully we can develop some ready-to-use tools for people to create new scenes with.
 
