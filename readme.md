@@ -1,16 +1,16 @@
 ## Introduction
 
-Datsville is a LEGO&reg;-inspired city started in 1999 by users of LUGNET using the LDraw suite of CAD software. The goal of this project is to re-license models using a modern, open license, as well as to actively manage old and new submissions.
+Datsville is a LEGO&reg;-inspired city started in 1999 by users of LUGNET using the LDraw suite of CAD software. The goal of this project is to relicense models using a modern, open license, as well as to actively manage old and new submissions.
 
 
 ## Details
 
 Since this project is brand new, the main things that need to be done at this moment are:
 
-* Get relicensing permission from the original model authors.
+* Get permission to relicense the models from the original model authors.
 * Determine what (if any) organizational steps need to be taken to get models into a state where they are ready to be rendered into new scenes, animations and so forth.
 
-Once that is completed hopefully we can develop some ready-to-use tools for people to create new scenes with.
+Once that is completed hopefully we can develop some easy-to-use tools for people to create new scenes with.
 
 The preferred licenses are:
 
