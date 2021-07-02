@@ -3,11 +3,14 @@
 	<head>
 		<title>Datsville Perspective Views</title>
 		<style>
-body	{font-family:Verdana;font-size:10pt;margin:1em;}
-img	{width:800px;max-width:100%;padding:0;margin:0;border:none;}
-figure	{border:solid 0.1em #000000;display:inline-block;padding:0;margin:1em;background-color:#000000;color:#ffffff;filter:drop-shadow(0.2em 0.2em 0.4em #808080);border-radius:0.2em;}
+body		{font-family:Verdana;font-size:10pt;margin:1em;background-image:url("checker.png");background-attachment:fixed;}
+img		{padding:0;margin:0;border:none;}
+img:hover	{filter: grayscale(0.5) brightness(1.1);}
+figure		{border:solid 0.1em #000000;display:inline-block;padding:0;margin:1em;background-color:#000000;color:#ffffff;filter:drop-shadow(0.2em 0.2em 0.4em #808080);border-radius:0.2em;}
 figcaption	{padding:0.2em;margin:0;}
 figcaption a	{color:#ffffff;}
+#cont		{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;align-items:flex-start;align-content:flex-start;}
+.figcontainer	{}
 		</style>
 	</head>
 	<body>
@@ -22,10 +25,15 @@ figcaption a	{color:#ffffff;}
 			<li>Revision 001.xxx = John VanZwieten (LUGNET)</li>
 		</ul>
 		<h3>Renders</h3>
-<figure><figcaption><a href="datsville_townview_rev005.464.large.png">Revision 005.464</a></figcaption><a href="datsville_townview_rev005.464.large.png"><img src="datsville_townview_rev005.464.small.png"></a></figure>
-<figure><figcaption><a href="datsville_townview_rev005.442.large.png">Revision 005.442</a></figcaption><a href="datsville_townview_rev005.442.large.png"><img src="datsville_townview_rev005.442.small.png"></a></figure>
-<figure><figcaption><a href="datsville_townview_rev004.528.large.png">Revision 004.528</a></figcaption><a href="datsville_townview_rev004.528.large.png"><img src="datsville_townview_rev004.528.small.png"></a></figure>
-<figure><figcaption><a href="datsville_townview_rev002.013.large.png">Revision 002.013</a></figcaption><a href="datsville_townview_rev002.013.large.png"><img src="datsville_townview_rev002.013.small.png"></a></figure>
+		<div id="cont">
+			<figure><figcaption><a href="datsville_townview_blurred_reflection.large.png">datsville_townview_blurred_reflection</a></figcaption><a href="datsville_townview_blurred_reflection.large.png"><img src="datsville_townview_blurred_reflection.small.png"></a></figure>
+			<figure><figcaption><a href="datsville_townview_diorama_effect.large.png">datsville_townview_diorama_effect</a></figcaption><a href="datsville_townview_diorama_effect.large.png"><img src="datsville_townview_diorama_effect.small.png"></a></figure>
+			<figure><figcaption><a href="datsville_townview_stereoscopic.large.png">datsville_townview_stereoscopic</a></figcaption><a href="datsville_townview_stereoscopic.large.png"><img src="datsville_townview_stereoscopic.small.png"></a></figure>
+			<figure><figcaption><a href="datsville_townview_rev005.464.large.png">datsville_townview_rev005.464</a></figcaption><a href="datsville_townview_rev005.464.large.png"><img src="datsville_townview_rev005.464.small.png"></a></figure>
+			<figure><figcaption><a href="datsville_townview_rev005.442.large.png">datsville_townview_rev005.442</a></figcaption><a href="datsville_townview_rev005.442.large.png"><img src="datsville_townview_rev005.442.small.png"></a></figure>
+			<figure><figcaption><a href="datsville_townview_rev004.528.large.png">datsville_townview_rev004.528</a></figcaption><a href="datsville_townview_rev004.528.large.png"><img src="datsville_townview_rev004.528.small.png"></a></figure>
+			<figure><figcaption><a href="datsville_townview_rev002.013.large.png">datsville_townview_rev002.013</a></figcaption><a href="datsville_townview_rev002.013.large.png"><img src="datsville_townview_rev002.013.small.png"></a></figure>
+		</div>
 		<p>Datsville content is licensed under CC BY-SA 4.0 or later. Datsville software is licensed under GNU LGPL 3.0 or later. Return to <a href="https://github.com/mjhorvath/Datsville/wiki/Home">Datsville wiki</a>.</p>
 	</body>
 </html>
